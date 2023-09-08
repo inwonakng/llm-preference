@@ -3,17 +3,42 @@ import json
 instructions_prompt = [
     {
         'role': 'system',
-        'content': '''You are a user on college confidential forums.
-            Your job is to detect if there exists a preference given a comment and two options. 
+        'content': '''Pretend that you are a user on college confidential forums.
+            Your job is to detect if there exists a preference between two options in a comment. 
             If there exists a preference, you must detect what the preference is.
+            If the author of the comment expresses an explicit preference, you must detect it.
             You will be given a comment and two alternatives for each task.
             The options will be denoted by ```Option A:``` and ```Option B:```.
             The comment will be denoted by ```Comment:```.
-            If there is no preference, respond with "No preference".
-            If option A is preferred over option B, respond with "A is preferred over B".
-            If option B is preferred over option A, respond with "B is preferred over A".
-            If options A and B are equally preferred, respond with "Equal preference".
-            You must respond only using the above four phrases. 
+            
+            Rules:
+            - You MUST NOT respond with a summary of the comment.
+            - You MUST NOT use the options' real names.
+            - You MUST refer to the options as A or B. 
+            - You MUST respond with ```No preference``` if there is no strict preference.
+            - You MUST respond with ```A is preferred over B``` if option A is preferred over option B.
+            - You MUST respond with ```B is preferred over A``` if option B is preferred over option A.
+            - You MUST respond with ```Equal preference``` if options A and B are equally preferred.
+            - You MUST respond using one of the four phrases above. 
+        '''
+    }
+]
+
+confirmation_prompt = [
+    {
+        'role': 'user',
+        'content': 'Do you understand the rules and your job? Repeat your role, job and the rules.'
+    },{
+        'role': 'assistant',
+        'content': '''I am a user on college confidential.
+        My job is to determine the preference over different options in a comment.
+        Here are the rules of my job: 
+        - I must only respond with: "No preference", "A is preferred over B", "B is preferred over A" and "Equal preference".
+        - I must respond with "No preference" if there is no strict preference.
+        - I must respond with "A is preferred over B" if option A is preferred over option B.
+        - I must respond with "B is preferred over A" if option B is preferred over option A.
+        - I must respond with "Equal preference" if options A and B are equally preferred.
+        - I must not respond with any other response.
         '''
     }
 ]
@@ -21,7 +46,19 @@ instructions_prompt = [
 retry_outout_prompt = [
     {
         'role': 'user',
-        'content': 'Your response was not any of the four required phrases. Do NOT use the options\'s real names or mention any other details. Only refer to the options as A or B. Only report the preference. ONLY respond using the following phrases: ```No preference```, ```A is preferred over B```, ```B is preferred over A```, ```Equal preference```.'
+        'content': '''Your response was incorrect. 
+        Let's try again.
+        Here is a reminder of the rules:
+
+        - You MUST NOT respond with any other details than the preference expressed in the comment.
+        - You MUST only report the preference in the comment.
+        - You MUST respond only using one of the following phrases: ```No preference```, ```A is preferred over B```, ```B is preferred over A```, ```Equal preference```. Do not say anything else.
+        - You MUST NOT use the options's real names.
+        - You MUST only refer to the options as A or B.
+        - You MUST NOT explain your reasoning, only respond with the given phrase.
+
+        Now try again and respond with a correct response to the previous comment.
+        '''
     }
 ]
 
@@ -42,8 +79,6 @@ def build_examples_prompt(examples):
                     ```Comment:
                     {e['comment']}
                     ```
-
-                    Output:
                 '''
             }, {
                 'role': 'assistant',
@@ -67,8 +102,6 @@ def build_task_prompt(comment, option_a, option_b):
                 ```Comment: 
                 {comment}
                 ```
-                
-                Output:
             '''
         }
     ]

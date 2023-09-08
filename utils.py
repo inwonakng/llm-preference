@@ -22,7 +22,7 @@ def chat_api(context, task, history):
         'history': history,
         'mode': 'instruct',  # Valid options: 'chat', 'chat-instruct', 'instruct'
         'character': 'Example',
-        # 'instruction_template': 'Vicuna-v1.1',  # Will get autodetected if unset
+        'instruction_template': 'Orca Mini',  # Will get autodetected if unset
         'your_name': 'You',
         # 'name1': 'name of user', # Optional
         # 'name2': 'name of character', # Optional
