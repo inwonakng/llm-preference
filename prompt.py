@@ -21,7 +21,7 @@ instructions_prompt = [
 retry_outout_prompt = [
     {
         'role': 'user',
-        'content': 'Your response was not any of the four required phrases. Do not use the options\'s real names or mention any other details. Only report the preference. Only respond using the following phrases: ```No preference```, ```A is preferred over B```, ```B is preferred over A```, ```Equal preference```.'
+        'content': 'Your response was not any of the four required phrases. Do NOT use the options\'s real names or mention any other details. Only refer to the options as A or B. Only report the preference. ONLY respond using the following phrases: ```No preference```, ```A is preferred over B```, ```B is preferred over A```, ```Equal preference```.'
     }
 ]
 
