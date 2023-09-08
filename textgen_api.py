@@ -1,10 +1,14 @@
-from tqdm.auto import tqdm
 import pandas as pd
 from pathlib import Path
 import json
 
 from utils import chat_api, progress_bar
-from prompt import instructions_prompt, build_task_prompt, build_examples_prompt, retry_outout_prompt
+from prompt import (
+    instructions_prompt,
+    build_task_prompt,
+    build_examples_prompt,
+    retry_outout_prompt
+)
 
 labels = {
     0: 'A?B',
