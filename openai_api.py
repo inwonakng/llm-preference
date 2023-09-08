@@ -59,21 +59,20 @@ for text, option_a, option_b, label in tqdm(df[~df.index.isin(example_ids)][['Ra
         model="x",
         messages = prompt
     )
-    text = response['choices'][0]['message']['content']
+    output = response['choices'][0]['message']['content']
     print('True label:', label_to_text[label])
-    print('Model output:', text)
+    print('Model output:', output)
 
-    if text.lower() not in text_to_label:
+    if output.lower() not in text_to_label:
         success = False
         while not success:
-            retry_prompt = build_retry_prompt(prompt, text)
+            retry_prompt = build_retry_prompt(prompt, output)
             response = openai.ChatCompletion.create(
                 model="x",
                 messages = retry_prompt
             )
-            text = response['choices'][0]['message']['content']
-            # print('retry prompt', retry_prompt)
-            print('Retry output:', text)
+            output = response['choices'][0]['message']['content']
+            print('Retry output:', output)
             success = text.lower() in text_to_label
     print('='*40)
 
@@ -81,8 +80,8 @@ for text, option_a, option_b, label in tqdm(df[~df.index.isin(example_ids)][['Ra
         {
             'prompt': prompt,
             'true_label': label,
-            'model_output': text,
-            'predicted_label': text_to_label[text.lower()],
+            'model_output': output,
+            'predicted_label': text_to_label[output.lower()],
         }
     ]
 

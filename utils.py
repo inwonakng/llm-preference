@@ -2,6 +2,7 @@ import html
 import json
 
 import requests
+import rich.progress
 
 # For local streaming, the websockets are hosted without ssl - http://
 HOST = 'localhost:5000'
@@ -11,7 +12,8 @@ URI = f'http://{HOST}/api/v1/chat'
 # URI = 'https://your-uri-here.trycloudflare.com/api/v1/chat'
 
 
-def run(context, task, history, _continue = False):
+def chat_api(context, task, history):
+    # print(context, task, history)
     request = {
         'user_input': task,
         'max_new_tokens': 250,
@@ -24,14 +26,14 @@ def run(context, task, history, _continue = False):
         'your_name': 'You',
         # 'name1': 'name of user', # Optional
         # 'name2': 'name of character', # Optional
-        'context': 'character context', # Optional
+        'context_instruct': context, # Optional
         # 'greeting': 'greeting', # Optional
         # 'name1_instruct': 'You', # Optional
         # 'name2_instruct': 'Assistant', # Optional
         # 'context_instruct': 'context_instruct', # Optional
         # 'turn_template': 'turn_template', # Optional
         'regenerate': False,
-        '_continue': _continue,
+        '_continue': False,
         'chat_instruct_command': 'Continue the chat dialogue below. Write a single reply for the character "<|character|>".\n\n<|prompt|>',
 
         # Generation params. If 'preset' is set to different than 'None', the values
@@ -72,12 +74,25 @@ def run(context, task, history, _continue = False):
 
     if response.status_code == 200:
         result = response.json()['results'][0]['history']
-        print(json.dumps(result, indent=4))
-        print()
-        print(html.unescape(result['visible'][-1][1]))
+        # print(json.dumps(result, indent=4))
+        # print()
+        # print(html.unescape(result['visible'][-1][1]))
+        output = html.unescape(result['visible'][-1][1])
+
+        return output
     else:
         raise Exception(f'Response returned with status [{response.status_code}]')
 
+def progress_bar():
+    return rich.progress.Progress(
+        '[progress.description]{task.description}',
+        rich.progress.BarColumn(),
+        '[progress.percentage]{task.percentage:>3.0f}%',
+        rich.progress.TimeRemainingColumn(),
+        rich.progress.TimeElapsedColumn(),
+        transient=True,
+
+    )
 
 # if __name__ == '__main__':
 #     user_input = "Please give me a step-by-step guide on how to plant a tree in my backyard."

@@ -1,2 +1,4 @@
 data
 test.ipynb
+*.pyc
+__pycache__
