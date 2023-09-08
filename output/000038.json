@@ -1,1 +1,6 @@
-{"true_label": 2, "model_output": "No preference", "predicted_label": 0}
+{
+  "index": 38,
+  "true_label": 2,
+  "model_output": "No preference",
+  "predicted_label": 0
+}

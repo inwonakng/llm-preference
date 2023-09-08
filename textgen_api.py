@@ -99,10 +99,12 @@ with progress_bar() as progress:
         print('='*40)
         json.dump(
             {
+                'index': i,
                 'true_label': label,
                 'model_output': output,
                 'predicted_label': text_to_label[output.lower()],
             },
-            open(result_file, 'w')
+            open(result_file, 'w'),
+            indent = 2,
         )
         progress.update(progress_task, advance = 1)
