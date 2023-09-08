@@ -13,7 +13,7 @@ instructions_prompt = [
             If option A is preferred over option B, respond with "A is preferred over B".
             If option B is preferred over option A, respond with "B is preferred over A".
             If options A and B are equally preferred, respond with "Equal preference".
-            You must respond only using the above four responses. 
+            You must respond only using the above four phrases. 
         '''
     }
 ]
@@ -21,7 +21,7 @@ instructions_prompt = [
 retry_outout_prompt = [
     {
         'role': 'user',
-        'content': 'You may only respond using the following phrases: "No preference", "A is preferred over B", "B is preferred over A", "Equal preference". Do not use the options\'s real names. Try again.'
+        'content': 'Your response was not any of the four required phrases. Do not use the options\'s real names or mention any other details. Only report the preference. Only respond using the following phrases: ```No preference```, ```A is preferred over B```, ```B is preferred over A```, ```Equal preference```.'
     }
 ]
 
