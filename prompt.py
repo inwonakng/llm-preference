@@ -83,7 +83,9 @@ class Prompt:
         ]
 
     def build(self, task: Task) -> dict[str, any]:
-        history = [self.confirmation] + self.examples
+        history = [self.confirmation]
+        if self.examples:
+            history += self.examples
         return dict(
             **DEFAULT_CHAT_PARAMS,
             user_input = self.wrap_task(task),
@@ -95,7 +97,10 @@ class Prompt:
         )
     
     def build_retry(self, task: Task, prev_response: str) -> dict[str, any]:
-        history = [self.confirmation] + self.examples + [[self.wrap_task(task), prev_response]]
+        history = [self.confirmation]
+        if self.examples:
+            history += self.examples
+        history += [[self.wrap_task(task), prev_response]]
         return dict(
             **DEFAULT_CHAT_PARAMS,
             user_input = self.retry_msg,
