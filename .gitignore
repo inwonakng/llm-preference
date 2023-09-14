@@ -1,4 +1,4 @@
-data
 test.ipynb
 *.pyc
 __pycache__
+.DS_Store

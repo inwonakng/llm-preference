@@ -1,116 +1,128 @@
-import json
+from __future__ import annotations
+import yaml
 
-instructions_prompt = [
-    {
-        'role': 'system',
-        'content': '''Pretend that you are a user on college confidential forums.
-            Your job is to detect if there exists a preference between two options in a comment. 
-            If there exists a preference, you must detect what the preference is.
-            If the author of the comment expresses an explicit preference, you must detect it.
-            You will be given a comment and two alternatives for each task.
-            The options will be denoted by ```Option A:``` and ```Option B:```.
-            The comment will be denoted by ```Comment:```.
-            
-            Rules:
-            - You MUST NOT respond with a summary of the comment.
-            - You MUST NOT use the options' real names.
-            - You MUST refer to the options as A or B. 
-            - You MUST respond with ```No preference``` if there is no strict preference.
-            - You MUST respond with ```A is preferred over B``` if option A is preferred over option B.
-            - You MUST respond with ```B is preferred over A``` if option B is preferred over option A.
-            - You MUST respond with ```Equal preference``` if options A and B are equally preferred.
-            - You MUST respond using one of the four phrases above. 
-        '''
-    }
-]
+from chat_api import DEFAULT_CHAT_PARAMS, send_request
 
-confirmation_prompt = [
-    {
-        'role': 'user',
-        'content': 'Do you understand the rules and your job? Repeat your role, job and the rules.'
-    },{
-        'role': 'assistant',
-        'content': '''I am a user on college confidential.
-        My job is to determine the preference over different options in a comment.
-        Here are the rules of my job: 
-        - I must only respond with: "No preference", "A is preferred over B", "B is preferred over A" and "Equal preference".
-        - I must respond with "No preference" if there is no strict preference.
-        - I must respond with "A is preferred over B" if option A is preferred over option B.
-        - I must respond with "B is preferred over A" if option B is preferred over option A.
-        - I must respond with "Equal preference" if options A and B are equally preferred.
-        - I must not respond with any other response.
-        '''
-    }
-]
+class Task:
+    text: str
+    label: str
+    alternative_a: str
+    alternative_b: str
 
-retry_outout_prompt = [
-    {
-        'role': 'user',
-        'content': '''Your response was incorrect. 
-        Let's try again.
-        Here is a reminder of the rules:
+    def __init__(
+        self,
+        text: str,
+        label: str,
+        alternative_a: str,
+        alternative_b: str,
+    ) -> None:
+        self.text = text
+        self.label = label
+        self.alternative_a = alternative_a
+        self.alternative_b = alternative_b
 
-        - You MUST NOT respond with any other details than the preference expressed in the comment.
-        - You MUST only report the preference in the comment.
-        - You MUST respond only using one of the following phrases: ```No preference```, ```A is preferred over B```, ```B is preferred over A```, ```Equal preference```. Do not say anything else.
-        - You MUST NOT use the options's real names.
-        - You MUST only refer to the options as A or B.
-        - You MUST NOT explain your reasoning, only respond with the given phrase.
 
-        Now try again and respond with a correct response to the previous comment.
-        '''
-    }
-]
+class Prompt:
+    instruction: str
+    retry_msg: str
+    examples: list
+    comment_template: str
+    label_to_text: dict[int, str]
+    text_to_label: dict[str, int]
+    confirmation: list[str] | None = None
+    examples: list[list[str]]
 
-def build_examples_prompt(examples):
-    examples_prompt = []
-    for e in examples:
-        examples_prompt += [
-            {
-                'role': 'user',
-                'content': f'''```Option A:
-                    {e['option_a']}
-                    ```
+    def __init__(
+        self,
+        instruction: str,
+        retry_msg: str,
+        comment_template: str,
+        label_to_text: dict[int, str],
+    ) -> None:
+        self.instruction = instruction
+        self.retry_msg = retry_msg
+        self.comment_template = comment_template
+        self.label_to_text = label_to_text
+        self.text_to_label = {v:k for k,v in label_to_text.items()}
 
-                    ```Option B:
-                    {e['option_b']}
-                    ```
+    @staticmethod
+    def load_template(template_path: str) -> Prompt:
+        config = yaml.safe_load(open(template_path))
+        prompt = Prompt(
+            instruction = config['instruction'],
+            retry_msg = config['retry_msg'],
+            comment_template = config['comment'],
+            label_to_text = config['label'],
+        )
+        if 'confirmation' in config:
+            prompt.add_confirmation(config['confirmation'])
+        return prompt
 
-                    ```Comment:
-                    {e['comment']}
-                    ```
-                '''
-            }, {
-                'role': 'assistant',
-                'content': e['label']
-            }
+    def add_confirmation(self, confirmation: list[str]):
+        self.confirmation = confirmation
+
+    def wrap_task(self, task: Task) -> str:
+        return self.comment_template.replace(
+            '{alternative_a}', task.alternative_a
+        ).replace(
+            '{alternative_b}', task.alternative_b
+        ).replace(
+            '{comment}', task.text
+        )
+        
+    def add_examples(
+        self,
+        examples: list[Task]
+    ) -> None:
+        self.examples = [
+            [
+                self.wrap_task(e),
+                self.label_to_text[e.label]
+            ]
+            for e in examples
         ]
-    return json.loads(' '.join(json.dumps(examples_prompt).split()))
 
-def build_task_prompt(comment, option_a, option_b):
-    prompt = [
-        {
-            'role': 'user',
-            'content': f'''```Option A:
-                {option_a}
-                ```
-
-                ```Option B:
-                {option_b}
-                ```
-
-                ```Comment: 
-                {comment}
-                ```
-            '''
-        }
-    ]
-    return json.loads(' '.join(json.dumps(prompt).split()))
+    def build(self, task: Task) -> dict[str, any]:
+        history = [self.confirmation] + self.examples
+        return dict(
+            **DEFAULT_CHAT_PARAMS,
+            user_input = self.wrap_task(task),
+            history = dict(
+                internal = history,
+                visible = history
+            ),
+            context_instruct = self.instruction,
+        )
     
+    def build_retry(self, task: Task, prev_response: str) -> dict[str, any]:
+        history = [self.confirmation] + self.examples + [[self.wrap_task(task), prev_response]]
+        return dict(
+            **DEFAULT_CHAT_PARAMS,
+            user_input = self.retry_msg,
+            history = dict(
+                internal = history,
+                visible = history
+            ),
+            context_instruct = self.instruction,
+        )
 
-def build_prompt(comment, option_a, option_b, examples):
-    prompt = instructions_prompt + build_examples_prompt(examples) + build_task_prompt(comment, option_a, option_b)
-    return json.loads(' '.join(json.dumps(prompt).split()))
+    def execute(
+        self,
+        task: Task,
+        api_endpoint: str = 'http://localhost:5000/api/v1/chat',
+    ) -> int:
+        params = self.build(task)
+        output = send_request(api_endpoint, params)
+        print(task.text)
+        print('A:', task.alternative_a)
+        print('B:', task.alternative_b)
+        print('True label:', self.label_to_text[task.label])
+        print('Model output:', output)
 
-def build_retry_prompt(prev_prompt, response):
-    return prev_prompt + [{'role': 'assistant', 'content': response}] + retry_outout_prompt
+        while output.lower() not in self.text_to_label:
+            params = self.build_retry(task, output)
+            output = send_request(api_endpoint, params)
+            print('Retry output:', output)
+        
+        return self.text_to_label[output.lower()]
+
