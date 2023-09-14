@@ -44,7 +44,7 @@ retry_msg: |
 
     Now try again and respond with a correct response to the previous comment.
 
-comment: |
+task: |
   ```Option A:
   {alternative_a}
   ```

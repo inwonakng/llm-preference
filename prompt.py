@@ -26,7 +26,7 @@ class Prompt:
     instruction: str
     retry_msg: str
     examples: list
-    comment_template: str
+    task_template: str
     label_to_text: dict[int, str]
     text_to_label: dict[str, int]
     confirmation: list[str] | None = None
@@ -36,12 +36,12 @@ class Prompt:
         self,
         instruction: str,
         retry_msg: str,
-        comment_template: str,
+        task_template: str,
         label_to_text: dict[int, str],
     ) -> None:
         self.instruction = instruction
         self.retry_msg = retry_msg
-        self.comment_template = comment_template
+        self.task_template = task_template
         self.label_to_text = label_to_text
         self.text_to_label = {v:k for k,v in label_to_text.items()}
 
@@ -51,7 +51,7 @@ class Prompt:
         prompt = Prompt(
             instruction = config['instruction'],
             retry_msg = config['retry_msg'],
-            comment_template = config['comment'],
+            task_template = config['task'],
             label_to_text = config['label'],
         )
         if 'confirmation' in config:
@@ -62,12 +62,12 @@ class Prompt:
         self.confirmation = confirmation
 
     def wrap_task(self, task: Task) -> str:
-        return self.comment_template.replace(
+        return self.task_template.replace(
             '{alternative_a}', task.alternative_a
         ).replace(
             '{alternative_b}', task.alternative_b
         ).replace(
-            '{comment}', task.text
+            '{text}', task.text
         )
         
     def add_examples(
