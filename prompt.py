@@ -30,7 +30,7 @@ class Prompt:
     label_to_text: dict[int, str]
     text_to_label: dict[str, int]
     confirmation: list[str] | None = None
-    examples: list[list[str]]
+    examples: list[list[str]] = []
 
     def __init__(
         self,
