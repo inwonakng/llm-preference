@@ -43,7 +43,10 @@ class Prompt:
         self.retry_msg = retry_msg
         self.task_template = task_template
         self.label_to_text = label_to_text
-        self.text_to_label = {v:k for k,v in label_to_text.items()}
+        self.text_to_label = {
+            text.lower(): label 
+            for label,text in label_to_text.items()
+        }
 
     @staticmethod
     def load_template(template_path: str) -> Prompt:
