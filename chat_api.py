@@ -2,9 +2,10 @@ import requests
 import html
 
 DEFAULT_CHAT_PARAMS = {
-    'user_input': 'Say something interesting',
-    'history': [],
-    'context_instruct': '', # Optional
+    # 'user_input': 'Say something interesting',
+    # 'history': [],
+    # 'context_instruct': '', # Optional
+
     'max_new_tokens': 250,
     'auto_max_new_tokens': False,
     'max_tokens_second': 0,
