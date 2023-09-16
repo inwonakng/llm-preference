@@ -37,6 +37,10 @@ retry_msg: |
 
   - You MUST ONLY report the preference in the comment.
   - You MUST respond only using one of the following phrases: ```No preference```, ```A is preferred over B```, ```B is preferred over A```, ```Equal preference```. Do not say anything else.
+  - You MUST respond with "No preference" if there is no strict preference.
+  - You MUST respond with "A is preferred over B" if option A is preferred over option B.
+  - You MUST respond with "B is preferred over A" if option B is preferred over option A.
+  - You MUST respond with "Equal preference" if options A and B are equally preferred.
   - You MUST NOT use the options's real names.
   - You MUST ONLY refer to the options as ```A``` or ```B```.
   - You MUST NOT respond with any other details than the preference expressed in the comment.
