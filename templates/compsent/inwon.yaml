@@ -43,6 +43,7 @@ retry_msg: |
   - You MUST respond with "B is preferred over A" if option B is preferred over option A.
   - You MUST respond ONLY using one of the following phrases: ```No preference```, ```A is preferred over B```, ```B is preferred over A```. Do not say anything else.
 
+  Your response was not in any of the required responses.
   Try again and respond with a correct response to the previous comment. 
   You MUST NOT reply the same response.
 
