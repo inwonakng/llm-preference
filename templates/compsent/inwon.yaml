@@ -22,7 +22,7 @@ confirmation:
     I am a user on college confidential.
     My job is to determine the preference over different options in a comment.
     Here are the rules of my job: 
-    - I must only respond with: "No preference", "A is preferred over B", "B is preferred over A" and "Equal preference".
+    - I must only respond with: "No preference", "A is preferred over B" and "B is preferred over A".
     - I must respond with "No preference" if there is no strict preference.
     - I must respond with "A is preferred over B" if option A is preferred over option B.
     - I must respond with "B is preferred over A" if option B is preferred over option A.
