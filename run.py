@@ -20,7 +20,7 @@ def pick_examples(dataset):
                 label = label
             )
         ]
-        example_ids += [example.index]
+        example_ids += [example.name]
     return examples, example_ids
 
 def progress_bar():
