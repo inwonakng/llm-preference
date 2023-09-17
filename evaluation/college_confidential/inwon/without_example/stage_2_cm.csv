@@ -1,4 +1,4 @@
-pred:A>B,pred:A<B,pred:A=B
-242,23,32
-33,200,41
-26,16,70
+,pred:A>B,pred:A<B,pred:A=B
+true:A>B,263,20,15
+true:A<B,54,192,26
+true:A=B,31,12,48

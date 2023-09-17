@@ -150,10 +150,10 @@ def evaluate(
         confusion_matrix(
             y_true,
             y_pred,
-            labels = [0,1,2,3]
+            labels = [0,1,2]
         ),
-        index = ['true:A?B','true:A>B', 'true:A<B', 'true:A=B'],
-        columns = ['pred:A?B','pred:A>B', 'pred:A<B', 'pred:A=B'],
+        index = ['true:A?B','true:A>B', 'true:A<B'],
+        columns = ['pred:A?B','pred:A>B', 'pred:A<B'],
 
     )
     print(conf_mat)

@@ -1,5 +1,4 @@
-pred:A?B,pred:A>B,pred:A<B,pred:A=B
-1721,61,40,0
-333,242,23,0
-311,33,200,0
-0,0,0,0
+,pred:A?B,pred:A>B,pred:A<B
+true:A?B,1701,84,37
+true:A>B,315,263,20
+true:A<B,298,54,192
