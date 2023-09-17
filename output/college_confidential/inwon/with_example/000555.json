@@ -1,6 +1,5 @@
 {
-  "index": 555,
+  "index": 554,
   "true_label": 2,
-  "model_output": "Equal preference",
-  "predicted_label": 3
+  "predicted_label": 0
 }

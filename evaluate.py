@@ -64,7 +64,7 @@ def evaluate(
         index = ['Score'],
     )
     print(metrics)  
-    metrics.to_csv(eval_dir / 'stage_1.csv', index=False)
+    metrics.to_csv(eval_dir / 'stage_1.csv')
     print()
     conf_mat = pd.DataFrame(
         confusion_matrix(
@@ -77,7 +77,7 @@ def evaluate(
 
     )
     print(conf_mat)
-    conf_mat.to_csv(eval_dir / 'stage_1_cm.csv', index=False)
+    conf_mat.to_csv(eval_dir / 'stage_1_cm.csv')
     print()
     print('#' * 40)
     print('Task 2. Preference Classification')
@@ -90,7 +90,7 @@ def evaluate(
         index = ['Score'],
     )
     print(metrics)
-    metrics.to_csv(eval_dir / 'stage_2.csv', index=False)
+    metrics.to_csv(eval_dir / 'stage_2.csv')
     print()
     conf_mat = pd.DataFrame(
         confusion_matrix(
@@ -103,7 +103,7 @@ def evaluate(
 
     )
     print(conf_mat) 
-    conf_mat.to_csv(eval_dir / 'stage_2_cm.csv', index=False)
+    conf_mat.to_csv(eval_dir / 'stage_2_cm.csv')
     print()
     print('#' * 40)
     print('Task 3. 4-way Classification')
@@ -116,7 +116,7 @@ def evaluate(
         index = ['Score'],
     )
     print(metrics)
-    metrics.to_csv(eval_dir / '4_way.csv', index=False)
+    metrics.to_csv(eval_dir / '4_way.csv')
     print()
     conf_mat = pd.DataFrame(
         confusion_matrix(
@@ -129,7 +129,7 @@ def evaluate(
 
     )
     print(conf_mat)
-    conf_mat.to_csv(eval_dir / '4_way_cm.csv', index=False)
+    conf_mat.to_csv(eval_dir / '4_way_cm.csv')
     print()
     print('#' * 40)
     print('Task 4. 3-way Classification')
@@ -144,7 +144,7 @@ def evaluate(
         index = ['Score'],
     )
     print(metrics)
-    metrics.to_csv(eval_dir / '3_way.csv', index=False)
+    metrics.to_csv(eval_dir / '3_way.csv')
     print()
     conf_mat = pd.DataFrame(
         confusion_matrix(
@@ -157,7 +157,7 @@ def evaluate(
 
     )
     print(conf_mat)
-    conf_mat.to_csv(eval_dir / '3_way_cm.csv', index=False)
+    conf_mat.to_csv(eval_dir / '3_way_cm.csv')
     print()
 
 if __name__ == '__main__':
