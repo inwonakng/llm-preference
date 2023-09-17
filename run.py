@@ -70,7 +70,6 @@ def run(
                 output = prompt.execute(task)
                 result = {
                     'index': i,
-                    'true_label': label,
                     'predicted_label': output,
                 }
                 json.dump(
