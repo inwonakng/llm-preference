@@ -17,6 +17,8 @@ def get_metrics(y_true, y_pred, n_classes):
         'Accuracy': accuracy_score(y_true, y_pred),
         'Balanced Accuracy': balanced_accuracy_score(y_true, y_pred),
         'F1 Micro': f1_score(y_true, y_pred, average='micro'),
+        'F1 Macro': f1_score(y_true, y_pred, average='macro'),
+        'F1 Weighted': f1_score(y_true, y_pred, average='weighted'),
         **{
             f'F1[{i}]': sco
             for i,sco in enumerate(indiv_f1s)
