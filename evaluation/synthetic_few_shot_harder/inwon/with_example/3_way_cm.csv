@@ -1,0 +1,4 @@
+,pred:A?B,pred:A>B,pred:A<B
+true:A?B,237,7,0
+true:A>B,57,84,1
+true:A<B,42,2,78
