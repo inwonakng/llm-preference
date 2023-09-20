@@ -1,0 +1,9 @@
+,Dataset,Setup,F1 Micro,F1 Macro,F1 Weighted,F1[0],F1[1],F1[2],F1[3]
+Score,Synthetic Zero Shot,zero_shot,0.8594,0.8543,0.8644,0.7424,0.9402,0.9669,0.7679
+Score,Synthetic Zero Shot,few_shot,0.8532,0.8441,0.8555,0.7143,0.9667,0.9733,0.7222
+Score,Synthetic Few Shot Harder,zero_shot,0.5898,0.5655,0.5777,0.5651,0.7355,0.8019,0.1595
+Score,Synthetic Few Shot Harder,few_shot,0.5413,0.5625,0.5696,0.4211,0.7149,0.7761,0.3379
+Score,College Confidential,zero_shot,0.6488,0.5015,0.6094,0.7628,0.5265,0.4842,0.2324
+Score,College Confidential,few_shot,0.6476,0.5105,0.6066,0.7561,0.4989,0.4692,0.318
+Score,Synthetic Few Shot,zero_shot,0.8164,0.8303,0.8185,0.7284,0.9412,0.9587,0.6929
+Score,Synthetic Few Shot,few_shot,0.7897,0.807,0.7911,0.6826,0.9608,0.9573,0.6271
