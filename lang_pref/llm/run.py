@@ -1,10 +1,14 @@
 import rich.progress
-from pathlib import Path
 import json
 import click
 
 import pandas as pd
-from prompt import Task, Prompt
+from .prompt import Task, Prompt
+from lang_pref.config.paths import (
+    OUTPUT_PATH,
+    TEMPLATE_PATH,
+    DATA_PATH,
+)
 
 def pick_examples(dataset):
     examples, example_ids = [], []
@@ -42,8 +46,8 @@ def run(
     template: str,
     use_example: bool, 
 ):    
-    df = pd.read_csv(f'data/{dataset}/dataset.csv')
-    prompt = Prompt.load_template(f'templates/{dataset}/{template}.yaml')
+    df = pd.read_csv(DATA_PATH / f'{dataset}/dataset.csv')
+    prompt = Prompt.load_template(TEMPLATE_PATH / f'{dataset}/{template}.yaml')
     if use_example:
         examples, example_ids = pick_examples(df)
         prompt.add_examples(examples)
@@ -51,7 +55,7 @@ def run(
     else:
         to_predict = df
 
-    results_dir = Path('output') / dataset / template
+    results_dir = OUTPUT_PATH / 'llm' / dataset / template
     if use_example:
         results_dir /= 'with_example'
     else:

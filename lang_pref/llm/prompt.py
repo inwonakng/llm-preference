@@ -1,7 +1,7 @@
 from __future__ import annotations
 import yaml
 
-from chat_api import DEFAULT_CHAT_PARAMS, send_request
+from .chat_api import DEFAULT_CHAT_PARAMS, send_request
 
 class Task:
     text: str

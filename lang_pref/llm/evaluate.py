@@ -1,4 +1,3 @@
-from pathlib import Path
 from sklearn.metrics import (
     confusion_matrix,
     accuracy_score,
@@ -10,6 +9,11 @@ import pandas as pd
 import numpy as np
 import click
 
+
+from lang_pref.config.paths import(
+    OUTPUT_PATH,
+    EVAL_PATH,
+)
 
 def get_metrics(y_true, y_pred, n_classes):
     indiv_f1s = f1_score(y_true,y_pred,labels=list(range(n_classes)),average=None,zero_division=0)
@@ -35,8 +39,8 @@ def evaluate(
     use_example: bool, 
 ):
 
-    results_dir = Path('output') / dataset / template
-    eval_dir = Path('evaluation') / dataset / template
+    results_dir = OUTPUT_PATH / 'llm' / dataset / template
+    eval_dir = EVAL_PATH / 'llm' / dataset / template
     if use_example:
         results_dir /= 'with_example'
         eval_dir /= 'with_example'
