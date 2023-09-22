@@ -1,25 +1,24 @@
 import stanza 
 import pandas as pd
 from typing import List,Union
-from utils.check_device import USE_GPU
 import torch
+
+from lang_pref.utils.device import USE_GPU
 
 stanza.download('en')
 nlp = stanza.Pipeline(
-                lang='en', 
-                processors='tokenize,mwt,pos,lemma,depparse',
-                verbose=0,
-                tokenize_pretokenized=True,
-                use_gpu=USE_GPU
-        )
+    lang='en', 
+    processors='tokenize,mwt,pos,lemma,depparse',
+    verbose=0,
+    tokenize_pretokenized=True,
+    use_gpu=USE_GPU
+)
 
 '''
 Parses the dependency edge information of given text. Can handle multiple sentences
 '''
 
 def text_to_deps(text:str) -> List[List[Union[int,str]]]:
-    doc = nlp(text)
-    # res[0]
     offset = 0
     all_sents = []
 
