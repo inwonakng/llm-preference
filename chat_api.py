@@ -6,7 +6,7 @@ DEFAULT_CHAT_PARAMS = {
     # 'history': [],
     # 'context_instruct': '', # Optional
 
-    'max_new_tokens': 250,
+    'max_new_tokens': 20,
     'auto_max_new_tokens': False,
     'max_tokens_second': 0,
     'mode': 'instruct',  # Valid options: 'chat', 'chat-instruct', 'instruct'
@@ -28,8 +28,8 @@ DEFAULT_CHAT_PARAMS = {
     # in presets/preset-name.yaml are used instead of the individual numbers.
     'preset': 'None',
     'do_sample': True,
-    'temperature': 0.7,
-    'top_p': 0.1,
+    'temperature': 1,
+    'top_p': 0.7,
     'typical_p': 1,
     'epsilon_cutoff': 0,  # In units of 1e-4
     'eta_cutoff': 0,  # In units of 1e-4
@@ -58,7 +58,7 @@ DEFAULT_CHAT_PARAMS = {
     'stopping_strings': []
 }
 
-def send_request(endpoint: str, params: dict[str, any]) -> str:
+def send_request(endpoint: str, params: dict) -> str:
     response = requests.post(endpoint, json=params)
 
     if response.status_code == 200:
