@@ -1,5 +1,12 @@
 from __future__ import annotations
+from typing import Literal
 import yaml
+import time
+import os
+OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+import openai
+openai.api_key = OPENAI_API_KEY
+
 
 from .chat_api import DEFAULT_CHAT_PARAMS, send_request
 
@@ -25,7 +32,6 @@ class Task:
 class Prompt:
     instruction: str
     retry_msg: str
-    examples: list
     task_template: str
     label_to_text: dict[int, str]
     text_to_label: dict[str, int]
@@ -85,52 +91,171 @@ class Prompt:
             for e in examples
         ]
 
-    def build(self, task: Task) -> dict[str, any]:
-        history = [self.confirmation]
-        if self.examples:
-            history += self.examples
-        return dict(
-            **DEFAULT_CHAT_PARAMS,
-            user_input = self.wrap_task(task),
-            history = dict(
-                internal = history,
-                visible = history
-            ),
-            context_instruct = self.instruction,
-        )
+    def build(
+        self, 
+        task: Task,
+        mode: Literal['openai', 'textgen'] = 'textgen'
+    ) -> dict[str, any] | list[dict[str, str]]:
+        if mode == 'textgen':
+            history = [self.confirmation]
+            if self.examples:
+                history += self.examples
+            return dict(
+                **DEFAULT_CHAT_PARAMS,
+                user_input = self.wrap_task(task),
+                history = dict(
+                    internal = history,
+                    visible = history
+                ),
+                context_instruct = self.instruction,
+            )
+        elif mode == 'openai':
+            messages = [
+                {
+                    'role': 'system',
+                    'content': self.instruction,
+                },{
+                    'role': 'user',
+                    'content': self.confirmation[0],
+                },{
+                    'role': 'assistant',
+                    'content': self.confirmation[1],
+                }
+            ]
+            if self.examples:
+                for example in self.examples:
+                    messages += [
+                        {
+                            'role': 'user',
+                            'content': example[0] 
+                        },{
+                            'role': 'user',
+                            'content': example[1]
+
+                        }
+                    ]
+            messages += [{
+                'role': 'user',
+                'content': self.wrap_task(task)
+            }]
+            return messages
+        else:
+            raise NotImplementedError('Unknown prompt mode')
     
-    def build_retry(self, task: Task, prev_response: str) -> dict[str, any]:
-        history = [self.confirmation]
-        if self.examples:
-            history += self.examples
-        history += [[self.wrap_task(task), prev_response]]
-        return dict(
-            **DEFAULT_CHAT_PARAMS,
-            user_input = self.retry_msg,
-            history = dict(
-                internal = history,
-                visible = history
-            ),
-            context_instruct = self.instruction,
-        )
+    def build_retry(
+        self, 
+        task: Task, 
+        prev_response: str,
+        mode: Literal['openai', 'textgen'] = 'textgen'
+    ) -> dict[str, any]:
+        if mode == 'textgen':
+            history = [self.confirmation]
+            if self.examples:
+                history += self.examples
+            history += [[self.wrap_task(task), prev_response]]
+            return dict(
+                **DEFAULT_CHAT_PARAMS,
+                user_input = self.retry_msg,
+                history = dict(
+                    internal = history,
+                    visible = history
+                ),
+                context_instruct = self.instruction,
+            )
+        elif mode == 'openai':
+            messages = [
+                {
+                    'role': 'system',
+                    'content': self.instruction,
+                },{
+                    'role': 'user',
+                    'content': self.confirmation[0],
+                },{
+                    'role': 'assistant',
+                    'content': self.confirmation[1],
+                }
+            ]
+            if self.examples:
+                for example in self.examples:
+                    messages += [
+                        {
+                            'role': 'user',
+                            'content': example[0] 
+                        },{
+                            'role': 'user',
+                            'content': example[1]
+
+                        }
+                    ]
+            messages += [
+                {
+                    'role': 'user',
+                    'content': self.wrap_task(task)
+                },{
+                    'role': 'assistant',
+                    'content': prev_response
+                },{
+                    'role': 'user',
+                    'content': self.retry_msg
+                }
+            ]
+            return messages
+
+        else:
+            raise NotImplementedError('Unknown prompt mode')
+
 
     def execute(
         self,
         task: Task,
         api_endpoint: str = 'http://localhost:5000/api/v1/chat',
+        mode: Literal['openai', 'textgen'] = 'textgen',
+        model: str = 'gpt-4',
+        delay: int = 3,
     ) -> int:
-        params = self.build(task)
-        output = send_request(api_endpoint, params)
+        params = self.build(task=task, mode=mode)
+
+        if mode == 'textgen':
+            output = send_request(api_endpoint, params)
+        elif mode == 'openai':
+            output = openai.ChatCompletion.create(
+                model = model, 
+                max_tokens = 10,
+                messages = params,
+                temperature = 1.2,
+            )['choices'][0]['message']['content']
+        else:
+            raise NotImplementedError('Unknown prompt mode')
+
         print(task.text)
         print('A:', task.alternative_a)
         print('B:', task.alternative_b)
         print('True label:', self.label_to_text[task.label])
         print('Model output:', output)
+        if delay:
+            time.sleep(3)
 
         while output.lower() not in self.text_to_label:
-            params = self.build_retry(task, output)
-            output = send_request(api_endpoint, params)
+            params = self.build_retry(
+                task=task, 
+                prev_response=output,
+                mode=mode
+            )
+            if mode == 'textgen':
+                output = send_request(api_endpoint, params)
+            elif mode == 'openai':
+                output = openai.ChatCompletion.create(
+                    model = model, 
+                    max_tokens = 10,
+                    messages = params,
+                    temperature = 1.2,
+                )['choices'][0]['message']['content']
+            else:
+                raise NotImplementedError('Unknown prompt mode')
+
             print('Retry output:', output)
+            if delay:
+                time.sleep(3)
         
         return self.text_to_label[output.lower()]
 

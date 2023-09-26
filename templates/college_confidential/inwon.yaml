@@ -11,11 +11,13 @@ instruction: |
   - You MUST NOT respond with a summary of the comment.
   - You MUST NOT use the options' real names.
   - You MUST refer to the options as A or B. 
-  - You MUST respond with ```No preference``` if there is no strict preference.
+  - You MUST respond with "No preference``` if there is no strict preference.
   - You MUST respond with ```A is preferred over B``` if option A is preferred over option B.
   - You MUST respond with ```B is preferred over A``` if option B is preferred over option A.
   - You MUST respond with ```Equal preference``` if options A and B are equally preferred.
   - You MUST respond using one of the four phrases above. 
+  - You MUST NOT respond using the delimiters such as ```.
+
 
 confirmation:
   - Do you understand the rules and your job? Repeat your role, job and the rules.
@@ -45,6 +47,7 @@ retry_msg: |
   - You MUST ONLY refer to the options as ```A``` or ```B```.
   - You MUST NOT respond with any other details than the preference expressed in the comment.
   - You MUST NOT explain your reasoning behind the response. Only respond with the given phrase.
+  - You MUST NOT use the delimiters such as ```.
   - You MUST NOT use any punctuation in the response.
 
   Your previous response was not in any of the required responses.

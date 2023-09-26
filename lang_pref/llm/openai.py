@@ -10,35 +10,17 @@ from lang_pref.config.paths import (
     DATA_PATH,
 )
 
-def pick_examples(dataset):
-    examples, example_ids = [], []
-    for label, subset in dataset.groupby('label'):
-        # find the shortest on to use for example
-        valid_length = subset[subset['text'].str.len() > 100]
-        example = valid_length.iloc[valid_length['text'].str.len().argmin()]
-        examples += [
-            Task(
-                text = example['text'], 
-                alternative_a = example['alternative_a'],
-                alternative_b = example['alternative_b'],
-                label = label
-            )
-        ]
-        example_ids += [example.name]
-    return examples, example_ids
-
-
 @click.command()
 @click.option('--dataset', default='college_confidential', help='Name of dataset to use')
-@click.option('--model', default='upstage-llama2-70b-4bit', help='Name of the model to use')
+@click.option('--model', default='gpt-4', help='Name of the model to use')
 @click.option('--template', default='inwon', help='Name of template to use for prompts.')
 @click.option('--use_example', is_flag=True, help='Use example in prompt')
-def run(
+def run_openai(
     dataset: str,
     model: str,
     template: str,
     use_example: bool, 
-):    
+):
     df = pd.read_csv(DATA_PATH / f'{dataset}/dataset.csv')
     prompt = Prompt.load_template(TEMPLATE_PATH / f'{dataset}/{template}.yaml')
     if use_example:
@@ -64,7 +46,12 @@ def run(
 
             if not result_file.is_file(): 
                 print(f'{i}/{len(to_predict)}')
-                output = prompt.execute(task)
+                output = prompt.execute(
+                    task, 
+                    mode='openai', 
+                    model='gpt-4',
+                    delay=3
+                )
                 result = {
                     'index': i,
                     'true_label': label,
@@ -79,4 +66,4 @@ def run(
             progress.update(progress_task, advance = 1)
 
 if __name__ == '__main__':
-    run()
+    run_openai()

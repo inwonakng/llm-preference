@@ -31,16 +31,18 @@ def get_metrics(y_true, y_pred, n_classes):
 
 @click.command()
 @click.option('--dataset', default='college_confidential', help='Name of dataset to use')
+@click.option('--model', default='upstage-llama2-70b-4bit', help='Name of the model to use')
 @click.option('--template', default='inwon', help='Name of template to use for prompts.')
 @click.option('--use_example', is_flag=True, help='Use example in prompt')
 def evaluate(
     dataset: str,
+    model: str,
     template: str,
     use_example: bool, 
 ):
 
-    results_dir = OUTPUT_PATH / 'llm' / dataset / template
-    eval_dir = EVAL_PATH / 'llm' / dataset / template
+    results_dir = OUTPUT_PATH / 'llm' / model / dataset / template
+    eval_dir = EVAL_PATH / 'llm' / model / dataset / template
     if use_example:
         results_dir /= 'with_example'
         eval_dir /= 'with_example'

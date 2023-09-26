@@ -12,12 +12,12 @@ from lang_pref.config.paths import (
 
 price_per_token = {
     'GPT-4-8k': {
-        'input': 0.03,
-        'output': 0.06,
+        'input': 0.03 / 1e3,
+        'output': 0.06 / 1e3,
     }, 
     'GPT-3.5-4k': {
-        'input': 0.0015,
-        'output': 0.002,
+        'input': 0.0015 / 1e3,
+        'output': 0.002 / 1e3,
     }, 
     'Claude Instant': {
         'input': 1.63 / 1e6,
