@@ -1,26 +1,26 @@
 2,964 tasks
-estimated input tokens: 1,605,888
+estimated input tokens: 1,644,420
 estimated output tokens: 9,354
-estimated total tokens: 1,615,242
+estimated total tokens: 1,653,774
 ----------------------------------------
 
 GPT-4-8k
-Input: $48,176.64
-Output: $561.24
-Total: $48,737.88
+Input: $49.33
+Output: $0.56
+Total: $49.89
 ========================================
 GPT-3.5-4k
-Input: $2,408.83
-Output: $18.71
-Total: $2,427.54
+Input: $2.47
+Output: $0.02
+Total: $2.49
 ========================================
 Claude Instant
-Input: $2.62
+Input: $2.68
 Output: $0.05
-Total: $2.67
+Total: $2.73
 ========================================
 Claude 2
-Input: $17.70
+Input: $18.12
 Output: $0.31
-Total: $18.00
+Total: $18.43
 ========================================
