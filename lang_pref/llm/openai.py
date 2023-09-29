@@ -14,27 +14,17 @@ from lang_pref.config.paths import (
 @click.option('--dataset', default='college_confidential', help='Name of dataset to use')
 @click.option('--model', default='gpt-4', help='Name of the model to use')
 @click.option('--template', default='inwon', help='Name of template to use for prompts.')
-@click.option('--use_example', is_flag=True, help='Use example in prompt')
 def run_openai(
     dataset: str,
     model: str,
     template: str,
-    use_example: bool, 
 ):
     df = pd.read_csv(DATA_PATH / f'{dataset}/dataset.csv')
     prompt = Prompt.load_template(TEMPLATE_PATH / f'{dataset}/{template}.yaml')
-    if use_example:
-        examples, example_ids = pick_examples(df)
-        prompt.add_examples(examples)
-        to_predict = df[~df.index.isin(example_ids)]
-    else:
-        to_predict = df
+    to_predict = df
 
     results_dir = OUTPUT_PATH / 'llm' / model / dataset / template
-    if use_example:
-        results_dir /= 'with_example'
-    else:
-        results_dir /= 'without_example'
+    results_dir /= 'without_example'
     results_dir.mkdir(parents=True, exist_ok=True)
 
     with progress_bar() as progress:
@@ -50,18 +40,19 @@ def run_openai(
                     task, 
                     mode='openai', 
                     model='gpt-4',
-                    delay=3
+                    max_retry=3,
                 )
-                result = {
-                    'index': i,
-                    'true_label': label,
-                    'predicted_label': output,
-                }
-                json.dump(
-                    result,
-                    open(result_file, 'w'),
-                    indent = 2,
-                )
+                if not output is None:
+                    result = {
+                        'index': i,
+                        'true_label': label,
+                        'predicted_label': output,
+                    }
+                    json.dump(
+                        result,
+                        open(result_file, 'w'),
+                        indent = 2,
+                    )
                 print('='*40)
             progress.update(progress_task, advance = 1)
 

@@ -15,7 +15,6 @@ instruction: |
   - You MUST respond with ```A is preferred over B``` if option A is preferred over option B.
   - You MUST respond with ```B is preferred over A``` if option B is preferred over option A.
   - You MUST respond using one of the four phrases above. 
-  - You MUST NOT respond using the delimiters such as ```.
 
 confirmation:
   - Do you understand the rules and your job? Repeat your role, job and the rules.
@@ -43,7 +42,6 @@ retry_msg: |
   - You MUST respond with ```A is preferred over B``` if option A is preferred over option B.
   - You MUST respond with ```B is preferred over A``` if option B is preferred over option A.
   - You MUST respond ONLY using one of the following phrases: ```No preference```, ```A is preferred over B```, ```B is preferred over A```. Do not say anything else.
-  - You MUST NOT use the delimiters such as ```.
   - You MUST NOT use any punctuation in the response.
 
   Your previous response was not in any of the required responses.

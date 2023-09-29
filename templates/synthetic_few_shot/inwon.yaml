@@ -63,7 +63,7 @@ task: |
   ```
 
 label:
-  0: 'No preference'
-  1: 'A is preferred over B'
-  2: 'B is preferred over A'
-  3: 'Equal preference'
+  0: No preference
+  1: A is preferred over B
+  2: B is preferred over A
+  3: Equal preference

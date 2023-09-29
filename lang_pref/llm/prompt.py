@@ -7,8 +7,13 @@ OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 import openai
 openai.api_key = OPENAI_API_KEY
 
-
 from .chat_api import DEFAULT_CHAT_PARAMS, send_request
+
+DELIMITERS = ['```', '"""']
+def remove_delimiters(text: str) -> str:
+    for delim in DELIMITERS:
+        text = text.replace(delim, '')
+    return text
 
 class Task:
     text: str
@@ -211,8 +216,9 @@ class Prompt:
         api_endpoint: str = 'http://localhost:5000/api/v1/chat',
         mode: Literal['openai', 'textgen'] = 'textgen',
         model: str = 'gpt-4',
-        delay: int = 3,
-    ) -> int:
+        delay: int = -1,
+        max_retry: int = -1,
+    ) -> int | None:
         params = self.build(task=task, mode=mode)
 
         if mode == 'textgen':
@@ -226,6 +232,7 @@ class Prompt:
             )['choices'][0]['message']['content']
         else:
             raise NotImplementedError('Unknown prompt mode')
+        output = remove_delimiters(output)
 
         print(task.text)
         print('A:', task.alternative_a)
@@ -235,6 +242,7 @@ class Prompt:
         if delay:
             time.sleep(3)
 
+        retry_count = 1
         while output.lower() not in self.text_to_label:
             params = self.build_retry(
                 task=task, 
@@ -242,7 +250,7 @@ class Prompt:
                 mode=mode
             )
             if mode == 'textgen':
-                output = send_request(api_endpoint, params)
+                output = send_request(api_endpoint, params).replace()
             elif mode == 'openai':
                 output = openai.ChatCompletion.create(
                     model = model, 
@@ -252,10 +260,17 @@ class Prompt:
                 )['choices'][0]['message']['content']
             else:
                 raise NotImplementedError('Unknown prompt mode')
+            output = remove_delimiters(output)
 
-            print('Retry output:', output)
-            if delay:
-                time.sleep(3)
+            print(f'Retry {retry_count} output:', output)
+            if delay > 0:
+                time.sleep(delay)
+
+            if max_retry != -1 and retry_count == max_retry:
+                print('Tried enough.. we are aborting')
+                return None
+            
+            retry_count += 1
         
         return self.text_to_label[output.lower()]
 
