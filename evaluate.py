@@ -52,6 +52,8 @@ def evaluate(
         true_labels += [result['true_label']]
         predicted_labels += [result['predicted_label']]
 
+    file_count = len(true_labels)
+
     true_labels = np.array(true_labels)
     predicted_labels = np.array(predicted_labels)
 
@@ -161,6 +163,8 @@ def evaluate(
     print(conf_mat)
     conf_mat.to_csv(eval_dir / '3_way_cm.csv')
     print()
+
+    print(f'Number of data points: {file_count}')
 
 if __name__ == '__main__':
     evaluate()

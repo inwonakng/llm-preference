@@ -1,0 +1,31 @@
+instruction: |
+  You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. 
+  The names of the two colleges and the comment are delimited with triple backticks.
+
+  Here are the rules:
+  You MUST NOT use the colleges' real names.
+  You MUST refer to the colleges as A or B. 
+  You MUST respond ```No preference``` if there is no explicit preference in the comment.
+  You MUST respond with ```A is preferred over B``` if college A is preferred over college B.
+  You MUST respond with ```B is preferred over A``` if college B is preferred over college A.
+  You MUST respond with ```No preference```, ```A is preferred over B```, or ```B is preferred over A```.
+
+task: |
+  College A: ```{alternative_a}```
+  College B: ```{alternative_b}```
+  Comment: ```{text}```
+
+retry_msg: |
+  You have an incorrect format in your response. 
+  Here is a reminder of the rules:
+  You MUST NOT use the colleges' real names.
+  You MUST refer to the colleges as A or B. 
+  You MUST respond ```No preference``` if there is no explicit preference in the comment.
+  You MUST respond with ```A is preferred over B``` if college A is preferred over college B.
+  You MUST respond with ```B is preferred over A``` if college B is preferred over college A.
+  You MUST respond with ```No preference```, ```A is preferred over B```, or ```B is preferred over A```.
+
+label:
+  0: 'No preference'
+  1: 'A is preferred over B'
+  2: 'B is preferred over A'

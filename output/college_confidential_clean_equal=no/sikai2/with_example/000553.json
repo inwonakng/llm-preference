@@ -1,0 +1,78 @@
+{
+  "index": 553,
+  "true_label": 2,
+  "predicted_label": 0,
+  "params": {
+    "max_new_tokens": 20,
+    "auto_max_new_tokens": false,
+    "max_tokens_second": 0,
+    "mode": "instruct",
+    "character": "Example",
+    "instruction_template": "Orca Mini",
+    "your_name": "You",
+    "regenerate": false,
+    "_continue": false,
+    "chat_instruct_command": "Continue the chat dialogue below. Write a single reply for the character \"<|character|>\".\n\n<|prompt|>",
+    "preset": "None",
+    "do_sample": true,
+    "temperature": 1,
+    "top_p": 0.7,
+    "typical_p": 1,
+    "epsilon_cutoff": 0,
+    "eta_cutoff": 0,
+    "tfs": 1,
+    "top_a": 0,
+    "repetition_penalty": 1.18,
+    "repetition_penalty_range": 0,
+    "top_k": 40,
+    "min_length": 0,
+    "no_repeat_ngram_size": 0,
+    "num_beams": 1,
+    "penalty_alpha": 0,
+    "length_penalty": 1,
+    "early_stopping": false,
+    "mirostat_mode": 0,
+    "mirostat_tau": 5,
+    "mirostat_eta": 0.1,
+    "guidance_scale": 1,
+    "negative_prompt": "",
+    "seed": -1,
+    "add_bos_token": true,
+    "truncation_length": 2048,
+    "ban_eos_token": false,
+    "skip_special_tokens": true,
+    "stopping_strings": [],
+    "user_input": "College A: ```University of Rochester```\nCollege B: ```Emory University```\nComment: ```@Creekland :  I just don\u2019t know how the hell we are to compare the rigor of two schools.  I actually look at the course materials and still don\u2019t think I can get a truly representative depiction of how academics would \u201cfeel\u201d at two schools.  Take for example the comparisons I did back in the day with chemistry and biology courses.  I have found that even in cases where professors at X school for X course where generally different/more challenging in terms of content and testing style than professors at Y school for X course, that often the students at Y claim that their course is still very challenging even in cases where the student body qualities were similar or Y was higher AND both schools had similar grading practices in STEM, which means that even my approach using raw course materials has limitations.  I for example cannot account for whether or not student/intellectual (I do not conflate this with incoming stats.  Institutions with similar or different stats can have vastly different intellectual vibes and tendencies with respect to how students pursue academics and even what majors they tend to pursue) culture is different at each and maybe one school receives a certain type of course differently than those at another or if the instructor teaching the \u201charder\u201d course used more effective methods to encourage student success at one school, so thus students at the school with the \u201charder\u201d course complain less about it. To ask us to compare two schools of high caliber based upon \u201cpersonal opinion\u201d and hearsay has even more limitations.  I need people to stop asking about this.  It is too messy.  It would honestly just be better if they researched to perhaps stumble upon some course materials at whatever schools so that they can at least gauge where they stand versus the level of cognitive demands by professors in whatever department at each.  And then after that, you just cross your fingers for effective teaching if the material is found to be more difficult than expected.  Either way, I think so many ask the wrong questions and go about finding answers in a misguided way. The best I could do for these folks is give them links to course materials and maybe commenting on them or describing the courses I know about from my school if material from the other is unavailable.  But anyone saying: \u201cOh this school definitely is harder and has more weedouts\u201d is usually making a baseless assumption not even supported by grade data or any course materials.  I see so many myths spread based upon \u201cgut feeling\u201d and hearsay such as X, Y, and Z have worse grade deflation versus A, B, and C, and then data tells a completely different story or exposes the first group as hyperbolic or unaware. @mom2collegekids :  I was being sarcastic.  That is basically what I was saying.  This poster has asked this question in every single thread they posted on comparison of schools and otherwise.  So I was getting annoyed. @Jugulator20 :  It is tough, but usually only intro. classes have grade distributions like that. As courses become less exam based, the distribution usually shifts to a more rightward skew.  I don\u2019t like looking at grading distributions of only the As anyway, because to be honest, most successful pre-meds can afford  a couple of B grades here and there, and there are usually plenty of opportunities to boost the STEM GPA while also learning at a high level to balance out those \u201cpotential B courses\u201d.  The fact is, privates and elite publics are often very generous with the B range grades.  Admittedly courses like gen. physics and chemistry may give out a decent chunk of Cs which could be dangerous, but there is some room for error in these challenging environments, especially in courses with low test averages where the grades get re-centered using a curve.  ```\n",
+    "history": {
+      "internal": [
+        [
+          "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n",
+          "No preference"
+        ],
+        [
+          "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n",
+          "A is preferred over B"
+        ],
+        [
+          "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n",
+          "B is preferred over A"
+        ]
+      ],
+      "visible": [
+        [
+          "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n",
+          "No preference"
+        ],
+        [
+          "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n",
+          "A is preferred over B"
+        ],
+        [
+          "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n",
+          "B is preferred over A"
+        ]
+      ]
+    },
+    "context_instruct": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```No preference```, ```A is preferred over B```, or ```B is preferred over A```.\n"
+  }
+}

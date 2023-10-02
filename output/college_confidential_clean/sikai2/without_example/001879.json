@@ -1,0 +1,62 @@
+{
+  "index": 1879,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": {
+    "max_new_tokens": 20,
+    "auto_max_new_tokens": false,
+    "max_tokens_second": 0,
+    "mode": "instruct",
+    "character": "Example",
+    "instruction_template": "Orca Mini",
+    "your_name": "You",
+    "regenerate": false,
+    "_continue": false,
+    "chat_instruct_command": "Continue the chat dialogue below. Write a single reply for the character \"<|character|>\".\n\n<|prompt|>",
+    "preset": "None",
+    "do_sample": true,
+    "temperature": 1,
+    "top_p": 0.7,
+    "typical_p": 1,
+    "epsilon_cutoff": 0,
+    "eta_cutoff": 0,
+    "tfs": 1,
+    "top_a": 0,
+    "repetition_penalty": 1.18,
+    "repetition_penalty_range": 0,
+    "top_k": 40,
+    "min_length": 0,
+    "no_repeat_ngram_size": 0,
+    "num_beams": 1,
+    "penalty_alpha": 0,
+    "length_penalty": 1,
+    "early_stopping": false,
+    "mirostat_mode": 0,
+    "mirostat_tau": 5,
+    "mirostat_eta": 0.1,
+    "guidance_scale": 1,
+    "negative_prompt": "",
+    "seed": -1,
+    "add_bos_token": true,
+    "truncation_length": 2048,
+    "ban_eos_token": false,
+    "skip_special_tokens": true,
+    "stopping_strings": [],
+    "user_input": "You have an incorrect format in your response. \nHere is a reminder of the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n",
+    "history": {
+      "internal": [
+        [
+          "College A: ```University of Pennsylvania```\nCollege B: ```Pennsylvania State University```\nComment: ```11: to be fair, OP will be in Schreyer, so peer quality and small classes will be par for the course BUT.. only within Schreyer. At UPenn, it\u2019ll be like that 24/7. All your classes will be good. All the students will be strong. At this point you can\u2019t even imagine the resources you\u2019ll have available, the opportunities you\u2019ll have. Being a student at an Ivy League is unique and an opportunity you shouldn\u2019t pass\u2026 especially since it\u2019s much cheaper than Penn State! You\u2019ll be part of a special network dedicated to helping you develop leadership skills, find mentors and internships, and connect with peers. https://www.vpul.upenn.edu/gic/pennfirst.php There\u2019s also a group, called (FGLI) Figli, that\u2019s awesome - and has all the resources you can\u2019t think of. https://www.vpul.upenn.edu/fgli? Email your dedicated secretary (Dear Sir, Dear Madam,\u2026) to ask any question you have about Penn, research access, class preparation, how \u201ccurves\u201d work in classes, etc. pennfirst.secretary@gmail.com An example in which UPenn will differ from Penn State: both have good career centers that will help you find an internship. But it\u2019s your first internship, so, it\u2019s unpaid. If you\u2019re at Penn State, your choice is either to drp the unpaid internship and work to make money or take the internship that will advance you in your career.but be without any money earned over the summer which you will need to pay tuition. If you\u2019re at Upenn, no worry, they will give you a stipend to compensate the fact your internship is not paid and so you can get on your career path right away with no financial trouble - basically you have your bread and eat it too. That\u2019s the sort of difference UPenn endowment makes.  ```\n",
+          "I apologize for my previous error. Here is the corrected response following the provided guidelines:"
+        ]
+      ],
+      "visible": [
+        [
+          "College A: ```University of Pennsylvania```\nCollege B: ```Pennsylvania State University```\nComment: ```11: to be fair, OP will be in Schreyer, so peer quality and small classes will be par for the course BUT.. only within Schreyer. At UPenn, it\u2019ll be like that 24/7. All your classes will be good. All the students will be strong. At this point you can\u2019t even imagine the resources you\u2019ll have available, the opportunities you\u2019ll have. Being a student at an Ivy League is unique and an opportunity you shouldn\u2019t pass\u2026 especially since it\u2019s much cheaper than Penn State! You\u2019ll be part of a special network dedicated to helping you develop leadership skills, find mentors and internships, and connect with peers. https://www.vpul.upenn.edu/gic/pennfirst.php There\u2019s also a group, called (FGLI) Figli, that\u2019s awesome - and has all the resources you can\u2019t think of. https://www.vpul.upenn.edu/fgli? Email your dedicated secretary (Dear Sir, Dear Madam,\u2026) to ask any question you have about Penn, research access, class preparation, how \u201ccurves\u201d work in classes, etc. pennfirst.secretary@gmail.com An example in which UPenn will differ from Penn State: both have good career centers that will help you find an internship. But it\u2019s your first internship, so, it\u2019s unpaid. If you\u2019re at Penn State, your choice is either to drp the unpaid internship and work to make money or take the internship that will advance you in your career.but be without any money earned over the summer which you will need to pay tuition. If you\u2019re at Upenn, no worry, they will give you a stipend to compensate the fact your internship is not paid and so you can get on your career path right away with no financial trouble - basically you have your bread and eat it too. That\u2019s the sort of difference UPenn endowment makes.  ```\n",
+          "I apologize for my previous error. Here is the corrected response following the provided guidelines:"
+        ]
+      ]
+    },
+    "context_instruct": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+  }
+}

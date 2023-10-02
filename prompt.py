@@ -148,7 +148,7 @@ class Prompt:
         return True, self.text_to_label[output.lower()], params
 
     def __str__(self) -> str:
-        return f'instruction:\n{self.instruction}\nretry_msg:\n{self.retry_msg}\ntask_template:\n{self.task_template}\nlabel_to_text:\n{self.label_to_text}\nconfirmation:\n{self.confirmation}\ntwo_stage_instruction:{self.instruction_binary}\nself.label_to_text_binary:{self.label_to_text_binary}\nexamples:\n{self.examples}'
+        return f'instruction:\n{self.instruction}\nretry_msg:\n{self.retry_msg}\ntask_template:\n{self.task_template}\nlabel_to_text:\n{self.label_to_text}\nconfirmation:\n{self.confirmation}\nexamples:\n{self.examples}'
     
 
 class TwoStagePrompt:

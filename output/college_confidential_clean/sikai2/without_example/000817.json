@@ -1,0 +1,62 @@
+{
+  "index": 817,
+  "true_label": 2,
+  "predicted_label": 0,
+  "params": {
+    "max_new_tokens": 20,
+    "auto_max_new_tokens": false,
+    "max_tokens_second": 0,
+    "mode": "instruct",
+    "character": "Example",
+    "instruction_template": "Orca Mini",
+    "your_name": "You",
+    "regenerate": false,
+    "_continue": false,
+    "chat_instruct_command": "Continue the chat dialogue below. Write a single reply for the character \"<|character|>\".\n\n<|prompt|>",
+    "preset": "None",
+    "do_sample": true,
+    "temperature": 1,
+    "top_p": 0.7,
+    "typical_p": 1,
+    "epsilon_cutoff": 0,
+    "eta_cutoff": 0,
+    "tfs": 1,
+    "top_a": 0,
+    "repetition_penalty": 1.18,
+    "repetition_penalty_range": 0,
+    "top_k": 40,
+    "min_length": 0,
+    "no_repeat_ngram_size": 0,
+    "num_beams": 1,
+    "penalty_alpha": 0,
+    "length_penalty": 1,
+    "early_stopping": false,
+    "mirostat_mode": 0,
+    "mirostat_tau": 5,
+    "mirostat_eta": 0.1,
+    "guidance_scale": 1,
+    "negative_prompt": "",
+    "seed": -1,
+    "add_bos_token": true,
+    "truncation_length": 2048,
+    "ban_eos_token": false,
+    "skip_special_tokens": true,
+    "stopping_strings": [],
+    "user_input": "You have an incorrect format in your response. \nHere is a reminder of the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n",
+    "history": {
+      "internal": [
+        [
+          "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```@Drawcodawn Doing well at Pomona or JHU will not guarantee a top grad program.  There are other factors at play in terms of getting into grad school.  But I can tell you that the number one grad school destination for JHU (outside of JHU) for last year\u2019s graduating class was Harvard.  I went to MIT from Hopkins on a full fellowship (amongst the top 10% of entering grad students as did some of my other classmates).  Many of my other classmates across the engineering school also won extremely competitive national fellowships (NDSEG, NSFGRFP, Hertz) or individual full school sponsored fellowships at Princeton (Gordon Wu Fellow), Stanford (SGF program) and Harvard.  You will have no shortage of opportunities at JHU.  I graduated from JHU in 2015, so my experience is also recent. See below for grad outcomes. https://studentaffairs.jhu.edu/careers/news/2017-fds/ It also helps that the reputation of JHU in silicon valley is absolutely sterling - it is where you want to be if you want to be in tech.  What is not debatable is the fact that more employers will have heard of and recognize JHU here versus Pomona given JHU\u2019s CS program is actually known. @nostalgicwisdom JHU has had high stats for a while now.  It\u2019s just been slowly going up over the years from the above 1360-1530.  Business Insider is likely using outdated data. See here:  https://studentaffairs.jhu.edu/wp-content/uploads/sites/23/2017/01/2014_2015_EnrollmentReport.pdf Class of 2021 enrolled stats: https://hub.jhu.edu/2017/08/25/class-of-2021-overview-facts/ JHU\u2019s combined range is 1480 - 1560. Pomona also self reports the range of SAT scores for the class of 2021 which more or less matches the range above: https://www.pomona.edu/sites/default/files/pomona-college-admissions-profile.pdf Verbal - 670 to 750 Math - 660 - 760 There\u2019s a definite discrepancy.  You can argue one school is more stats obsessed versus the other, but it could also be JHU is finding students that are more well rounded vs Pomona but with higher scores due to the STEM bent.  ```\n",
+          "Sorry about that! Here is the correct response following the guidelines provided: No preference"
+        ]
+      ],
+      "visible": [
+        [
+          "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```@Drawcodawn Doing well at Pomona or JHU will not guarantee a top grad program.  There are other factors at play in terms of getting into grad school.  But I can tell you that the number one grad school destination for JHU (outside of JHU) for last year\u2019s graduating class was Harvard.  I went to MIT from Hopkins on a full fellowship (amongst the top 10% of entering grad students as did some of my other classmates).  Many of my other classmates across the engineering school also won extremely competitive national fellowships (NDSEG, NSFGRFP, Hertz) or individual full school sponsored fellowships at Princeton (Gordon Wu Fellow), Stanford (SGF program) and Harvard.  You will have no shortage of opportunities at JHU.  I graduated from JHU in 2015, so my experience is also recent. See below for grad outcomes. https://studentaffairs.jhu.edu/careers/news/2017-fds/ It also helps that the reputation of JHU in silicon valley is absolutely sterling - it is where you want to be if you want to be in tech.  What is not debatable is the fact that more employers will have heard of and recognize JHU here versus Pomona given JHU\u2019s CS program is actually known. @nostalgicwisdom JHU has had high stats for a while now.  It\u2019s just been slowly going up over the years from the above 1360-1530.  Business Insider is likely using outdated data. See here:  https://studentaffairs.jhu.edu/wp-content/uploads/sites/23/2017/01/2014_2015_EnrollmentReport.pdf Class of 2021 enrolled stats: https://hub.jhu.edu/2017/08/25/class-of-2021-overview-facts/ JHU\u2019s combined range is 1480 - 1560. Pomona also self reports the range of SAT scores for the class of 2021 which more or less matches the range above: https://www.pomona.edu/sites/default/files/pomona-college-admissions-profile.pdf Verbal - 670 to 750 Math - 660 - 760 There\u2019s a definite discrepancy.  You can argue one school is more stats obsessed versus the other, but it could also be JHU is finding students that are more well rounded vs Pomona but with higher scores due to the STEM bent.  ```\n",
+          "Sorry about that! Here is the correct response following the guidelines provided: No preference"
+        ]
+      ]
+    },
+    "context_instruct": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "index": 560,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": {
+    "max_new_tokens": 20,
+    "auto_max_new_tokens": false,
+    "max_tokens_second": 0,
+    "mode": "instruct",
+    "character": "Example",
+    "instruction_template": "Orca Mini",
+    "your_name": "You",
+    "regenerate": false,
+    "_continue": false,
+    "chat_instruct_command": "Continue the chat dialogue below. Write a single reply for the character \"<|character|>\".\n\n<|prompt|>",
+    "preset": "None",
+    "do_sample": true,
+    "temperature": 1,
+    "top_p": 0.7,
+    "typical_p": 1,
+    "epsilon_cutoff": 0,
+    "eta_cutoff": 0,
+    "tfs": 1,
+    "top_a": 0,
+    "repetition_penalty": 1.18,
+    "repetition_penalty_range": 0,
+    "top_k": 40,
+    "min_length": 0,
+    "no_repeat_ngram_size": 0,
+    "num_beams": 1,
+    "penalty_alpha": 0,
+    "length_penalty": 1,
+    "early_stopping": false,
+    "mirostat_mode": 0,
+    "mirostat_tau": 5,
+    "mirostat_eta": 0.1,
+    "guidance_scale": 1,
+    "negative_prompt": "",
+    "seed": -1,
+    "add_bos_token": true,
+    "truncation_length": 2048,
+    "ban_eos_token": false,
+    "skip_special_tokens": true,
+    "stopping_strings": [],
+    "user_input": "College A: ```University of Rochester```\nCollege B: ```Emory University```\nComment: ```Did a little investigation:  I think Rochester and Emory are decently similar (I think Emory is most similar to WUSTL out of the selective schools.  They just have similar curricula design and ideas clearly) in life sciences and I would expect that math and physics courses that pre-healths/STEM majors have to take would at least be on the same level (I didn\u2019t look:  I usually assume that on average the level of intro. courses in those areas is higher at other schools of similar and higher selectivity because Emory\u2019s depts do not serve an engineering school and nor are they anchored to elite physics and math graduate program/research apparatuses like Chicago for example which is an exception to the engineering rule). Some differences to consider: Chemistry;  Emory just changed its chemistry curriculum to bring in a decent amount of organic chemistry into the first year courses (including organic chemistry concepts most often covered in 2nd semester of organic chemistry).  It isn\u2019t a super hardcore introduction, but it is basically blended with traditional gen. chem concepts which you can learn about in these places: http://chemistry.emory.edu/articulate/chemistry_unbound/story_html5.html http://news.emory.edu/stories/2017/09/er_chemistry_curriculum/campus.html These changes may not be well received by some (it is unclear if it is \u201cpre-med friendly\u201d as it kind of bucks traditional two year pre-med engagement with chemistry which is either 2 gen. chems and 2 ochems or 1 gen. chem, 2 ochems, and then biochem.  Emory\u2019s is close to a weird rendition of this latter version) but Emory\u2019s undergraduate chemistry program is known for unusual rigor regardless (even prior to the change).  I saw some of UR\u2019s stuff, and it seems like it would be at the level of a more \u201cstandard\u201d level classical general or organic chemistry course at Emory which is/was challenging for many but doable for most.  Admittedly the majority of students take less \u201cclassical\u201d instructors once the 3rd (a modern version of organic chemistry) and 4th (supposedly some mixture of material science and biochemical concepts\u2026I am not quite sure and nor does the publication or information above make it clear) pre-health courses are hit Biosciences:  They look similar, but Rochester is more classical (as in most schools selective or not do it like this) in arrangement.  It has molecular and cell first semester and more organismal biology/ecology second semester.  Emory\u2019s first semester is identical (actually they recently added in ecology/evolution concepts into the first semester and used it to re-frame the molecular cell stuff), and the second semester is basically a genetics course with a primary focus on molecular genetics and modern biotechnology/experimental biology concepts.  I don\u2019t think this difference changes difficulty because OP has AP credit in bio(?  Actually I don\u2019t know) and the AP bio curriculum has apparently changed to integrate more of the stuff Emory covers in its second semester, when it used to be more ecology/evolution heavy back in the dinosaur ages of 2008 when I took it.  I still remember being pleasantly surprised that Emory didn\u2019t just rehash all of that in the second semester and instead hit me with new content. However, current students/prospies will have been exposed to both styles.  What that does mean is that the actual genetics courses look a little different with UR covering the stuff Emory covered in gen. bio and Emory doing something a little different, veering towards human genetics (which means more coverage of epigenetics which we now know  relevant to human diseases now-a-days) and keeping the emphasis more on the experimental aspect as opposed to more math/classical genetics concepts. Appears Rochester has \u201crecitations\u201d for many intermediate biology classes.  I am unsure how they are used and how the associated lectures are run.  Usually when I think \u201crecitation\u201d I think review and maybe some out of lecture review (which at some schools apparently entails extra lecturing), problem solving, and quizzes, things that maybe the lecture component doesn\u2019t have time for.  Emory doesn\u2019t have these and instead has a big undergraduate TA mentoring and tutoring system which is associated with additional problem sets that are technically optional.  But this mainly applies to lower division courses/pre-med classes.  At the intermediate and advanced level, many biology courses do have \u201cdiscussion\u201d which is usually for reading and presenting primary literature, but is every so often used for other activities (for example evolutionary biology and math-based upper division courses may integrate a simulation/modelling exercise or something) As much as it interests me, It shouldn\u2019t  really matter to a prospie(I usually think pedagogy and assessment style usually matter more than arrangement of content for most life sciences courses.  Admittedly chemistry is tricky, but I don\u2019t wanna go there right now).  Students should just get somewhere, learn the material to the highest level possible, and do the best they can. One can get the right type of challenge from Emory, Rochester, and many other places\u2026and even at gasp!  Much less \u201cprestigious\u201d undergraduate programs that have put lots of money into their STEM curricula and pedagogy.  UMD is an example:https://nexus.umbc.edu/  Several of its campus have implemented the NEXUS revamp of life sciences curricula.  I saw some materials resulting from it and they are damned good and are at just as high a level or higher than many \u201celite\u201d schools, especially those I saw from College Park.  So there are so many schools that one can find that are great for pre-healths because of the resources/opportunities AND because they pay exceptional levels of attention to how they deliver their STEM/pre-health courses.  It is very possible to be in a place that still challenges students in a useful way that isn\u2019t ultra competitive/super duper selective.  You just need to do the research.  One can have several pieces of cake and eat all of them.  ```\n",
+    "history": {
+      "internal": [
+        [
+          "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n",
+          "No preference"
+        ],
+        [
+          "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n",
+          "A is preferred over B"
+        ],
+        [
+          "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n",
+          "B is preferred over A"
+        ]
+      ],
+      "visible": [
+        [
+          "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n",
+          "No preference"
+        ],
+        [
+          "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n",
+          "A is preferred over B"
+        ],
+        [
+          "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n",
+          "B is preferred over A"
+        ]
+      ]
+    },
+    "context_instruct": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```No preference```, ```A is preferred over B```, or ```B is preferred over A```.\n"
+  }
+}
