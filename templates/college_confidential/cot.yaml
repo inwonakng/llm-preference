@@ -4,7 +4,7 @@ instruction: |
   Then you will be given be given a comment followed by "### Comment:".
   Your job is to determine if there is a preference between Option A and Option B in that comment, and what the preference is if it exists. 
   Try to explain your reasoning for each comment, followed by your final decision. 
-  Make a newline (or '\n') before your final decision.
+  Make a newline and followed by "###" before your final decision.
 
   Here are the rules for your final decision:
   - Respond with "No preference" if there is no strict preference.

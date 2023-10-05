@@ -67,18 +67,19 @@ def run(
 
             if not result_file.is_file(): 
                 print(f'{i}/{len(to_predict)}')
-                output = prompt.execute(
+                output,prediction = prompt.execute(
                     task, 
                     model=model,
                     delay=delay,
                     max_retry=max_retry,
                 )
 
-                if not output is None:
+                if not prediction is None:
                     result = {
                         'index': i,
                         'true_label': label,
-                        'predicted_label': output,
+                        'model_output': output,
+                        'predicted_label': prediction,
                     }
                     json.dump(
                         result,

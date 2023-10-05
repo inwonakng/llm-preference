@@ -10,7 +10,7 @@ openai.api_key = OPENAI_API_KEY
 
 from .chat_api import DEFAULT_CHAT_PARAMS, send_request
 
-DELIMITERS = ['```', '"""']
+DELIMITERS = ['```', '"""', '### ']
 def remove_delimiters(text: str) -> str:
     for delim in DELIMITERS:
         text = text.replace(delim, '')
@@ -103,7 +103,9 @@ class Prompt:
         mode: Literal['openai', 'textgen'] = 'textgen'
     ) -> dict[str, any] | list[dict[str, str]]:
         if mode == 'textgen':
-            history = [self.confirmation]
+            history = []
+            if self.confirmation:
+                history += [self.confirmation]
             if self.examples:
                 history += self.examples
             return dict(
@@ -120,14 +122,17 @@ class Prompt:
                 {
                     'role': 'system',
                     'content': self.instruction,
-                },{
-                    'role': 'user',
-                    'content': self.confirmation[0],
-                },{
-                    'role': 'assistant',
-                    'content': self.confirmation[1],
                 }
             ]
+            if self.confirmation:
+                messages += [{
+                        'role': 'user',
+                        'content': self.confirmation[0],
+                    },{
+                        'role': 'assistant',
+                        'content': self.confirmation[1],
+                    }
+                ]
             if self.examples:
                 for example in self.examples:
                     messages += [
@@ -153,9 +158,11 @@ class Prompt:
         task: Task, 
         prev_response: str,
         mode: Literal['openai', 'textgen'] = 'textgen'
-    ) -> dict[str, any]:
+    ) -> dict[str, any] | list[dict[str,str]]:
         if mode == 'textgen':
-            history = [self.confirmation]
+            history = []
+            if self.confirmation:
+                history += [self.confirmation]
             if self.examples:
                 history += self.examples
             history += [[self.wrap_task(task), prev_response]]
@@ -173,14 +180,17 @@ class Prompt:
                 {
                     'role': 'system',
                     'content': self.instruction,
-                },{
-                    'role': 'user',
-                    'content': self.confirmation[0],
-                },{
-                    'role': 'assistant',
-                    'content': self.confirmation[1],
-                }
+                } 
             ]
+            if self.confirmation:
+                messages += [{
+                        'role': 'user',
+                        'content': self.confirmation[0],
+                    },{
+                        'role': 'assistant',
+                        'content': self.confirmation[1],
+                    }
+                ]
             if self.examples:
                 for example in self.examples:
                     messages += [
@@ -218,36 +228,37 @@ class Prompt:
         model: str = 'gpt-4',
         delay: int = -1,
         max_retry: int = -1,
-    ) -> int | None:
-        params = self.build(task=task, mode=mode)
-
+    ) -> tuple[str,int | None]:
         mode = 'textgen'
         if model in ['gpt-4']:
             mode = 'openai'
+
+        params = self.build(task=task, mode=mode)
 
         if mode == 'textgen':
             output = send_request(api_endpoint, params)
         elif mode == 'openai':
             output = openai.ChatCompletion.create(
                 model = model, 
-                max_tokens = 10,
+                max_tokens = 300,
                 messages = params,
                 temperature = 1.2,
             )['choices'][0]['message']['content']
         else:
             raise NotImplementedError('Unknown prompt mode')
-        output = remove_delimiters(output)
+        prediction = remove_delimiters(output.split('\n')[-1])
 
         print(task.text)
         print('A:', task.alternative_a)
         print('B:', task.alternative_b)
-        print('True label:', self.label_to_text[task.label])
         print('Model output:', output)
+        print('True label:', self.label_to_text[task.label])
+        print('Model prediction:', prediction)
         if delay > 0:
             time.sleep(3)
 
         retry_count = 1
-        while output.lower() not in self.text_to_label:
+        while prediction.lower() not in self.text_to_label:
             params = self.build_retry(
                 task=task, 
                 prev_response=output,
@@ -258,23 +269,24 @@ class Prompt:
             elif mode == 'openai':
                 output = openai.ChatCompletion.create(
                     model = model, 
-                    max_tokens = 10,
+                    max_tokens = 300,
                     messages = params,
                     temperature = 1.2,
                 )['choices'][0]['message']['content']
             else:
                 raise NotImplementedError('Unknown prompt mode')
-            output = remove_delimiters(output)
+            prediction = remove_delimiters(output.split('\n')[-1])
 
             print(f'Retry {retry_count} output:', output)
+            print(f'Prediction:', prediction)
             if delay > 0:
                 time.sleep(delay)
 
             if max_retry != -1 and retry_count == max_retry:
                 print('Tried enough.. we are aborting')
-                return None
+                return output, None
             
             retry_count += 1
         
-        return self.text_to_label[output.lower()]
+        return output, self.text_to_label[prediction.lower()]
 
