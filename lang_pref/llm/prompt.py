@@ -1,5 +1,6 @@
 from __future__ import annotations
 from typing import Literal
+from pathlib import Path
 import yaml
 import time
 import os
@@ -60,7 +61,7 @@ class Prompt:
         }
 
     @staticmethod
-    def load_template(template_path: str) -> Prompt:
+    def load_template(template_path: str | Path) -> Prompt:
         config = yaml.safe_load(open(template_path))
         prompt = Prompt(
             instruction = config['instruction'],
@@ -214,12 +215,15 @@ class Prompt:
         self,
         task: Task,
         api_endpoint: str = 'http://localhost:5000/api/v1/chat',
-        mode: Literal['openai', 'textgen'] = 'textgen',
         model: str = 'gpt-4',
         delay: int = -1,
         max_retry: int = -1,
     ) -> int | None:
         params = self.build(task=task, mode=mode)
+
+        mode = 'textgen'
+        if model in ['gpt-4']:
+            mode = 'openai'
 
         if mode == 'textgen':
             output = send_request(api_endpoint, params)
@@ -239,7 +243,7 @@ class Prompt:
         print('B:', task.alternative_b)
         print('True label:', self.label_to_text[task.label])
         print('Model output:', output)
-        if delay:
+        if delay > 0:
             time.sleep(3)
 
         retry_count = 1

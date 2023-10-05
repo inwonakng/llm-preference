@@ -27,17 +27,20 @@ def pick_examples(dataset):
         example_ids += [example.name]
     return examples, example_ids
 
-
 @click.command()
 @click.option('--dataset', default='college_confidential', help='Name of dataset to use')
 @click.option('--model', default='upstage-llama2-70b-4bit', help='Name of the model to use')
 @click.option('--template', default='inwon', help='Name of template to use for prompts.')
 @click.option('--use_example', is_flag=True, help='Use example in prompt')
+@click.option('--delay',  default = 1, help='Use example in prompt')
+@click.option('--max_retry',  default = 3, help='Use example in prompt')
 def run(
     dataset: str,
     model: str,
     template: str,
     use_example: bool, 
+    delay: int,
+    max_retry: int,
 ):    
     df = pd.read_csv(DATA_PATH / f'{dataset}/dataset.csv')
     prompt = Prompt.load_template(TEMPLATE_PATH / f'{dataset}/{template}.yaml')
@@ -58,23 +61,31 @@ def run(
     with progress_bar() as progress:
         progress_task = progress.add_task(description='Predicting dataset.. ', total = len(to_predict))
         for i, (idx, row) in enumerate(to_predict.iterrows()): 
-            text, option_a, option_b, label = row[['text','alternative_a','alternative_b','label']].values
+            text, option_a, option_b, label = row[['text','alternative_a','alternative_b','label']]
             task = Task(text, label, option_a, option_b)
             result_file = results_dir / f'{idx:06d}.json'
 
             if not result_file.is_file(): 
                 print(f'{i}/{len(to_predict)}')
-                output = prompt.execute(task)
-                result = {
-                    'index': i,
-                    'true_label': label,
-                    'predicted_label': output,
-                }
-                json.dump(
-                    result,
-                    open(result_file, 'w'),
-                    indent = 2,
+                output = prompt.execute(
+                    task, 
+                    model=model,
+                    delay=delay,
+                    max_retry=max_retry,
                 )
+
+                if not output is None:
+                    result = {
+                        'index': i,
+                        'true_label': label,
+                        'predicted_label': output,
+                    }
+                    json.dump(
+                        result,
+                        open(result_file, 'w'),
+                        indent = 2,
+                    )
+
                 print('='*40)
             progress.update(progress_task, advance = 1)
 

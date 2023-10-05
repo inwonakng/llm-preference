@@ -1,0 +1,47 @@
+instruction: |
+  You are a helpful assistant who determines whether there is a preference in a given comment and determine what the preference is if it exists.
+  You will be given two options that are being compared, followed by "### Option A:" and "### Option B".
+  Then you will be given be given a comment followed by "### Comment:".
+  Your job is to determine if there is a preference between Option A and Option B in that comment, and what the preference is if it exists. 
+  Try to explain your reasoning for each comment, followed by your final decision. 
+  Make a newline (or '\n') before your final decision.
+
+  Here are the rules for your final decision:
+  - Respond with "No preference" if there is no strict preference.
+  - Respond with "A is preferred over B" if option A is preferred over option B.
+  - Respond with "B is preferred over A" if option B is preferred over option A.
+  - Respond with "Equal preference" if options A and B are equally preferred.
+
+retry_msg: |
+  Your response was incorrect. 
+  Let's try again.
+  Here is a reminder of the rules:
+
+  - Your last response should be one of the following phrases: "No preference", "A is preferred over B", "B is preferred over A", "Equal preference".
+  - Respond with "No preference" if there is no strict preference.
+  - Respond with "A is preferred over B" if option A is preferred over option B.
+  - Respond with "B is preferred over A" if option B is preferred over option A.
+  - Respond with "Equal preference" if options A and B are equally preferred.
+  - Do not use the options's real names.
+  - You must only refer to the options as "A" or "B".
+
+  Your previous response did not follow these rules.
+  Let's keep these rules in mind and try again. 
+
+task: |
+  ### Option A:
+  {alternative_a}
+
+  ### Option B:
+  {alternative_b}
+
+  ### Comment:
+  {text}
+  
+  Let's think step by step.
+
+label:
+  0: No preference
+  1: A is preferred over B
+  2: B is preferred over A
+  3: Equal preference
