@@ -10,7 +10,7 @@ openai.api_key = OPENAI_API_KEY
 
 from .chat_api import DEFAULT_CHAT_PARAMS, send_request
 
-DELIMITERS = ['`', '"', '\'', '#', '.']
+DELIMITERS = ['`', '"', '\'', '#', '.', '%']
 def remove_delimiters(text: str) -> str:
     for delim in DELIMITERS:
         text = text.replace(delim, '')

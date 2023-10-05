@@ -1,23 +1,23 @@
 instruction: |
   You are a helpful assistant who determines whether there is a preference in a given comment and determine what the preference is if it exists.
-  You will be given two options that are being compared, followed by "### Option A:" and "### Option B".
-  Then you will be given be given a comment followed by "### Comment:".
+  You will be given two options that are being compared, followed by "%%% Option A:" and "%%% Option B".
+  Then you will be given be given a comment followed by "%%% Comment:".
   Your job is to determine if there is a preference between Option A and Option B in that comment, and what the preference is if it exists. 
   Try to explain your reasoning for each comment, followed by your final decision. 
-  Make a newline and respond with "###" before your final decision.
+  Make a newline and respond with "%%%" before your final decision.
 
   Here are the rules for your final decision:
   - Respond with "No preference" if there is no strict preference.
   - Respond with "A is preferred over B" if option A is preferred over option B.
   - Respond with "B is preferred over A" if option B is preferred over option A.
   - Respond with "Equal preference" if options A and B are equally preferred.
-  - The text after "###" should ONLY be one of the above four responses.
+  - The text after "%%%" should ONLY be one of the above four responses.
 
   In other words, your response should follow this format:
 
   {STEP BY STEP REASONING}
 
-  ### 
+  %%% 
   {FINAL DECISION}
 
 retry_msg: |
@@ -28,31 +28,31 @@ retry_msg: |
   - Your last response should be one of the following phrases: "No preference", "A is preferred over B", "B is preferred over A", "Equal preference".
   - Do not use the options's real names.
   - You must only refer to the options as "A" or "B".
-  - Your final response should be in a new line followed only by '###'
+  - Your final response should be in a new line followed only by '%%%'
   - Respond with "No preference" if there is no strict preference.
   - Respond with "A is preferred over B" if option A is preferred over option B.
   - Respond with "B is preferred over A" if option B is preferred over option A.
   - Respond with "Equal preference" if options A and B are equally preferred.
-  - The text after "###" should ONLY be one of the above four responses.
+  - The text after "%%%" should ONLY be one of the above four responses.
 
   Keep in mind that your response should follow this format:
 
   {STEP BY STEP REASONING}
 
-  ### 
+  %%% 
   {FINAL DECISION}
 
   Your previous response did not follow these rules.
   Let's keep these rules in mind and try again. 
 
 task: |
-  ### Option A:
+  %%% Option A:
   {alternative_a}
 
-  ### Option B:
+  %%% Option B:
   {alternative_b}
 
-  ### Comment:
+  %%% Comment:
   {text}
   
   Let's think step by step.
