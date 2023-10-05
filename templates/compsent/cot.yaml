@@ -24,6 +24,7 @@ retry_msg: |
   - Respond with "Equal preference" if options A and B are equally preferred.
   - Do not use the options's real names.
   - You must only refer to the options as "A" or "B".
+  - Your final response should be in a new line followed only by '###'
 
   Your previous response did not follow these rules.
   Let's keep these rules in mind and try again. 
