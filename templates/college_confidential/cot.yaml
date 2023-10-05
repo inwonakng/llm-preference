@@ -34,8 +34,8 @@ retry_msg: |
   - Respond with "A is preferred over B" if option A is preferred over option B.
   - Respond with "B is preferred over A" if option B is preferred over option A.
   - Respond with "Equal preference" if options A and B are equally preferred.
-  - Your final response should be in a new line (\n) followed only by '%%%'
   - The text after "%%%" should ONLY be one of the above four responses.
+  - Your final response MUST BE in a new line (\n) followed ONLY by '%%%'
 
   Keep in mind that your response should follow this format:
 
