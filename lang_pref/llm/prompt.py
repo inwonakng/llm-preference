@@ -269,7 +269,7 @@ class Prompt:
                 mode=mode
             )
             if mode == 'textgen':
-                output = send_request(api_endpoint, params).replace()
+                output = send_request(api_endpoint, params)
             elif mode == 'openai':
                 output = openai.ChatCompletion.create(
                     model = model, 
