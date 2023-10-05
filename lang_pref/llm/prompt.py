@@ -10,7 +10,7 @@ openai.api_key = OPENAI_API_KEY
 
 from .chat_api import DEFAULT_CHAT_PARAMS, send_request
 
-DELIMITERS = ['```', '"""', '### ']
+DELIMITERS = ['```', '"""', '### ', '.']
 def remove_delimiters(text: str) -> str:
     for delim in DELIMITERS:
         text = text.replace(delim, '')
@@ -259,6 +259,10 @@ class Prompt:
 
         retry_count = 1
         while prediction.lower() not in self.text_to_label:
+            if max_retry != -1 and retry_count == max_retry:
+                print('Tried enough.. we are aborting')
+                return output, None
+
             params = self.build_retry(
                 task=task, 
                 prev_response=output,
@@ -281,10 +285,6 @@ class Prompt:
             print(f'Prediction:', prediction)
             if delay > 0:
                 time.sleep(delay)
-
-            if max_retry != -1 and retry_count == max_retry:
-                print('Tried enough.. we are aborting')
-                return output, None
             
             retry_count += 1
         
