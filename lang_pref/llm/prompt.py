@@ -251,8 +251,9 @@ class Prompt:
         print(task.text)
         print('A:', task.alternative_a)
         print('B:', task.alternative_b)
-        print('Model output:', output)
+        print('-'*40)
         print('True label:', self.label_to_text[task.label])
+        print('Model output:', output)
         print('Model prediction:', prediction)
         if delay > 0:
             time.sleep(3)
