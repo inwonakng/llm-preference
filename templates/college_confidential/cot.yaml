@@ -13,6 +13,13 @@ instruction: |
   - Respond with "Equal preference" if options A and B are equally preferred.
   - The text after "###" should ONLY be one of the above four responses.
 
+  In other words, your response should follow this format:
+
+  {STEP BY STEP REASONING}
+
+  ### 
+  {FINAL DECISION}
+
 retry_msg: |
   Your response was incorrect. 
   Let's try again.
@@ -27,6 +34,13 @@ retry_msg: |
   - Respond with "B is preferred over A" if option B is preferred over option A.
   - Respond with "Equal preference" if options A and B are equally preferred.
   - The text after "###" should ONLY be one of the above four responses.
+
+  Keep in mind that your response should follow this format:
+
+  {STEP BY STEP REASONING}
+
+  ### 
+  {FINAL DECISION}
 
   Your previous response did not follow these rules.
   Let's keep these rules in mind and try again. 
