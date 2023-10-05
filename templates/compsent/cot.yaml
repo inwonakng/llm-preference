@@ -12,6 +12,7 @@ instruction: |
   - Respond with "B is preferred over A" if option B is preferred over option A.
   - Respond with "Equal preference" if options A and B are equally preferred.
   - The text after "%%%" should ONLY be one of the above four responses.
+  - Do not put anything else after "%%%".
 
   In other words, your response should follow this format:
 
@@ -19,6 +20,7 @@ instruction: |
 
   %%% 
   {FINAL DECISION}
+
 
 retry_msg: |
   Your response was incorrect. 
@@ -34,6 +36,7 @@ retry_msg: |
   - Respond with "B is preferred over A" if option B is preferred over option A.
   - Respond with "Equal preference" if options A and B are equally preferred.
   - The text after "%%%" should ONLY be one of the above four responses.
+  - Do not put anything else after "%%%".
 
   Keep in mind that your response should follow this format:
 
