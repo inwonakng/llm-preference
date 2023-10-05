@@ -281,6 +281,7 @@ class Prompt:
                 raise NotImplementedError('Unknown prompt mode')
             prediction = remove_delimiters(output.split('\n')[-1])
 
+            print('-'*40)
             print(f'Retry {retry_count} output:', output)
             print(f'Prediction:', prediction)
             if delay > 0:
