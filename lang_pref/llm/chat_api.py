@@ -2,9 +2,9 @@ import requests
 import html
 
 DEFAULT_CHAT_PARAMS = {
-    # 'user_input': 'Say something interesting',
-    # 'history': [],
-    # 'context_instruct': '', # Optional
+    'user_input': 'Say something interesting',
+    'history': [],
+    'context_instruct': '', # Optional
 
     'max_new_tokens': 500,
     'auto_max_new_tokens': False,
@@ -58,7 +58,19 @@ DEFAULT_CHAT_PARAMS = {
     'stopping_strings': []
 }
 
-def send_request(endpoint: str, params: dict[str, any]) -> str:
+def send_request(
+    endpoint: str,
+    messages: dict[str, str | dict[str, list[list[str]]]],
+    temperature: float,
+    max_tokens: int,
+) -> str:
+    params = {**DEFAULT_CHAT_PARAMS}
+    params['user_input'] = messages['user_input']
+    params['history'] = messages['history']
+    params['context_instruct'] = messages['context_instruct']
+    params['temperature'] = temperature
+    params['max_new_tokens'] = max_tokens
+
     response = requests.post(endpoint, json=params)
 
     if response.status_code == 200:

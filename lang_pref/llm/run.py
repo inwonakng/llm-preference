@@ -32,13 +32,17 @@ def pick_examples(dataset):
 @click.option('--model', default='upstage-llama2-70b-4bit', help='Name of the model to use')
 @click.option('--template', default='inwon', help='Name of template to use for prompts.')
 @click.option('--use_example', is_flag=True, help='Use example in prompt')
-@click.option('--delay',  default = 1, help='Use example in prompt')
-@click.option('--max_retry',  default = 3, help='Use example in prompt')
+@click.option('--temperature', default = 0.7, help='Temperature to use in model')
+@click.option('--max_tokens', default = 300, help='Maximum number of tokens the model can output')
+@click.option('--delay', default = 1, help='Use example in prompt')
+@click.option('--max_retry', default = 3, help='Use example in prompt')
 def run(
     dataset: str,
     model: str,
     template: str,
     use_example: bool, 
+    temperature: float,
+    max_tokens: int,
     delay: int,
     max_retry: int,
 ):    
@@ -70,6 +74,8 @@ def run(
                 output,prediction = prompt.execute(
                     task, 
                     model=model,
+                    temperature=temperature,
+                    max_tokens=max_tokens,
                     delay=delay,
                     max_retry=max_retry,
                 )
