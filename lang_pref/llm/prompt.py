@@ -252,8 +252,10 @@ class Prompt:
         print('A:', task.alternative_a)
         print('B:', task.alternative_b)
         print('-'*40)
+        print('Model output:')
+        print(output)
+        print()
         print('True label:', self.label_to_text[task.label])
-        print('Model output:', output)
         print('Model prediction:', prediction)
         if delay > 0:
             time.sleep(3)
@@ -283,7 +285,9 @@ class Prompt:
             prediction = remove_delimiters(output.split('\n')[-1])
 
             print('-'*40)
-            print(f'Retry {retry_count} output:', output)
+            print(f'Retry {retry_count} output:')
+            print(output)
+            print()
             print(f'Prediction:', prediction)
             if delay > 0:
                 time.sleep(delay)

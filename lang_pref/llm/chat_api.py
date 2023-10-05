@@ -6,7 +6,7 @@ DEFAULT_CHAT_PARAMS = {
     # 'history': [],
     # 'context_instruct': '', # Optional
 
-    'max_new_tokens': 250,
+    'max_new_tokens': 500,
     'auto_max_new_tokens': False,
     'max_tokens_second': 0,
     'mode': 'instruct',  # Valid options: 'chat', 'chat-instruct', 'instruct'
@@ -28,7 +28,7 @@ DEFAULT_CHAT_PARAMS = {
     # in presets/preset-name.yaml are used instead of the individual numbers.
     'preset': 'None',
     'do_sample': True,
-    'temperature': 0.7,
+    'temperature': 1.2,
     'top_p': 0.3,
     'typical_p': 1,
     'epsilon_cutoff': 0,  # In units of 1e-4
