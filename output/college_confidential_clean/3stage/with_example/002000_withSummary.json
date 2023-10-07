@@ -1,0 +1,15 @@
+{
+  "index": 2000,
+  "true_label": 1,
+  "predicted_label": 1,
+  "tokenCount_commet": 176,
+  "tokenCount_summary_input": 7634,
+  "tokenCount_summary_output": 91,
+  "mean_token_summary_output": 91,
+  "tokenCount_1st_2nd_input": 5138,
+  "tokenCount_1st_2nd_output": 7,
+  "total_tokenCount_summary_input": 8220446,
+  "total_tokenCount_summary_output": 62186,
+  "total_tokenCount_1st_2nd_input": 3136966,
+  "total_tokenCount_1st_2nd_output": 3909
+}

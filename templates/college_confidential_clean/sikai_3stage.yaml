@@ -1,0 +1,81 @@
+instruction: |
+  You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. 
+  The names of the two colleges and the comment are delimited with triple backticks.
+
+  I will ask you the following questions one by one.
+  1. Is there a preference between the two colleges in the comment?
+  2. If there is a preference, summary the comment.
+  3. If there is a preference in the summary from step 2, what is the preference between the two colleges?
+
+  Here are the shared rules for both questions:
+  You MUST refer to the colleges as A or B. 
+  You MUST NOT respond with any other response. 
+  You MUST NOT make up a preference when there is no preference in the comment.
+
+question_1st_stage: |
+  Is there a preference between the two colleges in the comment?
+  You MUST respond ```No preference``` if there is no explicit preference in the comment.
+  You MUST respond ```Has preference``` if there is explicit preference in the comment.
+
+task: |
+  College A: ```{alternative_a}```
+  College B: ```{alternative_b}```
+  Comment: ```{text}```
+
+question_summary: |
+  Summarize the comment with preference.
+  Here are the guidelines:\
+  1. The comment will be prefixed with "Comment: ".\
+  2. The two given universities will be prefixed with "Choices: ", and separated by "&". 
+  Examples: "Choices: California Institute of Technology & Johns Hopkins University".
+  3. Now you must give your answer after "Response: ".\
+  The response must include the names of the given two universities from "Choices" and the preference of the "Comment".\
+  Last but not the least, If the comment is about the reference between California Institute of Technology and Johns Hopkins University, \
+  but the choise is university California Institute of Technology and  Boston university, you should just response "No preference stated between California Institute of Technology and Boston university".
+  4. Do not overly deduce
+
+question_2nd_stage: |
+  Based on your responce. What is the preference between the two colleges?
+  You MUST respond ```A is preferred over B``` if college A is preferred over college B.
+  You MUST respond ```B is preferred over A``` if college B is preferred over college A.
+  You MUST respond ```Equal preference``` if colleges A and B are equally preferred.
+
+retry_msg_1st_stage: |
+  You have an incorrect format in your response. 
+  Here is a reminder of the rules:
+  You MUST NOT use the colleges' real names.
+  You MUST refer to the colleges as A or B. 
+  You MUST NOT make up a preference when there is no preference in the comment.
+  You MUST respond ```No preference``` if there is no explicit preference in the comment.
+  You MUST respond ```Has preference``` if there is explicit preference in the comment.
+  You MUST respond with ```No preference``` or ```Has preference```.
+
+retry_msg_summary: |
+  Your current response was incorrect, because your previous response did not include the names of the given two universities from Choices.\
+  Please update your approach to ensure your response:
+    - Includes the names of the given two universities from Choices
+    - States which university is preferred, or if there is no preference
+  If the comment is about the reference between California Institute of Technology and Johns Hopkins University, \
+  but the choise is university California Institute of Technology and Boston university, response "No preference stated between California Institute of Technology and Boston university".
+  Let's try again, remember that your response is within 3-20 words, and do not overly deduce!
+
+retry_msg_2nd_stage: |
+  You have an incorrect format in your response. 
+  Here is a reminder of the rules:
+  You MUST NOT use the colleges' real names.
+  You MUST refer to the colleges as A or B. 
+  You MUST NOT make up a preference when there is no preference in the comment.
+  You MUST respond with ```A is preferred over B``` if college A is preferred over college B.
+  You MUST respond with ```B is preferred over A``` if college B is preferred over college A.
+  You MUST respond with ```Equal preference``` if colleges A and B are equally preferred.
+  You MUST respond with ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.
+
+label_binary:
+  0: 'No preference'
+  1: 'Has preference'
+
+label:
+  0: 'No preference'
+  1: 'A is preferred over B'
+  2: 'B is preferred over A'
+  3: 'Equal preference'

@@ -1,0 +1,37 @@
+instruction: |
+  You will encounter comments on the College Confidential website where people are discussing and comparing two universities.\
+  Your task is to analyze people's comments and their preference between the two universities provided.\
+  Here are the guidelines:\
+  1. The comment will be prefixed with "Comment: ".\
+  2. The two given universities will be prefixed with "Choices: ", and separated by "&". 
+  Examples: "Choices: California Institute of Technology & Johns Hopkins University".
+  3. Now you must give your answer after "Response: ".\
+  Summarize the comment in 3-20 words.\
+  The response must include the names of the given universities from "Choices" and the preference of the "Comment".\
+  Last but not the least, If the comment is about the reference between university A and universities B, \
+  but the choise is university A and universities C, you should just response "No preference stated between university A and universities C".
+  4. Do not overly deduce
+
+confirmation:
+  - Answer "YES" if you are ready.
+  - YES, I am ready. Please provide the user's comment and the two universities they are comparing.
+
+retry_msg: |
+  Your current response was incorrect, because your previous response did not include the names of the given universities from Choices.\
+  Please update your approach to ensure your response:
+    - Includes the names of the given universities from Choices
+    - States which university is preferred, or if there is no preference
+  If the comment compares University A and University B, but the choices given are University A and University C, \
+  respond: "There is no preference stated between University A and University C."
+  Let's try again, remember that your response is within 3-20 words, and do not overly deduce!
+
+task: |
+  Comment: {text}
+  Choices: {alternative_a} & {alternative_b}
+  Response: 
+
+label:
+  0: 'no'
+  1: 'first'
+  2: 'second'
+  3: 'equal'

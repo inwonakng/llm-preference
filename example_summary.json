@@ -1,0 +1,24 @@
+{
+    "example": [
+        [
+            "Comment: I would prefer Stanford rather than UCB.",
+            "Choices: Stanford University & University of California, Berkeley",
+            "content: Stanford University is better than University of California, Berkeley"
+        ],
+        [
+            "Comment: I like Boston University.",
+            "Choices: Stanford University & Boston University",
+            "content: Boston University is better than Stanford University"
+        ],
+        [
+            "Comment: I don't know which university is better.",
+            "Choices: Columbia University & University of Michigan",
+            "content: The comment suggests no preference on Columbia University and University of Michigan"
+        ],
+        [
+            "Comment: University of Michigan and Columbia University are the same good.",
+            "Choices: University of Michigan & Columbia University",
+            "content: The University of Michigan and Columbia University are two universities as good as each other."
+        ]
+    ]
+}

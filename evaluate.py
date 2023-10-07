@@ -26,8 +26,8 @@ def get_metrics(y_true, y_pred, n_classes):
     }]
 
 @click.command()
-@click.option('--dataset', default='college_confidential', help='Name of dataset to use')
-@click.option('--template', default='inwon', help='Name of template to use for prompts.')
+@click.option('--dataset', default='college_confidential_clean', help='Name of dataset to use')
+@click.option('--template', default='sikai_3stage', help='Name of template to use for prompts.')
 @click.option('--use_example', is_flag=True, help='Use example in prompt')
 def evaluate(
     dataset: str,
@@ -47,11 +47,13 @@ def evaluate(
 
     true_labels = []
     predicted_labels = []
+    c = 0
     for f in results_dir.glob('*.json'):
         result = json.load(open(f))
+        # if len(result.keys()) == 3:
         true_labels += [result['true_label']]
         predicted_labels += [result['predicted_label']]
-
+            
     true_labels = np.array(true_labels)
     predicted_labels = np.array(predicted_labels)
 
