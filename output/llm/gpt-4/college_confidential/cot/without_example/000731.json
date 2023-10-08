@@ -1,0 +1,6 @@
+{
+  "index": 731,
+  "true_label": 0,
+  "model_output": "First, we see that the comment is enquiring about prospects from both the University of Pennsylvania and New York University, specifically with regards to their economics/business programs - Wharton and Stern, respectively.\nSecondly, the user goes further to note average starting salaries of MBA graduates from both universities - with Penn-Wharton leading by about 9.2k over NYU-Stern from the cited data.\nThis indicates a degree of concern or investigation into potential earning disparities between graduates from the two institutions which may suggest a preference. However, they have not clearly expressed whether earning potential from either institution satisfies their criteria.\nThus, it's not certain if they exhibit a direct preference from their text.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

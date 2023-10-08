@@ -1,0 +1,6 @@
+{
+  "index": 119,
+  "true_label": 3,
+  "model_output": "The comment does not express a direct preference toward either Option A or Option B. Moreso, it offers congratulatory remarks and advice for making a decision based on few factors.\n\nLooking closer at the information specified, the user provides important guidelines concerning the need for comparing both institutions such as cost, finance, major discipline, and campus environment etc., but without showing preference to any one of the options. \n\nTherefore, it would seem that there is no preference displayed for Option A or Option B in this individual's view.\n\n###\n\nNo preference",
+  "predicted_label": 0
+}

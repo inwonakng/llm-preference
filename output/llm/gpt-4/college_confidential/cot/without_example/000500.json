@@ -1,0 +1,6 @@
+{
+  "index": 500,
+  "true_label": 2,
+  "model_output": "1. The comment matches perfectly with their stated preference \u2014 they believe option B to be superior, and they indicate that they lean in the direction of option B or \"the Kenyon camp\" from very early in their comment. \n2. The commenter then details personal experience with both options (through the lens of their daughter\u2019s choices and experiences) demonstrating a clearly observed favor of option B since the daughter chose to deposit at B while not even considering option A.\n3. The comment proceeds to differentiate between both options especially distinguishing B with comments about its \"relaxed and creative\" environment and highlights their High-quality faculty.\n4. Lastly, while both options are recognized as excellent choices by the commenter, they end with a less positive sentiment towards option A emphasizing their disposition to it being \"overly-earnest and artificial\".\n\nResulting from the above posture analysis,\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 752,
+  "true_label": 0,
+  "model_output": "First, we need to identify if either of the given options, University of Pennsylvania or New York University, are mentioned in the comment. \n\nUpon examining the comment, we can see that while there are several universities mentioned, neither University of Pennsylvania nor New York University are mentioned. \n\nThe comment discusses Harvard, Wharton, Yale, Princeton, and Stanford, but does not make any mention or comparison of University of Pennsylvania and New York University.\n\nBecause neither of the options are mentioned, we cannot determine a preference from this comment.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

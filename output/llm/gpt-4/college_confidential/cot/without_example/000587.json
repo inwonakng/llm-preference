@@ -1,0 +1,6 @@
+{
+  "index": 587,
+  "true_label": 2,
+  "model_output": "The commenter points out that they believe \"VT\" (Virginia Tech) is the right place for his son and explains positive experiences with the VT engineering program. The language and tone used when discussing Virginia Tech is particularly enthusiastic and supportive. There is a suggestion for others to seek out the same positive experience at Virginia Tech.\nCornell University is mentioned passively as a school her son got rejected from. The feelings towards Cornell seems to be disappointment, but viewing it as ultimately a stroke of luck as her son ended up having a great experience at Virginia Tech.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

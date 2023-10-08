@@ -1,0 +1,6 @@
+{
+  "index": 967,
+  "true_label": 0,
+  "model_output": "1. The comment mentions both the University of Southern California (USC) and the University of Illinois at Urbana-Champaign.\n\n2. The comment discusses a full tuition scholarship at USC, which would result in significant savings.\n\n3. No direct comparison is made between the two universities, but the financial benefit of attending USC is highlighted. \n\n4. The last part of the comment suggests that the decision is up to the individual, indicating that there might not be a strict preference for either option. \n\nDespite the last point, due to the emphasis on the financial benefit of the scholarship at USC, there seems to be a slight preference for it. \n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

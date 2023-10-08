@@ -1,0 +1,6 @@
+{
+  "index": 575,
+  "true_label": 3,
+  "model_output": "The user starts out the comment by discussing the merits of Virginia Tech, and informs about a program for female engineering students. The individual goes on to talk about their son's membership, presenting it in a positive light, and discusses the career fair and generous post-grad outcomes at VT. They corroborate their Virginia Tech praise by ending with \u201cVT engineers are very well-recruited by many different companies.\"\n\nHowever, the user doesn't leave Cornell neglected. The individual acknowledges, \"Of course, Cornell is an excellent choice as well.\". Even though this statement is more general and doesn't contain any specific anecdotes or facts about the school, it shows an implicit affirmation of Cornell's worth.\n\nIn the last part of the comment, the user argues the ultimate deciding factor in choice of university should not necessarily be the perceived prestige or external influence, but individual preference and familiarity.\n\nTherefore despite starting and ending by praising Virginia Tech, the user seems to objectively recognize both schools' value and doesn\u2019t explicitly state one is preferable over the other while emphasizing the importance of personal vote and personal comfort.  \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 238,
+  "true_label": 2,
+  "model_output": "The comment mentions \"Congrats on the VT acceptance\", indicating that the person has been accepted into Virginia Tech. However, the speaker doesn't show any comparison with Pennsylvania State University. Their comment seems to focus primarily on Virginia Tech, and they also express enthusiasm (\"keep it coming!!\") for more updates about this acceptance. Nevertheless, it doesn't necessarily indicate a personal preference of the speaker for Virginia Tech over Pennsylvania State University.\n\n### No preference",
+  "predicted_label": 0
+}

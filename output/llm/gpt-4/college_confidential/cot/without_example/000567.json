@@ -1,0 +1,6 @@
+{
+  "index": 567,
+  "true_label": 3,
+  "model_output": "The commenter does not signal a preference for either the University of Rochester or Emory University in their comment. Instead, they reject the premise of the question, implying that both higher education institutions are outstanding in their own respects. The commenter also berates the Poster (OP) for consistently seeking advice on what appears to be a fruitless endeavor to realistically predict GPA outcomes based on school choice.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

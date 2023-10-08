@@ -1,0 +1,6 @@
+{
+  "index": 116,
+  "true_label": 0,
+  "model_output": "The comment focuses largely on the Georgia Institute of Technology, otherwise known as GT. The commenter displays a clear defense of GT, providing historical perspective and stressing it\u2019s rigorous and highly quantitative program. Meanwhile, there seems to be no mention or comparison made about Johns Hopkins University.\n\n### \nB is preferred over A.",
+  "predicted_label": 2
+}

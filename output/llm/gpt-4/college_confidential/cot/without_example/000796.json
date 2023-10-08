@@ -1,0 +1,6 @@
+{
+  "index": 796,
+  "true_label": 1,
+  "model_output": "The comment is comparing Pomona College and Johns Hopkins University in terms of their Computer Science (CS) programs. The user mentions knowing a number of students from Pomona who went to work at various big tech companies and also states that \"outcomes are not the issue when it comes to CS at Pomona.\" This indicates a positive view of Pomona's CS program. The user also states that they've looked enviously at their friends from Pomona, suggesting that they view Pomona's program as desirable. However, they don't mention any specifics about Johns Hopkins's CS program, so we can't compare the two directly based on this comment.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

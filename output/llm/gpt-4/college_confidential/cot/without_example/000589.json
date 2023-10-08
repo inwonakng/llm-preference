@@ -1,0 +1,6 @@
+{
+  "index": 589,
+  "true_label": 2,
+  "model_output": "First, there is a mention of the money saving aspect associated with option B (Maryland), suggesting some kind of preference.\nThe speaker then makes a promising assertion about Maryland, displaying respect for its reputation and illustrating that Maryland has successful alumni.\nThis shows appreciation for option B (Maryland), but doesn't really say anything about option A (Berkeley).\n\nFrom this, we can deduce that the speaker sees Maryland as a competitive and affordable choice but doesn't offer any direct or comparative perspective on Berkeley.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

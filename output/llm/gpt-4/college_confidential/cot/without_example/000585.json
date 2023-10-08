@@ -1,0 +1,6 @@
+{
+  "index": 585,
+  "true_label": 2,
+  "model_output": "The comment mentions only Virginia Tech (VT) and characterizes it as a \"solid choice.\" This indicates a positive view towards Virginia Tech. \nHowever, the comment completely lacks any mention or allusion to Cornell University. Therefore, a comparison of the two cannot occur due to the absence of opinion on Cornell University in the comment. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 812,
+  "true_label": 1,
+  "model_output": "The comment is made by a person who is biased towards Pomona College, as their kid is studying there. The comment quotes advice from the user's sister who had both Large Academic College (LAC) and Ivy League experiences. The advice suggests that experiencing a small LAC like Pomona College is unique and can only be done as an undergrad, whereas big universities, such as Johns Hopkins University, can be attended at a later stage for grad school. \n\nTherefore, the comment shows a preference towards attending a small LAC, in this case, Pomona College, for undergraduate studies over attending a big university like Johns Hopkins University.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

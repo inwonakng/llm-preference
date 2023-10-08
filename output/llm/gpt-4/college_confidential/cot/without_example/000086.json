@@ -1,0 +1,6 @@
+{
+  "index": 86,
+  "true_label": 0,
+  "model_output": "Taking the comment into context, it seems like a ranking evaluation of various engineering programs. There seems to be no direct mention or comparison between Johns Hopkins University (Option A) and the Georgia Institute of Technology (Option B). \"GATech\" probably refers to Georgia Institute of Technology as the abbreviation match, but Johns Hopkins University is noticeably absent. It remains unclear whether the comment is preferential towards Johns Hopkins University or Georgia Institute of Technology.\n\nHowever, we possibly could infer this commenter might find the Georgia Institute of Technology more favorable based on its rankings, but without evidence pointing directly to Johns Hopkins University, it involves too much conjecture to entirely settle on favoritism.\n\n### No preference",
+  "predicted_label": 0
+}

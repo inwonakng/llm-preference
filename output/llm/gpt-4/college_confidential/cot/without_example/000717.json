@@ -1,0 +1,6 @@
+{
+  "index": 717,
+  "true_label": 1,
+  "model_output": "1. When looking at this comment, we see that the person has experience with both Option A (University of Pennsylvania) and Option B (New York University).\n\n2. They didn't express a clear favorability for one versus the other, but they did make a few mentions that could potentially indicate a preference.\n\n3. They stated that they \"definitely felt that the Wharton (University of Pennsylvania) undergrad classes were more advanced (and harder)\" than their classes at Stern (NYU). Thus, in terms of the difficulty level and advancement of the classes, they indicate a preference for Option A - University of Pennsylvania.\n\n4. They also mentioned that the \"caliber of students at Wharton was higher than at Stern.\" This indicates a perception of the student body and suggests preference to the University of Pennsylvania over New York University. But, they also pointed out that this might be due to the difference between undergrad and grad school conditions.\n\nTaking all these observations into consideration, it appears that they have a slight lean towards Option A.\n\n%%%\nA is preferred over B.",
+  "predicted_label": 1
+}

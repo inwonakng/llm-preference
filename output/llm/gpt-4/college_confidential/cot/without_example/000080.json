@@ -1,0 +1,6 @@
+{
+  "index": 80,
+  "true_label": 0,
+  "model_output": "The comment seems to be providing advice for someone who might attend \"those three schools\" for a BME (Biomedical Engineering) major. No explicit propensity for either Johns Hopkins University or Georgia Institute of Technology is inscribed in the comment. There appears to be some ambiguity with the \"three schools\" being referenced, including whether Johns Hopkins University or the Georgia Institute of Technology is even part of that group. It implies that the person considering these options shouldn't go for a premed track in these institutions but doesn't provide concrete opinion specifically regarding Johns Hopkins University and Georgia Institute of Technology. \n\nTherefore, we can affirm that no preference is visible for either Johns Hopkins University or the Georgia Institute of Technology based on this comment.\n\n### No preference",
+  "predicted_label": 0
+}

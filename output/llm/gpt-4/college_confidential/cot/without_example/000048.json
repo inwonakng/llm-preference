@@ -1,0 +1,6 @@
+{
+  "index": 48,
+  "true_label": 2,
+  "model_output": "Firstly, I notice that Coloradomama seems critical towards Caltech, mentioning the high pressure environment suggested by supposedly high levels of dropout and suicide rates. The graduation rates comparison also seems to favor JHU over Caltech, implying a preference.\n\nSecondly, judgegregg analyzes the student demographics, particularly class sizes and gender ratios. Here, JHU appears more balanced in gender ratio and seems to have a larger share of its classes with fewer than 20 students, again suggesting preference for JHU.\n\nIn their comments, Option A (Caltech) appears to be portrayed in a harsher light compared to Option B (John Hopkins), with several cons being presented for Caltech vs few or no cons presented for JHU.\n\n### B is preferred over A.",
+  "predicted_label": 2
+}

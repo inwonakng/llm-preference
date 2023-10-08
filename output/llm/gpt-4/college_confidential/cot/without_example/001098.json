@@ -1,0 +1,6 @@
+{
+  "index": 1098,
+  "true_label": 2,
+  "model_output": "Firstly, the comment indicates that the son fell in love with Stanford University because of a student guide who was very happy and passionate about the school. This suggests a preference for Stanford University. \n\nHowever, later in the comment, it is mentioned that the son decided to pursue dance along with biology and that USC's dance program became his first choice, indicating a clear preference for USC. The comment also states that as of now, he would choose USC regardless of the scholarship, which solidifies this preference.\n\nIn conclusion, even though there was an initial preference for Stanford University, the final preference leans towards the University of Southern California (USC) because of the son's interest in their dance program.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

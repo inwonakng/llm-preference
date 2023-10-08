@@ -1,0 +1,6 @@
+{
+  "index": 435,
+  "true_label": 1,
+  "model_output": "First, there is mention of IU (Indiana University), and specifically the Kelley business program is mentioned. The commenter seems unhappy with the factuality of the Honors program in IU, indicating some negative perspective towards IU or at least this specific aspect.\n\nSecond, University of Georgia wasn't mentioned in the comment. Therefore, it remains neutral with no positive or negative judgement added to it directly in this specific commentary.\n\nGiven this, it seems like this comment might incline slightly towards the University of Georgia just because it doesn't harbor the negative sentiment that is associated with Indiana University in this context.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

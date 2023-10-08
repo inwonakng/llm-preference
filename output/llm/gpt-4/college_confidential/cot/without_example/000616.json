@@ -1,0 +1,6 @@
+{
+  "index": 616,
+  "true_label": 0,
+  "model_output": "1. The comment primarily discusses about the individual (presumably a student) who got accepted into UCB, which is option A.\n\n2. However, it does not compare UCB, Option A, which is the University of California, Berkley and Option B, the University of Maryland.\n\n3. They only mention one - UCB - and do not bring up the option of University of Maryland at all.\n\n4. So, the mention of UCB does not necessarily mean it's preferred over the University of Maryland since no comparison is drawn. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

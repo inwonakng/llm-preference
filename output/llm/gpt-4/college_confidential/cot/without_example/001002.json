@@ -1,0 +1,6 @@
+{
+  "index": 1002,
+  "true_label": 2,
+  "model_output": "The comment suggests that the person is comparing the three universities: Harvard, Stanford, and USC. They are considering two scenarios, one where finances do not matter and the other where they do. In the first scenario, Harvard and Stanford are considered as the choice, implying that they are preferred over USC. When finances are added back into the picture, USC is presented as an alternative to Harvard and Stanford if attending those would cause significant hardship. This implies that, under financial constraints, USC might be preferred due to its lower cost.\n\nIn conclusion, the preference appears to be conditionally dependent on the financial situation. If finances are not a concern, Stanford (option A) is preferred over USC (option B). If finances are a concern, the comment suggests that USC might be the more preferred option. However, the comment does not definitively state that USC would be chosen over Stanford in a situation of financial constraint, it is just presented as an alternative.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

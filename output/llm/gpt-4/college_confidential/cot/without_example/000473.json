@@ -1,0 +1,6 @@
+{
+  "index": 473,
+  "true_label": 3,
+  "model_output": "From the comment, there is discussion about the superiority of the University of Georgia (Option A) in terms of its reputation in insurance & risk management and its role in creating the first \"marketing research\" course of study which were highly valued by companies. This indicates a positive opinion towards UGA. \nHowever, at the end of the comment, the speaker is talking about IB and that there are better & wiser choices for one person who is seeking that career, however they did not mention Indiana University (Option B) directly. The individual is not expressing a preference or lack thereof for Indiana University, therefore it's not clear how this comment contrasts in favor of Indiana University in comparison to the University of Georgia.\nThe preference between the two universities is discussed mostly in respect to UGA and not in respect to Indiana University.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

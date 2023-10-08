@@ -1,0 +1,6 @@
+{
+  "index": 658,
+  "true_label": 2,
+  "model_output": "The commenter mentions University of California, Berkeley, also known as Cal, and applies both positive and negative attributes to it. Most of it is, however, referenced in negative terms where the commenter decries the size of the classes and over-reliance on TAs for instruction. The unclear edges of campus are also brought up unfavorably. Positive comments include placing their CS grads into great jobs and having a high-ranking graduate school. Mention of this came with a tone of resignation, emphasizing subjectivity in the assessment.\n\nThe University of Maryland factors nowhere in the passage. Nothing negative is said about it, but nothing positive comes up either.\n\nDespite the mixed sentiments towards Cal, it was given much more attention and in the absence of stated negatives for Maryland it essentially ends up a de facto preference. \n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

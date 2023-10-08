@@ -1,0 +1,6 @@
+{
+  "index": 683,
+  "true_label": 0,
+  "model_output": "First, we note that this comment is detailing class sizes and subject popularity amongst students at some university. Furthermore, it emphasizes the apparent orientation of students towards larger class sizes as being located in Computer Science (CS) based classes. EE (Electrical Engineering) classes conversely seem to host rarer attendance with classes of 30 or less. \n\nSecond, although the two universities - Carnegie Mellon and University of Maryland - were offered as option A and B, neither of these institutions are mentioned explicitly within the comment. It seems the commenter is evaluating an undisclosed third university\u2019s classes. There doesn\u2019t appear to be borrowing or cross-comparison to the two initially given university options made anywhere in the comment. \n\nSo ironically, by discluding both of these universities, we can affirm that there's no preference shown in this comment for either Carnegie Mellon University (Option A) or University of Maryland (Option B). \n\n%%%\nNo preference",
+  "predicted_label": 0
+}

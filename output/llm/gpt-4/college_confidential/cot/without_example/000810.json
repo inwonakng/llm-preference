@@ -1,0 +1,6 @@
+{
+  "index": 810,
+  "true_label": 1,
+  "model_output": "First, the comment mentions that Pomona College is harder to get into, suggesting some level of preference for Pomona due to its perceived prestige. However, it's not clear that this preference is held by the person making the comment, as they could simply be stating a fact.\n\nSecondly, the comment mentions that the person's child was interested in attending a larger school, which suggests a preference for Johns Hopkins University on the part of the child, considering it's larger than Pomona College.\n\nHowever, it's important to note that the comment doesn't explicitly state a preference for either option. Instead, it provides information about both options and implies a preference on the part of the child, not the commenter. The commenter does not clearly state their own preference.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

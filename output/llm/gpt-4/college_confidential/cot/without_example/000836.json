@@ -1,0 +1,6 @@
+{
+  "index": 836,
+  "true_label": 2,
+  "model_output": "This comment is comparing Duke University and Brown University on the basis of grade inflation and how easy it is to get high grades. The commenter mentions that both universities have the same quality of students, but it's harder to get As and high GPAs at Duke. The commenter suggests that, in some situations where GPA heavily influences admissions (like Law School), choosing Brown might be a strategic choice as it's easier to get a high GPA there.\n\nThis suggests a preference for Brown over Duke in situations where a high GPA is crucial. Therefore,\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

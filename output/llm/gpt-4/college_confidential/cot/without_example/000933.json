@@ -1,0 +1,6 @@
+{
+  "index": 933,
+  "true_label": 1,
+  "model_output": "The comment is from someone who has experiences with both Stanford University (Option A) and University of Southern California (Option B). They state that they would be willing to pay extra money to go to Stanford, implying that they value Stanford more. However, they also mention if USC offered them significantly more money, they would easily choose USC. This shows that they prefer Stanford, but that preference can be outweighed by financial considerations.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

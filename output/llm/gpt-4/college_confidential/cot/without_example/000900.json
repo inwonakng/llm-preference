@@ -1,0 +1,6 @@
+{
+  "index": 900,
+  "true_label": 3,
+  "model_output": "1. The user mentions having graduated from Boston University (BU), which may indicate a personal attachment or preference.\n2. However, the user also states that both BU and Boston College (BC) are good schools.\n3. The user suggests students should pick based on which one fits them best, which implies that both universities have their own strengths, and the preference depends on individual fit.\n4. Therefore, the comment does not show a clear preference for either university over the other.\n\n%%%\nEqual preference",
+  "predicted_label": 3
+}

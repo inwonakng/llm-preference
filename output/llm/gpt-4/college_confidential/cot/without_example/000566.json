@@ -1,0 +1,6 @@
+{
+  "index": 566,
+  "true_label": 3,
+  "model_output": "The commenter acknowledges the merits of Emory but states that the three universities that consider Emory higher also recognize as Rochester as higher. The comment also points out that both Emory and Rochester are great schools and resulted in great outcomes so knocking either isn't substantial. Additionally, an anecdote a student preferring Rochester over Emory is shared. However, at the end of the comment there is a modifier: \"[...] just a matter of preference\", pointing towards individual preference rather than a generalized one. Hence, there's incantation of both universities being preferred highly by other institutions, notably, with great outcomes; though an individual specific example of choosing Rochester over Emory was provided. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

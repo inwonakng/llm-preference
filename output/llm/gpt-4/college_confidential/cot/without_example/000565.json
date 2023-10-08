@@ -1,0 +1,6 @@
+{
+  "index": 565,
+  "true_label": 3,
+  "model_output": "The comment doesn't show any significant endorsement or criticism of either the University of Rochester or Emory University. It only mentions that both are good schools and cites the overall reasoning behind their high admission rates for students seeking to enter med school, probably assumed to be Ivy League hopefuls. There aren't negative or positive undertones present that could tip the balance towards one option or the other. Rather, the commenter states that they are both high-quality options together with some other universities. \n\n%%%\nNo preference",
+  "predicted_label": 0
+}

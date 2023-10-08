@@ -1,0 +1,6 @@
+{
+  "index": 695,
+  "true_label": 2,
+  "model_output": "1. The comment discusses a hypothetical case where a student has the option to attend Carnegie Mellon University or University of Maryland. The author discusses the financial aspect of each decision.\n\n2. The beginning focuses on saying that a CMU education costs $270,000, while a UMD education would allow the individual to save a substantial amount of this money, even growing it to a significant amount over time by investing.\n\n3. The author also speaks on the quality of education. They acknowledge that Carnegie Mellon might offer a slightly better or even superior experience, however not one that justifies a $270,000 increase in cost. \n\n4. The comment concludes that no undergraduate degree, regardless of institution, is worth such a high respective cost.\n\nBased on the comment, it seems clear that the author sees far more value in the University of Maryland, case B, rather than Carnegie Mellon, case A. They display clear evidence behind why financially UMD is preferred and also point out that the educational experience doesn't present enough of a difference to justify the financial commitments it requires for CMU.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

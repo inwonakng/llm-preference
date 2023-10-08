@@ -1,0 +1,6 @@
+{
+  "index": 994,
+  "true_label": 3,
+  "model_output": "The comment does not mention either the University of Illinois at Urbana-Champaign or the University of Southern California. The speaker seems to be discussing a financial strategy, not expressing a preference between these two universities. Therefore, we can conclude that there is no preference expressed in this comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

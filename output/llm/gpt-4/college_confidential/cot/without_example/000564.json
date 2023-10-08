@@ -1,0 +1,6 @@
+{
+  "index": 564,
+  "true_label": 3,
+  "model_output": "The comment seems to be discussing the yield figures for Emory University and University of Rochester. It mentions that Emory University has a higher yield figure (27%) as compared to University of Rochester (24%). Therefore, the comment indirectly prefers Emory University as its yield figures are higher. This does suggest that Emory University is more desirable or sought-after than University of Rochester to the general populace. However, the preference isn't posited expressly and it's tangled in statistical, impersonal data. The following statement that \"these schools fall pretty closely together\" also hints that despite differences in yield figures, the commenter considers both universities comparably excellent.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 727,
+  "true_label": 2,
+  "model_output": "Looking at this list of US News Rankings for grad programs in Information Systems, both University of Pennsylvania (Penn\u2013Wharton) and NYU (NYU\u2013Stern) appear. However, there's no explicit statement from the commenter specifying their preference. There's an implicit detail that depends on the interpretation - the correspondent can consider NYU\u2013Stern to bet better since it's listed before Penn\u2013Wharton, but without clear confirmation of preference ranking, this remains speculative. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

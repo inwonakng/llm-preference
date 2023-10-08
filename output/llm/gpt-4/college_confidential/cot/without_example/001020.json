@@ -1,0 +1,6 @@
+{
+  "index": 1020,
+  "true_label": 1,
+  "model_output": "The comment mentions both Stanford University and a famous alum, Tiger Woods. However, it doesn't mention the University of Southern California at all. Therefore, given the information in the comment, it seems there is a preference towards Stanford University, because it was mentioned positively.\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

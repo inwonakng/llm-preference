@@ -1,0 +1,6 @@
+{
+  "index": 389,
+  "true_label": 2,
+  "model_output": "In this comment, the person is speaking positively of Rutgers University and negatively against out-of-state universities, noting the additional cost involved in going out-of-state. The person questions why people would be willing to spend more to have their children study out of state when they could have them studying at a \"commuter school\" such as Rutgers University (Option A). The mention of \"out-of-state\" implies they might be believing Virginia Tech (Option B) to be a less economical solution. The person clearly seems to have financial considerations primarily and hence favor local universities more. Given this analysis, the person has inferred a preference for Rutgers University over Virginia Tech.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

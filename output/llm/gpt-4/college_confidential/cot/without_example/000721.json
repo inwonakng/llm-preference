@@ -1,0 +1,6 @@
+{
+  "index": 721,
+  "true_label": 1,
+  "model_output": "The speaking expresses thoughts about University of Pennsylvania(Penn) in the CDomment. They find the coordinated dual programs acceptable, enjoy the campus feel it has, and attributes job interviews to their Wharton degree which is a school at Penn. They also communicated the different atmosphere NYU and Penn have in terms of city presence, indicating NYU as fully urban, while Penn integrates the campus feel in an urban setting.\n\nPointers to NYU are slim, with NYU only being used as a context for waiting for the pending application with Penn. The rest of the comment almost exclusively praises Penn.\n\nTherfore, a strictly prefered option can be drawn.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

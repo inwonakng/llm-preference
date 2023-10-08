@@ -1,0 +1,6 @@
+{
+  "index": 887,
+  "true_label": 2,
+  "model_output": "Firstly, the comment discusses the enrollment targets and application volume for both Boston University (BU) and Boston College (BC). The comment states that BC had an over-enrollment in 2021, meaning they accepted more students than they intended. The comment also mentions that BU has a larger volume of applications, but not necessarily a deeper talent pool.\n\nSecondly, the comment suggests that people often mistake admission rates for signs of selectivity. The commenter argues that admission rates merely reflect application volume, not the quality of admitted students. According to the commenter, School B (presumably BC, given the reference to it being a Jesuit institution) may have a higher acceptance rate, but the admitted non-athlete students have higher stats than those at School A (presumably BU).\n\nFinally, the commenter concludes by stating that acceptance rates don't determine your chances of getting in, but rather the quality of the pool you're competing against does.\n\nFrom the comment, it appears that the commenter is implying that BC (School B) may be more selective and have higher quality students, despite having a higher acceptance rate and fewer applications. This suggests a preference for BC over BU.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

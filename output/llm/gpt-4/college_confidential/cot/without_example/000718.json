@@ -1,0 +1,6 @@
+{
+  "index": 718,
+  "true_label": 1,
+  "model_output": "The comment does not mention the option B - \"New York University\", but it does mention \"Wharton\". Wharton is a school that is part of the University of Pennsylvania which is option A. So the speaker expresses then a preference for option A.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

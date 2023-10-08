@@ -1,0 +1,6 @@
+{
+  "index": 761,
+  "true_label": 1,
+  "model_output": "From the comment, it seems that the person indicates that their firm would prefer to interview top Wharton students (University of Pennsylvania) over those from Stern or Fordham (New York University). They say that unless Stern or Fordham graduates had something spectacular in their resume, they wouldn't be considered for an interview. This suggests that the person, and likely their firm, has a preference for the University of Pennsylvania. \n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

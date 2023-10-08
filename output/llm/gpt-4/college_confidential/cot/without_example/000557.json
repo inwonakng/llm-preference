@@ -1,0 +1,6 @@
+{
+  "index": 557,
+  "true_label": 3,
+  "model_output": "The comment doesn't make any mention of the University of Rochester (Option A) or Emory University (Option B). It discusses general considerations for choosing a university, such as academic rigor, opportunities for clinical and research experience, mentorship possibilities, school size and atmosphere, as well as the potential for maximizing a student's potential. There's no explicit or implicit preference for either of the two universities given. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

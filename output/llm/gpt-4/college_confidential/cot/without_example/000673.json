@@ -1,0 +1,6 @@
+{
+  "index": 673,
+  "true_label": 1,
+  "model_output": "This comment is talking about the trending status of Computer Science as a subject, but it doesn't mention either Option A (University of California, Berkeley) or Option B (University of Maryland) as in the context presented. Therefore, we cannot decide which university is preferred based on this comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

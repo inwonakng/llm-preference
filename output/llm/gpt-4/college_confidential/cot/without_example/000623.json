@@ -1,0 +1,6 @@
+{
+  "index": 623,
+  "true_label": 1,
+  "model_output": "1. We see an initial disparagement of the University of Maryland (Option B), where a figure known as \"Brother\" advises against sending the commenter's son to UMD due to a high dropout rate in the School of Engineering.  \n2. This figure attributes this dropout rate to the large size of the school, postulating a correlation between scale and inability to keep students.\n3. Opinions about Carnegie Mellon University (Option A) only manifest minimally in the comment.  \n4. \"Brother\" suggests that the relatively smaller class size at CMU and professory intimacy provide a better environment for prospective scholars.\n5. The commenter does not personally express a stance as this is all secondhand information conveyed by brother's sentiments.\n   \nDespite lacking personal attachment or sentiment toward one over the other, the text seemed to skew negatively towards UMD and slightly positively towards CMU.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

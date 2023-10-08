@@ -1,0 +1,6 @@
+{
+  "index": 249,
+  "true_label": 0,
+  "model_output": "The comment mentioned \"UMD College Park engineering\" and there were praises given for this unspecified third party. However, within this comment, there's absolutely no mention of either Pennsylvania State University (Option A) or North Carolina State University (Option B). \n\nThe given comment doesn't clearly show any preference towards either universities mentioned in the options - there's no comparison nor even a reference to either universities.\n\n### No preference",
+  "predicted_label": 0
+}

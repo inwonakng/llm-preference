@@ -1,0 +1,6 @@
+{
+  "index": 106,
+  "true_label": 0,
+  "model_output": "Firstly, neither of the options \"California Institute of Technology\" and \"Georgia Institute of Technology\" are directly mentioned in the comment. The comment discussion talks around general major programs and their effects on the job market, not weighing the value, reputation, effectiveness, or preference for those two specific institutes.\nSecondly, the part of the comment about how large state flagships - which neither of these options are, since the institutions being compared are both institutes of technology - prepare suitable people for top jobs mentions no preference at all.\nThus, there is no preference expressed in this comment for either the \"California Institute of Technology\" or the \"Georgia Institute of Technology.\"\n\n### No Preference.",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 1068,
+  "true_label": 0,
+  "model_output": "The comment doesn't mention or imply a preference for either Stanford University or the University of Southern California. The commenter is asking the recipient about their original goal without expressing any preference.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

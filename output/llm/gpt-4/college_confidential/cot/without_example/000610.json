@@ -1,0 +1,6 @@
+{
+  "index": 610,
+  "true_label": 2,
+  "model_output": "The comment is providing advice to a person to calculate the cost of attending a top 14 law school after spending all their money on undergraduate studies. They are encouraging the individual to look ahead to their finances and suggest that they can save through the \"highly respectable full ride option\". However, both universities mentioned, University of California, Berkeley, and University of Maryland don't establish a preference in relation to each other. The preference given appears to be based on other factors such as cost and scholarship, not on the universities themselves.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 728,
+  "true_label": 1,
+  "model_output": "1. The commentator mentioned both options A and B distinctly: University of Pennsylvania (specifically, Wharton which is a school within the university) and New York University (Stern, a school contained within this university), so there is a clear choice to be made.\n2. Though it does mention both options, there are more positive statements towards Option A, namely \"an MBA... is generally less impressive than just having gone to Wharton for undergrad\", which implies a preference for the University of Pennsylvania or its Wharton school for undergraduate studies specifically. \n3. The notion that getting an MBA from Stern seems \"silly\" when compared to the option of doing undergrad at Wharton also speaks to an inferred favoring of Option A.\n4. While the text acknowledges a potential reasoning to choose Option B (\"I fully understand the decision to go with Stern if the financial burden is too high\") this hypothetical reasoning is dismissed by the commentator as not as compelling as choosing Option A.\n5. Overall, the comment seems to argue the choice of choosing Option B does not make sense even if it is theoretically lower cost due to the perceived value of Option A in their opinion.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

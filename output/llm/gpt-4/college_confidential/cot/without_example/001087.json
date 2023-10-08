@@ -1,0 +1,6 @@
+{
+  "index": 1087,
+  "true_label": 3,
+  "model_output": "The commenter is discussing their own alma mater, which is neither the University of Illinois at Urbana-Champaign (Option A) nor the University of Southern California (Option B). They do not mention either university specifically, nor do they express a preference between them. \nThey only describe the characteristic of their own alma mater as \"not very intellectual\" which they consider as \"more practical\", but they don't relate this characteristic to either of the given options A or B.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 781,
+  "true_label": 2,
+  "model_output": "The comment begins by stating that Johns Hopkins is not a better school than Pomona College, indicating that the commenter doesn't think one is strictly superior to the other. They then proceed to praise both institutions as being top-tier, or \"top of the collegiate food chain good\". This further supports the idea that they don't see one as being better than the other. They also mention that Johns Hopkins has a \"global brand\", but it's not clear whether they see this as a point in Johns Hopkins' favor or just an observation. Finally, they state that the more important factor in choosing between these two options is where the individual will feel empowered to do their best work. This suggests that they see the choice as being subjective and dependent on the individual's preferences, rather than one option being objectively better than the other.\n\n%%%\nEqual preference",
+  "predicted_label": 3
+}

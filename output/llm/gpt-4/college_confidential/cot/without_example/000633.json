@@ -1,0 +1,6 @@
+{
+  "index": 633,
+  "true_label": 2,
+  "model_output": "The comment mentions that University of California, Berkeley is a public school and could be potentially expensive for an Out-of-State (OOS) student. However, the commenter doesn't talk negatively about it, and also suggests that this expense might not be an issue if the student is affluent. \n\nOn the other hand, the comment makes no mention of Carnegie Mellon University at all. \n\nTherefore, based on the information in this comment, we don't know what the commenter thinks about Carnegie Mellon University, but we do know they're talking about Berkeley without a fundamentally negative tone.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

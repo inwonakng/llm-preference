@@ -1,0 +1,6 @@
+{
+  "index": 451,
+  "true_label": 2,
+  "model_output": "The comment provides a comparison between two specific universities, University of Georgia and Indiana University, particularly within the aspect of their undergraduate business school programs. This comparison is divvied into two main points: ranking and average SAT scores of students. Indiana University scored higher in both regards: it is ranked 22nd versus University of Georgia's 36th position, and it has an average SAT score of 1437 against University of Georgia\"s score of 1300. This data placements Indiana University in a more positive light and suggests a preference.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

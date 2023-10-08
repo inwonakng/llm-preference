@@ -1,0 +1,6 @@
+{
+  "index": 860,
+  "true_label": 2,
+  "model_output": "1. The comment is comparing the recruitment opportunities at both universities.\n2. The person states that recruitment at Brown University is 'as good if not better for finance'. \n3. This implies that they believe Brown University has equal or superior opportunities for finance recruitment compared to Duke University.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

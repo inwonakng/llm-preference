@@ -1,0 +1,6 @@
+{
+  "index": 171,
+  "true_label": 2,
+  "model_output": "The comment is talking about the University of Pittsburgh, Option B. It is highlighting a positive characteristic - that it will match Pell Grants starting this coming fall. Given this context, the comment seems to be favoring the University of Pittsburgh, since it does not mention any attributes or programs of the Pennsylvania State University, Option A.\n\n### B is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 58,
+  "true_label": 2,
+  "model_output": "The comment references \"Cal Tech\" as part of the group from which many leaders from WPI have diverged from. Also, even though it says that many remarkable schools exist and not all leaders come from the more recognized, there's no explicit mention of the Georgia Institute of Technology. \n\nBecause of this reference to Cal Tech being among those where engineers typically come from, a very slight leaning towards preference for Cal Tech (Option A) can be inferred although overall the comment does not strongly prefer either of the tech institutes- just that it recognizes good works come from all forms of colleges and universities.\n\n### \nA is preferred over B",
+  "predicted_label": 1
+}

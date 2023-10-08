@@ -1,0 +1,6 @@
+{
+  "index": 880,
+  "true_label": 3,
+  "model_output": "The comment provides statistics about the acceptance rates and ACT scores for both Boston University (BU) and Boston College (BC) but does not show a clear preference for one over the other. The comment does suggest that the campuses are quite different and that the decision might be influenced by personal preference based on the physical environment and experience of the campuses. However, no specific preference is expressed for either BU or BC. Additionally, the comment advises the original poster to visit both campuses again and talk to current students, suggesting a personal investigation is needed to determine a preference. \n\n%%%\nNo preference",
+  "predicted_label": 0
+}

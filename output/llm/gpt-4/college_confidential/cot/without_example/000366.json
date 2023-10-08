@@ -1,0 +1,6 @@
+{
+  "index": 366,
+  "true_label": 0,
+  "model_output": "First, the user does not mention either Pennsylvania State University or Rutgers University directly in their comment, so there's no explicit preference stated. \n\nThe context provided involves the user discussing the ease of accessing a university's campus: whether it's easy to reach, what commuting solutions exist like plane, train, bus, ride share etc., and general thoughts on student transportation. \n\nWhile they discuss commuting to a campus, it's worth noting that they only mention Virginia Tech University or \"VT\" along with a location like \"Allentown PA\" which is not directly related to the two mentioned universities and Miami, which is off topic in this comparison. Therefore, neither Rutgers University nor Pennsylvania State University have details related to them which means no preference can be discerned from this comment.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

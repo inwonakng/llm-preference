@@ -1,0 +1,6 @@
+{
+  "index": 522,
+  "true_label": 2,
+  "model_output": "The comment talks at length about Kenyon College's issues with drinking incidents in the past, which is construed as negative according to the speaker. The negatives associated with Kenyon tend to highlight problems instead of its good aspects. Vassar College is not mentioned in the comment, so we don't know about the speaker's opinion or preference for it. The only thing positively mentioned for Kenyon is that the campus is beautiful, but being small, it is additionally couched with a negative context.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 949,
+  "true_label": 2,
+  "model_output": "1. The comment is discussing the rarity and prestige of full-tuition scholarships at USC, indicating a high level of respect for those who earn them. \n2. The comment does not mention the University of Illinois at Urbana-Champaign at all. \n3. Therefore, the comment does not provide a comparison between the two options. \n4. Yet, the emphasis on the prestige of USC's scholarships suggests a positive bias towards USC.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

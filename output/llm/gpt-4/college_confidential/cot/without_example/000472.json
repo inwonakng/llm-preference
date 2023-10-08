@@ -1,0 +1,6 @@
+{
+  "index": 472,
+  "true_label": 2,
+  "model_output": "1. The speaker mentions Indiana University (IU), specifically the Kelley school, but does not mention the University of Georgia at all.\n2. The speaker praises IU Kelley for being heavily recruited by firms nationwide.\n3. They also compliment IU Kelley because it is very well run. \n\nBased on these facts, it's clear that there's a preference towards IU compared to UGA, which isn't mentioned at all.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

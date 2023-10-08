@@ -1,0 +1,6 @@
+{
+  "index": 548,
+  "true_label": 2,
+  "model_output": "1. The comment does not appear to favor either University of Rochester (Option A) or Emory University (Option B) in terms of academics or opportunities for attending med school.\n\n2. It is noted that the successes of students from both schools will vary, but the comment does not relate these outcomes and experiences to either school, meaning it does not lend any advantage specifically to Option A or Option B.\n\n3. The commenter does provide advice about choosing a school where potential applicants are within the top 25% incoming students and cautions readers about the dangers of falling behind in class, but these words of advice can be equally applied to either option. \n\nSo there does not appear to be any implicit bias or preference toward one school or the other. \n\n%%%\nNo preference",
+  "predicted_label": 0
+}

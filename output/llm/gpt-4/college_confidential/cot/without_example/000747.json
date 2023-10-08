@@ -1,0 +1,6 @@
+{
+  "index": 747,
+  "true_label": 0,
+  "model_output": "Firstly, the commenter shows a preference here by clearly mentioning they would make a choice. Although 'Wharton' is specifically mentioned, it is crucial to note that the Wharton School is a part of the University of Pennsylvania. Furthermore, the additional comment about not having to worry about money suggests they might overall feel more comfortable or satisfied attending the University of Pennsylvania. We can definitely infer that the commenter prefers Option A over Option B from this statement since there is no mention or reference made to New York University.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

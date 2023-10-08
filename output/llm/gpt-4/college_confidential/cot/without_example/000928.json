@@ -1,0 +1,6 @@
+{
+  "index": 928,
+  "true_label": 2,
+  "model_output": "The comment states that the University of Southern California (USC) is a fantastic school and has a very low acceptance rate. The commenter also mentions an excellent scholarship (MAJOR scholie) at USC, which seems to be a big advantage. The University of Illinois at Urbana-Champaign is not mentioned at all in the comment, so we can't infer anything about the commenter's preference towards it. Therefore, from the comment, we can infer that USC is preferred over the University of Illinois at Urbana-Champaign.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

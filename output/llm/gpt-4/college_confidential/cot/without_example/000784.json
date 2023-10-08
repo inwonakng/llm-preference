@@ -1,0 +1,6 @@
+{
+  "index": 784,
+  "true_label": 2,
+  "model_output": "Firstly, the comment mentions a disparity in knowledge learned in terms of majoring in Computer Science at the two universities, with one having an ABET accreditation and the other not. Although it is not explicitly stated which university has the accreditation, it suggests a preference for that university. \nSecondly, the commenter talks about the opportunity to take grad level courses in AI and other areas at Johns Hopkins University (JHU), implying that this is a benefit not available at Pomona College. \nLastly, the commenter suggests reaching out to successful JHU alumni who are prominent in the field of AI and Machine Learning, implying the network and opportunities available at JHU. \n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

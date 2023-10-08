@@ -1,0 +1,6 @@
+{
+  "index": 869,
+  "true_label": 0,
+  "model_output": "First, we need to look for any words or phrases that might indicate a preference for either Duke University or Brown University. \n\nIn this comment, there is no explicit mention of either Duke University or Brown University. The only university mentioned is Duke, but it's in the website URL and not in the actual comment. \n\nThe comment itself is discussing what factors the rankings take into account, such as graduation rates, salaries that graduates earn, and the debt they carry. However, there is no explicit comparison or preference stated between Duke University and Brown University based on these factors.\n\nSince there is no explicit preference given in the comment, we cannot determine if one university is preferred over the other.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

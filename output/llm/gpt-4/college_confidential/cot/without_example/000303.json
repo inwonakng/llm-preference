@@ -1,0 +1,6 @@
+{
+  "index": 303,
+  "true_label": 0,
+  "model_output": "1. Does the comment about Virginia Tech living community convey any information related to Pennsylvania State University or Rutgers University? No, the comment doesn't mention anything directly related to these two universities. \n2. Could any indirect implications be drawn from the comment in regard to the two options? Potentially -- if one of the universities has a similar program, or if the comment somehow means to criticize or praise the arrangements, one could make some inference, but there's nothing to indicate this based on the text. \n3. Are the entities being compared in the comment related to the initially given entities Pennsylvania State University or Rutgers University? We can't infer this from the text. The shopping experience the person had is relevant only to themselves right now, not towards the two options stated prior. \n\nConclusively, the comment seems unrelated to the given options. Hence, there's no measure of preference here. \n\n### No preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 203,
+  "true_label": 3,
+  "model_output": "The comment mentions that the writer had attended Option A and also noticed that it had advantageous access to opportunities. Options A and B are described favorably in terms of the features of their campuses too, but when it comes to opportunities and things to do, Option A, from the assessment made about activities near these options, appears to be ahead.\nThey note correctly how both look but specify A will also have classes for an engineering candidate. Based on this, it is suggestive this specific mention leans a bit towards Preference A.\n\nThe comment might appear balanced when investigating both campuses impartially, but given that a potential studying future is hidden within the context and that A contains more opportunities and more things to do, it leaves an indication A is the chosen one for the commenter out of the two institutions.\n\n### \nA is preferred over B.",
+  "predicted_label": 1
+}

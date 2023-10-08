@@ -1,0 +1,6 @@
+{
+  "index": 682,
+  "true_label": 0,
+  "model_output": "There is a discussion about the size of EECS classes at the University of California, Berkeley, indicating quite a large student presence in some classes. Although the quote refers to high enrolment numbers, there's been a comparison to the University of Maryland which makes it difficult to conclude whether this has negative or positive connotations.\n\nOn one hand, high enrollment numbers might hint at popularity, on the other, it might also indicate an overly crowded learning environment which can deter some people. Moreover, although the technical steps taken around regulation of student admissions to EECS at the University of California, Berkeley is explained, there's still no explicit excitement or disappointment shown by the speaker, nor an open reference to the University of Maryland to extract any solid comparative insights from. \n\nI surmise that overall, this does not assert a preferential position for University of California, Berkeley over the University of Maryland or vice versa.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

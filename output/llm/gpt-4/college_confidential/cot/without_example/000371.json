@@ -1,0 +1,6 @@
+{
+  "index": 371,
+  "true_label": 1,
+  "model_output": "The comment indicates a correction to a previous comment that stated Rutgers University is a \"commuter campus\". The author uses evidence stating that 85% of the freshman live in the campus dorms suggesting that Rutgers University isn't predominantly a commuter campus.\nHowever, the author does not mention Virginia Tech at all in the comment or use it for comparison.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

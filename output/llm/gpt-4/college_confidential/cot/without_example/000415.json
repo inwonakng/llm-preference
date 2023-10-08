@@ -1,0 +1,6 @@
+{
+  "index": 415,
+  "true_label": 0,
+  "model_output": "The comment specifically mentions the University of Georgia (UGA) and the benefits of its honors program. It talks about the circumstances related to applying and how this can aid in registering early for classes. Indiana University, on the other hand, isn't even mentioned in the comment. \n\nConsidering this, it's clear that there is a preference stated since one option is explicitly highlighted when compared to the other.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

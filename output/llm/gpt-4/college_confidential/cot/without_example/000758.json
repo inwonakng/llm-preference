@@ -1,0 +1,6 @@
+{
+  "index": 758,
+  "true_label": 0,
+  "model_output": "First, the comment mentions \"Wharton Grad.\" The Wharton School is part of the University of Pennsylvania, indicating that the comment is referring to Option A.\n\nSecond, the comment does not mention New York University, Option B, at all.\n\nFinally, the tone of the comment suggests a positive opinion about graduates from the Wharton School, implying a preference for Option A.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

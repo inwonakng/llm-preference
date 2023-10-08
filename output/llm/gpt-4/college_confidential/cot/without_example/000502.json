@@ -1,0 +1,6 @@
+{
+  "index": 502,
+  "true_label": 1,
+  "model_output": "The comment doesn't distinctly express which of the two colleges, Vassar or Kenyon, is definitively preferred. They refer to both colleges in relative terms and mention that everything is a matter of degree, indicating a lack of strong solid favor. \nThere is, however, a positive mention of Kenyon College towards the end - the commenter points out that Kenyon campus is \"gorgeous\". There is no equivalent compliment or positive mention for Vassar college in this specific comment though.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

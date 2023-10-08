@@ -1,0 +1,6 @@
+{
+  "index": 655,
+  "true_label": 2,
+  "model_output": "The comment implies that Amazon potentially placing HQ2 in Maryland, which would elevate the profile of nearby universities for computer science, specifically the University of Maryland (Option B). The commentator seems to be arguing that these schools, including the University of Maryland, will become highly sought after due to a surge of internship opportunities. On the other hand, the University of California, Berkeley (Option A) is not mentioned in the comment at all.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 923,
+  "true_label": 0,
+  "model_output": "First, the comment does not directly mention either Stanford University or the University of Illinois at Urbana-Champaign.\n\nSecond, the comment actually seems to be about financial investment and net worth over time, rather than about any specific universities.\n\nTherefore, we can infer that because neither option is mentioned or alluded to in the comment, the commenter did not express any preference between the two options.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

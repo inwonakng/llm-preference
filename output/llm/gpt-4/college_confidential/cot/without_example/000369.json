@@ -1,0 +1,6 @@
+{
+  "index": 369,
+  "true_label": 2,
+  "model_output": "Firstly, the commenter quoted a text saying Rutgers is basically a commuter campus. \nThen they disagreed with this assertion by stating that sextion F1 of Rutgers University\u2019s Common Data Set for 2017-2018 shows that 85% of first-year students live in campus dorms, which suggests that Rutgers isn't a majorly commuter campus.\n\nIn this comment, the commenter is suggesting that the perception of Rutgers University being majorly a commuter campus is false. However, there is no reference or comparison directly made between the Pennsylvania State University and Rutgers University in the provided comment. We hence don't really grasp how the two options, Pennsylvania State University and Rutgers University, are contrasted in terms of preference. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

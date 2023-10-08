@@ -1,0 +1,6 @@
+{
+  "index": 253,
+  "true_label": 1,
+  "model_output": "1. The user gives a breakdown of the total costs of attendance at each college. They note that PSU is significantly cheaper, to the point that it's mentioned potential cost-saving could be emplyed towards other major life goals, such as investing or a down payment for a house.\n2. They mention perceived reputations of the universities, noting that PSU has a \"slightly stronger Engineering rep than VA Tech\". This suggests a preference towards PSU based on its stronger reputation.\n3. The user advises that they would choose PSU unless the person who the comment is addressed to falls in love with either VA Tech or NC State, reinforcign that their personal preference is towards PSU, but taking into consideration the other person's potential preference.\n\nBased on these observations, this user is preferring option A over option B\n\n### A is preferred over B",
+  "predicted_label": 1
+}

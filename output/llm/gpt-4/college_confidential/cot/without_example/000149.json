@@ -1,0 +1,6 @@
+{
+  "index": 149,
+  "true_label": 2,
+  "model_output": "The comment does not point out any comparative preference between Pennsylvania State University and the University of Pittsburgh in terms of personal preference or quality. However, finally the speaker noted that the University of Pittsburgh is a great safety and wants to make sure i's affordable for the individual they're advising. The speaker doesn't make any similar positive or reassuring statements toward Pennsylvania State University, which leads to the inference that University of Pittsburgh might be seen as a better option in this specific context.\n\n### \nB is preferred over A",
+  "predicted_label": 2
+}

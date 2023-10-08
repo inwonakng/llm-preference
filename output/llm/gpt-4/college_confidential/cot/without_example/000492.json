@@ -1,0 +1,6 @@
+{
+  "index": 492,
+  "true_label": 1,
+  "model_output": "The commenter talks about drinking culture across different schools. There is specific remark made towards Kenyon college through their anecdotal accounts mentioning particular students who don't drink. There seems to be a positive undertone and slight bias towards students and professors at Kenyon College. Vassar College isn't mentioned at all in the text, showing that the preference is leaning more towards Kenyon.######################################################\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

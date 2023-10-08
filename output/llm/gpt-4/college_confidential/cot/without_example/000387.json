@@ -1,0 +1,6 @@
+{
+  "index": 387,
+  "true_label": 2,
+  "model_output": "1. This text portrays Rutgers as a wise and economic choice over Pennsylvania State University, suggesting a smarter financial decision considering its location advantages for in-state parent (\"Why in the world would you send your kid out of state and spend thousands more rather than going to Rutgers\").\n2. There is a rhetorical question that argues against the idea of discarding Rutgers because it's a commuter school showing the commentator's belief that such an argument is unfounded or not significant enough to choose other alternatives, in this case Pennsylvania State University ( \"Because Rutgers is a commuter school? Why would that have a bearing on where to go?\" ).\n\nDue to expressed opinions as these, which question the reasons of overlooking Rutgers for Pennsylvania State University and moreover talks about spending extra money unnecessarily, there seems to be a preference for Rutgers University over Pennsylvania State University.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

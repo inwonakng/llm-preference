@@ -1,0 +1,6 @@
+{
+  "index": 311,
+  "true_label": 0,
+  "model_output": "The initial mention of Rutgers University indicates that the individual was accepted to this college and is considering it as an option. However, there is no specific mention of Virginia Tech\u2014which is Option B\u2014in this comment at all. The lack of a comparative statement between these two universities makes it difficult to determine a specific preference between Rutgers University and Virginia Tech. Therefore, one cannot definitively ascertain that either Option A (Rutgers University) or Option B (Virginia Tech) is preferred based on the information mentioned in the comment.\n\nYet, the implication that Rutgers University is a standing option they're considering might cause one to lean towards Option A.\n\n###\n\nA is preferred over B.",
+  "predicted_label": 1
+}

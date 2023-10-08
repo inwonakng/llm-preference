@@ -1,0 +1,6 @@
+{
+  "index": 104,
+  "true_label": 0,
+  "model_output": "The comment does not indicate a preference between Johns Hopkins University and Georgia Institute of Technology. The commenter talks about working for companies and their opinion on Management Consulting firms, which doesn't reveal any information about choosing either of the universities. Hence, we can't derive a preference.\n\n### No preference",
+  "predicted_label": 0
+}

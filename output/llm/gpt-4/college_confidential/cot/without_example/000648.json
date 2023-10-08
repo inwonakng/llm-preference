@@ -1,0 +1,6 @@
+{
+  "index": 648,
+  "true_label": 3,
+  "model_output": "The comment gives off a negative opinion towards the University of California (Option A), highlighting its cost (which is considered exceptionally high). In the same context, the rest of the comment implies that Carnegie Mellon (Option B) does not charge. Furthermore, no other factors comparing A and B are mentioned. Therefore, while this does not suggest a clear favouritism for option B (the cost alone may not be enough for a decision on preference), it at least demonstrates a certain aversion to option A.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

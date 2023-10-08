@@ -1,0 +1,6 @@
+{
+  "index": 463,
+  "true_label": 1,
+  "model_output": "Firstly, the user does not mention University of Georgia or Indiana University directly in terms of preference. He talks vaguely about Alabama, where the former President modeled a component after Georgia's. There is neither positive nor negative feedback relating to both universities.\nSecondly, he mentioned two of his favorite business schools: Ross and Kelley. However, Kelley School belongs to Indiana University and he seems to commend it. \n\nTherefore, it appears that there is a slight preference towards Indiana University (Option B) over University of Georgia (Option A), which is implied by his favorability towards the Kelley Business School.   \n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

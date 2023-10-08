@@ -1,0 +1,6 @@
+{
+  "index": 733,
+  "true_label": 2,
+  "model_output": "The comment acknowledges that NYU-Stern and Penn-Wharton provide similar opportunities. This suggests equal value. However, the price and potential scholarship opportunities of studying at NYU get highlighted in positive terms. No specific benefits of the University of Pennsylvania are mentioned, besides the implicit equivalence of opportunity.\n\nTo summarize, the comment recognises the education opportunities offered by both universities but also notes benefits for NYU: a cheaper cost and potential scholarships. This signifies a preference for NYU over the University Pennsylvania due to added advantages.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 536,
+  "true_label": 2,
+  "model_output": "The comment is from a parent whose son attends Kenyon College. The parent states how satisfied his son is with Kenyon College and the experiences they've described have no reference to Vassar College.\n\nThis suggests the commenter is likely biased towards Kenyon College given that personal experiences with it are described in a generally positive way, while Vassar College is not mentioned at all. However, there's slightly nuanced view as they acknowledge that \"It's not for everyone\", but they only describe their son's positive experience with clarity in the context of them not including information on Vassar College. This doesn't necessarily validate comparing any tangible positive or negative aspects between Kenyon College and Vassar College.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

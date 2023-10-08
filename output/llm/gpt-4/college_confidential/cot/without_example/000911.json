@@ -1,0 +1,6 @@
+{
+  "index": 911,
+  "true_label": 3,
+  "model_output": "Firstly, the comment acknowledges that a lot of students who can't afford Stanford go to their home-state universities or ones that offer them scholarships. However, this doesn't express a preference for either Stanford or UIUC, it simply states a fact. \n\nSecondly, the comment advises not to feel bad about this situation, suggesting that there is no inherent superiority of one over the other. This again doesn't express a clear preference.\n\nThirdly, the comment specifically mentions that if UIUC works better for someone's family, they should send their kid there and not have any regrets. This could be interpreted as a slight preference for UIUC, but it's more of a pragmatic suggestion rather than an evaluation of the quality of the universities.\n\nFinally, the comment emphasizes that students capable of succeeding at Stanford can find their peer group wherever they land, once again not expressing a clear preference.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

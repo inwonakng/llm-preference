@@ -1,0 +1,6 @@
+{
+  "index": 79,
+  "true_label": 3,
+  "model_output": "The comment doesn't specify a preference between the California Institute of Technology and the Georgia Institute of Technology. The author only asks questions about a possible BME (Bachelor of Materials Engineering) pursuit and advises caution in choosing a school.\n\nThe question about what the student wants to do with a BME degree does not relate to preference between the two options. Furthermore, the well-wishes at the end do not indicate the author's preference. Therefore, no preference is given.\n\n### No preference",
+  "predicted_label": 0
+}

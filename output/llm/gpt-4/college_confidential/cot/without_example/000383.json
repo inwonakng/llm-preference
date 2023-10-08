@@ -1,0 +1,6 @@
+{
+  "index": 383,
+  "true_label": 2,
+  "model_output": "The author starts by describing some perceived negatives about Option A, Rutgers University. They describe it as a \"commuter campus\" and elaborates by saying that it \"empties out every weekend\" because many students live nearby and go home. They claim this causes a lack of typical campus activities and accommodations to foster an engaging living and learning environment, especially for out-of-state students. \nHowever, the author does mention some things they liked about Rutgers - the quality in terms of learning experience they have had - \"took class post grad for couple of years\", \"excellent instructors, well-respected program\".  \n\nThen the author ends the post stating \"go HOKIES\", where \"Hokies\" is a term associated with Option B, Virginia Tech. This can be seen as a clear assertion of preference towards Option B, overshadowing any positives they've just mentioned for Option A. \n\n%%%\nB is preferred over A.",
+  "predicted_label": 2
+}

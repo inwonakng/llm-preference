@@ -1,0 +1,6 @@
+{
+  "index": 604,
+  "true_label": 2,
+  "model_output": "The comment does not indicate a clear preference for either the University of California, Berkeley (Option A), or the University of Maryland (Option B). The phrase \"Take the free school here!\" could hypothetically indicate a preference for whichever of the two schools offers free tuition, but without knowing which, if either, offers free tuition, there is no clear way we can determine a preference based on this comment.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

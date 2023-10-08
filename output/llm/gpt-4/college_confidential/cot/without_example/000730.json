@@ -1,0 +1,6 @@
+{
+  "index": 730,
+  "true_label": 1,
+  "model_output": "The comment mentions both universities, the University of Pennsylvania (represented by Wharton Undergrad) and New York University (represented as NYU). The user talks positively about both options: stating that the Wharton undergraduate program is superior to most NYU MBA/Masters programs, but also saying that one can be perfectly fine acquiring an undergraduate degree at NYU's Stern school. The commentator emphasizes that the decision between the two is not straightforward, and there are numerous variables to consider. While there might be mild bias towards the Penn program, the report is quite balanced overall. This suggests that there is no considerable favoritism for one option over the other apparent in this comment.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

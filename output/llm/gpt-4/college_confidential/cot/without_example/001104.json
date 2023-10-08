@@ -1,0 +1,6 @@
+{
+  "index": 1104,
+  "true_label": 1,
+  "model_output": "The comment does not directly compare Stanford University (Option A) and the University of Southern California (Option B). However, it implies that students attend the University of Southern California (USC) even if they have opportunities to go to an Ivy League school, which are considered top tier. This could be interpreted as a preference for USC under certain conditions (like having a full tuition scholarship). The comment also suggests saving money for a later MBA at Wharton or Harvard, which doesn't directly relate to the comparison between Stanford and USC.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

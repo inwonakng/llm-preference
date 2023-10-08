@@ -1,0 +1,6 @@
+{
+  "index": 504,
+  "true_label": 2,
+  "model_output": "The comment discusses Kenyon College in a negative light, highlighting the problems with this particular institution including size, location, and critically, severe binge-drinking problems due to these factors. Relational information about Vassar College is missing in the context of preference. Instead, a third party, in this case, Lehigh University, is discussed. In reading this, it's unclear what the person's perception is of Vassar College as it relates to Kenyon College. There may be an implicit lack of preference for Kenyon College, but not expressed preference for Vassar College.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

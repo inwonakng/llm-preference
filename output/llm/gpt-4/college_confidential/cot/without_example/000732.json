@@ -1,0 +1,6 @@
+{
+  "index": 732,
+  "true_label": 1,
+  "model_output": "The commenter presents points about the financial prospects for both University of Pennsylvania (Wharton) and New York University (Stern) graduates. The individual acknowledges that achieving certain financial scenarios tend to be easier for Wharton graduates but doesn't mean it cannot be accomplished by Stern graduates as well.\n\nMoreover, the commenter questions the significant cost difference between these universities but does advise not choosing Stern solely for planning to get an MBA afterwards.\n\nThough the difference in potential salary attainment is addressed, the individual ends the statement with a subjective questioning and advice about choosing NYU-Stern, suggesting slightly inferior connotation.\n\nTherefore, I infer a lean towards the University of Pennsylvania (Wharton) from this comment, though it's not a strong preference.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

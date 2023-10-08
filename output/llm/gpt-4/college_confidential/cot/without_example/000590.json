@@ -1,0 +1,6 @@
+{
+  "index": 590,
+  "true_label": 2,
+  "model_output": "The comment is clearly talking favorably about a less expensive education option which is the University of Maryland. The reference to a lower debt and career flexibility implies they are content with option B i.e. the University of Maryland, untreated of the presumably higher costing option, the Carnegie Mellon University. Their specific mention of Maryland\u2019s respectable alma mater is a strongly positive point. Even though there isn\u2019t an explicit direct comparative statement-such as \u201cI believe the second option is better than the first\u201d heres, it's safe to infer from the comparison points mentioned that the individual favors the University of Maryland.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

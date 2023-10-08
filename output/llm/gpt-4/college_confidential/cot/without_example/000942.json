@@ -1,0 +1,6 @@
+{
+  "index": 942,
+  "true_label": 1,
+  "model_output": "The comment discusses the potential advantages of attending Stanford over USC in terms of job prospects. The user believes that Stanford may have advantages in very specific scenarios, such as investment banking or consulting, and for graduates interested in tech startups due to its proximity to Silicon Valley. They also suggest that Stanford may offer an advantage for those seeking employment with foreign organizations that value prestigious international education credentials. However, they also mention that these scenarios are rare, and in most career fields, there wouldn't be a significant difference between Stanford and USC.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

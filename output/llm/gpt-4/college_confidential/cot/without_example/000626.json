@@ -1,0 +1,6 @@
+{
+  "index": 626,
+  "true_label": 2,
+  "model_output": "1. The comment is primarily discussing the value of Carnegie Mellon University (Option A), stating that her husband, who went there for engineering, didn't think it was worth the additional cost or a good fit on a social level. \n2. Similar sentiments are applied to their kids who ended up going to state schools in Virginia for engineering, and they feel the kids are no worse off for having made that choice.\n3. It doesn't mention fresher opinions, so this preference assessment relies on historical references for CMU.\n4. There's no direct comparison or mention of the University of Maryland (Option B) at all, the speaker only makes a comparison to state schools in Virginia. \n\nThough they don't have exactly the highest opinion of Carnegie Mellon (Option A), its key to note that there's no direct comparison with Option B and thus not enough information to reasonably determine a preference.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

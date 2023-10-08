@@ -1,0 +1,6 @@
+{
+  "index": 210,
+  "true_label": 3,
+  "model_output": "The user comments on three unspecified schools in the comment, and it isn't explicit that these schools are Pennsylvania State (Option A) or North Carolina State (Option B). The reference to 'VT' may suggest the third might be Virginia Tech, but it's not given explicitly. In the comment, there is no clear preference or comparison drawn between Pennsylvania State and North Carolina State at all. We cannot conclude any preference as they suggested that all three choices are great. Therefore, there is no preference expressed in the comment. \n\n###\nNo preference",
+  "predicted_label": 0
+}

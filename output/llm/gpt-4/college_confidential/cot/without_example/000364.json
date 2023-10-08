@@ -1,0 +1,6 @@
+{
+  "index": 364,
+  "true_label": 0,
+  "model_output": "This comment seems vaguely to incline toward one of the given options, however, both Pennsylvania State University and Virginia Tech aren't mentioned directly. There are no clauses or expressions indicating a clear preference between the two universities. Possibly, the speaker's daughter goes to one of these schools but that doesn't narrow it to which one.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

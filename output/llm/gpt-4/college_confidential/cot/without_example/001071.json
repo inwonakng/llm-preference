@@ -1,0 +1,6 @@
+{
+  "index": 1071,
+  "true_label": 1,
+  "model_output": "The comment suggests that if cost is not a major factor, Stanford would be the easy choice over USC. However, the user also mentions that there isn't enough information to give meaningful advice for the specific situation. This suggests that although there is a preference towards Stanford, the commenter believes that other factors could potentially change this preference depending on the situation.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

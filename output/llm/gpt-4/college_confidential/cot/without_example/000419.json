@@ -1,0 +1,6 @@
+{
+  "index": 419,
+  "true_label": 1,
+  "model_output": "1. The user mentions specific benefits of both universities, but does not make a definitive comparison between the two.\n2. For University of Georgia, the lower cost of attendance is mentioned as a beneficial factor. This implies a preference if the individual switched their major.\n3. As for Indiana University, the user points out that direct admission into Kelley and to a lesser extent the honors college can provide value.\n4. The comment is stating that each University has its pros in different circumstances or conditions. There does not seem to be a straight-forward judgment on one college being entirely superior to the other as itighly depends on circumstances.\n5. This looks like no option is strictly preferred over the other, and depends on the situation and needs of the person considering these universities.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

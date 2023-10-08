@@ -1,0 +1,6 @@
+{
+  "index": 921,
+  "true_label": 2,
+  "model_output": "First, the comment acknowledges that USC is a spectacular school. This shows a positive sentiment towards USC.\n\nSecond, the comment states that USC is \"subjectively not as prestigious as Stanford or the Ivies\". This means that the author acknowledges that Stanford is seen as more prestigious, which may indicate a preference for Stanford in terms of prestige.\n\nThird, the comment mentions that attending USC for free is like \"hitting a 300k scratch ticket\", which suggests that the value of USC is being highly praised, especially when it comes to its cost-effectiveness.\n\nTo sum up, while the commenter acknowledges that Stanford is more prestigious, they seem to value the cost-effectiveness of USC more. Therefore, the preference leans more towards USC.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

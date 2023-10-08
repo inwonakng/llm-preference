@@ -1,0 +1,6 @@
+{
+  "index": 982,
+  "true_label": 0,
+  "model_output": "1. The comment mentions both universities: University of Illinois at Urbana-Champaign (UIUC) and University of Southern California (USC).\n2. The user is discussing the term \"public Ivy\", which refers to public institutions that provide an Ivy League collegiate experience at a public school price.\n3. The user mentions that at least one book lists UIUC as a public Ivy.\n4. The comment does not express any personal preference or comparison between the two universities.\n\nBased on these elements, there is no strict preference expressed in the comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

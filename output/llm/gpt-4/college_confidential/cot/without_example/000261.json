@@ -1,0 +1,6 @@
+{
+  "index": 261,
+  "true_label": 0,
+  "model_output": "Looking at the comment, the person is asking very specific questions about life at Pennsylvania State University. There is mention of such minute details like residence halls, commutes, cold weather walking, and even a reference to a specific course in computing. There is no mention whatsoever of North Carolina State University. It seems like the person posting the comment is more interested in Pennsylvania State University.\n\n### \nA is preferred over B",
+  "predicted_label": 1
+}

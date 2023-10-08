@@ -1,0 +1,6 @@
+{
+  "index": 975,
+  "true_label": 0,
+  "model_output": "The comment does not mention or discuss Stanford University or the University of Southern California. Therefore, there's no way to determine a preference based on this comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 578,
+  "true_label": 2,
+  "model_output": "1. The comment positively mentions both Virginia Tech and Cornell. \n2. The user expresses satisfaction with their visit to Virginia Tech and mentions its positive characteristics, such as a friendly atmosphere, great food and also a lovely campus.\n3. When mentioning Cornell, however, the user doesn't compare it directly with Virginia Tech, but instead tells another user to \"enjoy your visit\" without expanding on positive or negative aspects like they do for Virginia Tech.\n4. The attribute differences about each university cause a challenge identifing their explicit preference.\n5. There is absolute positive speech about Virginia Tech whereas there are more open-ended comments about Cornell.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

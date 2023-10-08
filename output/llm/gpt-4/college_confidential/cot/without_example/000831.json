@@ -1,0 +1,6 @@
+{
+  "index": 831,
+  "true_label": 1,
+  "model_output": "The comment does not show a clear preference for either Duke University or Brown University. The commenter notes that the two universities are academically equivalent, but they have different atmospheres and cultures. They suggest that a prospective student should examine each university's course catalog and departmental requirements to determine which one would be a better fit. However, they do not express a personal preference for one over the other.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

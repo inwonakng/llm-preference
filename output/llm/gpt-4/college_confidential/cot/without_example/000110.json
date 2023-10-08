@@ -1,0 +1,6 @@
+{
+  "index": 110,
+  "true_label": 0,
+  "model_output": "Firstly, the two options presented arebJohns Hopkins University and Georgia Institute of Technology. Subsequently, the comment states a fact about the number of students scoring within a specific range on the ACT in 2018.\n\nIn this statement, neither Johns Hopkins University nor the Georgia Institute of Technology are mentioned or compared. The comment seems to be about general information concerning ACT score data, not related to a preference for institutions. \n\nTherefore, based on the provided comment, there's no identifiable preference between Johns Hopkins University and Georgia Institute of Technology.\n\n###\nNo preference",
+  "predicted_label": 0
+}

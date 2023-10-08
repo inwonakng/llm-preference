@@ -1,0 +1,6 @@
+{
+  "index": 455,
+  "true_label": 2,
+  "model_output": "The comment first brings up the difference in cost between the University of Georgia and Indiana University, mainly IU-Kelley, along with the Hutton Honors College & Business Honors. While it does mention going to UGA for room and board\u2014as presumable cheaper alternative\u2014it doesn't explicitly prefer UGA as an institution of learning. Moreover, the comment advises to look carefully at \"verifiable numbers & placement info. about IU-Kelley\" and proposes to use a specific user for accurate information regarding IU-Kelley, giving a more favourable tone towards Indiana University. If financial constraints are not a concern, it seems the commenter encourages assessing the universities on other metrics, which might signify or imply a preference towards Indiana University due to further specific factors being discussed. Therefore....\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 452,
+  "true_label": 1,
+  "model_output": "The user says \"UGA seems the best choice.\" It indicates explicitly the user would prefer the University of Georgia over Indiana University. The rest of the comment is an argument in favor of the respondent's preference, stating that the school is great and is also a more economic choice for them. \n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 457,
+  "true_label": 1,
+  "model_output": "1. The commenter is discussing US News rankings based on a survey from business school deans and program directors.\n2. Indiana-Kelley (Option B) is mentioned as shining in this discussion with top 10 rankings in more departments compared to University of Georgia-Terry (Option A) - with Accounting, Finance, Management, Management Information Systems, and Marketing highlighted. This could be seen as a preference for option B. \n3. UGA-Terry (Option A) is mentioned to be in the top 10 for two categories which are Insurance/Risk Management and Real Estate. Showing some strength of Option A but less than Option B.\n4. All undergraduate business schools are said to have strengths which suggests no business school has been singled out as the best in all regards. While a distinction has been made regarding areas of strengths, the user does not explicitly suggest they prefer one university to the other.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

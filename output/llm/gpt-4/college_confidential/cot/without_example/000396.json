@@ -1,0 +1,6 @@
+{
+  "index": 396,
+  "true_label": 2,
+  "model_output": "1. The comment mentions two universities: Pennsylvania State University and Rutgers University.\n2. In the opening sentence, the focus is on OOS school's scholarship offerings, which make Rutgers look more expensive to the commenter's instate student, with importance emphasized on how Rutgers University offered no financial aid.\n3. Later, the commenter talks about a preference on part of his son, who views Rutgers as \"an extension of high school\". This phrase implies a themed bias towards Rutgers, as it seems that the son has a rather negative outlook on the university.\n4. Also, the son's view seems not to be deterred by the parent (the commenter); on the contrary, the parent seems to strengthen it by endorsing taking a glimpse at other schools, both public and private. \n5. Moreover, the treaty ends on a controversial note--talking about another (unspecified) school that has showcased an intent and offered substantial financial aid, implying preference veering towards universities other than Rutgers, which include Pennsylvania State University.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

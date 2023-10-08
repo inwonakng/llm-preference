@@ -1,0 +1,6 @@
+{
+  "index": 956,
+  "true_label": 1,
+  "model_output": "The comment suggests the importance and prestige of Stanford University, but it does not mention the University of Illinois at Urbana-Champaign at all. Therefore, there's no direct comparison between the two options. However, the context implies a preference for Stanford due to its perceived prestige. \n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

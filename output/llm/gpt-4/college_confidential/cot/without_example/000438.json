@@ -1,0 +1,6 @@
+{
+  "index": 438,
+  "true_label": 2,
+  "model_output": "The comment seems to address both options in considerable detail.\n\nWhen speaking about University of Georgia (UGA), the user only states the fact that that the individual discussed in the comment is neither a Foundation Fellow nor a part of the Honors College. This holds a negative undertone, hinting towards a lack of opportunity or accomplishment.\n\nFor Indiana University (IU), the opposite is true. The comment presents multiple benefits of programs at IU including advising, course registration, business clubs, internships and job placements. The user also highlights that the individual discussed managed to meet the minimum qualifications for one of the programs at IU, suggesting that they believe IU provides certain opportunities. \n\nGiven the information provided, there seems to be a distinct preference for Indiana University.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

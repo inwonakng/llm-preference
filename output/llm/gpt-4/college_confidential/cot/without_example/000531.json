@@ -1,0 +1,6 @@
+{
+  "index": 531,
+  "true_label": 1,
+  "model_output": "1. The comment specifically refers to Kenyon College and the situation of alcohol consumption on its campus. \n2. The commenter provides detailed insights about a task force dedicated to addressing this issue at Kenyon and its results. It also mentioned a visit to Kenyon College by the son of another individual, who allegedly reported that this issue persists.\n3. There is no mention at all of Vassar College in the comment, neither for comparisons with Kenyon nor any statement on its own.\n4. Thus, the comment does not indicate any edge or preference of one cut_from_over the other, given that it did completely leave out the second option in question.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

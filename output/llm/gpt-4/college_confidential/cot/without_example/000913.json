@@ -1,0 +1,6 @@
+{
+  "index": 913,
+  "true_label": 3,
+  "model_output": "1. The comment does not directly compare University of Illinois at Urbana-Champaign (UIUC) and University of Southern California (USC).\n2. It is suggested that students who cannot afford more expensive universities should not feel bad about attending either UIUC or USC.\n3. The comment does not indicate a preference for one university over the other, nor does it establish that they are equally preferred.\n4. The comment is suggesting both UIUC and USC as alternatives to more expensive universities like Stanford, without specifying a preference between the two.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 1099,
+  "true_label": 3,
+  "model_output": "The comment mentions that USC's dance program is the son's first choice, and that he would go there regardless of a scholarship. This shows a clear preference towards USC over other options, including the University of Illinois. The University of Illinois is not mentioned at all in the comment, so it's clear that the son prefers USC.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

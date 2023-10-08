@@ -1,0 +1,6 @@
+{
+  "index": 8,
+  "true_label": 1,
+  "model_output": "The commentator clearly states that Option A: Johns Hopkins University and CalTech are prestigious universities taken very seriously by top corporations. Their prestige makes them more attractive to major corporations like Google, Goldman, and Mckinsey. Therefore, the commentator asserts that getting jobs at these influential companies would be easier if you graduate from Johns Hopkins or CalTech. Even though getting jobs is possible with a degree from Option B: Georgia Institute of Technology, it would be more difficult, according to the commentator. \n\nGiven these details, the implied preference can be inferred towards Johns Hopkins University, despite no overt expression of preference.\n\n### \nA is preferred over B",
+  "predicted_label": 1
+}

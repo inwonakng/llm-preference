@@ -1,0 +1,6 @@
+{
+  "index": 430,
+  "true_label": 0,
+  "model_output": "First of all, we need to note that the mentioned \"Terry\" is the Terry College of Business from the University of Georgia (Option A). There is no direct reference or comparison made to Indiana University (Option B).\nThe user shares that there are 'many great opportunities' and shows a high level of satisfaction ('You will not be disappointed') about Terry (aka University of Georgia).\nBecause the comment exclusively discusses the positive experiences at the University of Georgia with zero mention of Indiana University, this comment implies a preference for Option A.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

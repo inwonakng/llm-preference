@@ -1,0 +1,6 @@
+{
+  "index": 927,
+  "true_label": 2,
+  "model_output": "The comment starts with a congratulation for the child's admission to several universities, but it does not specify whether Stanford University or University of Southern California are among them. However, it continues to express a strong favor towards USC, mentioning a major scholarship (scholie), its low acceptance rate, and the fact that many well-qualified students (SCions) were denied admission. The comment also states that USC is a fantastic school in every major. There is no direct comparison between USC and Stanford University in the comment, but since the praise and argumentation are solely about USC, it can be inferred that USC is preferred.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

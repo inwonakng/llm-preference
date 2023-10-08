@@ -1,0 +1,6 @@
+{
+  "index": 436,
+  "true_label": 2,
+  "model_output": "The comment presents information about both Option A and Option B. On the one side, it mentions size, prestige, admission standards, and recruiting opportunities tied to IU-Kelley (option B). These seem to be presented as advantageous attributes of option B. Meanwhile, the comment refers to a monetary aspect of UGA-Terry (option A) which raises caution, indicating IF the cost is affordable this would be worth considering option A. However, its ambiguity hints at a cost being more unfavorable than favorable towards option A.\n\nThe comment does share notable factual differences between option A and option B without definitely steering towards one being better than the other or stating outright that both are equally good.\n\nGiven if A and B exhibit superiorities within their respective domains but exceed each other in neither, hence, the overall portrayal isn't directing us explicitly towards the superiority of one university over the other.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

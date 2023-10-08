@@ -1,0 +1,6 @@
+{
+  "index": 98,
+  "true_label": 0,
+  "model_output": "The comment is dealing with comparison among Princeton, Caltech, Columbia and some other unspecified universities (\"here in the valley\"). The two universities in question: Johns Hopkins University (Option A) and Georgia Institute of Technology (Option B) were simply not mentioned in the comment at all. There's therefore nothing in the comment that hints that the commenter prefers one of the options over the other or indeed has any particular regard for any of them. Consequently, we cannot derive any decision based on this comment.\n\n### No preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 948,
+  "true_label": 2,
+  "model_output": "1. The comment mentions both universities: Stanford University (Option A) and the University of Southern California (USC, Option B).\n2. The comment acknowledges the difficulty of earning a full-tuition scholarship at USC, indicating that only a handful are given out each year.\n3. The comment does not make any explicit comparison between USC and Stanford University. However, the mention of \"all the top 25 schools all added together\" might implicitly include Stanford as it is a top-ranked university.\n4. However, the comment does not explicitly state a preference between Stanford University and USC.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

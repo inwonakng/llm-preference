@@ -1,0 +1,6 @@
+{
+  "index": 17,
+  "true_label": 0,
+  "model_output": "Firstly, the comment compares 'Johns Hopkins University' and 'Georgia Institute of Technology' in the context of the BME (Biomedical Engineering) field.\nThe person stated that ' John Hopkins University covers the interdisciplinary range of BME' and that they believe 'Georgia Institute of Technology is more focussed on the robotics side of BME'. \nIt also advises to monitor and learn about the difference.\nEven though some degree of differentiation can be observed 'John Hopkins University' and 'Georgia Institute of Technology' within the comments, the comment doesn't distinctly outline a clear preference towards either option.\n\n### No preference",
+  "predicted_label": 0
+}

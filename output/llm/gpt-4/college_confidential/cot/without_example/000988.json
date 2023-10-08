@@ -1,0 +1,6 @@
+{
+  "index": 988,
+  "true_label": 0,
+  "model_output": "1. The commenter mentions that their daughter was offered full tuition scholarships at USC among other universities, but also got into more prestigious ones like HYPS and UChicago. \n\n2. The commenter further explains that USC was not a good fit for their daughter due to her desire to be around really bright, intellectually curious kids who want to make a difference in the world. \n\n3. The commenter's daughter ended up choosing Stanford, a university not mentioned in the comparison, and has been very happy there.\n\n4. The commenter doesn't mention the University of Illinois at Urbana-Champaign at all in their comment.\n\nFrom these points, it's clear that the commenter's daughter did not prefer USC, but we can't infer anything about her preference towards the University of Illinois at Urbana-Champaign because it's not mentioned. \n\n%%%\nNo preference",
+  "predicted_label": 0
+}

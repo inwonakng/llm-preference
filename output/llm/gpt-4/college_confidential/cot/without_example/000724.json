@@ -1,0 +1,6 @@
+{
+  "index": 724,
+  "true_label": 1,
+  "model_output": "First, the commenter mentions that the undergraduate degree from Wharton (which is a school within the University of Pennsylvania) is more impressive than NYU combined with an MBA in most cases, which implies a preference for University of Pennsylvania. \n\nThe commenter also refers to the cost advantages of choosing Penn's undergrad degree over NYU + MBA. This appears another indication of A being regarded more favorably. \n\nFinally, they state that the University of Pennsylvania is overall a better school and will offer a better position, regardless if the study field changes which explicitly shows leaning towards option A.\n\nHowever, the individual also mentions deciding finance may be tough which might imply a slight complication, but there isn't any direct preference drawn from this consideration.\n\nUltimately though, the decision making seems to lean more on Pennsylvania University more than NYU.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 549,
+  "true_label": 1,
+  "model_output": "1. The commenter suggests that attending the University of Rochester could offer him/her more financial advantages due to merit-aid. This statement indicates a preference of the University of Rochester (Option A) over Emory University (Option B), at least in terms of the financial aspect.\n\n2. Conversely, the commenter considers Emory more prestigious due to its lower acceptance rate of 20%, compared with Rochester\u2019s 30%. This expresses a feature of Emory University (Option B) that they care about, which could mean a preference for Emory over Rochester (Option A) from a reputational standpoint.\n\n3. Alternatively, the same person is considering that the University of Rochester has a higher acceptance rate for medical school admissions, which might lead to a better chance to enter med school. This may suggest a leaning toward Rochester (Option A) for the prospect of future opportunities.\n\nWithout a clear indication of the weight given to financial considerations, prestige, and likelihood of getting medals, it's hard to definitively say which of A and B the commenter prefers overall.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

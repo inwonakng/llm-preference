@@ -1,0 +1,6 @@
+{
+  "index": 177,
+  "true_label": 2,
+  "model_output": "The comment seems to breakdown the cost of both universities which shows that the commenter is mindful of price in determining their preference. It mentions that University of Pittsburgh (Pitt) will cost over $32,000 while Penn State might be about $5,000 more, in addition to other associated expenses. There is no direct equality or preference mentioned, however the context shades towards University of Pittsburgh being less favorable due to its hefty price tag. Judging solely based on expenses mentioned in this case, that sets up a relative benefit for Penn State, likely because the extra cost may be justified by the potential for extra benefits that the comment doesn't sufficiently expose. But avoid taking a strict conclusion here, because there is no direct statement about the preference for 'better value for money' or a more definitive opinion stated.\n\n###\n\nNo preference",
+  "predicted_label": 0
+}

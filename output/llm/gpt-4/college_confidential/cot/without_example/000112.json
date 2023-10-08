@@ -1,0 +1,6 @@
+{
+  "index": 112,
+  "true_label": 0,
+  "model_output": "The comment does not mention either the California Institute of Technology or the Georgia Institute of Technology. Therefore, there are no indicators to suggest a preference towards either option. The comment does mention other institutions like Princeton, ASU, and NC State, and discusses salaries at different companies, but none of this is relevant information to gauge a preference between the given options. \n\nThe reasoning being that to determine a preference, the option(s) must be either implicitly or explicitly mentioned in the context.\n\n### No preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 886,
+  "true_label": 2,
+  "model_output": "The commenter mentions both Boston University (BU) and Boston College (BC) and compares them in various aspects. They state that BC is more selective, has division one sports, and is higher ranked than BU, especially in business. They mention that BU has a bigger presence internationally, but this seems more like a fact rather than a preference.\n\nBased on their statements, it appears that the commenter prefers BC over BU because they highlight more positive aspects about BC.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

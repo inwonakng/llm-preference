@@ -1,0 +1,6 @@
+{
+  "index": 631,
+  "true_label": 2,
+  "model_output": "The comment only mentions 'Berkeley' and does not provide any judgments, preferences, or comparison between University of California, Berkeley and University of Maryland. They're only referring to its price point, expressing it's expensive for an out-of-state (OOS) student. There's no affection shown to either Option A or Option B particularly.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

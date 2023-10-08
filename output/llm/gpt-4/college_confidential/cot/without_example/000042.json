@@ -1,0 +1,6 @@
+{
+  "index": 42,
+  "true_label": 1,
+  "model_output": "First, the comment mentions \"Engineering is VERY egalitarian.\" This statement refers to engineering without specifying any institutions such as California Institute of Technology or Johns Hopkins University, so there's no definitive preference here.\n\nThen, the comment says, \"It helps a great deal in one\u2019s development in any field if s/he is surrounded and challenged constantly by people who are as smart or smarter.\" Still, it does not show a preference between the  California Institute of Technology and Johns Hopkins University, because the statement appliesological to any academic environment.\n\nIn conclusion, based on the comment provided, there seems to be no specific preference between the California Institute of Technology or Johns Hopkins University.\n\n### No preference",
+  "predicted_label": 0
+}

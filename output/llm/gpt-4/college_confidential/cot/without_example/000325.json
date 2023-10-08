@@ -1,0 +1,6 @@
+{
+  "index": 325,
+  "true_label": 0,
+  "model_output": "The user is defending Virginia Tech (Option B) against the assertion that it's a \"super safety\" in engineering, which could imply it isn't as prestigious or selective. By specifying that Virginia Tech's high acceptance rates are misleading and defending its applicant pool and large class size, they seem to give more weight to Virginia Tech over Pennsylvania State University, even through such a comparison has not been directly made in the comment.\n\nPostalizing all the observations,\n### B is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 468,
+  "true_label": 2,
+  "model_output": "First, the commenter points out that major companies prefer to recruit at Indiana University (IU) over the University of Georgia, implying a higher reputation or value of IU in the eye of employers.\n\nNext, while mentioning that the University of Georgia has relationships with certain companies, they presented this as if it is less desirable since those companies are local.\n\nFurthermore, they outright state that if they had to choose a school for their child, they would choose IU without hesitation, showing a clear personal preference.\n\nLastly, the commenter recognizes Indiana University's ranking as a top business school in the country, shedding a positive light on it while not mentioning any analogous accolade for the University of Georgia.\n\nAll these points together clearly imply that the commenter prefers Indiana University over the University of Georgia.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

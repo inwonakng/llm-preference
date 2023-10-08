@@ -1,0 +1,6 @@
+{
+  "index": 1003,
+  "true_label": 0,
+  "model_output": "1. The comment is asking for a preference between Harvard, Stanford, and USC. The University of Illinois at Urbana-Champaign is not mentioned at all in the comment.\n2. The commenter also makes a distinction between being able to pay and choosing to pay for your chosen school. However, this does not indicate a preference between the University of Illinois at Urbana-Champaign and the University of Southern California.\n3. Therefore, we cannot determine a preference between the two options based on this comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 954,
+  "true_label": 2,
+  "model_output": "First, the commentator is praising the University of Southern California (USC), calling it 'elite' and providing statistics to further emphasize its prestige. They also mention that USC is in the top pool of universities that students apply for. \n\nIn contrast, the commentator does not mention Stanford University at all, giving no indication of their preference towards it.\n\nGiven these points, it is clear that the commentator has a preference for the University of Southern California over Stanford University.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

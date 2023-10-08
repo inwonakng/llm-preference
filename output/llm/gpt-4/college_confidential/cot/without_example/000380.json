@@ -1,0 +1,6 @@
+{
+  "index": 380,
+  "true_label": 2,
+  "model_output": "The comment appears to be referring to a not mentioned university, UP, instead of Rutgers University or Virginia Tech. Therefore, it doesn't express any preference between Option A (Rutgers University) and Option B (Virginia Tech). In the comment, neither Rutgers University or Virginia Tech are mentioned or compared, and thus, it cannot be determined if there is a preference.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

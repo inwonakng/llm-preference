@@ -1,0 +1,6 @@
+{
+  "index": 399,
+  "true_label": 0,
+  "model_output": "Step 1: Let's identify any mention or comparison made between Pennsylvania State University and Rutgers University:\n\nThe comment mentioned Rutgers only once: \"In the realm of NJ public engineering schools, everyone outside of NJ has heard of Rutgers.\"\n\nStep 2: Note any bias or any judgement the commenter is expressing directly or indirectly:\n\nThe commenter does not comment on Pennsylvania State University and Rutgers relative to one another. However, there is a slight emphasis on the recognition Rutgers has as compared to other New Jersey schools (except for Stevens). The involvement of Pennsylvania State University was completely absent, suggesting either a lack of knowledge or lack of relevance by the commenter.\n\nStep 3: Any final decision or judgment made by the commenter.\n\nThe commenter does not directly give a judgment or preference between Pennsylvania State University and Rutgers University.\n\n%%%%\nNo preference",
+  "predicted_label": 0
+}

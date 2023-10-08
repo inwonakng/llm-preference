@@ -1,0 +1,6 @@
+{
+  "index": 89,
+  "true_label": 1,
+  "model_output": "The commenter shares their personal experience as an ex-bain from Johns Hopkins University and describes hiring process within management consulting and investment banking firms. They mention JHU graduates being substantially hired by Google, Facebook, and other elite tech firms, versus an unclear hiring ratio for Georgia Tech graduates at the same firms. In the end, when they had to choose a school with full-ride for Ph.D, they still chose JHU, despite other prestigious scholarship offers including Georgia Tech. They highlighted a positive experience resulting from choosing JHU and signified they do not regret paying a bit more in incoming tuition.\n\nThe verdict from this comment is therefore that Johns Hopkins University is more favourable to the user than the competing option, Georgia Institute of Technology, as emphasized by the comment \"I\u2019d choose JHU, bias and all\".\n\n###\nA is preferred over B",
+  "predicted_label": 1
+}

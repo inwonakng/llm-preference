@@ -1,0 +1,6 @@
+{
+  "index": 687,
+  "true_label": 0,
+  "model_output": "1. The comment does not mention either University of California, Berkeley (Option A), or Carnegie Mellon University (Option B).\n\n2. Considering that in this comment, no participant is being pointed out over the other, there's no evidence of a strict preference.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

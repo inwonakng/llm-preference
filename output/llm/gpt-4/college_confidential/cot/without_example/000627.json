@@ -1,0 +1,6 @@
+{
+  "index": 627,
+  "true_label": 1,
+  "model_output": "The comment referenced a visit to the Carnegie Mellon University (CMU) campus and discusses some aspects about financial considerations related to studying in private university-like CMU. The comment, however, does not imply a preference for CMU nor does it make any reference or suggestion towards the University of California, Berkeley.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

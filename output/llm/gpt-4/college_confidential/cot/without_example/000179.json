@@ -1,0 +1,6 @@
+{
+  "index": 179,
+  "true_label": 1,
+  "model_output": "The comment directly mentions 'Behrend,' a branch of Pennsylvania State University (PSU), and explicitly calls it an excellent higher learning institution. The speaker further discusses a potential for a scholarship being granted and mentions PSU's main campus in a positive light. However, there is no mention of the University of Pittsburgh, nor is there a comparison between the two. Therefore, we can infer that PSU is preferred, as it is the only university outlined and championed in the comment, while Pittsburgh University is left noticeably unaddressed.\n\n### \nA is preferred over B",
+  "predicted_label": 1
+}

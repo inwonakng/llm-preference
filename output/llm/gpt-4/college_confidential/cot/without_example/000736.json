@@ -1,0 +1,6 @@
+{
+  "index": 736,
+  "true_label": 1,
+  "model_output": "Firstly, the comment mentions \"Wharton\", which is the business school of the University of Pennsylvania (option A). The commenter is specifically making a case on why choosing Wharton (implying the University of Pennsylvania since it is unique to that university) would be better, particularly if one likes the culture and campus and might consider switching majors. \n\nThere is no indication that New York University (option B) offers anything that would challenge this comment's favorable view of option A.\n\nHence, the commentators preference seems to be leaning towards the University of Pennsylvania (Option A).\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 1000,
+  "true_label": 2,
+  "model_output": "Firstly, the comment is comparing the University of Southern California (USC) with other universities, not specifically with the University of Illinois at Urbana-Champaign.\n\nSecondly, the comment suggests that the student body at USC is not very intellectual, but it doesn't make any comparison or mention of the University of Illinois at Urbana-Champaign.\n\nThirdly, the comment suggests that from a 'Return on Investment' perspective, it would be hard to justify turning down a full-tuition scholarship to USC. This could be interpreted as a preference for USC based on financial considerations, but it's still not a direct comparison to the University of Illinois at Urbana-Champaign.\n\nTherefore, there is no clear preference stated between the University of Illinois at Urbana-Champaign and the University of Southern California in this comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

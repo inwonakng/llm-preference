@@ -1,0 +1,6 @@
+{
+  "index": 872,
+  "true_label": 2,
+  "model_output": "1. The commenter mentioned both options - Boston University and Boston College.\n2. The commenter does not show any preference at the beginning as they state it depends on the major and personal preferences.\n3. However, they then mention they would vote for Boston College (Option B).\n4. They go on to list several positive aspects of Boston College such as the lovely campus, higher rank, selectivity, large and growing endowment, new buildings, investment in infrastructure, new field house with gym, pools and dance rooms for students, new science center, new school of engineering, excellent pre-health consulting and sports teams.\n5. The commenter does not mention any specific advantages or positive aspects of Boston University (Option A).\n6. Given these points, it's clear that the commenter prefers Boston College over Boston University.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

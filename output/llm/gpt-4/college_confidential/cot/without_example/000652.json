@@ -1,0 +1,6 @@
+{
+  "index": 652,
+  "true_label": 1,
+  "model_output": "There is an indirect positive reference to the University of California, Berkeley (UCB) when they inform of no difficulty associated with graduating in four years, and how majors are impacted well to accommodate the courses' students need to take. None of these comments show a clear comparison between UCB and the University of Maryland, and the University of Maryland is never mentioned in the comment. So there isn't a clear preference expressed.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

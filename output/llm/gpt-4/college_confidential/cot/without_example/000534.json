@@ -1,0 +1,6 @@
+{
+  "index": 534,
+  "true_label": 0,
+  "model_output": "1. The user comments addressing another person about their potential application to Kenyon College but no preference about Kenyon over Vassar or vice versa is indicated here.\n2. Later, the user goes onto talk about their previous experience with Vassar College. They mention that they attended Vassar and also visited the place again with their D20 (usually refers to a daughter). They express positive feelings towards Vassar based on past and recent experiences. \n3. However, the user is clear that they can't compare their experience of Vassar with Kenyon because they haven't visited Kenyon. This suggests that no straight comparison or  preference toward any of them is given.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

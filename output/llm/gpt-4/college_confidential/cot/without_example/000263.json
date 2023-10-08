@@ -1,0 +1,6 @@
+{
+  "index": 263,
+  "true_label": 0,
+  "model_output": "The comment provided doesn't specify a preference for either North Carolina State University (Option A) or Virginia Tech (Option B). It is a series of questions directed at a specific user about College, residence halls and commuting. Crucially, it also appears to be drifting topic to Penn State rather than North Carolina State University or Virginia Tech. It's a list of inquiries that makes no comparison between the two stated options.\n\nTherefore, the conclusion is thus:\n\n### No preference",
+  "predicted_label": 0
+}

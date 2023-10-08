@@ -1,0 +1,6 @@
+{
+  "index": 103,
+  "true_label": 0,
+  "model_output": "Firstly, this comment doesn\u2019t mention Option A or Option B. Secondly, it seems the person is talking about his/her own opinion towards management consulting firms. In this context or comment, there is no preference between California Institute of Technology and Georgia Institute of Technology.\nSo, the comment shows no preference towards either of the two options.\n\n###\nNo preference",
+  "predicted_label": 0
+}

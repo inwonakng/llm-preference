@@ -1,0 +1,6 @@
+{
+  "index": 524,
+  "true_label": 1,
+  "model_output": "The comment is focused on Kenyon College, arguing that past tragedies related to substance use should not deter people from considering the college due to initiatives taken since. The user gives perspective to the incident, comparing it with incidents at other universities to suggest it isn't an isolated problem, unique to Kenyon. Vassar College is not mentioned in this discussion, therefore we cannot infer any comparative preference between Vassar and Kenyon. The context provided mainly serves to encourage a more informed perspective of Kenyon College.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

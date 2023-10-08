@@ -1,0 +1,6 @@
+{
+  "index": 35,
+  "true_label": 2,
+  "model_output": "The commentator emphasizes the difficulty of comparing engineers who graduate from different universities, based on their disputable correlation to job success. Despite discussing at length about Caltech and the world of engineering in academia and generic terms, the comment notably does not mention either Johns Hopkins University or the Georgia Institute of Technology specifically.\n\n### No preference",
+  "predicted_label": 0
+}

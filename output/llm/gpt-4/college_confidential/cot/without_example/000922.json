@@ -1,0 +1,6 @@
+{
+  "index": 922,
+  "true_label": 2,
+  "model_output": "The comment seems to be praising the University of Southern California (USC), stating that it is a 'spectacular' school. The comment does compare USC to Stanford and the Ivies, but not to the University of Illinois at Urbana-Champaign. However, the fact that USC is being praised, while there is no mention about the University of Illinois at Urbana-Champaign, suggests a preference for USC over the University of Illinois at Urbana-Champaign. \n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

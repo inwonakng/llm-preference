@@ -1,0 +1,6 @@
+{
+  "index": 57,
+  "true_label": 1,
+  "model_output": "Although the comment mentions Cal Tech, it does so in the context of discussing a broad range of institutions from where notable individuals have emerged. It was more of a mention in relation to its reputation than a firm preference towards it. Johns Hopkins University, Option B, was not alluded to at all in the comment, which makes it difficult to conclude any preference for it over option A.\n\n### \nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 521,
+  "true_label": 1,
+  "model_output": "1. The comment recognises that both Vassar and Kenyon are perceived positively, leading to the belief that they're both good choices subject to personal preferences.\n2. The commenter admits to never having visited Kenyon, hence their perspective won't include any personal experience with Kenyon.\n3. The commenter, connected to alumni and more recent graduates from Vassar and having spent time on its campus, reveals a direct familiarity and bias towards Vassar.\n4. Annotations on various attributes of Vassar (social environment, intellectual orientation, inclusive culture, blend of interests among its populus, financial aid, socioematic diversity etc.) is explicit, underscoring an inclination towards Vassar.\n5. However, there isn't any direct negative commentary on Kenyon; simply lack of comparable detail due to not having visited in person.\n\nThe lack of personal experience with Kenyon leaves the comment with a clear, albeit indirect and unintended preference for Vassar.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 896,
+  "true_label": 1,
+  "model_output": "The comment explicitly praises Boston University (Option A) and suggests that everyone should go there. There is no mention of Boston College (Option B) in the comment, which suggests that the preference is towards Boston University.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

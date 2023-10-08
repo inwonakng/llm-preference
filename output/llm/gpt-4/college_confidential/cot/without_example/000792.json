@@ -1,0 +1,6 @@
+{
+  "index": 792,
+  "true_label": 2,
+  "model_output": "The commenter starts by expressing a preference for Baltimore, the location of Johns Hopkins University, over the location of Pomona College. They mention liking the ease of transportation in Baltimore and its proximity to DC. They also bring up sports, noting that while Johns Hopkins has a D1 lacrosse team, there are other schools in the area with D1 teams, as well as professional teams in both Baltimore and DC. They contrast this with Pomona's proximity to Anaheim, where one can follow the Angels and the Ducks, but note that everything else is in LA. Lastly, they mention that Johns Hopkins is closer to Toronto, which could be a factor depending on the individual's plans. \n\nFrom the above reasoning, we can conclude that the commenter has a preference for Johns Hopkins University over Pomona College. \n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

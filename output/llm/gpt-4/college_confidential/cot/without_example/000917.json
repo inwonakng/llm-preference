@@ -1,0 +1,6 @@
+{
+  "index": 917,
+  "true_label": 1,
+  "model_output": "The comment mentions both Stanford University and the University of Illinois at Urbana-Champaign, but the preference is not straightforward. The user suggests that the student could potentially benefit more from going to Stanford University due to it being a target school for some industries, indicating a potential preference for Stanford. However, the comment also questions whether being full-pay at Stanford would be worth it compared to a full-tuition scholarship at USC, a university not presented as an option for comparison. The University of Illinois at Urbana-Champaign is mentioned but is suggested to be eliminated, indicating a potential negative preference for it. However, the ultimate decision seems to depend on the student's personal circumstances and career goals. \n\n%%%\nNo preference",
+  "predicted_label": 0
+}

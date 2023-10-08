@@ -1,0 +1,6 @@
+{
+  "index": 421,
+  "true_label": 0,
+  "model_output": "Firstly, the commenter mentioned Indiana University (IU), indicating he knows about the school, but there was no mention of the University of Georgia in the comment.\nAlso, the person leaves a very positive comment about IU, recommending the user contact @iubaccounting because he's a wealth of information about IU-Kelley. This suggests that they are aware of and values IU.\n\nHowever, there isn't any explicit negative comment about the University of Georgia in this context, there just isn't any information about it.\n\nAlthough this information doesn't give total preference, the comment does leans more towards Indiana University (IU) because it's the only one of the two mentioned and recommended.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

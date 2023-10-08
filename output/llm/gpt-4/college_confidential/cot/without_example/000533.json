@@ -1,0 +1,6 @@
+{
+  "index": 533,
+  "true_label": 2,
+  "model_output": "The commentator appears to look favorably upon both Vassar College and Kenyon College. However, they relate more with their experiences at Kenyon College. They carefully reasoned why they chose Kenyon over Vassar in the first place and even mentioned how comfortable they felt there. Though the commentator did mention knowing someone who is happy at Vassar College, their personal experience heavily leans towards having a better experience at Kenyon College. Therefore the comment shows a preference toward Kenyon College.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

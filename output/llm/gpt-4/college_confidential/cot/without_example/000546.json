@@ -1,0 +1,6 @@
+{
+  "index": 546,
+  "true_label": 2,
+  "model_output": "The commenter seems fairly neutral about University of Rochester (Option A) and Emory University (Option B) in terms of educational quality and preparedness for a future career. They mention that both schools have good professors, have similar standards, and that the content covered would be the same. When the commenter's own daughter had to make a choice, they say she chose the University of Rochester but would have been equally happy and well-prepared if she had chosen Emory.\n\n%%% \nEqual preference",
+  "predicted_label": 3
+}

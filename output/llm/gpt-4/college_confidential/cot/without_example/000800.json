@@ -1,0 +1,6 @@
+{
+  "index": 800,
+  "true_label": 0,
+  "model_output": "The comment does not mention either Pomona College or Johns Hopkins University. Instead, it discusses the idea of a school's ability to meet ABET status, which is unrelated to the given options. Therefore, there is no preference for either option in this comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

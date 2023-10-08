@@ -1,0 +1,6 @@
+{
+  "index": 381,
+  "true_label": 1,
+  "model_output": "1. The comment is about Rutgers, and there isn't any mention of Pennsylvania State University. Therefore, we can't tell yet which college is preferred based on this information.\n2. The commenter lists some positive points about Rutgers University: excellent instructors, and a well-respected program.\n3. However, the user also raises several points of criticism against Rutgers. It's described as \"basically a commuter campus,\" lacking a tightly-knit, centralized campus environment, a lack of activities causing students to leave during the weekends, and a potential sense of loneliness for out-of-state (OOS) students.\n4. The phrase \"go HOKIES!\" is a tagline for Virginia Tech, not related to either Rutgers or Penn State - so we can't consider this as a favoring point towards any of these universities.\n\nAlthough this doesn't root to a direct competition between these two universities, because Penn State is not referenced in the comment, the negativity associated with Rutgers might in an indirect way prefer other unmentioned colleges over Rutgers. But it's not conclusive.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

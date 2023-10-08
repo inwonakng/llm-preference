@@ -1,0 +1,6 @@
+{
+  "index": 416,
+  "true_label": 0,
+  "model_output": "The person commenting mentions that they are familiar with University of Georgia (UGA), as the Atlanta office where they work usually has interns who come from there and other local colleges. They offer the person a piece of advice about working in a particular office and transferring to another one after a period of time, such as from Atlanta to Chicago. Although Indiana University isn't explicitly mentioned, it can nevertheless be inferred that people from more local colleges are typically hired for jobs. Given this, we can conclude that a slight preference for the University of Georgia is shown in the comment over Indiana University.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

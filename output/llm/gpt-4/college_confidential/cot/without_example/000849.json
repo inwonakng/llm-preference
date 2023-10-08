@@ -1,0 +1,6 @@
+{
+  "index": 849,
+  "true_label": 1,
+  "model_output": "First, the comment mentions several universities but doesn't mention Brown University at all. Therefore, there is no evidence of preference for Brown University in this comment. \n\nSecond, the comment does mention Duke University and ties it to successful CEOs of notable companies, such as Apple and P&G. This could be interpreted as a positive reference to Duke University.\n\nTherefore, the comment shows a preference for Duke University over Brown University.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

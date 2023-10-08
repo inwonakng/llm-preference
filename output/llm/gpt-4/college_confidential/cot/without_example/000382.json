@@ -1,0 +1,6 @@
+{
+  "index": 382,
+  "true_label": 0,
+  "model_output": "The user in the comment mentions two universities, Rutgers and what can be inferred as Virginia Tech, the latter being given a fond exclamation at the end of the text. While Pennsylvania State University is not mentioned at all. From this, we deduce that the user fondly holds Virginia Tech aka Hokies (due to the exclamation), pointing to a preference towards it, even if they do not make an explicit comparison.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

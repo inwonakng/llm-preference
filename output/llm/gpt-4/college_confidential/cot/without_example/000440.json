@@ -1,0 +1,6 @@
+{
+  "index": 440,
+  "true_label": 1,
+  "model_output": "The commentator firstly states that he agrees there's little impact of MBA programs at UGA, implying part of UGA's specialties aren't effective or may lack esteem. He solely highlights friction on the discussion about UGA, not on IU. In comparison, he disagrees when this same insinuation is placed on Indiana University - suggesting IU's MBA program is indeed relevant or prestigious. \n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

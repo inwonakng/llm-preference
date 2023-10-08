@@ -1,0 +1,6 @@
+{
+  "index": 278,
+  "true_label": 0,
+  "model_output": "Firstly, the mentioned universities are NC State University and Virginia Tech, yet the comment only talking about PSU, which is potentially a spelling mistake or they could be possibly short for another unrelated school.\n\nThey listed some elements of her daughter's PSU experience, such as the location of her hall, her success as a double major and her pleasant experience there without making any direct comparisons to the NC State University or Virginia Tech.\n\nGiven this information and based solely on the provided comment, there is no apparent mention or comparison of NC State University or Virginia Tech. Hence,\n\n### No preference",
+  "predicted_label": 0
+}

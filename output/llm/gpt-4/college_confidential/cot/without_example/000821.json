@@ -1,0 +1,6 @@
+{
+  "index": 821,
+  "true_label": 2,
+  "model_output": "1. The comment is clearly providing information about Johns Hopkins University (JHU), specifically about the programs and opportunities it offers.\n2. The person commenting is speaking highly of their experiences at JHU, and the opportunities they had as a result of attending the university.\n3. There is mention of the reputation of JHU professors and their influence on grad school admissions.\n4. Pomona College isn't mentioned at all in the comment.\n\nGiven these observations, it's clear that the commenter is expressing a preference for Johns Hopkins University over Pomona College, despite the absence of a direct comparison between the two.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

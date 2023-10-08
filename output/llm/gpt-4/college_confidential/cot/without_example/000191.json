@@ -1,0 +1,6 @@
+{
+  "index": 191,
+  "true_label": 1,
+  "model_output": "While reviewing the comment, we find a recommendation for someone to contact Penn State's Behrend Honors and Schreyer Honors Programs Office and there's specific contact information as well. It appears that the person commenting has a favorable opinion of the honor programs at Penn State. Considering this information, it could be argued that there's a preference for option A, Pennsylvania State University. There is no mention of the University of Pittsburgh, making comparison difficult. \n\nHowever, just because they don't mention University of Pittsburgh directly does not mean that they are implicitly preferring Pennsylvania State University over it, they might just be providing information about Pennsylvania State University.\nGiven the level of detail, though, one could infer a preference, but without more explicit criterion for comparison, it's tough conclusively to say there's a strong preference towards option A.\n\n### No preference",
+  "predicted_label": 0
+}

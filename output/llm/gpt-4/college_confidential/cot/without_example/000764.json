@@ -1,0 +1,6 @@
+{
+  "index": 764,
+  "true_label": 1,
+  "model_output": "The comment is comparing Wharton (which is part of the University of Pennsylvania) and Stern (which is part of New York University). The commenter seems to disagree with the idea that Wharton is more valuable than Stern and states that Stern and Fordham combined would not even reach that level. However, this comment does not directly specify whether the commenter prefers the University of Pennsylvania or New York University overall.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

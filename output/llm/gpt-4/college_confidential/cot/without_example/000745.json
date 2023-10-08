@@ -1,0 +1,6 @@
+{
+  "index": 745,
+  "true_label": 0,
+  "model_output": "The comment argument is mainly related to the MBA program in general, not to specific universities. The user mentions that they don't see much value in an MBA due to its cost but does not compare or even mention the University of Pennsylvania or New York University specifically.\n\nGiven this, it does not seem like the comment expresses a clear preference either way between University of Pennsylvania and New York University.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

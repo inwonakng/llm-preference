@@ -1,0 +1,6 @@
+{
+  "index": 726,
+  "true_label": 1,
+  "model_output": "Firstly, the comment is about finance programs and mentions both Option A and Option B universities one after the other.\nThere is a list of financial programs which is presumably listed based off their rankings.\nWharton, which is a part of the University of Pennsylvania (Option A) is listed first.\nNYU\u2013Stern, which correlates to New York University (Option B) is listed third. \nThe placement of a university at a higher rank signifies a better financial program, a value placed compliance to the acknowledgement of a faculty examining body.\nTo summarize, taking into account the presented ranking, it indicates a preference for the program track the University of Pennsylvania offers overall in comparison to New York University.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

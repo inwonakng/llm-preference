@@ -1,0 +1,6 @@
+{
+  "index": 99,
+  "true_label": 0,
+  "model_output": "Firstly, the user doesn't mentions California Institute of Technology at all, so no preferences related to this option can be derived.\n\nSecondly, the commenter remarks on Johns Hopkins University (JHU), though not in a positive light, saying management consulting firms that recruit there are scam artists implying high incidence of fast talkers and low ethics. There is a bias but it seems negative.\n\nDespite this negativity towards JHU, the writer further clarifies that they have nothing against JHU\u2014the comment was provoked by a presumed air of superiority, rather than JHU itself.\n\nTherefore based on this comment, no definite preference can be established between the California Institute of Technology and Johns Hopkins University, because the comment doesn't establish a clear preference for one over the other.\n\n###\nNo preference",
+  "predicted_label": 0
+}

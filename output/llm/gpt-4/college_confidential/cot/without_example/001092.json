@@ -1,0 +1,6 @@
+{
+  "index": 1092,
+  "true_label": 1,
+  "model_output": "1. The comment does not explicitly compare Stanford University and the University of Southern California. However, the commenter discusses his/her daughter's experiences at Stanford and only touches briefly on USC at the end of the comment.\n2. The commenter praises Stanford's resources for studying humanities and arts, stating that Stanford is \"ahead of the curve\" and has been investing in these programs. This indicates a positive view of Stanford.\n3. USC is only mentioned once at the end, with the commenter stating that it was not a good fit for his/her daughter, who was seeking an intellectual vibe. This suggests that for their daughter, Stanford was the preferred choice.\n4. However, the commenter also acknowledges that USC is a fabulous school with many highly intellectual students and faculty. This shows some regard for USC even though it was not the best choice for their daughter.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

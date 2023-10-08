@@ -1,0 +1,6 @@
+{
+  "index": 841,
+  "true_label": 1,
+  "model_output": "The comment starts with a sentence unrelated to the comparison between Duke and Brown University. The second sentence asks if there are any prominent CEOs from Brown, which is a rhetorical question that implies there are not many, or none. The third sentence mentions John Mack and Alan Schwartz, but does not specify which university they are from. Without additional information, these names do not indicate a preference.\n\nThe fourth sentence brings up Jamie Dimon, a respected figure on Wall Street, choosing Duke for his daughter. This suggests that Duke is preferred by a successful and well-known figure in the finance industry.\n\nConsidering these elements, it appears there is a preference for Duke University over Brown University in the comment.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

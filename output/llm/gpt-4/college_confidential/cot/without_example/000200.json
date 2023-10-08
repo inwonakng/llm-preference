@@ -1,0 +1,6 @@
+{
+  "index": 200,
+  "true_label": 0,
+  "model_output": "- The user shares positive comments about NCSU implying it's a good school. This indicates a positive sentiment towards Option A.\n- However, the user recommends a different factor for the decision marking: affordability. It doesn't relate directly to either NCSU or Virginia Tech, meaning the remark doesn't imply a preference between the two provided options. \n\nThis comment's focus is more on pragmatic concern rather than drawing comparison between the two universities.\n\n### \nNo preference",
+  "predicted_label": 0
+}

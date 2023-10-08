@@ -1,0 +1,6 @@
+{
+  "index": 833,
+  "true_label": 2,
+  "model_output": "The comment is speaking about two universities: Duke University and Brown University. Specifically, the commenter is defending Duke University's standing in the finance field over Brown University's. They provide evidence by citing school rankings in which Duke is placed higher than Brown for finance. They also challenge anyone to produce a ranking that shows Brown over Duke in terms of employment prospects in finance. \n\nBased on this, it is clear that the commenter has a preference for Duke University over Brown University, especially when considering the field of finance. The preference is explicitly stated through the comparison of rankings and the challenge posed to anyone who might argue otherwise. \n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

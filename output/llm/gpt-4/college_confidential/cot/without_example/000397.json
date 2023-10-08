@@ -1,0 +1,6 @@
+{
+  "index": 397,
+  "true_label": 2,
+  "model_output": "Initially, the person talks about Rutgers and an out-of-state school providing better scholarship money. However, there is no reference to either Pennsylvania State University (Option A) or Virginia Tech (Option B) in the response. It seems they bring up another, separate point by talking about Rutgers. They take about their son\u2019s feeling that Rutgers would be \u2018an extension of high school,\u2019 \u2013 which also doesn\u2019t have direct relevance to the options in question. There are generalities about the advantages of looking at schools outside the area, using aid offered as criteria but again no preference between Pennsylvania State University and Virginia Tech is mentioned.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

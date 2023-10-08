@@ -1,0 +1,6 @@
+{
+  "index": 441,
+  "true_label": 2,
+  "model_output": "The comment is comparing the MBA programs of both universities, critical of how the average starting salary and signing bonus from UGA is lower than that of IU despite being within close proximity to Atlanta. Therefore, in this particular comment, Indiana University (IU) is definitely mirrored in a more superior and beneficial light than the University of Georgia (UGA), showing a preference for MBA students to steer their choice towards choosing IU compared to UGA.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

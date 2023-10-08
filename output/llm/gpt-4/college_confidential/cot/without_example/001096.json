@@ -1,0 +1,6 @@
+{
+  "index": 1096,
+  "true_label": 3,
+  "model_output": "1. The comment discusses different aspects of choosing a university, but doesn't directly compare University of Illinois at Urbana-Champaign and University of Southern California.\n2. It does mention University of Southern California in the context of choosing between Stanford/Harvard or USC with a full tuition merit. However, this comparison doesn't involve University of Illinois at Urbana-Champaign.\n3. There's no specific preference stated or implied between the two options in the comment.\n4. Therefore, there's no preference to be determined from the given comment.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

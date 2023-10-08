@@ -1,0 +1,6 @@
+{
+  "index": 123,
+  "true_label": 1,
+  "model_output": "The comment highlighted some strengths of both universities. Firstly, reasoning around University A is detailed, mentioning scholarships and a variety of notable classes and resources that could contribute to a user's education experience. Surexworthy mentionings include new data analytics course and impressive establishments like a club focusing on placements acceptable to students and facilities such as Bloomberg terminals.\n\nMoreover, there seems to be some strong assumptions regarding University B in intellectual pursuits. However, this outlook does not supply specific details. While University B might be great in academic regarded pursuits, University A leans towards job and real-world orientations.\n\nIt is decipherable that the detailment afforded to University A is much heavier than University B. This slew may mean A's attributes stick out more to this user. But keys to this outlook don't allude to a partial attitude directly toward A over B or B over A.\n\n###\nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 813,
+  "true_label": 0,
+  "model_output": "The comment compares Pomona College and Johns Hopkins University based on their admission statistics. The comparison includes acceptance rates, SAT scores, ACT scores, and the percent of freshman in the top 10% of their class.\n\nRegarding acceptance rate, Pomona College is mentioned to have a slightly lower acceptance rate than Johns Hopkins University, which means it could be considered more difficult to get into.\n\nHowever, when it comes to test scores, it's mentioned that Johns Hopkins University has the edge. The SAT and ACT scores of enrolled freshman for Johns Hopkins are slightly higher than for Pomona College.\n\nLastly, the percent of freshman in the top 10% of class is nearly the same for both institutions, with Pomona having a slight edge.\n\nOverall, it is hard to definitively say which institution is preferred based on the comment as both have certain aspects where they excel. It would depend on what the person places more value on - acceptance rate or average test scores.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

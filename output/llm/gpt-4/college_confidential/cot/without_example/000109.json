@@ -1,0 +1,6 @@
+{
+  "index": 109,
+  "true_label": 0,
+  "model_output": "The comment doesn't provide specific information leading to a preference for either the California Institute of Technology or the Georgia Institute of Technology.\n\nThe person is merely sharing a fact about the number of students achieving a high score on the ACT in 2018 but detect no clear bias towards Option A or B.\n\n### No preference",
+  "predicted_label": 0
+}

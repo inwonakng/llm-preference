@@ -1,0 +1,6 @@
+{
+  "index": 571,
+  "true_label": 0,
+  "model_output": "From the given comment, it seems like the user is implying that the situation would be beneficial if Option A, Cornell University, were selected. This is shown by them providing advice on how to potentially obtain financial help from the institution. They don't mention Option B, Virginia Tech at all. They mention UMiami as well, but that is not one of our options for comparison.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 678,
+  "true_label": 2,
+  "model_output": "The comment starts with expressing sentiment toward the University of California, Berkeley (Cal) with the commenter noting themselves as a 'huge fan' as well as noting the school\u2019s attrition for its location and wide graduation time scale. However, the second part of the comment showcases a juxtaposition provided the equivalence between both Universities price point. They bring the option of Carnegie Mellon University (CMU) into perspective by listing its benefits in terms of being a well-known science and tech school, offering personalized education and relatively easier access to faculty/research. The commenter concludes with a slight criticism against Cal for being notorious for its bureaucracy. Therefore, though the commenter expresses a clear recognition towards both universities, the hint that one might opt for CMU due to the reasons described above gives clear evidence that even though they like Cal, they consider CMU of more value in this context.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

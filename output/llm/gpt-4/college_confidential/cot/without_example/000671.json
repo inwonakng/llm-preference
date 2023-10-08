@@ -1,0 +1,6 @@
+{
+  "index": 671,
+  "true_label": 0,
+  "model_output": "The commenter is discussing some of the experiences one can expect to have at Carnegie Mellon University (CMU), and also sheds some light on certain dynamics at University of Maryland via a general comment about state flagship schools. \n\n1. In favor of CMU, the commenter mentions that it offers a private school experience, smaller classes, several sections, and geographic diversity. \n   \n2. However, the commenter highlights that computer science courses at CMU are also not particularly small especially with several discussion sections attached with the lecture majority lectures.\n   \n3. Importantly, the commenter then mentions state flagship or private schools known for CS will have large class contents, indirectly referencing University of Maryland as a state flagship.\n\nIt seems that the user views both colleges as having large class sizes for Computer Science, negating the originally positive argument about CMU having smaller classes. However, the positive aspects listed about CMU (private school experience and geographic diversity) appear to still hold and may indicate a lean towards Carnegie Mellon University.\n\n%%%\n\nA is preferred over B",
+  "predicted_label": 1
+}

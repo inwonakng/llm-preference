@@ -1,0 +1,6 @@
+{
+  "index": 876,
+  "true_label": 3,
+  "model_output": "The comment does not explicitly show a preference for either Boston University (Option A) or Boston College (Option B). The commenter mentions that 'both schools accomplish your academic goals' and that they are 'both great schools' but also emphasizes that they have a 'completely different feel.' The comment suggests that one's personal preference between the two will be clear due to their differences, but it does not indicate what that preference might be.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

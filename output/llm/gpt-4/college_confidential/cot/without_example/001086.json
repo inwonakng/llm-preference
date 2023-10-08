@@ -1,0 +1,6 @@
+{
+  "index": 1086,
+  "true_label": 1,
+  "model_output": "1. The comment does not directly mention either Stanford University or the University of Southern California.\n\n2. The commenter is discussing their own alma mater and describing it as \"not very intellectual\" but \"more practical\".\n\n3. They mention that they're proud of the fact that their alma mater produces alums who go on to do great things in many fields due to the pre-professional focus of many programs there.\n\n4. We don't know whether the commenter's alma mater is Stanford University or the University of Southern California, or neither of these. The comment doesn't make any direct or indirect comparison between these two universities.\n\n5. Therefore, based on the information in this comment, we cannot determine any preference between Stanford University and the University of Southern California.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

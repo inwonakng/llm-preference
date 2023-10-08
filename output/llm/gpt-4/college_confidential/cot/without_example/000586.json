@@ -1,0 +1,6 @@
+{
+  "index": 586,
+  "true_label": 2,
+  "model_output": "The commenter mentions that they have a prospective student who is on the wait list for Cornell University, but has been accepted at Virginia Tech. They go on to express a strong positive opinion towards Virginia Tech, referring to the good vibes they and their student have received from the campus, as well as an admiration for the educational and extracurricular opportunities it affords. They also mention negative sentiments associated with the grind at Cornell which problematizes it. Additionally, their positive take on the parental sentiments about VT in the comments plus the love for sport further consolidate the preference leaning towards Virginia Tech.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

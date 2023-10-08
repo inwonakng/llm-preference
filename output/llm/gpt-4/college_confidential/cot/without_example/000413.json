@@ -1,0 +1,6 @@
+{
+  "index": 413,
+  "true_label": 0,
+  "model_output": "The comment is focused on another institution, Stevens, and the user is asking about experiences for students in the biology/pre-med track. Nowhere in the comment does the user compare or mention Rutgers University or Virginia Tech, therefore we cannot deduce any preference, as there is none mentioned in regards to these institutions.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

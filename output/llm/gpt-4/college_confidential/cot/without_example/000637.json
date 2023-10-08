@@ -1,0 +1,6 @@
+{
+  "index": 637,
+  "true_label": 1,
+  "model_output": "1. The comment is about a person who seems determined not to go to Option B (University of Maryland, UMD).\n2. Despite discussing the person's considerations for not choosing Option B, the comment is not remarking positively or negatively about Option A (University of California, Berkeley).\n3. However, the definitive negativity towards Option B, due to the person's determined refusal, implies a preference away from it. \n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

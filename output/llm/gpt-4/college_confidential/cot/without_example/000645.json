@@ -1,0 +1,6 @@
+{
+  "index": 645,
+  "true_label": 2,
+  "model_output": "1. The commenter proceeds to outline issues they have with the University of California, Berkeley by using phrases like \"Graduate in 3 years at Cal? No way\" and \"I don\u2019t get the allure of Cal\u2026 huge classes!\" This clearly shows a negative bias towards option A, indicating they don't prefer it.\n2. Carnegie Mellon University (option B) is not mentioned at all in the comment.\n\nBased on this, it seems there's a clear disfavor towards option A, but the absence of any comment on option B makes it tough to assess a clear preference out of the two. The only thing we can affirm is that they don't like the University of California, Berkeley.\n%%%\nNo preference",
+  "predicted_label": 0
+}

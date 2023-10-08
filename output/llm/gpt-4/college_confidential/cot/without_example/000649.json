@@ -1,0 +1,6 @@
+{
+  "index": 649,
+  "true_label": 2,
+  "model_output": "The comment notes the cost of attending the University of California, Berkeley, also referred to as Cal, compared to attending the University of Maryland for $0. The statement \"Don't get the allure of Cal either at $57,700 vs. $0\" seems to suggest the user sees the University of Maryland as more reasonable choice given the cost factor. While personal preference for either isn't explicitly stated, the cost factor mentioned points towards a preference for the University of Maryland from select perspectives. \n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

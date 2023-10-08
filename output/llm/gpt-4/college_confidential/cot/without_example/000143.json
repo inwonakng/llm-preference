@@ -1,0 +1,6 @@
+{
+  "index": 143,
+  "true_label": 0,
+  "model_output": "The comment is from a Haverford student who knows other Haverford students who were able to take Wharton classes. These experiences likely signify that this particular individual prefers Haverford College (Option B) as they spoke positively on behalf of Haverford. or at the very least, did not show a preference for University of Richmond. The individual did not make any comparison or even mention University of Richmond (Option A) in their comment. Therefore, it is near-impossible to conclude that they would prefer University of Richmond based on this comment\n\n### \nB is preferred over A",
+  "predicted_label": 2
+}

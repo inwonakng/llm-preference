@@ -1,0 +1,6 @@
+{
+  "index": 946,
+  "true_label": 0,
+  "model_output": "The comment appears to be comparing Stanford (not mentioned in the options), the University of Southern California (Option B), and a third unnamed university (presumably University of Illinois at Urbana-Champaign, Option A). \n\nFrom the comment, it seems that the commenter is considering the strength of the alumni network and the cost as important factors in their decision. They say the alumni network is at least as strong as another university's, and that \"the big scholarship to USC\" makes it cheaper. \n\nThe comment ends with the statement \"If 200K is actually real money to me, then I\u2019d take the big scholarship to USC and invest that 200K.\" This appears to suggest a preference for USC (Option B) due to the financial benefits. \n\nHowever, the comment does not make a clear comparison between USC and University of Illinois at Urbana-Champaign (Option A). We do not have any clear statement from the commenter preferring one over the other. \n\n%%%\nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 955,
+  "true_label": 2,
+  "model_output": "The comment is clearly favoring the University of Southern California over the University of Illinois at Urbana-Champaign. The commenter describes USC as 'elite' and mentions the small percentage of students that get into such prestigious institutions, implying that getting accepted into USC is a big accomplishment. The commenter also highlights the high cost of USC, equating it to the value of a free house, which suggests they see it as a significant investment with a worthwhile return. The University of Illinois at Urbana-Champaign is not mentioned at all in the comment, which further points to the preference for USC.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

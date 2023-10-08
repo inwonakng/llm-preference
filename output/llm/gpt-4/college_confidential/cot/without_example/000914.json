@@ -1,0 +1,6 @@
+{
+  "index": 914,
+  "true_label": 0,
+  "model_output": "1. The comment mentions Stanford and compares it with USC and Harvard, but does not mention the University of Illinois at Urbana-Champaign at all. \n2. The comment discusses the value and recognition of a Stanford degree, particularly in relation to USC and Harvard. It suggests that a Stanford degree is not worth significantly more than a USC degree.\n3. The comment suggests saving money for an MBA or MS in Economics instead of spending it on a degree from Stanford or Harvard. \n4. Since there is no mention or comparison of the University of Illinois at Urbana-Champaign, there is no basis for determining a preference between Stanford and the University of Illinois at Urbana-Champaign.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

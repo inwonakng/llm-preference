@@ -1,0 +1,6 @@
+{
+  "index": 290,
+  "true_label": 2,
+  "model_output": "The commenter mentions a preference for Virginia Tech over Rutgers University, stating, \"I\u2019d go with VT.\" They don't mention Rutgers explicitly, but choosing between Rutgers University and Virginia Tech, It is clear that the commenter prefers Virginia Tech and even elaborates why, citing the quality of engineering education and concerns about the system of moving from branch campuses to main campuses at the alternative option university.\n\n### B is preferred over A",
+  "predicted_label": 2
+}

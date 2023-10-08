@@ -1,0 +1,6 @@
+{
+  "index": 422,
+  "true_label": 1,
+  "model_output": "First, the comment acknowledges the University of Georgia as a \"fine\" institution, using neutral language to discuss it. However, there does not seem to be clear preference toward this option.\nNext, when discussing Indiana University's Kelley School of Business, the commenter mentions it having an \"advantage\" when it comes to opening doors in Wall Street and being a top business school. There's a clear sense of acknowledgment for the opportunities offered by Indiana University.\nLastly, they circle back to the University of Georgia, projecting a doubt about potential problems for top students there finding opportunities. This can be seen as putting a level of on par competency between these institutions.\nHowever, in between these mentions, the comment does speak more highly about Indiana University's school than Georgia University.\n \n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

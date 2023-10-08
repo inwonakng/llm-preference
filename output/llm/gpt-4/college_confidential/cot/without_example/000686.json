@@ -1,0 +1,6 @@
+{
+  "index": 686,
+  "true_label": 2,
+  "model_output": "First, the comment suggests that Carnegie Mellon University (CMU) isn't suitable for everyone, and the fit is crucial there. The commenter also expresses surprise that CMU's renown for engineering justifies a major premium over the University of Maryland (UMD). \nMoreover, the commenter suggests that there are intelligent students at every engineering school, implying no significant difference regarding the student quality between both institutions. They also mention that UMD doesn't lack very intelligent peers which suggests they see UMD as able to provide at least the same level of peer quality as CMU and that the perceived prestige of CMU may not realistically offer significant added value over UMD.\nThe \"major premium\" explicitly suggests cost is a consideration, and it is implied the cost does not justify the potential benefits of CMU over UMD according to the commenter. \n\n%%%\nB is preferred over A.",
+  "predicted_label": 2
+}

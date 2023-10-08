@@ -1,0 +1,6 @@
+{
+  "index": 148,
+  "true_label": 2,
+  "model_output": "The commenter brought up University of Pittsburgh (\u201cPitt\u201d) once and Pennsylvania State University (Smeal) once too. In the last part of the comment, when discussing potential selections young person has to make in terms of summer earnings to pay for college, the commenter says \"I would choose Pitt over Smeal summer\". Therefore, it can be inferred that the commenter shows a preference for University of Pittsburgh over Pennsylvania State University because of the possibility of summer income.\n### \nB is preferred over A",
+  "predicted_label": 2
+}

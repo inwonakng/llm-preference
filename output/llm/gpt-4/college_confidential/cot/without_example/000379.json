@@ -1,0 +1,6 @@
+{
+  "index": 379,
+  "true_label": 1,
+  "model_output": "1. The person who made the comment mentions that their son got into UP (which stands for University Park, a common abbreviation for the main campus of Pennsylvania State University).\n2. There's no comparison made to Virginia Tech.\n3. We don't have any context for preferences beyond where their son will attend.\n\nIntegration of these points tells us that there is no identifiable preference made between Pennsylvania State University and Virginia Tech in the comment. The comment simply states that the son got accepted into Pennsylvania State University, but this does not automatically imply that there is a preference for it over Virginia Tech.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

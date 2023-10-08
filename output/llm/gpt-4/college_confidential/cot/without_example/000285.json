@@ -1,0 +1,6 @@
+{
+  "index": 285,
+  "true_label": 0,
+  "model_output": "The user mentions Pennsylvania State University (PSU) when considering the small classes and honor program and indicates there might be an interest to start there - although not conclusively. The other Option, Rutgers University, however, is not mentioned even once. Therefore, based on the comment, a subtle preference towards Pennsylvania State University over Rutgers University can be inferred. Keep in mind this judgement does not take into account important factors likely to influence a final decision such as, but not limited to, cost, personal conditions, geographical preference etc.\n\n### \nA is preferred over B",
+  "predicted_label": 1
+}

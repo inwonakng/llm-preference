@@ -1,0 +1,6 @@
+{
+  "index": 834,
+  "true_label": 2,
+  "model_output": "The comment is focused on the grading system at Brown University. The author is discussing some of the reasons why there is a perceived GPA inflation at Brown, such as the fact that students can take almost unlimited classes as satisfactory/no credit, the deadline to drop a class is at the end of the semester, and there are no distribution requirements. The author also explains that Brown only gives grades of A, B, and C, with no \"-\"/\"+\" variation, and does not give Ds and Fs. Furthermore, the author points out that even though the grading may seem generous, the academic expectations at Brown are still high and equivalent to its peer institutions.\n\nHowever, even though the comment is focused on Brown University, it does not expressly compare it to Duke University or indicate a preference for one over the other. Therefore, there is no clear preference shown in the comment.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

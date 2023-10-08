@@ -1,0 +1,6 @@
+{
+  "index": 20,
+  "true_label": 1,
+  "model_output": "First, the commenter expresses well-wishing views about being in close proximity to a renowned medical research university, which can be inferred as Johns Hopkins, since it's commonly associated as being a top-tier institution for medicine fields. Further importance is given to this when the commenter mentions the added advantage of other types of classes present in the university, and calls it all \"sensational\". Even more weight is given to the fact that it is the birthplace of BME (Biomedical Engineering, a specialization branch of medical studies) and has access to cutting edge medicine, making it \"tough to beat in their honest opinion (imho)\".\n\nBased on these points, it seems the commenter definitely favors Johns Hopkins University over Georgia Institute of Technology even though the latter was never explicitly mentioned or compared.\n\n### \nA is preferred over B",
+  "predicted_label": 1
+}

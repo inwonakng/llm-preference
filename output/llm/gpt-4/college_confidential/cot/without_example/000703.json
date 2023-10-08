@@ -1,0 +1,6 @@
+{
+  "index": 703,
+  "true_label": 0,
+  "model_output": "There is no indication in this comment as to which university, University of California, Berkeley or the University of Maryland, is preferred.\n\nThe comment advises a student to ask questions directly, presumably about the cost of attending one of these universities, but there appears to be no preference shown for either A or B.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

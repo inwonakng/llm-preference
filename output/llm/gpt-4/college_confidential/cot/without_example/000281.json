@@ -1,0 +1,6 @@
+{
+  "index": 281,
+  "true_label": 0,
+  "model_output": "The user in the comment is in search of information to make a decision on a university to attend. However, the user is specifically asking for confirmation about the freshmen education system at Penn State, N.C State, Virginia Tech are only referenced to provide context to their question. The user does not state any preference towards either option.\n\n### No preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 518,
+  "true_label": 2,
+  "model_output": "Looking at this information, it directly showcases the median starting salary of alumni from both Vassar and Kenyon College. Kenyon College's alumni earn $1,100 more than those from Vassar College on average.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

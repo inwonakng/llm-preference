@@ -1,0 +1,6 @@
+{
+  "index": 757,
+  "true_label": 1,
+  "model_output": "First, it's clear that the commenter is discussing the financial implications of attending either the University of Pennsylvania (Wharton) or New York University (Stern). There's a concern about the potential debt a student might accumulate in attending these schools.\n\nHowever, the last sentence provides a clear preference: \"Stern is good, Wharton is better.\" This indicates that the commenter believes the University of Pennsylvania (Wharton) has a superior program compared to New York University (Stern), despite the potential financial burden.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

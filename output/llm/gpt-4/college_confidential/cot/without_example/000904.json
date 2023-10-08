@@ -1,0 +1,6 @@
+{
+  "index": 904,
+  "true_label": 3,
+  "model_output": "Firstly, the person does not make any explicit preference between the two universities. They mentioned that USC is a good school and UIUC is very good for some majors. However, they did not specify any clear preference over one or the other.\n\nSecondly, they asked about financial aid offers and the child's chosen major, which implies that their preference could depend on these factors. However, since these factors are not specified within the comment, it's not possible to determine a clear preference based on this information alone.\n\nGiven these points, it's clear that the person does not express a strict preference for either University of Illinois at Urbana-Champaign (Option A) or University of Southern California (Option B).\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

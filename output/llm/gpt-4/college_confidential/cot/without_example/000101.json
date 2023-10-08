@@ -1,0 +1,6 @@
+{
+  "index": 101,
+  "true_label": 0,
+  "model_output": "First, this comment doesn't make any direct reference or comparison to Georgia Institute of Technology (option B). Therefore, we can't conclude if the commenter prefers option B over A or not.\n\nSecond, the comment heavily criticizes Johns Hopkins University (option A), referring to a situation about heavy recruitment happening there by consulting firms. However, the person makes it clear that their critique is not aimed at the university per se, but rather at the perceived ethics of the hiring practices by consulting firms at the university.\n\nWhile this comment contains negative reactions to specific practices or individuals related to option A, it doesn't seem to express distinct preference for either Option A or B.\n\n### No preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 155,
+  "true_label": 2,
+  "model_output": "From the given comment, there is no expressed preference between the Pennsylvania State University (Option A) and University of Pittsburgh (Option B). The commenter merely suggests things to consider in deciding which university to choose from and affirms that the lowest cost will be a notable factor in the final college choice, without stating any preference between Option A or Option B.\n\nTherefore,\n\n### No preference",
+  "predicted_label": 0
+}

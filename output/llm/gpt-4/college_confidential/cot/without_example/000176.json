@@ -1,0 +1,6 @@
+{
+  "index": 176,
+  "true_label": 2,
+  "model_output": "The person in the comment is giving a hypothetical breakdown about financial aid that one could get if they attend either the Pennsylvania State University or University of Pittsburgh. The portion about the PHEAA grant makes it seem that financial aid of around $3,700 would be offered at Pitt as opposed to around $3,500 at a PASSHE school. Adding onto that, there's also mention of a Pell Grant and a match at Pitt which means more financial support.\n\nBased on this conversation's context, it can be suggested that both universities are being considered but there's just no definitive statement clearly favouring a school over the other. They did provide more information about future potential financial support if the person goes to Pitt, nevertheless, this does not take a solid stance on a preference of an overall experience at either university. Therefore despite the potential financial benefits itemized for Pitt, we can't categorically confirm a preference based on just this.  \n\n###\n\nNo preference",
+  "predicted_label": 0
+}

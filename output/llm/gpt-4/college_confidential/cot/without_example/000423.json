@@ -1,0 +1,6 @@
+{
+  "index": 423,
+  "true_label": 3,
+  "model_output": "1. In the initial sentence, a reference was made to preferring not staying in the South where UGA is located, however that phrase is within quotes and voiced by an unidentified subject, and thus won't drastically impact the final decision.\n2. It is commented that both schools are great options and direct admittance to IU-Kelley is presented. This is the first instance where Indiana University appears to be preferred due to opportunity. No similar eye-catching opportunity was noted in the context of the University of Georgia.\n3. The speaker brings up some cautionary questions to stimulate introspection in the listener and encourage comprehending the potential that might be forsaken if they lean towards the comfort zone. Eastablishing a comparison between two universities, noting different statistics like the percentages of non-residents, is a persuasive method to advocate for IU without an explicit preference statement.\n4. Then with the presentation of the two significant accolades that go with IU\u2014admission to a respected business school and honors college\u2014it\u2019s fair to presume that in the view of the commentator, choices linked to attending Indiana University will be positively impacting both academically and socially.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

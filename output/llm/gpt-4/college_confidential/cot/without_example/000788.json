@@ -1,0 +1,6 @@
+{
+  "index": 788,
+  "true_label": 2,
+  "model_output": "Firstly, the user is discussing their experience at Johns Hopkins University, not Pomona College. We see that the user defends Johns Hopkins against claims of a cutthroat environment, insisting that it is a myth and that students often collaborate. They also mention that they had a great time at Hopkins, with a fruitful social life and successful friends. \n\nThe user also mentions the benefits of the education at Hopkins, particularly in the context of advanced fields like AI and blockchain. They argue that this exposure can be beneficial for students pursuing careers in tech giants like Google and Facebook. \n\nAt no point does the user mention Pomona College, so we cannot gauge their feelings or experiences towards it. \n\nTherefore, we can conclude that the user shows preference for Johns Hopkins University over Pomona College.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 920,
+  "true_label": 0,
+  "model_output": "1. First, the comment mentions that USC is a spectacular school but not as prestigious as Stanford.\n2. The comment does not mention the University of Illinois at Urbana-Champaign at all. \n3. Therefore, the comment does not provide any comparison between Stanford University and University of Illinois at Urbana-Champaign.\n4. The only preference that can be inferred from the comment is that Stanford is considered more prestigious than USC.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

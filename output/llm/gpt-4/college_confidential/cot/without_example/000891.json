@@ -1,0 +1,6 @@
+{
+  "index": 891,
+  "true_label": 3,
+  "model_output": "The comment does not express a clear preference between Boston University and Boston College. It acknowledges that historically, Boston College has had a better reputation and a more traditional campus experience. However, it also mentions that Boston University has made significant gains and is experiencing some of the trendiness that some urban campuses are experiencing. The commenter goes on to say that the two schools are probably close enough in reputation that he/she would suggest deciding based on fit, which does not necessarily indicate a preference for one over the other. Therefore, it appears that there is no strict preference expressed in this comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

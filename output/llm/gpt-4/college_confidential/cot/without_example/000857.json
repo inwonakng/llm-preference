@@ -1,0 +1,6 @@
+{
+  "index": 857,
+  "true_label": 3,
+  "model_output": "The comment does not directly express a preference between Duke University and Brown University. It provides an analysis of potential career paths the original poster's son might take after graduation, discussing the importance of GPA and the strengths of both schools. However, it does not indicate a preference for either school over the other. The user suggests that both schools have their own strengths and encourages the original poster to weigh the benefits of each school and decide accordingly.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

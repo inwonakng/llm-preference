@@ -1,0 +1,6 @@
+{
+  "index": 974,
+  "true_label": 0,
+  "model_output": "First, the comment does not mention either Stanford University or the University of Illinois at Urbana-Champaign. It seems to be discussing a completely unrelated topic about a 40-year lending term at 1-2% interest. \n\nTherefore, based on this comment, we cannot determine a preference between Stanford University and the University of Illinois at Urbana-Champaign. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 669,
+  "true_label": 1,
+  "model_output": "1. The comment is comparing Carnegie Mellon University (CMU) and other universities, including the University of California, Berkeley. \n\n2. Initially, the review suggests that CMU could be preferable because of benefits of a private school experience such as smaller classes, several sections, and geographic diversity. \n\n3. However, the rest of the review clarifies that Computer Science (CS) classes in these universities tend not to differ greatly in size, due to the popularity of the subject. Moreover, the review suggests that students attending either CMU or UC Berkeley (or other institutions like Stanford and Harvard) should expect sizeable classes, given the popularity of the major.\n\nTaking into account the entire comment, it appears like there is not a strict preference shown for either institution-based solely on class size - therefore it might be reasonable to claim they are not differentiated from a choice based solely on those factors.\n\n%%%\nEqual preference",
+  "predicted_label": 3
+}

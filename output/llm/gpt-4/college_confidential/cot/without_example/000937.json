@@ -1,0 +1,6 @@
+{
+  "index": 937,
+  "true_label": 2,
+  "model_output": "The comment mentions USC (University of Southern California) and compares it to Cornell, Dartmouth, and Brown. However, it doesn't mention University of Illinois at Urbana-Champaign (option A) at all. Therefore, we can't determine a preference between USC and University of Illinois at Urbana-Champaign based on this comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 908,
+  "true_label": 0,
+  "model_output": "The comment \"What major?\" is a question seeking more information about the context in which the two universities are being compared. The commenter does not express any preference between Stanford University (Option A) and the University of Illinois at Urbana-Champaign (Option B). The preference can vary depending upon the major the commenter is interested in.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

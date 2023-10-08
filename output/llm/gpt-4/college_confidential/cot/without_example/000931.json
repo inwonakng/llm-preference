@@ -1,0 +1,6 @@
+{
+  "index": 931,
+  "true_label": 2,
+  "model_output": "The comment is highlighting a positive aspect about the University of Southern California, specifically the number of billionaires that have graduated from there, and the prestige associated with that. There is no mention or comparison made with the University of Illinois at Urbana-Champaign in the comment. Therefore, based on this comment, it seems that the preference would be towards USC.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

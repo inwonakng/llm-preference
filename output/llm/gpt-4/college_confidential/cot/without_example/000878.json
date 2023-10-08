@@ -1,0 +1,6 @@
+{
+  "index": 878,
+  "true_label": 1,
+  "model_output": "The comment is comparing Boston University (BU) and Boston College (BC), highlighting key aspects where BU is excelling. \n\n1. The commentator states that BU has momentum based on selectivity and student body, implying they believe BU is currently more desirable or competitive than BC.\n2. The comment also suggests that BU is likely to surpass BC in the U.S. news rankings soon, indicating a belief in BU's upward trajectory.\n3. Lastly, the commentator praises BU's efforts in enhancing its STEM offerings and suggests this strategy is paying off. This is another positive remark about BU.\n\nGiven these points, it's clear that the commentator has a preference for BU over BC.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

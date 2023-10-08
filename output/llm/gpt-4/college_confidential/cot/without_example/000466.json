@@ -1,0 +1,6 @@
+{
+  "index": 466,
+  "true_label": 2,
+  "model_output": "The comment does not specifically praise option B (Indiana University), while giving high regard to option A (University of Georgia) and mentioning option A's associated benefits such as sophisticated & bright students, good choice among family/relatives, and the great location for internships. Though option B is not explicitly rejected or negatively spoken of, it can be understood that between the context of two universities, the user has a preference towards the University of Georgia due to its mentioned advantages.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

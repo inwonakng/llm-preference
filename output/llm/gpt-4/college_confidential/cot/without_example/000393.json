@@ -1,0 +1,6 @@
+{
+  "index": 393,
+  "true_label": 2,
+  "model_output": "The first thing to notice is that the commenter is suggesting two alternatives, tcnj and Rowan, which are not our main concern.\nThe focus soon after that turns to 'Rutgers' and 'Penn State' as explicit examples of universities with presumably larger campuses where students might end up spending time on commuting from their dorms to class, while engineering students would rather have more time for studying and relaxing. \nFrom this, it's clear that the commenter does not present a positive outlook on either Rutgers or Penn State. However, no explicit preference between Rutgers or Penn State is designated by the commenter, meaning we can't conclude whether they prefer one over the other. \n\nTherefore, it can be concluded they neither prefer one over the other.\n%%%\nNo preference",
+  "predicted_label": 0
+}

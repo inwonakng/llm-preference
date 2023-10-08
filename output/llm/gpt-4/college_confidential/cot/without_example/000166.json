@@ -1,0 +1,6 @@
+{
+  "index": 166,
+  "true_label": 0,
+  "model_output": "The commenter has compared the costs of both Pennsylvania State University (option A) and University of Pittsburgh (option B). The net cost of attending PSU is reportedly lower, at $23,726, compared to Pitt\u2019s mentioned cost of $26,527. \n\nEven though the user mentions neither one will be affordable for them, within the context of comparison and purely based on the cost factor, by mentioning higher net cost for Option B and reflecting on its unaffordability, the preference tilts towards the option with lower costs, ie. Option A.\n\nTherefore, on analyzing the direct financial comparison provided by the commenter, there seems to be a preference, even if mildly, towards Option A due to associated lesser costs.\n\n###\n\nA is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 605,
+  "true_label": 2,
+  "model_output": "Even though the comment mentions \"free\" we do not have any information that would establish whether Carnegie Mellon University (Option A) or The University of Maryland (Option B) is being referred to as free. Both options have entirely equal potential of being preferred.\nWithin this context, it's clear that while a preference is stated (for the \"free\" university), we actually do not have a way to pin whether this is Option A or Option B as no direct mention is made.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

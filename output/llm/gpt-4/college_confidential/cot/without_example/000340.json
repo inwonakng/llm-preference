@@ -1,0 +1,6 @@
+{
+  "index": 340,
+  "true_label": 0,
+  "model_output": "The user discusses Virginia Tech while also indicating that Virginia Tech graduates are greatly sought after by many employers. Pennsylvania State University is not mentioned or compared in the comment. Therefore, based on this comment, it can be inferred that there is a preference, albeit not precisely defined, for Virginia Tech over Pennsylvania State University.\n### B is preferred over A.",
+  "predicted_label": 2
+}

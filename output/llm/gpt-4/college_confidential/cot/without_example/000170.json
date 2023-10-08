@@ -1,0 +1,6 @@
+{
+  "index": 170,
+  "true_label": 2,
+  "model_output": "The comment is indicating both universities don't meet full need. Then, there's criticism specifically about Penn State (\"Penn State is not typically generous.\") but not about University of Pittsburgh. So, doing a direct comparison, University of Pittsburgh is less critiqued in the comment and could therefore be slightly more preferred by the commenter, even if they are discussing shortcomings for both. \n\n### \nB is preferred over A",
+  "predicted_label": 2
+}

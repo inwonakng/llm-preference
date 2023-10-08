@@ -1,0 +1,6 @@
+{
+  "index": 760,
+  "true_label": 2,
+  "model_output": "The commenter is discussing various universities and their undergraduate and MBA programs, focusing on their relevance and impressiveness in the finance business. The universities mentioned are Wharton (which is part of the University of Pennsylvania, Option A), Stern (part of New York University, Option B), Fordham, Colombia, HBS, and Stanford.\n\nThe commenter states that it's not more impressive to go to Wharton (University of Pennsylvania) than Stern (New York University) and Fordham for an MBA. This statement implies that the commenter considers the undergraduate programs at Wharton and Stern to be on par with each other in terms of impressiveness in the finance business. The comment does not, however, outrightly express a preference for either University of Pennsylvania or New York University.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

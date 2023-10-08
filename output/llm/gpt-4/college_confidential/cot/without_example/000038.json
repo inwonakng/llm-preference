@@ -1,0 +1,6 @@
+{
+  "index": 38,
+  "true_label": 2,
+  "model_output": "The commenter shares an overall positive evaluation of both Johns Hopkins University and Georgia Tech. They recognize that both institutions are somewhat equal in Biomedical Engineering, but eventually opine that if a student needs a greater tie to the medical field or a focus on things like prosthesis design, Georgia Tech may have a slight edge due to its association with Emory University Medical. Furthermore, the commenter advocates for personal considerations concerning the location and lifestyle. \n\nDespite some of these specifics they feel, the preference heavily leans on personal circumstances rather than a distinct academic superiority of one over the other.\n\n### Equal preference",
+  "predicted_label": 3
+}

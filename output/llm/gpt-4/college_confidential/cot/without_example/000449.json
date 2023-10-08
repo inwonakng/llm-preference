@@ -1,0 +1,6 @@
+{
+  "index": 449,
+  "true_label": 1,
+  "model_output": "The comment discusses the Terry College of Business, perhaps within the larger scope of university admission. After doing a quick research, we can confirm that Terry College of Business is a part of the University of Georgia (option A), so the comment does refer directly to Option A, the University of Georgia. The comment seems to reassure the reader about the admission process at the Terry college, saying most Terry students get in and get their first choice.\n\nHowever, while the comment directly discusses Option A, it never attempts to make a comparison to Option B, Indiana University. Since Indiana University and respective admission processes or college details are never mentioned, there is no clear preference given between the two on the part of the commenter, only additional information about one of them.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

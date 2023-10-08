@@ -1,0 +1,6 @@
+{
+  "index": 490,
+  "true_label": 2,
+  "model_output": "The commentator talks at length about their child's experience at Kenyon College, and this description reads as overwhelmingly positive. However, they don't express much direct comparison between Kenyon and Vassar College. The commentator hints at a few comparisons by mentioning that Vassar was also a consideration for their child, but it does not contain specific negative or positive traits about Vassar. From the details provided, it appears the author's child had good experiences and was happy with their decision at Kenyon. But due to lack of explicit differences discussed between the Kenyon College and the Vassar College, drawing a conclusion of preference based on the data given is tricky.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

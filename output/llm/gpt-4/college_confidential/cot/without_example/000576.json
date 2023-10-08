@@ -1,0 +1,6 @@
+{
+  "index": 576,
+  "true_label": 2,
+  "model_output": "In the comment, the person tells a story that shows a preference for Virginia Tech. The person relates how their sister and niece, who graduated or are about to graduate from VT, love the university. Based on the context of mentioning personal connections to VT and \"LOL\", the comment seems joyful and very positive about VT.\n\nHowever, there is no mention of Cornell University anywhere in the comment, that's why we can't compare the preferences towards both.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

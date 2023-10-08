@@ -1,0 +1,6 @@
+{
+  "index": 790,
+  "true_label": 0,
+  "model_output": "The user is criticizing Forbes' ranking system and questions its credibility, due to the considerable changes in rankings of Pomona College and Johns Hopkins University over a short period of time. The user doesn't express a clear preference for one school over the other based on the rankings. However, they propose a method to compare the two schools by looking at per capita Computer Science alumni at FANG companies. \n\nThe user doesn't actually perform this comparison or provide the results, therefore no preference is stated based on this factor either. \n\n%%%\nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 638,
+  "true_label": 1,
+  "model_output": "First, we ascertain that in the comment, the speaker is discussing his decision-making process about where someone - presumably his child - might go to university. Option B (University of Maryland aka UMD) is explicitly mentioned in a negative light - \"he seems determined to not go to UMD\". From this statement alone, it can be inferred that there is a clear aversion to UMD and a preference is thus presented oppositely to it. Although Carnegie Mellon University (Option A) is not explicitly expressed in the discussion, fact that it stands as one of the likelihood options among 'the other schools' being considered contrasted against the aversion towards University of Maryland suggests a stronger inclination towards it. The comment thus appears to demonstrate a stronger preference for Option A over B.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

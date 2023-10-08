@@ -1,0 +1,6 @@
+{
+  "index": 1084,
+  "true_label": 3,
+  "model_output": "Firstly, the comparison between the two options is about the University of Illinois at Urbana-Champaign and the University of Southern California. \n\nSecondly, in the comment, the person is defending the University of Southern California, stating that it has an intellectual student body and faculty. \n\nHowever, the University of Illinois at Urbana-Champaign is not mentioned at all in the comment. \n\nTherefore, while the comment defends the intellectual stature of USC, it does not compare it to the University of Illinois at Urbana-Champaign or express a preference between the two.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

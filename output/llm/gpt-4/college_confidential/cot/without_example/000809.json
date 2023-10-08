@@ -1,0 +1,6 @@
+{
+  "index": 809,
+  "true_label": 0,
+  "model_output": "First, the comment says that the user has seen a Quora thread where multiple people were discussing Pomona College and Johns Hopkins University but the comment does not agree with the points made in that thread. \n\nThe commenter then points out that one poster hasn\u2019t even started at JHU yet and another one has no experience with Pomona or the JHU undergrad program. This suggests that the commenter distrusts the opinions in the thread and believes that they are not grounded in experience. \n\nThe commenter also mentions that someone with broad interests would definitely fit in better at Pomona than Mudd, suggesting a possible preference for Pomona for people with broad interests. \n\nHowever, the commenter then goes on to say that it's important to think critically about your own values and not be influenced by others, which suggests that the commenter does not want to impose their personal preference and believes that the choice between the two options should be based on individual preferences and needs. \n\nGiven the above, it seems that the preference here is not clear.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

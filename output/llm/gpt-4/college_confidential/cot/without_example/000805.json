@@ -1,0 +1,6 @@
+{
+  "index": 805,
+  "true_label": 0,
+  "model_output": "1. The comment mentions Pomona College and describes its class vibe in comparison to another institution, Pitzer. \n2. However, there is no mention or comparison of Johns Hopkins University in the comment.\n3. Therefore, although Pomona College is mentioned, there isn't a clear preference between Pomona College and Johns Hopkins University based on the given comment.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

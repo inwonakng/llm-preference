@@ -1,0 +1,6 @@
+{
+  "index": 625,
+  "true_label": 0,
+  "model_output": "First, the user does not seem to mention either the University of California, Berkeley or the University of Maryland in the comment. Their discussion is focused around CMU engineering and state schools in Virginia. \nSecond, they provide an opinion on what university their children should choose, neither of these however seems to connect to Option A or Option B. \n\nTherefore, there is no preference expressed in this comment towards either the University of California, Berkeley (Option A) or the University of Maryland (Option B).\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

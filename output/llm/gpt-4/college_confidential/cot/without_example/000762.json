@@ -1,0 +1,6 @@
+{
+  "index": 762,
+  "true_label": 1,
+  "model_output": "The comment doesn't explicitly mention either University of Pennsylvania or New York University. The user does mention Wharton, which is a school within the University of Pennsylvania, but the user is discussing it in a negative context. The user feels that a stem degree coupled with a Fordham mba is more valuable than a Wharton undergrad degree. However, New York University is not mentioned at all. The user's preference can't be determined between University of Pennsylvania and New York University because the user doesn't mention or compare these two options directly. \n\n%%%\nNo preference",
+  "predicted_label": 0
+}

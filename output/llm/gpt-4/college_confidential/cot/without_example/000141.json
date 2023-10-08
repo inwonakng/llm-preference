@@ -1,0 +1,6 @@
+{
+  "index": 141,
+  "true_label": 2,
+  "model_output": "While recognizing some positives about B, such as a \"tolerant community\"...the given comment in fact leans more towards A (University of Richmond) in a more practical sense. This decision overweighs because of the points surrounding an advised strategy to deal with finances for law school mentioned at the start and the better chances created by A for entering a competitive study. A small variable comes at the end, a comment from the speaker's subjective emotional value towards B, but this attachment doesn't bring B ahead.\n\n###\n\nA is preferred over B.",
+  "predicted_label": 1
+}

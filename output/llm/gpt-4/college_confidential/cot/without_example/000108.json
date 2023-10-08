@@ -1,0 +1,6 @@
+{
+  "index": 108,
+  "true_label": 0,
+  "model_output": "In this comment, there is no information or opinion provided as to which college, between California Institute of Technology and Johns Hopkins University, the speaker prefers. The statement only gives information on students who scored between 34 and 36 on the ACTs in 2018, which does not compare Option A against Option B.\n\n### No preference",
+  "predicted_label": 0
+}

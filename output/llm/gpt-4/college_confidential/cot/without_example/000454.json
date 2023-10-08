@@ -1,0 +1,6 @@
+{
+  "index": 454,
+  "true_label": 1,
+  "model_output": "Firstly, the speaker appears to take a rather questioning stance towards the use of Indiana University (IU) as an option, stirring the listener to consider whether it's the best fit for them.\nSecondly, the speaker dismisses the choice of a university based on 'perceived prestige' alone, providing a financial argument that weighs the choice towards UGA. \nLastly, the speaker directly states that \"UGA makes more sense based on everything you said.\" This clarifies between the two options, they think the University of Georgia is the superior choice for the listener based on the information they've received. \n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 464,
+  "true_label": 2,
+  "model_output": "The comment starts by questioning the validity of IU being a preferable choice without considering cost. Despite not making a direct affirmation in favor of UGA, the candidate emphasizes that with a $100,000 price difference, many people would seriously consider less expensive, yet good options such as UGA, which implies that UGA could be a better choice economically. There is again feedback that the condition of going to IU really depends on someone's family's financial situation which is unclear in this case. \nFinally, there is the mention of taking into considering younger siblings to be educated, and already setting financial limitations before applications are sent,  which indicates an overall concern of cost efficiency without de-emphasizing quality of education. Implicit in all this discussion is a weighing up of pros and cons between the two Unis, with a leaning towards opting for the more financially favourable option.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

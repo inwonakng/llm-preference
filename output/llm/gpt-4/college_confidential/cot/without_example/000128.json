@@ -1,0 +1,6 @@
+{
+  "index": 128,
+  "true_label": 2,
+  "model_output": "Firstly, the comment focuses only on the University of Richmond, with an intensive explanation of the location, transportation options, scenic views, and campus services among other details. \nSecondly, Haverford College does not illustrate any shared comparison or even a mention in the given comment.\nIt is clear that this comment prioritizes and values the features and amenities of the University of Richmond without mentioning about Haverford College.\nAs the comment it is only talking about University of Richmond being very familiar and offering advices about it, but Haverford College not being compared or mentioned at all in the comment.\n\n### \nA is preferred over B",
+  "predicted_label": 1
+}

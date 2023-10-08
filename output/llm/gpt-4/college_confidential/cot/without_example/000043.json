@@ -1,0 +1,6 @@
+{
+  "index": 43,
+  "true_label": 2,
+  "model_output": "First, the commenter mentions that engineering is very egalitarian--implying possibly that both schools could provide a great engineering education--so there is not a clear preference there.\n\nHowever, the commenter then follows on to caution that a student's growth and development is affected quite a bit by their peers in an academic setting. This stipulates that an engineering school where students are surrounded by extremely intelligent peers could be preferable. Nothing in the comment indicates which one of the two schools (Georgia Institute of Technology or California Institute of Technology) they believe complements this notion better.\n\nSo, in this comment, neither California Institute of Technology nor Georgia Institute of Technology are directly addressed or favored over one another. Because of not mentioning any preference, we can infer that there isn't a preference detailed between the two options based on this specific comment.\n\n### No preference.",
+  "predicted_label": 0
+}

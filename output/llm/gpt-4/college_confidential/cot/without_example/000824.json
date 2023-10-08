@@ -1,0 +1,6 @@
+{
+  "index": 824,
+  "true_label": 0,
+  "model_output": "The comment first discusses Brown University, noting its lack of a business school but also highlighting its entrepreneurial activities, particularly in life sciences and tech. It also emphasizes the school's diverse student body and its integration into the surrounding area. Overall, the comment describes Brown as a cool, intellectually-focused place to study.\n\nMoving on to Duke University, the comment presents it as a traditional campus experience with big-time sports and school traditions. It also highlights the homogeneity of the student body, who are described as both preppy and serious. Most notably for our comparison, the comment states that Duke has evolved into perhaps the most prestigious and well-connected school in the country from a business standpoint.\n\nBased on these remarks, the commenter seems to be appreciative of both universities' unique qualities. However, there is a clear preference for Duke when it comes to business studies, which is a significant point of consideration in this context.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

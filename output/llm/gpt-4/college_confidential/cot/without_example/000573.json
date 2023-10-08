@@ -1,0 +1,6 @@
+{
+  "index": 573,
+  "true_label": 0,
+  "model_output": "First, both Cornell University and Virginia Tech are mentioned in the initial choices, thus, in the given data. \n\nSecond, nothing in the comment pertains to a comparison between the two like.location, quality of education and engineering programs. Unfortunately, the comment veers away and addresses unrelated factors, like outside opportunities, an unrelated university (Case) and potentially a specific person's major at Virginia Tech, which would be only remotely related. \n\nThis means that there is not enough context to determine a clear preference between Cornell University and Virginia Tech.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

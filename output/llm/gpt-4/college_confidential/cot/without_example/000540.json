@@ -1,0 +1,6 @@
+{
+  "index": 540,
+  "true_label": 3,
+  "model_output": "The comment is clearly intended to defend Emory University. The initial comment appears to challenge claims of Emory's rigor and underscores its success in pre-health admissions data. The fact that it emphasizes the positive admission rate of Emory provides a strong argument in its favor, unless, it's compared unfavorably to Rochester University. Here, there's no direct comparison to University of Rochester.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

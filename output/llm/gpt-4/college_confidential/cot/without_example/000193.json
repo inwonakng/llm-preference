@@ -1,0 +1,6 @@
+{
+  "index": 193,
+  "true_label": 0,
+  "model_output": "The comment suggests weighing the cost of tuition against the benefits of the described programs. Pennsylvania State University (Penn State) is pointed out to be a larger university, but there is no judgement on whether it is really better than Virginia Tech (Option B). The comment also mentions factors like local industry and topographical setup for NC State, but this does not involve either of the two options presented. However, the mention of \"never been to Blacksburg\" (the location of Virginia Tech) and only visiting Penn State once \"a million years ago\" hints that the commenter does not have clear or detailed insight about either place's current situation. They end by saying that they're interested in hearing comments about both schools, which further implies that they themselves do not have experience either rich enough or recent enough to provide a robust comparison or preference between the two schools.\n### No preference",
+  "predicted_label": 0
+}

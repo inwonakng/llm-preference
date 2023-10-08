@@ -1,0 +1,6 @@
+{
+  "index": 443,
+  "true_label": 2,
+  "model_output": "The comment suggests attending UGA, given certain conditions such as the user's interest in the UGA honors college, but also mentions benefits in attending IU, specifically the Hutton Honors and Business Honors at IU-Kelley. The advice regarding IU carries significant weight. However, the user also mentions a downside associated with UGA. There is a non-guaranteed admission to UGA Honors College in the second year, even with excellent GPA. The emphasis ultimately seems to lie more on IU, because the mentioned benefits at IU are more substantive and the advisor is pushing for serious consideration of IU due to these benefits.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

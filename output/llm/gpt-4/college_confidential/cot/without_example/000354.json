@@ -1,0 +1,6 @@
+{
+  "index": 354,
+  "true_label": 0,
+  "model_output": "The comment only provides information about an unnamed educational institution but does not make any comparison or even a mention of Pennsylvania State University (option A) or Rutgers University (option B).\n\nTherefore, there is no discernible preference between option A and option B within the post.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

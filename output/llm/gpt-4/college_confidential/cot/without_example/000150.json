@@ -1,0 +1,6 @@
+{
+  "index": 150,
+  "true_label": 2,
+  "model_output": "The comment does not explicitly state any preference between Pennsylvania State University (Option A) and the University of Pittsburgh (Option B). The individual only discusses some information about the academic experience (specific topics around math class) at Wharton, and asks if the University of Pittsburgh is affordable - this but does not indicate a preference in any way. \n\n### No preference",
+  "predicted_label": 0
+}

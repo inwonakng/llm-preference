@@ -1,0 +1,6 @@
+{
+  "index": 175,
+  "true_label": 0,
+  "model_output": "The comment discusses the financial aid processes for Pennsylvania schools, mentioning FAFSA and the PHEAA grant form. Toward the end of the comment, there are specific details about the University of Pittsburgh (Pitt) mailing out financial aid letters in February and starting a Pell grant matching program. These points particularly pertain to the University of Pittsburgh. The comment does not mention Pennsylvania State University at all. Based on this observation, it can be determined that the author of the comment had a preference, whether directly or indirectly, for the University of Pittsburgh over Pennsylvania State University.\n\n### B is preferred over A",
+  "predicted_label": 2
+}

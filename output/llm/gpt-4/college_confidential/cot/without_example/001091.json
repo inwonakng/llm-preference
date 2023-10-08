@@ -1,0 +1,6 @@
+{
+  "index": 1091,
+  "true_label": 1,
+  "model_output": "The comment doesn't mention the University of Illinois at Urbana-Champaign at all. However, it does mention Stanford University several times, and it seems like the commenter's daughter is studying there. The commenter speaks positively about Stanford University, mentioning the support and resources for humanities students, and the investments in arts and humanities programs. There is no direct comparison made between the two universities, but there is an implied preference for Stanford due to the positive comments about it.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 735,
+  "true_label": 2,
+  "model_output": "The comment seems to pertain to a conversation regarding the cost associated with attending Option A (University of Pennsylvania) vs Option B (New York University or \"Stern\"). It can be inferred that attending NYU Stern offers a significant savings over the University of Pennsylvania when taking the commentator's discussed values into account. Therefore, the author agreed with a presumably previous suggestion that attending NYU (Option B) could be the better choice from a monetary perspective, declaring it the \"smartest path\".\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

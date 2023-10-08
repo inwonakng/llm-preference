@@ -1,0 +1,6 @@
+{
+  "index": 107,
+  "true_label": 0,
+  "model_output": "The comment brings up several points related to employment rates, large state schools, prestigious universities, and specific fields of study. However, there is no explicit or apparent implication concerning any preference between Johns Hopkins University (Option A) or Georgia Institute of Technology (Option B). \n\nThe schools in question, i.e., the \"large state flagships\", were mentioned primarily in favor of HYPM (presumably Harvard, Yale, Princeton, MIT), and isn't coherent enough to draw a conclusion over the said options.\n\nAdditionally, the biomedical engineering (BME) field was pointed out to be commonly chosen by aspiring doctors, stating it's not surprising that those with a BME degree aren't typically progressing into software engineering. Still, this doesn't reveal any specific standing towards Hopkins or Georgia Tech, as both universities offer numerous courses and majors outside of BME.\n\n### No preference",
+  "predicted_label": 0
+}

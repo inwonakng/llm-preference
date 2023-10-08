@@ -1,0 +1,6 @@
+{
+  "index": 271,
+  "true_label": 0,
+  "model_output": "The comment is made by a person who shares expertise about Pennsylvania State University. They mention their daughter's successful experience with this institution, citing the school's internship opportunities and job offers. Although they mention a negative reputation associated with a \"party school,\" they neutralize this by highlighting the quieter environment in specific settings like the engineering dorm. Moreover, They have not mentioned anything about Virginia Tech which can be used as comparison. Although at the end they suggest that the recipient has good options but this doesn't reflect a preference or comparison between Option A and B.\n\n### No preference",
+  "predicted_label": 0
+}

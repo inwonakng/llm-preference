@@ -1,0 +1,6 @@
+{
+  "index": 712,
+  "true_label": 0,
+  "model_output": "The comment doesn't give us any direct information on whether University of California, Berkeley (Option A) or University of Maryland (Option B) is preferred. The phrase \"He is now 300K richer!\" may imply that a choice was made that saved a lot of money, but we do not have any specifics. It seems like it could apply to either option in various scenarios. Thus, we cannot make an informed determination.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

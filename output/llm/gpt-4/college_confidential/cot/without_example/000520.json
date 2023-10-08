@@ -1,0 +1,6 @@
+{
+  "index": 520,
+  "true_label": 1,
+  "model_output": "The comment provides data on two statistics, the Default Rate of loans for both colleges. The lower the Default Rate, the better, as it indicates a lower percentage of people unable to pay back their student loans. The Default Rate for Kenyon College is 2.0, and the Default Rate Vassar College is 0.3. Comparing the two, Vassar's default rate is significantly lower than Kenyon's. \n\nThis implies that students who went to Vassar College are more capable of paying off their loans after ten years, possibly due to larger incomes than their counterparts at Kenyon, but specific income data isn't provided in the comment. Nevertheless, going on the info mainly regarding loan repayment rates that the comment implicity indicates, it can be said that Vassar College is a financially safer option for students than Kenyon College.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

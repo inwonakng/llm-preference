@@ -1,0 +1,6 @@
+{
+  "index": 503,
+  "true_label": 0,
+  "model_output": "The comment takes Kenyon College as reference in discussing issues of substance misuse on college campuses, particularly contrasting Kenyon College with others in terms of different parameters. \nHowever, Vassar College is not mentioned or compared at any point during this discourse. Thus, the given comment doesn't provide any information that could be used to establish a preference between Vassar College and Kenyon College.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

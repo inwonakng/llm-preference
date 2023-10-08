@@ -1,0 +1,6 @@
+{
+  "index": 1115,
+  "true_label": 0,
+  "model_output": "The comment is seeking additional information about the University of Illinois at Urbana-Champaign's scholarship policy, specifically for out-of-state applicants. However, there is no comparison made between Stanford University and the University of Illinois at Urbana-Champaign. No preference for either university is expressed.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

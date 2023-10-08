@@ -1,0 +1,6 @@
+{
+  "index": 918,
+  "true_label": 1,
+  "model_output": "1. The comment is comparing USC with Stanford and Harvard, and possibly with UIUC, but UIUC is quickly eliminated from consideration.\n\n2. The comment acknowledges that USC has a strong network and that a student could definitely get a job after graduation, although it suggests that Stanford and Harvard are \"more target schools for some industries.\"\n\n3. The comment is considering the financial burden of full-tuition at Stanford/Harvard, compared to a full-tuition scholarship at USC, but does not clearly indicate a preference based on this factor. \n\n4. Ultimately, the speaker does not explicitly express a clear preference between USC and Stanford. They suggest that the choice depends on what the student is aiming for and how much the tuition would hurt. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

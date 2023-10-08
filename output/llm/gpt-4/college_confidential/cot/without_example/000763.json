@@ -1,0 +1,6 @@
+{
+  "index": 763,
+  "true_label": 0,
+  "model_output": "The comment mentions \"Wharton undergrad\", which refers to an undergraduate program at the University of Pennsylvania, specifically the Wharton School of Business. It seems to hold this program in high regard, saying it's \"one of the few ways to actually break in\". This shows a preference towards the University of Pennsylvania. \n\nNew York University isn't mentioned anywhere in the comment, therefore we can't derive any preference towards it from this comment.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

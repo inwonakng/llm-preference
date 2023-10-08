@@ -1,0 +1,6 @@
+{
+  "index": 319,
+  "true_label": 2,
+  "model_output": "The user first criticizes Virginia Tech as an \"academic powerhouse\" without directly elevating Pennsylvania State University over it. This comment does not indicate a preference between the two.\n\nIn the next part of their comment, they discuss some Google specifics and highlight the ranking difference between these two institutes. According to their research, Virginia Tech ranks #13 for engineering, and Pennsylvania State University is at #24. Nearer the top represents a higher ranking, therefore this evidence suggest that they prefer Virginia Tech over Pennsylvania State University.\n\nIn the final part, they positively speak about a Virginia Tech degree holder who was successful in the realm of engineering. This indicates that they recognize the professional-and academic-worth brought on by a Virginia Tech degree--which connotes a positive bias towards Virginia Tech. However, there\u2019s still no direct comparison or emphasis that Virginia Tech is better than Pennsylvania State University.\n\nWhile there are subtle moment of singular praises for Virginia Tech, their tone is ambiguity, and neither option is directly pitted above or below the other.\n\n### No preference",
+  "predicted_label": 0
+}

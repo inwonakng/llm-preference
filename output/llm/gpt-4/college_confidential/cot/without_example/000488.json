@@ -1,0 +1,6 @@
+{
+  "index": 488,
+  "true_label": 1,
+  "model_output": "The comment gives a description of both colleges after visiting them. When it comes to Vassar, the comment describes it as down-to-earth, not pretentious, former women's college approach, no football teams, no Greek life - which they seem to appreciate; and only one visit was reported. Considering Kenyon, the comment focuses on its wealthy, less diverse feel, city-kid's school, and presence of Greek life which occupies about 25% in college life. That was for five reported visits.\n\nAlthough stated indirectly, it seems from highlighted aspects of each college, the context implies a preference for the non-Greek life, down-to-earth vibes and other factors implied by Vassar over what was given for Kenyon which was subtly viewed negatively, such as - \"wealthy and lack of diversity\".\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

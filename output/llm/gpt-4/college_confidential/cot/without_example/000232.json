@@ -1,0 +1,6 @@
+{
+  "index": 232,
+  "true_label": 2,
+  "model_output": "This comment is purely about Virginia Tech (Option B), and there's a positive tone as they mention about its undergraduate system where students can specialize depending on their first year GPA.\nNo reference is drawn about Pennsylvania State University (Option A), hence we can't make a constructive comparison here.\n\n### B is preferred over A",
+  "predicted_label": 2
+}

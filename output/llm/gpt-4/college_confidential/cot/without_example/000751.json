@@ -1,0 +1,6 @@
+{
+  "index": 751,
+  "true_label": 0,
+  "model_output": "The comment mentions both options: the University of Pennsylvania and New York University. However, it appears to favor the University of Pennsylvania (Wharton) over NYU (Stern), saying \"you're still facing an uphill battle coming out of any school but Wharton.\" This indicates a higher regard or preference for the University of Pennsylvania. The mention of HYPS (an acronym for Harvard, Yale, Princeton, and Stanford) doesn't affect the comparison between these two options as they are not part of the comparison.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 348,
+  "true_label": 0,
+  "model_output": "The user does mention both Rutgers and Pennsylvania State University, however, they do not directly weigh or compare one to the other within the text. Their focus is on entirely different universities in context. But a mildly negative impression on Rutgers appearing as a 'commuter campus' can be identified where the commenter suggests a less favorable stance towards Rutgers possibly. \n\nSo, the preference is ambiguous since PSU wasn't clearly expressed in any regard or inclination. Given the information, there is still insufficient contrast exposed on the direct comparative preference between Pennsylvania State University and Rutgers University from the commenter's text.\n\nTo encapsulate, one can not definitively state any sort of preference here.\n\n### No preference",
+  "predicted_label": 0
+}

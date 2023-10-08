@@ -1,0 +1,6 @@
+{
+  "index": 293,
+  "true_label": 2,
+  "model_output": "The comment is expressing preference for VT, which stands for Virginia Tech. They use the phrase \"Another vote for\" to express this preference. Hence, there is a mention of preference here suggesting that Virginia Tech (Option B) is preferred.\n\n### \nB is preferred over A",
+  "predicted_label": 2
+}

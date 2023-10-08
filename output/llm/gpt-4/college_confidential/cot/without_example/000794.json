@@ -1,0 +1,6 @@
+{
+  "index": 794,
+  "true_label": 0,
+  "model_output": "First, the user is addressing a person directly who seems to have a connection to Pomona College, given their username. However, this does not necessarily indicate a preference. \n\nThe user then expresses doubt about something, but it is unclear whether this doubt is aimed at Pomona College or Johns Hopkins University, since no specific reference is made. \n\nThus, no clear preference can be determined from this comment. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

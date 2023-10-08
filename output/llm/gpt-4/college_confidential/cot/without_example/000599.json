@@ -1,0 +1,6 @@
+{
+  "index": 599,
+  "true_label": 0,
+  "model_output": "The comment does not make any comparison between Carnegie Mellon University (Option A) and University of Maryland (Option B). It is talking about different types of grad school programs (PhD, JD, MBA) without making specific reference to either of these two universities. There are no opinions, facts, or elements in the comment that lead to an inference of preference towards one institution or another. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

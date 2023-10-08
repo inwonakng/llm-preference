@@ -1,0 +1,6 @@
+{
+  "index": 163,
+  "true_label": 0,
+  "model_output": "The comment refers to financial aid and scholarship strategies a student can employ at University of Pittsburgh (Option B), while also giving strategic advice for pursuing options at PHEAA. As this student is suggested to be finding scholarships and alive financially in the University of Pittsburgh, there might be a subtle focus on this institution. This, however, is not explicit preference.\n\nThe other university, the Pennsylvania State University (Option A), is not mentioned at all in the comment, showing no reference or relationship with the procedural steps presented by the comment. Because the University of Pittsburgh is mentioned, even if not explicitly preferred, and the Pennsylvania State University isn't, one could argue there is a preference here.\n\nThis, however, would be based on omission rather than explicit positive or negative association or equity compared to the mentioned University of Pittsburgh. In this case, considering that no explicit preference is addressed, it can still be assumed as no strict preference.\n\n### No preference",
+  "predicted_label": 0
+}

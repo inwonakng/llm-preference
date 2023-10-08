@@ -1,0 +1,6 @@
+{
+  "index": 224,
+  "true_label": 0,
+  "model_output": "The comment revolves around a discussion of North Carolina State University, specifically related to some details about its campus and engineering program. \nThe user discusses the specifics of the university's bus system, a current construction project, course pacing, and some information about declaring an engineering major. \nVirginia Tech is not mentioned at all in the comment.\n\nTherefore, it can be inferred that the preference towards North Carolina State University, as it was the focus of the comment. However, no positive or negative preference in terms of comparison to Virginia Tech is explicitly given within the comment.\n######\n\n### A is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 1114,
+  "true_label": 0,
+  "model_output": "The comment does not express a preference between the University of Illinois at Urbana-Champaign (Option A) and the University of Southern California (Option B). The commenter discusses the importance of cost and student preference in choosing between colleges, but does not mention either university specifically. Therefore, we cannot conclude from the comment that there is a preference for one university over the other.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

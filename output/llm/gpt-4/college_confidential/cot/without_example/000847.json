@@ -1,0 +1,6 @@
+{
+  "index": 847,
+  "true_label": 2,
+  "model_output": "Firstly, the comment seems to dismiss the importance of where Jamie Dimon, a notable figure in finance, sent his daughter to university. This could potentially indicate a lack of preference for Duke University if we infer that Dimon sent his daughter there, but this is not explicitly stated.\n\nSecondly, the comment mentions several successful individuals who are alumni of Brown University, such as the CEO of Bank of America, a former Apple CEO, and the new CEO of Uber. These individuals are presented in a positive light, which suggests a preference for Brown University due to its successful alumni.\n\nTherefore, based on the comment, it appears that Brown University is preferred over Duke University.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 1047,
+  "true_label": 1,
+  "model_output": "The comment is about a person's daughter's university choices, which included both options A and B. The commenter reports that their daughter did not find B to be a good fit for her, despite some interesting programs and a vibrant campus. The reasons were more social than academic. It is also mentioned that she experienced a different level of discussion in the classrooms and intellectual engagement at A than at B. This seems to indicate a preference for A over B.\n\nHowever, the commenter also mentions that A has students who are not the least bit intellectually curious, suggesting that not everything at A is perfect. There is also a statement about the daughter not wanting to be a big fish in a smaller pond and wanting a bigger pond, which might indicate a preference for a larger or more challenging institution, which could potentially be A.\n\nFinally, it's worth noting that the comparison is not strictly between A and B. Other universities are also mentioned, and the discussion is more about the process of choice and the factors to consider, than a strict comparison between the two.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

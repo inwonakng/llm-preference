@@ -1,0 +1,6 @@
+{
+  "index": 30,
+  "true_label": 2,
+  "model_output": "Starting with Johns Hopkins University, the only reference in the comment about Johns Hopkins University implies that it doesn't get as much student recruitment as GaTech, which isn't even one of the given options.\n\nWhen looking at California Institute of Technology (Caltech), it's described predominantly in more neutral terms. Other components of the comment extensively discuss the rigors and intensity of a Caltech education, referring to it as a \"school of geniuses.\" While there could be an implied preference for the more intense academic climate that is part and parcel of Caltech, it isn't very explicit in this case.\n\nThe comparison doesn't utilize the customary language of preference--terms like better, prefers, among others- for either of the two options A and B - Johns Hopkins University and Caltech respectively. There are some evaluative comments about Caltech but the skew more towards simply describing than comparing it favorably or unfavorably against Johns Hopkins University.\n\n###\n\nNo preference",
+  "predicted_label": 0
+}

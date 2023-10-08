@@ -1,0 +1,6 @@
+{
+  "index": 798,
+  "true_label": 2,
+  "model_output": "The commenter is making a comparison between the number of alumni from Pomona College and Johns Hopkins University who are working as software engineers at FANG (Facebook, Amazon, Netflix, Google). \nThe commenter points out that Johns Hopkins University has significantly more alumni (613) at these companies than Pomona College does (43). \nThis comment implies a preference for Johns Hopkins University over Pomona College in terms of the number of alumni working at FANG companies. \n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

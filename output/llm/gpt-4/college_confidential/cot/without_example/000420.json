@@ -1,0 +1,6 @@
+{
+  "index": 420,
+  "true_label": 0,
+  "model_output": "Firstly, the user is comparing upcoming business schools, focusing on the University of Georgia (UGA) and Indiana University.\n\n1. The user states favorable details about UGA, mentioning that it is \"fine\", particularly \"outstanding for insurance & risk management\", and \"great for market research\". More so, they establish that UGA has an advantage regarding \"proximity to internships and jobs in the Atlanta area.\"\n2. However, they also point out a possible downside of UGA\u2014that it \"does not offer direct admission to freshmen.\"\n \nThey mention competition in undergraduate business school admissions indirectly but make no reference to Indiana University, hence no good or adverse details are conveyed about it across the comment.\n\nFrom these contemplations, it appears there is a prejudice toward UGA (Option A) based on their shared experiences or heard news, rather than a comparison between the two options as there's an absence of explicit remarks or information related to Indiana University.  \n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

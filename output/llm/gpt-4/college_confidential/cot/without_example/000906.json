@@ -1,0 +1,6 @@
+{
+  "index": 906,
+  "true_label": 2,
+  "model_output": "The commenter's son had the chance to go to several universities but chose the University of Southern California (USC). The son was able to graduate with honors, received awards for grad school, and was able to do funded research all four years at USC. The son also received his PhD from another university, but USC helped make this possible. The son does not regret going to USC and even wants to return as a professor. The commenter also mentioned the great weather at USC. Stanford University was not mentioned at all in the comment.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

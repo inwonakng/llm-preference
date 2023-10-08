@@ -1,0 +1,6 @@
+{
+  "index": 511,
+  "true_label": 0,
+  "model_output": "The user mentioned Kenyon College specifically and suggested the other user to read their \"internal report.\" Thus, it seems that the user believes Kenyon's report can contribute valuable information to the discussion or change someone's perspective. This comment shows a focus on Kenyon College in the conversation. There's no mention of Vassar College in the comment.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 1007,
+  "true_label": 1,
+  "model_output": "The comment appears to be a question directed at a parent regarding their child's college choice, specifically between Stanford and another university not mentioned. The comment does not mention the University of Illinois at Urbana-Champaign at all, therefore we cannot determine any preference between Stanford and the University of Illinois from this comment. \n\n%%%\nNo preference",
+  "predicted_label": 0
+}

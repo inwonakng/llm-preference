@@ -1,0 +1,6 @@
+{
+  "index": 832,
+  "true_label": 0,
+  "model_output": "The comment is discussing Brown University's grading policies and infers that they have a heavy grade inflation. This can be interpreted as negative feedback about Brown University. There is no mention or comparison of Duke University in the comment. Therefore, it can be concluded that the preference is not explicitly stated in the comment. However, since there is a negative inference about Brown University, it may suggest a preference for Duke University by default. \n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

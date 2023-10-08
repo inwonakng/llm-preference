@@ -1,0 +1,6 @@
+{
+  "index": 289,
+  "true_label": 2,
+  "model_output": "The comment directly states, \"I\u2019d go with VT,\" indicating a preference toward Virginia Tech (Option B) over Pennsylvania State University (Option A). The commenter continues to further explain their preference for Option B by presenting some doubts about transitioning from a branch campus to main campus, which is relevant to Pennsylvania State University. He suggests that he has some doubts about the caliber of those who start at a branch campus vs those who go straight to main campus when it comes to PtSU. These reservations evidently suggest a preference for Option B.\n \n### B is preferred over A",
+  "predicted_label": 2
+}

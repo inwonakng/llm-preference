@@ -1,0 +1,6 @@
+{
+  "index": 75,
+  "true_label": 0,
+  "model_output": "The comment does mention two colleges, but they are neither the Southwestern College nor the Johns Hopkins University. The user mentions \"GA Tech\" and vaguely mentions another school through the pronoun \"wherever.\" Neither the California Institute of Technology or Johns Hopkins University are referred to or preferred over the other in this statement. \n\n###\n\nNo preference",
+  "predicted_label": 0
+}

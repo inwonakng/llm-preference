@@ -1,0 +1,6 @@
+{
+  "index": 867,
+  "true_label": 1,
+  "model_output": "The comment is discussing the ranking of the universities and the outcomes of the students from these universities. The user mentions that Duke University is ranked first in student outcomes, tied with Harvard, according to the Wall Street Journal. In contrast, Brown University does not make it to the top 25 in the same category. Therefore, the user seems to have a preference for Duke University due to its higher ranking and presumably better student outcomes.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

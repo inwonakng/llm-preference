@@ -1,0 +1,6 @@
+{
+  "index": 114,
+  "true_label": 0,
+  "model_output": "This comment doesn't show any preference between the California Institute of Technology or Johns Hopkins University. Rather, the user appears to have redirect the topic of comparison to discussing regarding the admissions rate at a third, unrelated institution (GT suggests Georgia tech). Therefore, there is no preference for either Option A or B in this comment.\n\n### No preference",
+  "predicted_label": 0
+}

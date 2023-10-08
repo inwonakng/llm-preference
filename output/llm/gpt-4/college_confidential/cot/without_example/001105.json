@@ -1,0 +1,6 @@
+{
+  "index": 1105,
+  "true_label": 3,
+  "model_output": "The comment is about attending the University of Southern California (USC) on a full tuition scholarship. The commenter points out that it's not uncommon for students to give up an Ivy League opportunity to attend USC, and suggests saving money for a Wharton or Harvard MBA. The University of Illinois at Urbana-Champaign is not mentioned in the comment at all.\n\nTherefore, based on this information, it seems like the commenter has a preference for USC over the University of Illinois.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

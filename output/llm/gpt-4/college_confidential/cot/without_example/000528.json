@@ -1,0 +1,6 @@
+{
+  "index": 528,
+  "true_label": 2,
+  "model_output": "The comment reflects on a situation that took place at Kenyon College but mentions nothing about Vassar College. While it speaks about an unfortunate incident and praises the efforts of the Kenyon College admin staff, professors, and students, it offers no comparison between the two colleges, thus there's no expressed preference between Kenyon and Vassar colleges.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

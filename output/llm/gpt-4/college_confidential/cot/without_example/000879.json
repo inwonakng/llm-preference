@@ -1,0 +1,6 @@
+{
+  "index": 879,
+  "true_label": 2,
+  "model_output": "1. The commenter is talking about acceptance rates and the selectivity of colleges.\n2. The commenter suggests that the number of students a college can accept is based on the spots available, not necessarily the quality of students or the university's reputation.\n3. The commenter then states they would look at the average student admitted rather than marketing prowess, suggesting they value the quality of accepted students more than the popularity or reputation of the university.\n4. The commenter then refers to 'eclipsing BC on either Forbes or USNWR'. This suggests that they consider Boston College (BC) as a benchmark or standard.\n5. The commenter then states 'Until then it's speculation and conjecture on your part.' This statement seems to suggest that until Boston University surpasses Boston College in rankings (Forbes or USNWR), they will not agree that Boston University is the better choice.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 919,
+  "true_label": 2,
+  "model_output": "The comment is comparing three universities: USC, UIUC, and Stanford/Harvard. When it comes to the comparison between USC and UIUC, the commenter clearly says, \"For econ, I think USC and their network would beat UIUC so I would eliminate Illinois.\" This statement indicates a preference for USC over UIUC.\n\nHowever, the rest of the comment is not about the comparison between USC and UIUC. Instead, it discusses the pros and cons of USC, Stanford, and Harvard, which is outside our scope of interest.\n\nConsidering only the relevant part of the comment, it is clear that the commenter prefers USC over UIUC.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

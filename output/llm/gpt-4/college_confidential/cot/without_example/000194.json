@@ -1,0 +1,6 @@
+{
+  "index": 194,
+  "true_label": 0,
+  "model_output": "This comment provides information about North Carolina\u2019s engineering school\u2014positioning it as a positive place because of its proximity to downtown Raleigh, its bus system, and its practical cross-pollination benefits between academic and corporate research. The comment also positions Raleigh as a booming area for RTP. This effectively raises North Carolina's popularity in relation to that of Virginia Tech. Unfortunately, the comment appears silent about Virginia Tech itself, the speaker implies they haven\u2019t been to Blacksburg, Virginia and so doesn\u2019t provide any critique or assessment. \nIt offers a critiquing eye to Penn State as well, stemming from possibly a dated experience with the university. This comment compared all three places, which makes the judgment a tad more complicated. However, given that we are focusing on North Carolina State University and Virginia Tech, this complicates slightly less, hence we can conclude there's a clear preference. \n\n###\nA is preferred over B.",
+  "predicted_label": 1
+}

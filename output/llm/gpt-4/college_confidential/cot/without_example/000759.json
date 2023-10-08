@@ -1,0 +1,6 @@
+{
+  "index": 759,
+  "true_label": 2,
+  "model_output": "The comment mentions choosing \"Stern\" which is a reference to the Stern School of Business at New York University. The comment highlights Stern's reputation and job opportunities as well as a scholarship from Stern, showing that the commenter prefers Stern over the alternative. There is no mention of the University of Pennsylvania in the comment, which further indicates a preference for Stern/New York University.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

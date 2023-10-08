@@ -1,0 +1,6 @@
+{
+  "index": 680,
+  "true_label": 0,
+  "model_output": "From the comment, it is easily seen that the person mentioned CMU (Carnegie Mellon University) reclaiming CMU as a rational option compared to Cal (which isn't explicitly provided in the options). However, the commentor recognizes that CMU is a renowned science and tech school implying a positive stance towards it. No visible preference for or against University of Maryland is relegated in the comment.\n\nGiven this information, it can appears as CMU was spoken positively and the University of Maryland didn't get mentioned, the comment could favor CMU winner.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

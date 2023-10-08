@@ -1,0 +1,6 @@
+{
+  "index": 92,
+  "true_label": 0,
+  "model_output": "First, the comment is referring to a report that apparently includes a list of universities. Since Johns Hopkins University (JHU) and Georgia Institute of Technology are the two options being questioned, we can infer that this list pertains to the credibility or preference for those schools.\n\nSecond, the mention of \"JHU not even on the list\" provides a substantial clue. It suggests that the commenter thinks negatively of John Hopkins University since it did not appear on the presumably desirable collected list, indicating that those from JHU might not be as well-regarded in whichever context this list is relevant to.\n\nNevertheless, the lack of explicit mention or comparison to Georgia Institute of Technology leaves a certain amount of ambiguity. Perhaps if it was revealed Georgia Tech is notably high in ranking, it would form a much stronger preference.\n\nIn conclusion, although the comment seems to show a negative attitude towards Johns Hopkins University, it does not specify whether the commenter might favor Georgia Institute of Technology over it or not. It merely criticizes one of the options without giving any relative comparison.\n\n### No preference",
+  "predicted_label": 0
+}

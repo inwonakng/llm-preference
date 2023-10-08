@@ -1,0 +1,6 @@
+{
+  "index": 122,
+  "true_label": 3,
+  "model_output": "The comment does not describe a direct and clear preference between the University of Richmond and Haverford College. However, the writer does describe their suburbs and also present their opinion on how Richmond feels more rural than Haverford. This comment doesn\u2019t assert preference for one campus over the other, but simply gives insight into the different environments surrounding the two campuses. It could potentially imply a preference based on the individual reader's preference for more urban or rural environment, but the original commenter's intent of preference isn't clear.\n\n###\nNo preference",
+  "predicted_label": 0
+}

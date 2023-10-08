@@ -1,0 +1,6 @@
+{
+  "index": 470,
+  "true_label": 1,
+  "model_output": "- The commenter mentions both universities, saying that they both have a wide array for majors. This indicates no clear preference for one over the other in terms of academics.\n- The comment also talks about the geography and campus, but only refers to the University of Georgia.\n- The phrasing \u201cGeorgia is a beautiful campus\u201d seems to indicate a positive feeling towards the University of Georgia, but it doesn't explicitly say it's preferred over Indiana University.\n- There's no mentioned disadvantage or negative aspect of Indiana University. Rather, it seems the comment didn't focus on it much.\n\nGiven all these points, it's difficult to determine if there's a definite preference. There's ambiguity in the comment's stance, and while the University of Georgia may seem slightly favored, it's not clearly stated.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

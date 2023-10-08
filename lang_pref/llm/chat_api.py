@@ -1,5 +1,10 @@
 import requests
 import html
+import time
+import os
+OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+import openai
+openai.api_key = OPENAI_API_KEY
 
 DEFAULT_CHAT_PARAMS = {
     'user_input': 'Say something interesting',
@@ -62,6 +67,7 @@ def send_request(
     endpoint: str,
     messages: dict[str, str | dict[str, list[list[str]]]],
     temperature: float,
+    top_p: float,
     max_tokens: int,
     model_name: str,
 ) -> str:
@@ -70,6 +76,7 @@ def send_request(
     params['history'] = messages['history']
     params['context_instruct'] = messages['context_instruct']
     params['temperature'] = temperature
+    params['top_p'] = top_p
     params['max_new_tokens'] = max_tokens
 
     if '13b' in model_name:
@@ -84,3 +91,27 @@ def send_request(
     else:
         raise Exception(f'Response returned with status [{response.status_code}]')
     
+
+def send_request_openai(
+    model: str, 
+    messages: list[dict[str,str]],
+    max_tokens: int,
+    temperature: float,
+    top_p: float
+):
+    while True:
+        try:
+            output = openai.ChatCompletion.create(
+                model = model, 
+                messages = messages,
+                max_tokens = max_tokens,
+                temperature = temperature,
+                top_p = top_p,
+            )
+            break
+        except openai.error.RateLimitError as e:
+            print(f'Rate limit exceeded. Waiting for 5s: {e}')
+            time.sleep(5)
+
+    
+    return output['choices'][0]['message']['content']

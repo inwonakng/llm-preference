@@ -1,0 +1,6 @@
+{
+  "index": 322,
+  "true_label": 0,
+  "model_output": "The person talks about Virginia Tech (option B) being a \"super safety\" school. The term \"super-safety school\" is often an academic term used to refer to a university where admission is considerably easy and is likely guaranteed for most students. This does not seem to imply a preference over the Pennsylvania State University but rather describes Virginia Tech's aspect. Hence, it can't determine a distinct preference between the Universities.\n\nThe user mentions ASU as well but ASU is out of the choices you have given me, therefore it will have no impact on the judgement between Penn State University and Virginia Tech.\n\nHence, we can not exactly determine whether the commenter is presenting that information about Virginia Tech as a positive aspect or as a negative one.\n\n### Comment:\nNo preference",
+  "predicted_label": 0
+}

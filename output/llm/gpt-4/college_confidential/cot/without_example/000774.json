@@ -1,0 +1,6 @@
+{
+  "index": 774,
+  "true_label": 1,
+  "model_output": "1. The comment is written by the parent of a student at Pomona College. They provide insight into the college's CS Department, particularly its struggle to meet the demand with the available faculty. They suggest that a student must be a CS major to get priority in classes.\n\n2. The parent also shares that their child, an Economics major, faced difficulties in completing a CS minor due to the high demand for CS classes. They add that some departments at Pomona require certain major-specific courses to be completed at the college itself.\n\n3. The parent concludes by sharing their child's current internship experience at one of the Federal Reserve Banks, where she is reportedly performing well.\n\n4. There's no mention of Johns Hopkins University in the comment, so we cannot infer any comparison or preference between the two colleges.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 619,
+  "true_label": 2,
+  "model_output": "The comment begins with a clear preference by stating \"No brainer, UMD,\" indicating favor for the University of Maryland (Option B). There is no reference to the University of California, Berkeley (Option A) anywhere in the text.\nAlthough the latter portion of the comment is non-specific to either university in question and comments on what could change someone's life more or why University of Maryland's (UMD's) dropout rate is higher, the opening clear endorsement demonstrates a perceived value or effectiveness that favors UMD (Option B).\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

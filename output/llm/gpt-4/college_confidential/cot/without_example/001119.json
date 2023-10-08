@@ -1,0 +1,6 @@
+{
+  "index": 1119,
+  "true_label": 0,
+  "model_output": "First, the comment is replying to a user @ultapradesh about financial aid information at UIUC, not Stanford University or University of Southern California. There is no mention of either Stanford or USC in the comment. The comparison between these two universities is therefore not addressed in the comment at all. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 127,
+  "true_label": 3,
+  "model_output": "The comment discusses extensively about the various merits of Richmond and the person's experience with it. The commendation here is towards the University of Richmond involving its teachers, classes, job opportunities and other specific initiatives. Haverford College was not mentioned in the comment.\n\nSo, it is clear to say that the comment shows a preference, but it does so only in favor of The University of Richmond.\n\n###\nA is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 799,
+  "true_label": 0,
+  "model_output": "1. The comment is discussing the importance of ABET accreditation for a CS major. \n2. They mention that there are good CS majors that are not ABET accredited, and it is not an automatic indicator of the quality of the CS program.\n3. They also mention that there are schools whose only ABET accredited program is CS, but many schools do not bother with it for various reasons. \n4. There is no explicit mention of Pomona College or Johns Hopkins University. \n5. The preference between the two options is not clear from this comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

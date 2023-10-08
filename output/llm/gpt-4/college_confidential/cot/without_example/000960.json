@@ -1,0 +1,6 @@
+{
+  "index": 960,
+  "true_label": 2,
+  "model_output": "The comment is comparing options A and B by considering the value and potential future financial benefit of attending University of Southern California (USC) with a $200K benefit over attending Stanford University. The commentator expresses doubt that an undergraduate degree from Stanford would be more valuable than one from USC plus $200K. This suggests that the commentator prefers the University of Southern California over Stanford University, considering the potential future financial growth.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

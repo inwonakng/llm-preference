@@ -1,0 +1,6 @@
+{
+  "index": 394,
+  "true_label": 0,
+  "model_output": "The commenter suggests other university campuses instead of Pennsylvania State University (Option A). The commenter expresses a preference for smaller campuses where students do not have to spend much time commuting from their student residence to their class as opposed to Pennsylvania State University(lambda expression). There is no mention of Virginia Tech (Option B) in the comment and no comparison point is provided to infer any preference for option B.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

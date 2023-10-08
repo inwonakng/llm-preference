@@ -1,0 +1,6 @@
+{
+  "index": 299,
+  "true_label": 2,
+  "model_output": "The comment mentions \"VT\" which is a short abbreviation for Virginia Tech. However, Rutgers University isn't addressed at all in the comment. Based on this comment, a direct claim of preference for Virginia Tech over Rutgers University can be made.\n\n###\n\nB is preferred over A",
+  "predicted_label": 2
+}

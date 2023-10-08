@@ -1,0 +1,6 @@
+{
+  "index": 930,
+  "true_label": 2,
+  "model_output": "In the comment, the speaker mentions only USC (University of Southern California). They talk about the number of billionaires that graduated from USC, which they consider a measure of prestige. They do not mention Stanford University at all. Therefore, it seems that they have a preference for USC over Stanford based on the information given in the comment.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

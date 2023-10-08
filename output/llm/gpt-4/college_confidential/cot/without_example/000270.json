@@ -1,0 +1,6 @@
+{
+  "index": 270,
+  "true_label": 0,
+  "model_output": "The comment generally talks about the Personal Experiences of the individual specific to Pennsylvania University (option A). The individual explains how their daughter had good experiences like internships and a great job offer from Pennsylvania State University. Her experience was described in detail regarding inhibiting in engineering dorm and having a culture of not partying much but being more academically focused that suited her in positive terms.\n\nThe person presents positive aspects explaining the daughter\u2019s positive adventure at Pennsylvania State University, portraying it as a good option. \n\nHowever, the person also mentions \"You have a lot of great options\", indicating that while they lean toward Pennsylvania State University, they accept that other universities, presumably including North Carolina State University (option B), could provide an equally deserving experience. \n\nThere isn\u2019t any concrete evidence presented about personal experiences, pros or cons about North Carolina State University to demonstrate a definitive advantage.\n\n### A is preferred over B",
+  "predicted_label": 1
+}

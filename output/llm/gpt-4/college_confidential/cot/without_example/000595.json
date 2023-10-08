@@ -1,0 +1,6 @@
+{
+  "index": 595,
+  "true_label": 0,
+  "model_output": "Firstly, at the beginning of this comment the individual mentions the University of Maryland (UMCP) and notes that a high GPA and research experience at this university will probably yield good outcomes for PhD programs in computer engineering. In comparison, the individual doesn't mention anything specific about the outcomes the University of California, Berkeley could yield.\nOn another note, which may imply a form of preference, this person ends the comment by affirming that it is a hard decision and congratulates the recipient for their son's accomplishments.\n\nSo the preference sits vaguely towards the University of Maryland due to it being the only university directly mentioned regarding success.\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

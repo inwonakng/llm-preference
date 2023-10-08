@@ -1,0 +1,6 @@
+{
+  "index": 222,
+  "true_label": 3,
+  "model_output": "The comment appears to be directed towards answering a user's questions about NC State, suggesting the commenter has a thorough knowledge and affinity for the B option. Even though the A option is mentioned once as \"PSU above\", the comparison given is not in favor or against PSU.\n\nIt seems the comment primarily provides an assurance that travel logistics between two campuses at NC State is not a problem, they are connected, plus the processes that regard integrating into a specific major at the school.\n\nThe user also takes a step further wishing luck expressing some form insight and affection towards NC State. No clear cut positivity or negativity directly pinpointing at Penn State University to signify preference.\n\nEven though the sentiment may seem like it favors Option B (NC State), the commenter does not truly suggest they prefer North Carolina State University over Pennsylvania State University. They only elaborate more on NC State based on fact and logic.\n\n### No preference",
+  "predicted_label": 0
+}

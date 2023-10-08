@@ -1,0 +1,6 @@
+{
+  "index": 102,
+  "true_label": 0,
+  "model_output": "The comment provided does not mention or regard either 'California Institute of Technology' (Option A) or 'Johns Hopkins University' (Option B) in any form.  There's nothing in the commentary that could be used to gauge preference between the two.\n\n###\n\nNo preference",
+  "predicted_label": 0
+}

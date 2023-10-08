@@ -1,0 +1,6 @@
+{
+  "index": 744,
+  "true_label": 1,
+  "model_output": "1. The comment strongly emphasises the advantages of Wharton (University of Pennsylvania) for students interested in finance and investment baking (ib).\n2. The commenter not only suggests Wharton because of the possibilities for higher salaries, but also because \"the street is very snobby about prestige\". Hence, they are implying that Wharton has more prestige in the finance sector than NYU Stern.\n3. While there is a mention of the NYU Stern (New York University) at the start of the post (in comparison with Wharton), it is brought up to encourage the reader to consider Wharton over it. The idea, \"don\u2019t listen to people who are comparing Wharton UG vs. Stern UG+MBA\", belittles the comparison that includes Stern, leading to a perception that Stern (Option B) is seen as less favorable.\n4. Even in the example of Wharton vs Stern when considering an MBA program, the comment maintains that Wharton is preferred. \n\nBased on these points, it's clear that the commenter prefers Wharton over NYU Stern significantly. \n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 820,
+  "true_label": 2,
+  "model_output": "The comment mentioned a successful graduate from Johns Hopkins University (JHU) who managed to secure a prestigious job at Google Deepmind. This could be taken as an endorsement of the quality of education at JHU.\n\nHowever, there is no mention of Pomona College at all, so we can't determine whether the commenter prefers JHU over Pomona College based only on this comment. They may have similar feelings about Pomona College, but we just don't have that information.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

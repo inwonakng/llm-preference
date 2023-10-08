@@ -1,0 +1,6 @@
+{
+  "index": 355,
+  "true_label": 0,
+  "model_output": "1. The comment provides some statistics and information, presumably about an engineering program at a college or university.\n2. This specifically stated detail includes details about retention rates and student grades.\n3. Because the comment gives this data without tying it to either Pennsylvania State University or Virginia Tech, it contains no specific preference between the two.\n4. There're no terms or phrases that reference, imply or suggest either Option A or Option B.\n\nSo, there's no way to determine a preference based just on this comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

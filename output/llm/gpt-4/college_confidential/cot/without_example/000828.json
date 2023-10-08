@@ -1,0 +1,6 @@
+{
+  "index": 828,
+  "true_label": 2,
+  "model_output": "The user congratulates the original poster (OP) and expresses a belief that Brown University is a popular or trendy choice, referring to it as the \"it\" school. However, they don't mention Duke University at all in the comment. They also don't explicitly state a preference for either school. \n\nNonetheless, their positive remarks about Brown may suggest a slight leaning towards this university.\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

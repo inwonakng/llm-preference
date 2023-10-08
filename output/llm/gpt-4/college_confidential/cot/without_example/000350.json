@@ -1,0 +1,6 @@
+{
+  "index": 350,
+  "true_label": 1,
+  "model_output": "We begin by breaking down the comment \n- The user talks a lot about Virginia Tech where their daughter had been. They mentioned the ranking, cost of tuition, the mentality of the students, and a rich social culture. \n- When it comes to Rutgers University, there is only negative sentiment expressed when the commenter calls it a \"commuter campus.\"\nTaking these points into consideration, the comment clearly shows a preference towards Virginia Tech over Rutgers University. \n\n###\n\nB is preferred over A",
+  "predicted_label": 2
+}

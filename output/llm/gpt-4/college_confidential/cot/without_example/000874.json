@@ -1,0 +1,6 @@
+{
+  "index": 874,
+  "true_label": 2,
+  "model_output": "The comment mentions both Boston University (Option A) and Boston College (Option B). The person writing the comment seems to hint at a possible future preference for Boston University over Boston College (\"Leapfrog BC. Perhaps.\") but also notes that currently, Boston University is \"5 spots behind in UNWR\", indicating Boston College is currently ranked higher.\n\nHowever, the comment also notes that \"rankings are not all that\", suggesting that the writer does not entirely base their preference on rankings. The final part of the comment (\"They've both been at this game for a long time\") suggests a level of respect for both institutions and does not clearly indicate a preference for one over the other.\n\nGiven the potential future preference for Boston University, the current higher ranking of Boston College, and the expressed caveat that rankings do not entirely determine the writer's preference, it's difficult to conclude a clear preference for either option.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

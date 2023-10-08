@@ -1,0 +1,6 @@
+{
+  "index": 486,
+  "true_label": 3,
+  "model_output": "The user mentions both Vassar College and Kenyon College. They do not seem to indicate any form of preference or provide comments that infer superiority of one over the other. Though they sppak about potential alternatives for both, there is no indication of favoring either Vassar or Kenyon. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

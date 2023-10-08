@@ -1,0 +1,6 @@
+{
+  "index": 719,
+  "true_label": 0,
+  "model_output": "This comment seems to show a lean towards the University of Pennsylvania (Option A). The commenter suggests that the user waits for the offer from UPenn, signifying confidence in the institution. However, the last sentence \"It\u2019s not the School, but what you do that defines you\" establishes a neutral standpoint, suggesting equal relevance of both institutions.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

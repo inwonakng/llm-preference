@@ -1,0 +1,6 @@
+{
+  "index": 357,
+  "true_label": 0,
+  "model_output": "The comment does not refer to or compare Rutgers University at all. Therefore, we cannot determine any form of preference between Pennsylvania State University and Rutgers University from the comment. The comment only appears to be more about questioning the difference in tuition between the main campus and a regional campus of Pennsylvania State University instead.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

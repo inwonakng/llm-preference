@@ -1,0 +1,6 @@
+{
+  "index": 398,
+  "true_label": 1,
+  "model_output": "First, the commenter brings up the financial aspect stating that sometimes out-of-state schools, such as Virginia Tech, are providing better scholarships, which consequently makes Rutgers University more expensive, indicating a financial favoritism for Virginia Tech.\nSecond, the commenter indicates that lack of financial aid from Rutgers University was also a significant negative factor.\nThird, the commenter touches on the reputation of the college, asserting their son's feeling on Rutgers University being like an extension of high school. They indicate that it could provide a less enriched experience comparative to an out-of-state school, hinting at a preference for Virginia tech. \nFinally, the commenter voices their support for schools that show significant interest and aid to the student. In the context of this comment, that could mean they prefer Virginia Tech.\nAlthough Rutgers and Virginia Tech are not directly compared, using reasoning to string together the comparisons made throughout the comment strongly indicates that Virginia tech could be the preferred institution.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

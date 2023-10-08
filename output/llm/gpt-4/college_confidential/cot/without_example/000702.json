@@ -1,0 +1,6 @@
+{
+  "index": 702,
+  "true_label": 0,
+  "model_output": "1. The commenter doesn't explicitly reference either University of California, Berkeley or Carnegie Mellon University.\n2. The comment seems to suggest that the individual they're speaking to (most likely the supposed 'student') should partake in research themselves, specifically regarding \"cost arguments\". \n3. Even though they are speaking about universities in general (or a potential choice between universities), they do not make an explicit or implicit preference between University of California, Berkeley (Option A) and Carnegie Mellon University (Option B).\n\nTherefore based on these three points,\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 437,
+  "true_label": 3,
+  "model_output": "The comment mentions both the University of Georgia and Indiana University. The user discusses the significance of Atlanta's business world, suggesting strong opportunities in Georgia. The same applies to IU-Kelley where the user cites the school's reputation, standards, programs, and size as basis for great opportunities. While there is positive commentary on both, there's not a specified preference over which one is considered better in the context they are talking about.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

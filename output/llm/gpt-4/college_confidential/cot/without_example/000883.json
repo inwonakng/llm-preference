@@ -1,0 +1,6 @@
+{
+  "index": 883,
+  "true_label": 2,
+  "model_output": "1. The comment refers to a situation where the original poster (OP) hasn't been back to a specific location since May 1st.\n2. It is suggested that the OP decided on a school, but there is no explicit mention of Boston University or Boston College.\n3. Since there is no indication in the comment of a preference between the two schools, we can't determine a preference.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

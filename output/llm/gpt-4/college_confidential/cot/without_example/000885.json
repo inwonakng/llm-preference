@@ -1,0 +1,6 @@
+{
+  "index": 885,
+  "true_label": 3,
+  "model_output": "The commenter is discussing data about the two options, Boston University (BU) and Boston College (BC). The commenter corrects UrbanMum's data about BC's freshman count, indicating a potential familiarity or preference for BC. However, they also state that they're unsure if there's a significant difference in selectivity between BU and BC based on the admission rate and standardized test scores. This suggests that they see both universities as comparable in terms of academic rigour. While the commenter seems to lean slightly towards BC due to their familiarity with BC's data, there is no explicit preference stated between the two universities.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

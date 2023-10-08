@@ -1,0 +1,6 @@
+{
+  "index": 1085,
+  "true_label": 1,
+  "model_output": "First, we need to determine if there is a preference between Stanford University and the University of Illinois at Urbana-Champaign in this comment.\n\nUpon reviewing the comment, it seems that it does not mention either Stanford University or the University of Illinois at Urbana-Champaign specifically. The commenter talks about his or her own alma mater and its characteristics, but does not compare or express preference for either of the two options given. \n\nBased on this, we can conclude that there is no preference expressed in this comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

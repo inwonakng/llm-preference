@@ -1,0 +1,6 @@
+{
+  "index": 713,
+  "true_label": 0,
+  "model_output": "1. The comment seems to discuss a decision made that led to saving some amount of money. \n2. The universities presented might translate as the decision being related to choosing one university over another.\n3. There's no direct mention of either 'Carnegie Mellon University' or 'University of Maryland' and therefore, we don't have direct data to analyze for namesake preference.\n4. Additionally, no indirect clues regarding locations, reputation, programs or any element that can be attributed to the universities individually are mentioned unfairly for preference evaluation.\n   \nSo, in this comment, there is not enough information given illustrating if the author prefers at Carnegie Mellon University over University of Maryland or vice versa. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

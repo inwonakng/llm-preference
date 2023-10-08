@@ -1,0 +1,6 @@
+{
+  "index": 401,
+  "true_label": 0,
+  "model_output": "1. The comment is discussing several universities, mostly focusing on Stevens, but also mentions Rutgers University in two instances.\n2. There is no explicit preference stated in the comment between Rutgers University (option A) and Virginia Tech (option B) as Virginia Tech isn't mentioned within the text at all.\n3. The only in-text information about Rutgers University is given in an apparently positive or neutral context. The author states, \"everyone outside of NJ has heard of Rutgers,\" indicating the institution is well-known, and \"all of my interviewers knew of Stevens (and Rutgers).\"\n4. Since the text editors would like me to note a preference between Rutgers University and Virginia Tech, but Virginia Tech is not mentioned or alluded to in the comment, I cannot determined a clear preference based on provided text.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 378,
+  "true_label": 0,
+  "model_output": "The comment mentions \"My son got into UP\", which is an abbreviation for Pennsylvania State University. Nothing is said about Rutgers University, and the speaker seems satisfied with their son's admission into the Pennsylvania State University. \n\nTherefore, this comment implies a preference for Pennsylvania State University over Rutgers University due to an acceptance of admission.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

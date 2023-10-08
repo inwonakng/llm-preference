@@ -1,0 +1,6 @@
+{
+  "index": 1090,
+  "true_label": 3,
+  "model_output": "First, the comment does not mention either the University of Illinois at Urbana-Champaign or the University of Southern California specifically. It talks generally about universities and scholarships, but does not express a preference directly towards either of the two options provided. \n\nSecondly, the context of the comment is advising on the difficulty of choosing a university when cost and scholarships come into play, but again, neither of the provided options are referred to.\n\nTherefore, based on this comment, it can be said that there is no preference between the University of Illinois at Urbana-Champaign and the University of Southern California. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

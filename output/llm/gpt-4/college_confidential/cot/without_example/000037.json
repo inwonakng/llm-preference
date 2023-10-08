@@ -1,0 +1,6 @@
+{
+  "index": 37,
+  "true_label": 1,
+  "model_output": "The commentator is discussing the aspects of CalTech and GaTech and mentioning some areas where each could excel in different manners. As for the BME discipline, the comment highlights that in designing prosthesis, \"GaTech [may be] a tad better\". This is based on GaTech's tight relationship with Emory U Medical and strong mechanical engineering training. These details hint a slight preference towards GaTech in a specific discipline.\nHowever, the commentator is also overall neutral to which institution could be a good fit linguistically and contextually, stressing that it depends on what an individual wants in their career or, similarly, on the student's location preference, between Pasadena and Atlanta.\nThis indicates the commentator doesn't strictly prefer one over the other overall, but does exhibit a subtle lean towards GaTech in a certain context (i.e., BME - Biomedical Engineering).\n\n### \nEqual preference",
+  "predicted_label": 3
+}

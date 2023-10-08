@@ -1,0 +1,6 @@
+{
+  "index": 309,
+  "true_label": 0,
+  "model_output": "The comment shows a comparison between Pennsylvania State University and Rutgers University. The cost of attending Pennsylvania State University is brought up as potentially prohibitive. Looking further, no negative statement about Rutgers University is made and it is explicitly stated as a university to which the commentator's son was accepted. There is however specific comments about support including the financial implications (merit) available at other universities such as Buffalo and West Virginia, there seems to be no discontent toward Rutgers University either. Therefore, we could deduct that the preference between the two options is influenced by economic factors. \n\nGiven that, financial considerations points towards a probable preference for Rutgers over Pennsylvania State University.\n### B is preferred over A",
+  "predicted_label": 2
+}

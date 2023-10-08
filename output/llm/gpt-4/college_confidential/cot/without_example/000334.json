@@ -1,0 +1,6 @@
+{
+  "index": 334,
+  "true_label": 0,
+  "model_output": "The comment mentions \"UIUC\" but neither \"Pennsylvania State University\" nor \"Virginia Tech.\" Therefore, we cannot determine preference between the two given options based on this comment. \n\n###\nNo preference",
+  "predicted_label": 0
+}

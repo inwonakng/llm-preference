@@ -1,0 +1,6 @@
+{
+  "index": 1008,
+  "true_label": 1,
+  "model_output": "The comment is discussing the situation where a child is applying to universities, and the parents' stance on paying for the education. The universities mentioned are Harvard and Stanford, with USC not being mentioned at all. There is no comparison made between Stanford and USC directly. \n\nSince there is no mention of USC and no comparison, it is impossible to determine a preference based on this comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

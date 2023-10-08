@@ -1,0 +1,6 @@
+{
+  "index": 1107,
+  "true_label": 2,
+  "model_output": "This comment doesn't mention Stanford University or the University of Southern California at all. Instead, it talks about Wharton and Harvard grad school. Therefore, we can't determine a preference based on this comment.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

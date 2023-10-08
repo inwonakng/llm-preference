@@ -1,0 +1,6 @@
+{
+  "index": 130,
+  "true_label": 1,
+  "model_output": "First, the comment mentions University of Richmond's international composition, positive review regarding the school's meals, and a significant financial advantage. The mention of \"alum\", generous funding, and involvement in foreign studies speaks favorably of the school's amenities and resources for students. The details about the rigorous curriculum, competencies of students, and a particular major (\"Philosophy, Politics, Economics and Law\") illustrate an indirect preference to Richmond's academic excellence that the second half strongly promotes.\n\nThere are no direct or indirect mentions about the comparison between Haverford College's and University of Richmond's curriculum or opportunities, albeit it admits getting higher GPA could be \"easier at Richmond than Haverford.\" However, it clearly mentions Richmond's endowment is significantly more advanced than Haverford College (\"Haverford's is about 500 mill\").\n\nLooking into these evaluations and praises of University of Richmond, we can deduce the comment signifies preferences towards University of Richmond over Haverford's College without substantial direct comparisons.\n\n### \nA is preferred over B",
+  "predicted_label": 1
+}

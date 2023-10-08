@@ -1,0 +1,6 @@
+{
+  "index": 517,
+  "true_label": 1,
+  "model_output": "The comment is comparing the starting salaries after graduation from Vassar College (option A) and Kenyon College (option B). They provide specific numbers for both options and the salary at Vassar College is higher than at Kenyon College. In terms of this specific context - starting salaries - it's clear that the commenter holds better regard for a college with higher starting salaries. \n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

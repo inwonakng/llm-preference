@@ -1,0 +1,6 @@
+{
+  "index": 701,
+  "true_label": 0,
+  "model_output": "The comment seems to evaluate the University of Maryland in high regard, stating that it's ABET accredited (which is significant in the field of engineering), the recruiting is good there, it houses many motivated top students in the engineering program, and it is a respected school. It's a strong endorsement for UMD without any direct comparison or mention of Carnegie Mellon University, which seems to hint that the downside might be the \"substantial cost to go elsewhere\". This is an inferred preference for UMD.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

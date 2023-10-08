@@ -1,0 +1,6 @@
+{
+  "index": 118,
+  "true_label": 2,
+  "model_output": "Firstly, the comment mentions Haverford College and portrays it in a very positive light, specifying several Benefits such as cross registration with Bryn Mawr College (implying good variety of study opportunities), access to a pool, and a train direct to U of Penn. The comment does not, however, mention University of Richmond at all. \nWhile it doesn't explicitly state a preference, the fact that it singles out Haverford for positive comments can be interpreted as a favouritism towards option B. \nTherefore, from what we see, we can infer a preference towards Haverford College. \n\n### \nB is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 496,
+  "true_label": 3,
+  "model_output": "Firstly, the comment mentions both Kenyon College and Vassar College in its scope but the context is mostly based on negative sentiments about Kenyon College.\n\nThe comment seemingly invites individuals probably in the process of making a choice to ..... 'read the report' by Kenyon College, which describes the condition of binge drinking and its negative effects with indications of a pressure to drink excessively present within the college.\n\nHowever, No clear comparison, negative or positive implication or preference is made in respect of Vassar College. Hence the sentiment regarding Vassar College is omitted entirely from this comment.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

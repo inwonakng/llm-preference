@@ -1,0 +1,6 @@
+{
+  "index": 527,
+  "true_label": 2,
+  "model_output": "This comment seems to focus heavily on the considerations made in the commenter's daughter's school choice. The push to find a place where her daughter had something in common with other students is emphasized. Through all of this, Kenyon College is depicted as possessing bright, articulate, persuasive, friendly, warm, and welcoming students- and where these qualities are valued more than partying. There seems to be an overall preference leaning towards Kenyon College over Vassar College even though Vassar College isn't directly mentioned as inferior.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

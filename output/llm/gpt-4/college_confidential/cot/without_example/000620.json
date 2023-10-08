@@ -1,0 +1,6 @@
+{
+  "index": 620,
+  "true_label": 0,
+  "model_output": "1. The first line of the comment clearly implies a preference for University of Maryland (UMD).\n2. The following text discusses a possible financial consideration and then jumps to something more akin to advice. Although it provides some insights about both schools, their drop out rates, and potential reasons, it doesn't definitively indicate a preference. However...\n3. The comment concludes with a sentence that posits a connection between the son's past achievements and their future success implying, considering UMD's reported lower selectivity, that the commenter believes the son should be able to succeed at UMD \n\nOnce these evaluations are out of the way, it's clear that the commenter prefers University of Maryland (UMD) over Carnegie Mellon University (CMU) despite the  more robust advantages and lower drop out rates at CMU.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

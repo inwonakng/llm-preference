@@ -1,0 +1,6 @@
+{
+  "index": 1019,
+  "true_label": 1,
+  "model_output": "First, the commenter acknowledges that Tiger Woods went to Stanford University. This could imply some level of preference for Stanford, but it's not explicitly stated.\nSecond, they agree with a statement (though we don't know what the statement is) about people fetishizing undergrad, which could potentially be related to the discussion about universities, but again, no clear preference is expressed.\nThird, they mention labeling flying in the face of a statement, but without the context of what this statement is, it's hard to determine if this suggests a preference for one university over the other.\n\nBased on the information given in the comment, we can't definitively say that the commenter prefers Stanford University or University of Illinois at Urbana-Champaign.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

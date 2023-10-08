@@ -1,0 +1,6 @@
+{
+  "index": 439,
+  "true_label": 1,
+  "model_output": "1. The commentator indicates their relationship with both options. They personally have a daughter (D) that currently attends the University of Georgia, which may uncover biased opinions towards this option.\n2. They defend the University of Georgia's suitability and criticise those producing misinformation and \"post non-responsive information about MBA programs\". The commentator strongly reprimands these supposedly ill-informed actions, thus showing their endorsement towards University of Georgia.\n3. Reference to \"Indiana University (IU)\" denotes they have experience with this institution and provides an endorsement, explaining that their student was \"heavily recruited by Kelley 2 years ago and took classes at IU\". \n\nAlthough the commenter does show some level of acquaintance with, and appreciation for, both institutions, there seems to be a stronger verdict towards Option A (University of Georgia). The pattern of the conversation shows how the commenter is maybe more attach to and defensive of UGA than IU. Hence, based on the current provided comment, a preferable choice leaning towards the University of Georgia can be detected.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 778,
+  "true_label": 2,
+  "model_output": "The comment clearly talks about Johns Hopkins University (Option B) and the person's impressions of it. They mention positive experiences with the engineering classes, the relaxed vibe, good student-professor rapport, the location of the university, and the easy access to other attractions. Pomona College (Option A) is not mentioned at all in the comment. \n\nTherefore, we can conclude that the commenter has a preference for Option B over Option A based on the information provided in the comment.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

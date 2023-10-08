@@ -1,0 +1,6 @@
+{
+  "index": 182,
+  "true_label": 0,
+  "model_output": "The comment does not reveal any benefit, value or preference between 'Pennsylvania State University' and 'University of Pittsburgh.' It only poses a question related to costs and the need to stay on campus, without mentioning either of the two alternatives. Thus, the choice or preference on a particular institution between the two cannot be deduced from the interaction.\n \n###\nNo preference",
+  "predicted_label": 0
+}

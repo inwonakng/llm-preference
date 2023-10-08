@@ -1,0 +1,6 @@
+{
+  "index": 577,
+  "true_label": 0,
+  "model_output": "The comment does not mention anything about Virginia Tech implicitly or explicitly. Therefore, there isn't any direct comparison made between the two colleges.\n\nHowever, the person described in the comment expresses not liking Cornell University. Even without expressing a preference for Virginia Tech, as our options are only between Virginia Tech and Cornell, it is inferred they have a more favorable opinion of Virginia Tech in terms of preference even if it\u2019s by process of elimination.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

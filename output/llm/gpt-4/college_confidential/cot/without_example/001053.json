@@ -1,0 +1,6 @@
+{
+  "index": 1053,
+  "true_label": 1,
+  "model_output": "The comment does not directly mention or refer to either Stanford University (Option A) or University of Southern California (Option B). There is no comparison or preference expressed or implied between these two options.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

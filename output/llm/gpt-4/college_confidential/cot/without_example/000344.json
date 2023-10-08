@@ -1,0 +1,6 @@
+{
+  "index": 344,
+  "true_label": 0,
+  "model_output": "In the given comment, no explicit preference is stated between Rutgers University and Virginia Tech. The comment is simply discussing the number of engineering graduates from Virginia Tech who have become Licensed Professional Engineers. There seems to be implied skepticism regarding the number of graduates working in engineering jobs including non-PE positions but there is no reference or comparison to Rutgers University made in the comment at all. The comment does not give any information that indicates preference towards one institute over the other.\n\nBased solely on the available comment, it is impossible to say if the speaker prefers one institute over the other.\n\nTherefore, there is no direct or implied preference between the two options based on the available comment.\n\n###\nNo preference",
+  "predicted_label": 0
+}

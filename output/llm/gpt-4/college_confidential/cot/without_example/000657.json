@@ -1,0 +1,6 @@
+{
+  "index": 657,
+  "true_label": 2,
+  "model_output": "The comment doesn't directly compare Cal (University of California, Berkeley) with Carnegie Mellon University, but it does indeed provide opinions on some aspects of Cal.\n\nAs it stands, the comment states reasons in disagreement with how a course in Cal operates, denoting too many students and heavy reliance on teaching assistants. It also critiques the structure of the University campus. Despite then providing some upsides such as job placement for CS graduates and a strong graduate school, the overall tone toward Cal is neutral to negative.\n\nNowhere in the comment is Carnegie Mellon University mentioned or referenced, positively, negatively, or neutrally, thus it's hard to discern a comparison\n\nGiven this information, no effective evidence of a damning or praising nature for either A or B could be comprehended from this review. This would result in a deduction of no particular preference within the comment.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

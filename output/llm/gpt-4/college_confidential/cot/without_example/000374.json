@@ -1,0 +1,6 @@
+{
+  "index": 374,
+  "true_label": 2,
+  "model_output": "The comment provided doesn't indicate any preference or comparison between \"Rutgers University\" (Option A) or \"Virginia Tech\" (Option B). Instead, the commenter talks about PSU giving information about tuition at two of their different campuses. \n\nDespite a careful reading and analysis of the comment, a preference for either option provided is not suggested or alluded to.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

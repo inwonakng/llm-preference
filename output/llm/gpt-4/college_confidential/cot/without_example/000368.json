@@ -1,0 +1,6 @@
+{
+  "index": 368,
+  "true_label": 0,
+  "model_output": "The comment indicates some concern about the accessibility of Virginia Tech (BT) while making no such mention about Rutgers University (A). The person who made the comment shares their own struggle with getting their child to and from VT, explaining that it is difficult due to distance and complexity of traveling arrangements which suggesting that this aspect could potentially be a problem. Though the comment talks about both universities, preference here seems to edge towards Rutgers University (A) mainly due to the factors of convenience inferred from the difficulties suggested for VT (B).\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 447,
+  "true_label": 2,
+  "model_output": "The entire comment revolves around Indiana University's IU-Kelley senior and the Business Honor program. Specifically, the benefits of internships and job placement are accentuated, but nothing pertinent is mentioned about the University of Georgia.\nThe reference to a large state university is quite vague and it is unsure whether it is referring to University of Georgia.\n++\nSo it seems like the comment leans towards Indiana University as there is no direct comparison and no reference to University of Georgia in order to compare the benefits.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

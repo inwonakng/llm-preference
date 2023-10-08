@@ -1,0 +1,6 @@
+{
+  "index": 315,
+  "true_label": 0,
+  "model_output": "The comment is disagreeing with a previous statement about Virginia Tech's reputation. It proceeds to compare Virginia Tech's reputation, indicating the institution has a good standing in stem fields similar to Pennsylvania State University (PSU), University of Maryland, etc. Rutgers University is not mentioned in the comment. It is also worth noting there is no directional comparison to say that one is better or worse. Hence, in the context, it can be inferred that PSU is being equally considered or thought of as Virginia Tech. \n\n### No preference",
+  "predicted_label": 0
+}

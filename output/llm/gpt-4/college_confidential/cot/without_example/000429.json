@@ -1,0 +1,6 @@
+{
+  "index": 429,
+  "true_label": 0,
+  "model_output": "1. The commenter strongly supports the University of Georgia (Option A), providing specific counterarguments against those suggesting the geographic scope of opportunities are localized.\n2. The commenter states that children and friends have attended the University of Georgia and have managed to secure opportunities across the country, pointing out specifically to jobs and internships in New York.\n3. The commenter acknowledges that Indiana University (Option B) is also excellent in its own way but suggests there isn't a significant difference in the opportunities one can get compared to the University of Georgia, hinting University of Georgia to be a compelling choice.\n4. The commenter strongly emphasizes choosing a university that best fits the individual's needs. \n\nGiven this analysis, it's clear that while the commenter doesn't discount Indiana University, they display strong sentiments favouring the University of Georgia.\n\n%%%\nA is preferred over B.",
+  "predicted_label": 1
+}

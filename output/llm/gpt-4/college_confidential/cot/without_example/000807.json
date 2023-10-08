@@ -1,0 +1,6 @@
+{
+  "index": 807,
+  "true_label": 1,
+  "model_output": "1. The comment doesn't explicitly state a preference between Pomona College and Johns Hopkins University. \n2. However, the commenter provides a detailed perspective on both colleges, highlighting their unique features and potential attractions for different types of students. \n3. The commenter suggests that Johns Hopkins University may have more immediate prestige or glamour and has a large school experience with world-class professors and research opportunities.\n4. On the other hand, the commenter mentions that Pomona College offers individual attention and undergraduate-centered experiences, and they personally had a positive experience at this college. They also note that Pomona may not be as immediately recognizable or prestigious to some.\n5. The commenter emphasizes that the choice largely depends on the individual's preferences and what they value in their college experience.\n6. The final statement suggests that the commenter sees both colleges as valid choices with their own unique benefits, depending on the individual's preferences.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

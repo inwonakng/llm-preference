@@ -1,0 +1,6 @@
+{
+  "index": 742,
+  "true_label": 2,
+  "model_output": "First, the comment describes ranking between University of Pennsylvania (Penn-Wharton) and New York University (NYU-Stern) as per the US News rankings of undergraduate business programs, where Penn-Wharton is ranked #1 and NYU-Stern is #5.\n\nSecond, the speaker riffed on the location advantage NYU-Stern has due to its proximity to financial center i.e. New York City which makes arranging for interviews, internships, and engaging terrific adjunct professors much easier.\n\nWhile this comment implies a general edge to Penn-Wharton due heuristic rankings, it simultaneously evokes a specific advantage of NYU.\n\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

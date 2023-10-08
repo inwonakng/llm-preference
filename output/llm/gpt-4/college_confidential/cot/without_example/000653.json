@@ -1,0 +1,6 @@
+{
+  "index": 653,
+  "true_label": 0,
+  "model_output": "1. This comment provides information about a University called UCB and its system of impacted majors.\n2. However, we need a comment which could help us determine whether the author prefers Carnegie Mellon University (Option A) or University of Maryland (Option B).\n3. To determine such a preference, we need comments directly about these university, praising some aspects, or criticizing either university.\n4. Unfortunately, this particular comment does not cite Carnegie Mellon University or University of Maryland at all.\n5. Therefore, no preference can be determined from this comment for these two options.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

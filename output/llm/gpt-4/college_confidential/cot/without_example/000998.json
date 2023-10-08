@@ -1,0 +1,6 @@
+{
+  "index": 998,
+  "true_label": 1,
+  "model_output": "1. The comment is addressing a discussion about various universities, including USC, Vandy, WashU, and the University of Chicago.\n2. However, neither Stanford University (Option A) nor the University of Illinois at Urbana-Champaign (Option B) is mentioned in the comment.\n3. Hence, the user doesn't express any preference for either Stanford University or the University of Illinois at Urbana-Champaign in this comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

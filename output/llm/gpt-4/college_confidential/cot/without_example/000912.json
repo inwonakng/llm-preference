@@ -1,0 +1,6 @@
+{
+  "index": 912,
+  "true_label": 3,
+  "model_output": "The comment is discussing the scenario of students who cannot afford to attend Stanford University and, as a result, might choose to attend their home-state University or a place that offers them large scholarships. The University of Southern California (USC) is mentioned as one of the possible alternatives in this context. However, the comment does not express a strict preference between Stanford and USC. The comment is suggesting that students with the capabilities to do well at Stanford can find their peer group wherever they land, implying that the university choice doesn't necessarily define the success of a student.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

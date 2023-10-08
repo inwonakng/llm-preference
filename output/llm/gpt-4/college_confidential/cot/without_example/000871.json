@@ -1,0 +1,6 @@
+{
+  "index": 871,
+  "true_label": 0,
+  "model_output": "1. The comment mentions both Duke and Brown University.\n2. The comment discusses that the user's child is heading to Brown University in the fall.\n3. The user shows interest in links related to Brown University.\n4. There is no mention of Duke University other than it being listed as Option A.\n5. The user does not express any preferences or comparisons between Duke and Brown directly. \n\nHowever, given the fact that the user's child is attending Brown University and displayed interest in related links, it can be inferred that Brown University is more relevant and preferred in this context.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

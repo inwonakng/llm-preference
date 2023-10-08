@@ -1,0 +1,6 @@
+{
+  "index": 776,
+  "true_label": 0,
+  "model_output": "The comment seems to express a preference based on location, rather than the universities themselves. The user mentions they are a \"big fan of the East Coast\" and details the advantages of the public transportation system there. They also state that their daughter, who was raised in the Western U.S., loved exploring the East Coast. Since Johns Hopkins University is located on the East Coast, this comment seems to prefer it over Pomona College, which is in California on the West Coast.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

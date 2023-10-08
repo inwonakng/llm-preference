@@ -1,0 +1,6 @@
+{
+  "index": 895,
+  "true_label": 1,
+  "model_output": "The comment seems to compare the two options (Boston University and Boston College) in terms of selectivity and academic robustness. \n\nThe comment mentions that \"BU has pretty much caught up BC in terms of selectivity\" which implies that BU (Boston University) and BC (Boston College) are on par in terms of selectivity. This part of the comment does not show a clear preference for either option.\n\nThe second part of the comment says \"Academically, BU is more robust in more academic areas than BC\". Here, the commenter shows a clear preference for BU, stating it's more robust acadically.\n\nSo, based on the comment, the preference leans towards BU (Boston University) because it is said to be more robust academically.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

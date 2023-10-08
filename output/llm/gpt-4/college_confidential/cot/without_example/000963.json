@@ -1,0 +1,6 @@
+{
+  "index": 963,
+  "true_label": 2,
+  "model_output": "The comment mentions Stanford University and the University of Southern California (USC). The author talks about the number of billionaires produced by USC and how it wouldn't have been worth it for them to go to Stanford or Harvard. They also mention that if they were a football star offered a full ride, they would choose USC over Stanford. However, they also state that if it were revenue neutral, they would pick Stanford. The author believes the person they are discussing could finish top of their class at USC and then go to Stanford law. The comment appears to lean more towards USC due to practical reasons like financial aid and climate, but it does show an appreciation for the academic prestige of Stanford. \n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

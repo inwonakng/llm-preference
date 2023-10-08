@@ -1,0 +1,6 @@
+{
+  "index": 1054,
+  "true_label": 3,
+  "model_output": "The comment does not specify whether it is referring to Option A (University of Illinois at Urbana-Champaign) or Option B (University of Southern California). It's not clear which university the commenter is saying suffers from not attracting top applicants. Therefore, it's impossible to determine a preference based on this comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

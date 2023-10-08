@@ -1,0 +1,6 @@
+{
+  "index": 723,
+  "true_label": 3,
+  "model_output": "Firstly, we know that NYU Stern and Wharton are being compared here, representing their respective universities, NYU (Option B) and University of Pennsylvania (Option A). \n\nThen, the commenter talks about a combination of an undergraduate degree from NYU Stern and any top 30 MBA degree that is argued to have more worth and potentially be of lesser or equivalent cost than just an undergraduate degree from Wharton. \n\nTherefore, it seems the comment is favoring NYU (Option B) given that they considered NYU's undergrad value combined with an MBA compares favorable against just the undergrad from University of Pennsylvania (Option A).\n\n've figured into the cost analysis lost wages for an additional two years of schooling seems like a slight edge towards NYU still, considering it alongside another MBA program, implying incredible monetary and higher education value there.'\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

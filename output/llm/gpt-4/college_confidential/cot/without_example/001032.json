@@ -1,0 +1,6 @@
+{
+  "index": 1032,
+  "true_label": 0,
+  "model_output": "First, the comment doesn't explicitly mention either Stanford University or the University of Southern California. \n\nSecond, the comment discusses the concept of a \"public ivy\" and gives an example of a student choosing Loyola Marymount University because she considered it an \"ivy of the West\". \n\nHowever, no comparison or preference between Stanford and USC can be inferred from this comment. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

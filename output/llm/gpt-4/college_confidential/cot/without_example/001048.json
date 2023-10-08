@@ -1,0 +1,6 @@
+{
+  "index": 1048,
+  "true_label": 0,
+  "model_output": "The comment is quite lengthy and the person discusses various universities not limited to University of Illinois at Urbana-Champaign and University of Southern California. In the context of USC, the person mentions that it was not a good fit for their daughter and that she would not have been happy there. This indicates a negative sentiment towards USC. \n\nHowever, the person does not mention the University of Illinois at Urbana-Champaign at all in the comment. It's therefore impossible to compare the person's opinion on the two universities because we only have information on one of them. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

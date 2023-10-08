@@ -1,0 +1,6 @@
+{
+  "index": 957,
+  "true_label": 1,
+  "model_output": "1. The comment mentions Stanford University, which is option A.\n2. The comment does not mention the University of Southern California, which is option B.\n3. The person seems to be considering Stanford University as a possible choice for undergrad school, but there's also mention of affordability, which might be a constraint.\n4. It's not clear whether the person prefers Stanford University over University of Southern California, as option B isn't mentioned at all.\n5. Therefore, we can't definitively say that one option is preferred over the other based on this comment.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

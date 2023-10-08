@@ -1,0 +1,6 @@
+{
+  "index": 1035,
+  "true_label": 0,
+  "model_output": "1. The comment mentions both options, Stanford University and University of Southern California.\n2. The comment does not explicitly state a preference for either university.\n3. The comment suggests that Stanford University might not be as intellectually-focused as some other top universities, due to a greater proportion of their student body being career-focused.\n4. This could be seen as a negative critique of Stanford University, but it's not clear that this means the commenter prefers the University of Southern California.\n5. The University of Southern California is not discussed in detail. It's not clear whether the commenter believes USC is more \"intellectually-focused\" than Stanford.\n6. Therefore, there is no clear preference expressed in the comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

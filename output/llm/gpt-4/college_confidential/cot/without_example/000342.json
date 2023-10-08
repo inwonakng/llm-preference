@@ -1,0 +1,6 @@
+{
+  "index": 342,
+  "true_label": 0,
+  "model_output": "The comment does not mention either Pennsylvania State University (Option A) or Rutgers University (Option B). The opinion provided in the comment is discussing the Engineering program at Virginia Tech, not an aspect of preference relevant to our comparison. As such, it cannot apply to Pennsylvania State University or Rutgers University. \n\n### No preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 852,
+  "true_label": 0,
+  "model_output": "1. The comment does not directly mention either Duke University or Brown University. \n\n2. The comment discusses the value of an Auburn degree, the benefits of being a Princeton student, and the diminishing benefits of an Ivy League education over time.\n\n3. There is no explicit or implicit preference expressed between Duke University and Brown University.\n\n4. Therefore, we are unable to determine a preference from this comment.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

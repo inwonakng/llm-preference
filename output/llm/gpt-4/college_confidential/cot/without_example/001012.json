@@ -1,0 +1,6 @@
+{
+  "index": 1012,
+  "true_label": 3,
+  "model_output": "The comment doesn't directly mention the University of Illinois at Urbana-Champaign, so we can't immediately infer a preference. \nHowever, the commenter does talk about the University of Southern California (USC). They acknowledge that USC produces successful graduates and that some of these graduates go on to pursue PhDs. However, they also imply that USC is more of a pre-professional school and that its students are not as intellectually focused as students from other universities.\nThis indicates a somewhat mixed view of USC, but without a comparison to the University of Illinois at Urbana-Champaign, it's difficult to definitively state a preference.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

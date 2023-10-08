@@ -1,0 +1,6 @@
+{
+  "index": 115,
+  "true_label": 0,
+  "model_output": "The commentator does mention both the California Institute of Technology and the Georgia Institute of Technology, but largely focuses on the Georgia Institute. The comments about Georgia Tech are largely positive, stating that despite changes in admission rates, the quality of the school has remained the same. Claims about academic rigor and quantitative learning at Georgia Tech further emphasize the speaker's \"...remark for the students of Georgia\" that recognizes their hard work and dedication. In contrast, Caltech is not directly mentioned in the speaker's argument at all. The focus and positive advertising of Georgia Institute of Technology characterize it as superior to Caltech.\n\n### \nB is preferred over A",
+  "predicted_label": 2
+}

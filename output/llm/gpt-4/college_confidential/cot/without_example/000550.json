@@ -1,0 +1,6 @@
+{
+  "index": 550,
+  "true_label": 2,
+  "model_output": "1. The comment distinctly says \"Emory used to release the tables with the breakdown of pre-health admissions data.\" This statement immediately suggests that Emory University is somehow mentioned positively here that it used to publish granular level, useful data for pre-health admissions.\n\n2. Further, the comment goes to talk about the chances of admission depending in GPA and MCAT score in Emory University. Mentions like \"If you had a 3.5 GPA and 30 equivalent on the MCAT, your chances of admission were 80% +\" indirectly suggest the positive attraction and preference towards Emory because of its transparency and opportunities. \n\n3. However, note that the comment also states - \"This stat is often reported by many good schools.\" - which generalizes bearings of the previous quote.\n\n\nDespite that, overall, there is no explicit comparison made between Emory University and University of Rochester or any explicit mention or reference made about University of Rochester. But, as there is a prominent reference of Emory, let's lean a bit towards Emory here.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

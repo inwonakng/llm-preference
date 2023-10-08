@@ -1,0 +1,6 @@
+{
+  "index": 696,
+  "true_label": 2,
+  "model_output": "1. The first reference to one of the options appears with the sentence \"CMU > Cal....\". This suggests a preference for Carnegie Mellon University over University of California, Berkeley.\n2. The rest of the text discusses a different university (UMD), not part of our considered options, and seems to suggest it might be a better choice than CMU due to its affordability. But it doesn't talk more about Berkeley.\n3. While comparing CMU with UMD, there's no explicit favouritism towards Berkeley or any comparison between Berkeley and UMD, excluding any indirect preference.\n\n%%%\nB is preferred over A.",
+  "predicted_label": 2
+}

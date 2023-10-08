@@ -1,0 +1,6 @@
+{
+  "index": 147,
+  "true_label": 2,
+  "model_output": "First, the user states \"Pitt has an excellent business school that is well regarded.\" This is a positive affirmation regarding the University of Pittsburgh, indicating some level of preference toward it.\n\nFollowing this, the user then advises, \"I wouldn\u2019t pass up Pitt for a chance at PSU with a summer start.\" Ideally, this illustrates a preference towards University of Pittsburgh over Pennsylvania State University since the user discourages considering an opportunity at PSU in favor of University of Pittsburgh. Here also, preference towards University of Pittsburgh is conspicuous.\n\nThis is followed by another hint favoring University of Pittsburgh -- \"ignoring rank, PSU isn\u2019t appreciably better than Pitt\u2019s CBA.\"\n\nThe comment closes with \"Good luck\" which doesn't direct any preference. Yet, the user's leaning seems clearly towards the University of Pittsburgh (Pitt) rather than Pennsylvania State University (PSU).\n\n### \nB is preferred over A.",
+  "predicted_label": 2
+}

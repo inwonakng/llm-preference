@@ -1,0 +1,6 @@
+{
+  "index": 850,
+  "true_label": 3,
+  "model_output": "1. The comment mentions both Duke University and Brown University.\n2. The commenter seems to have a neutral opinion about both universities, stating that both Duke and Brown are great.\n3. The main point of the comment is that the university one attends doesn't necessarily correlate with success in life.\n4. Therefore, there is no preference shown for either Duke or Brown University.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

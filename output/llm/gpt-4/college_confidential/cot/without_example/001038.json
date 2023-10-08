@@ -1,0 +1,6 @@
+{
+  "index": 1038,
+  "true_label": 0,
+  "model_output": "1. The comment mentions both Stanford University (Option A) and University of Southern California (Option B).\n2. The commenter seems to be engaging in a discussion about the perceived prestige and intellectual level of both universities.\n3. The commenter emphasizes that USC (Option B) is \"plenty tough and intellectual to attract that kind of talent.\" This shows a positive view of USC.\n4. However, the commenter also implies that Stanford may be seen as more prestigious or intellectual, hence why they're pointing out USC's merits. This suggests the commenter acknowledges Stanford's (Option A) prestige.\n5. The commenter then mentions that it's not always about the school but about application of skills, perseverance, and a bit of luck in life. This implies that the commenter believes neither university is necessarily better than the other, but rather it's about what a student does with their education.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

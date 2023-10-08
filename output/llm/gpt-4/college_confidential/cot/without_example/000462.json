@@ -1,0 +1,6 @@
+{
+  "index": 462,
+  "true_label": 2,
+  "model_output": "The comment seems to be discussing universities in a generic manner and giving advice about making that selection, nonetheless, it does bring up UGA (University of Georgia) as an example where the speaker's son \"will be more than likely going [there]\". Indiana University, however, is not specifically mentioned anywhere in the comment. MessageBox.Show(Father.BasedOn the context, it can be said that The University of Georgia (UGA) is placed in a more positive light than Indiana University, because Indiana University is not mentioned. Still, there isn't a clear and direct preference stated but just based on mentions, It could be argued that UGA is marginally preferred.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

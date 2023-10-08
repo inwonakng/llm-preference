@@ -1,0 +1,6 @@
+{
+  "index": 1046,
+  "true_label": 0,
+  "model_output": "The comment is a long and involved discussion about the poster's daughter's university choices and experiences, which includes a discussion about several universities including Stanford, USC, Grinnell, Yale, U Chicago and others. The poster does mention Stanford in a positive light, indicating that their daughter had a good experience with the level of intellectual engagement she encountered there. However, the University of Illinois at Urbana-Champaign is not mentioned at all in the comment. Therefore, while we can definitely see that the poster has a positive view of Stanford, we cannot ascertain any preference between Stanford and the University of Illinois as the latter is not mentioned or compared to Stanford in the comment.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

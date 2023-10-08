@@ -1,0 +1,6 @@
+{
+  "index": 461,
+  "true_label": 2,
+  "model_output": "The comment seems to be referring to Indiana University (Option B), suggesting it as the go-to choice for someone wanting to study business. It compliments the school's nationally regarded program and its top ranking among business schools. Conversely, the comment makes no mention of the University of Georgia (Option A). This shows that within the context of business studies, the commenter prefers Indiana University over University of Georgia.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

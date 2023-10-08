@@ -1,0 +1,6 @@
+{
+  "index": 613,
+  "true_label": 2,
+  "model_output": "The commenter discusses the computer engineering program at the University of Maryland (UMCP), indicating it's of high quality, offers many computer science classes, along with hardware and basic Electrical Engineering (EE). When it comes to the quality of classes, they state that the CS classes are challenging. They then make a slight joke about the faculty of ECE. The Jeremiah program seems to inform about which have been positively reviewed.\n\nHowever, there is no mention made of the University of California, Berkeley in the comment. Therefore, it might be inferred that the University of Maryland receives clear appreciation and preference, solely because Option A wasn't described or referred to whatsoever.\n\n%%%\nB is preferred over A.",
+  "predicted_label": 2
+}

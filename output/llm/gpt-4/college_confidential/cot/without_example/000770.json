@@ -1,0 +1,6 @@
+{
+  "index": 770,
+  "true_label": 3,
+  "model_output": "The comment does not explicitly state a preference for either Pomona College or Johns Hopkins University. Instead, the commenter lists various features of each school, like class sizes, research opportunities, location, and competitive vibe. They suggest that the decision should be based on the individual's personal preferences and needs.\nHowever, the commenter does not express any personal preference towards either option, they only provide an objective comparison.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

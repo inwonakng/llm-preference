@@ -1,0 +1,6 @@
+{
+  "index": 231,
+  "true_label": 0,
+  "model_output": "The comment doesn't mention Pennsylvania State University or North Carolina State University, the two choices. Instead, it speaks of VT's engineering working process. Hence, we cannot find a preference between Option A and Option B.\n\n### No preference",
+  "predicted_label": 0
+}

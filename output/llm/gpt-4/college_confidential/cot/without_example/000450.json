@@ -1,0 +1,6 @@
+{
+  "index": 450,
+  "true_label": 0,
+  "model_output": "First, although both options (University of Georgia and Indiana University) are contextually mentioned, the main discussion focuses on Indiana University. The user provided information relates directly and solely to the latter institution (\"Indiana University Kelley School of Business Career Placement\").\n\nSecond, based off credentials given for Indiana University, we are not equipped with equivalent statistics for the University of Georgia \u2013 who in this context, could have been intended as any relationships, comparisons or preferences but was left undiscussed.\n\nTo summarise, Indiana University was highlighted specifically with detailed information implying potential preference- However, due to no affiliated circumstances regarding University of Georgia's presence, we cannot be certain about any preference.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

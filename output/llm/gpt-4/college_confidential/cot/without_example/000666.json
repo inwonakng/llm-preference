@@ -1,0 +1,6 @@
+{
+  "index": 666,
+  "true_label": 2,
+  "model_output": "The commenter discusses certain drawbacks of attending the University of California, Berkeley, such as the high cost for out-of-state students, large class sizes, impacted majors, and a geographically homogeneous student body. These points can be considered criticisms.\n\nThey then highlight some benefits of attending Carnegie Mellon University, including smaller class sizes, plenty of sections, and geographical diversity. These points can be interpreted as praises. \n\nThe overall sentiment tends to favor CMU over UCB due to specific benefits mentioned over spending the same sum of money.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

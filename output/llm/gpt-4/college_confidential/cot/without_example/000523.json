@@ -1,0 +1,6 @@
+{
+  "index": 523,
+  "true_label": 2,
+  "model_output": "Although both schools are mentioned, only Kenyon College, Option B, receives a more detailed discussion in the comment. The person provided detailed analysis about what makes Kenyon College distinct, with its administration's conscious effort to provide weekend activities being given as one reason. \n\nNo information or comment was given about Vassar College, Option A, this individual doesn't express any specific dislike or drawback related to either institution, but the preference leans towards Kenyon College because it was the only one thoroughly discussed and positively reviewed.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

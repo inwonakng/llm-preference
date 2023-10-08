@@ -1,0 +1,6 @@
+{
+  "index": 829,
+  "true_label": 1,
+  "model_output": "The comment mentions both Duke University (Option A) and Brown University (Option B). The comment says that Duke has more resources to throw at new entrepreneurial initiatives, which is considered as an advantage. The comment does not mention any positive or negative aspects about Brown University.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

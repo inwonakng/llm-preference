@@ -1,0 +1,6 @@
+{
+  "index": 1109,
+  "true_label": 1,
+  "model_output": "1. The comment doesn't mention either Stanford University or the University of Illinois at Urbana-Champaign.\n2. The comment seems to be discussing the cost of attending graduate school, but does not indicate a preference for either university.\n3. The user is questioning the advice of saving money specifically for an Ivy League graduate school, suggesting that the money should be saved for any graduate school, not just Ivy League ones.\n\nGiven these points, we can conclude that there is no preference indicated in this comment.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

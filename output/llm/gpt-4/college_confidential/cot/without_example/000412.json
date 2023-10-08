@@ -1,0 +1,6 @@
+{
+  "index": 412,
+  "true_label": 0,
+  "model_output": "1. The commenter is responding to an individual about an unrelated successful endeavour which is beyond the scope of the given options.\n2. The comment mentions a scholar considering a different University, Stevens, for Bio and subsequent medical school.\n3. There are no mentions of either Pennsylvania State University or Virginia Tech.\n\nGiven these points of reasoning...\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

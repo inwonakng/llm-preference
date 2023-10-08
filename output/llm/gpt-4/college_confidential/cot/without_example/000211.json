@@ -1,0 +1,6 @@
+{
+  "index": 211,
+  "true_label": 3,
+  "model_output": "The user in the comment is being encouraging and providing advice. They do state that the person they are speaking to has \"great choices\" regarding their interest in a few schools, one of which might be Virginia Tech (VT), quite possibly, since it's mentioned in the comment. Despite this, they do not elaborate further or favour any statement towards this particular college over the other listed selection, and likewise, Pennsylvania State University is not mentioned at all. \nGiven all that, preference towards a specific college (option) in the comment is not present.\n\n### No preference",
+  "predicted_label": 0
+}

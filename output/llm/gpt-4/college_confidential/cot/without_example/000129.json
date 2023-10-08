@@ -1,0 +1,6 @@
+{
+  "index": 129,
+  "true_label": 2,
+  "model_output": "First, the commenter mentions University of Richmond as \"the wiser & easy choice,\" implying a positive perception for that. In comparison, the person mentioned Haverford College mostly in terms of its connection to Penn-Wharton, not its standalone value as an institution.\nThese factors lead us to believe that there is a clear preference here, and that preference favors the University of Richmond.\n\n### \nA is preferred over B",
+  "predicted_label": 1
+}

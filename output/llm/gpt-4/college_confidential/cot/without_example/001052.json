@@ -1,0 +1,6 @@
+{
+  "index": 1052,
+  "true_label": 1,
+  "model_output": "The comment seems to be discussing a negative aspect of an unnamed entity, stating that they suffer consequences by not attracting top applicants. However, the comment does not specify whether this negative aspect is related to Stanford University (Option A) or the University of Illinois at Urbana-Champaign (Option B). Without this information, it's impossible to determine a preference based on this comment.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

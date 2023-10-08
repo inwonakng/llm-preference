@@ -1,0 +1,6 @@
+{
+  "index": 940,
+  "true_label": 2,
+  "model_output": "The comment mentions University of Southern California (USC) with a full-tuition scholarship and says that it's an easy choice. There is no mention of University of Illinois at Urbana-Champaign (Option A). Therefore, we can infer that the commenter prefers USC (Option B) over the University of Illinois at Urbana-Champaign (Option A).\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

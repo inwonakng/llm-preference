@@ -1,0 +1,6 @@
+{
+  "index": 489,
+  "true_label": 3,
+  "model_output": "The comment states that they never got to visit Kenyon College, but they liked what they learned about it. However, they express a specific concern about Kenyon - namely the lack of economic diversity, pointing out that about 20% of Kenyon students come from the top 1% of income. This indicates a preference or at least attention to income diversity.\n\nMeanwhile, Vassar College is not mentioned at all.\n\nSince Kenyon College is mentioned in a negative light, we could infer a possible implied preference towards Vassar, but this is not implicit.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

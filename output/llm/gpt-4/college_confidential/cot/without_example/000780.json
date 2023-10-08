@@ -1,0 +1,6 @@
+{
+  "index": 780,
+  "true_label": 2,
+  "model_output": "The user's comment strongly leans towards Johns Hopkins University (JHU) over Pomona College. They make several points highlighting the advantages of JHU, such as a stronger reputation, especially in the field of computer science, better alumni giving, and more name recognition at a professional level. The user also suggests that JHU has better recruitment connections with top companies and that the college's alumni network in tech jobs is strong. They stress that JHU\u2019s computer science program is world-renowned, whereas Pomona\u2019s computer science program is not even accredited. The user also states their own affiliation to JHU as an alum and their current position at Google, further suggesting a bias towards JHU. \n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

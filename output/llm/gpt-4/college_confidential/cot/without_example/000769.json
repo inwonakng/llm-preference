@@ -1,0 +1,6 @@
+{
+  "index": 769,
+  "true_label": 0,
+  "model_output": "The commenter has a direct, positive experience with Pomona College through a friend who attended for undergrad and is now a Dean at a top university. They mention that Pomona has been a top-notch school for a long time. They also point out an issue with the Computer Science programs at Pomona and Mudd, but this seems to be more of a general critique rather than a point against Pomona specifically.\nOn the other hand, they don't have much direct experience with Johns Hopkins University (JHU) and their experience is limited to friends who attended for postgrad programs in medicine. They don't make any positive or negative comments about JHU.\nOverall, the comment seems to lean more towards Pomona College due to the direct positive experiences and the lack of information about JHU.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

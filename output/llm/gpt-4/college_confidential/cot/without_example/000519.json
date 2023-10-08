@@ -1,0 +1,6 @@
+{
+  "index": 519,
+  "true_label": 1,
+  "model_output": "In the comment, the user explains pros and cons about both Vassar College and Kenyon College. They touch on points such as location, sports, greek life and culture without explicitly indicating a favorite between the two. They suggested that the decision piled on actual experiences and personal feelings of the individual interacting with each College. They proved an equal reasoning and attention to the benefits and peculiarities of both at an equal intensity without indication preference.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

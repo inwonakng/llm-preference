@@ -1,0 +1,6 @@
+{
+  "index": 477,
+  "true_label": 2,
+  "model_output": "- This comment talks about the value of studying in universities in general but emphasizes more specific features of Indiana University (IU): the Hutton Honors College, the benefits of Business Honors, the advantages of direct admittance, and affinity towards its overall Business School.\n- Quality of program seems of high importance for this individual, especially stepping out of the schools' geographic region\n- Other considerations include impact of colleagues and the role of MBA programs.\n- The preference is not in how specifically the university delivers accounting programs but rather the perks that comes with Indiana University.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

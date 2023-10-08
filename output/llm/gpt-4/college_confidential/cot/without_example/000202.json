@@ -1,0 +1,6 @@
+{
+  "index": 202,
+  "true_label": 3,
+  "model_output": "The commentator provides detail about the unique characteristics of both option A and B. The commentator mentions that they had a great time attending a white-out game at option A, indicating a positive experience with option A. On the other hand, for option B, the commenter describes the campus to be the prettiest. No explicit preference is stated for either option explicitly and both options seem to receive equally weighted comments, therefore auditor cases for the preference are mostly subjective.\n\n\n### \n\nEqual preference.",
+  "predicted_label": 3
+}

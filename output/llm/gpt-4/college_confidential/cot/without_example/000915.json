@@ -1,0 +1,6 @@
+{
+  "index": 915,
+  "true_label": 3,
+  "model_output": "1. The commenter states that both a USC or Stanford degree will be equally helpful, suggesting an equal preference.\n2. The commenter then praises the USC alumni network, but doesn't necessarily indicate a preference over Stanford.\n3. The commenter further argues that neither a Stanford nor Harvard degree is worth significantly more than a USC degree, again suggesting an equal preference.\n4. Finally, the commenter advises saving money for further education, which, while not directly expressing a preference between Stanford and USC, could be interpreted as a slight preference for the less expensive option.\n\n%%%\nEqual preference",
+  "predicted_label": 3
+}

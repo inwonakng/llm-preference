@@ -1,0 +1,6 @@
+{
+  "index": 830,
+  "true_label": 2,
+  "model_output": "The comment mentions that Brown University has a unique feel and is slightly better than Duke University in terms of business/finance, especially for someone who wants to end up in the NYC/Boston area. This comparison suggests that the commenter is expressing a preference for Brown University over Duke University, specifically in the context of business/finance and location preference.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

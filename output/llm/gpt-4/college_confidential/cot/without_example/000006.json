@@ -1,0 +1,6 @@
+{
+  "index": 6,
+  "true_label": 3,
+  "model_output": "In this case the comment makes a clear comparison about the benefits of attending either the California Institute of Technology or Johns Hopkins University, insofar as insuring employability via the prestige of the institution. While it is noted that certain firms may favor alumni of these elite universities, neither option is explicitly favoured over the other. The comparison to potential employment difficulties experienced through attendance at G-Tech could imply a joint superiority of both Option A and B, however there's not enough explicit preference toward one or the other.\n\n### \nEqual preference",
+  "predicted_label": 3
+}

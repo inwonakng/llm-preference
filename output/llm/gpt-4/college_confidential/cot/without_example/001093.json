@@ -1,0 +1,6 @@
+{
+  "index": 1093,
+  "true_label": 3,
+  "model_output": "In the comment, the person speaks about their daughter's choice of study and her passion for what she is studying. They then mention how their daughter did not find USC a good fit and that it wasn't the \"golden ticket\" for her, despite acknowledging that USC could be a fabulous school for others. The person does not mention the University of Illinois at Urbana-Champaign at all, hence no comparative judgement between the two options is made. \n\n%%%\nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 283,
+  "true_label": 2,
+  "model_output": "The comment includes an abbreviation, \"VT\", which refers to Virginia Tech. They have clearly stated that it's their preference by using the phrase \"by far.\"\n\nHence their preference is Option B.\n\n### B is preferred over A",
+  "predicted_label": 2
+}

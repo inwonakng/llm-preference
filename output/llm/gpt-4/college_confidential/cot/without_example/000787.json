@@ -1,0 +1,6 @@
+{
+  "index": 787,
+  "true_label": 3,
+  "model_output": "The comment suggests that the commenter views both Pomona College (Option A) and Johns Hopkins University (Option B) as having comparable reputations in the field of Computer Science. There is no clear indication that they lean towards one option over the other. They are seen as equals in terms of CS reputation.\n\n%%%\nEqual preference",
+  "predicted_label": 3
+}

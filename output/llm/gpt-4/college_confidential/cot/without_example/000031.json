@@ -1,0 +1,6 @@
+{
+  "index": 31,
+  "true_label": 2,
+  "model_output": "The comment compares the life at both universities- both academically and socially. \n\nWhile GaTech is praised for its strong business analytics program and its demand for jobs, such as consulting roles and at Goldman Sachs, it's also mentioned to have a flourishing social life and sports culture. The comment also talks about opportunities at hackathons, firms in the west coast offering problems to solve, and Tech Square in Atlanta being loaded with start-ups, implying great opportunities for students.\n \nCaltech, however, seems to be valued on different parameters.  It's defined as \"a school of geniuses.\" Despite the acknowledgment, it's also alluded to as somewhat of an alternative place due to its small student count and high pressure environment, where not all students can keep up.\n\nTowards the comment's end, the mention of GaTech having a better job prospect than Baltimore can somewhat infer that within this context, based indirectly on these two universities in those same cities, the commenter infers GaTech to be the preferred choice.\n\n###\nB is preferred over A",
+  "predicted_label": 2
+}

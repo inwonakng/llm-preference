@@ -1,0 +1,6 @@
+{
+  "index": 1101,
+  "true_label": 2,
+  "model_output": "The commenter discusses both Stanford University and the University of Southern California. They reference a real-world example of their daughter who will be attending USC. They further state that both Stanford and USC provide the same opportunities for success and that the choice between the two should be based on where the student feels best about themselves and where they believe they can do their best work. They don't express a specific preference for one over the other in terms of quality or opportunities. \n\n%%% \nEqual preference",
+  "predicted_label": 3
+}

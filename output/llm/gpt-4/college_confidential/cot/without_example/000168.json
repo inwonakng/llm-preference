@@ -1,0 +1,6 @@
+{
+  "index": 168,
+  "true_label": 0,
+  "model_output": "The commenter doesn't clearly indicate a preference for either Pennsylvania State University or the University of Pittsburgh. They express a strong interest in the recipient's ongoing university application process, mentioning other entities like PHEAA and WCU. However, there is no specification of preference regarding the two mentioned options. They wish to help decipher financial aid offers and optimize decisions about which university may offer the best value, but they fail to compare the two options directly or show preference for one over the other.\n### No preference",
+  "predicted_label": 0
+}

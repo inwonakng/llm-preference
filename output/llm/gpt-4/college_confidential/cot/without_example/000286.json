@@ -1,0 +1,6 @@
+{
+  "index": 286,
+  "true_label": 0,
+  "model_output": "This comment is bringing up the cost of attending these schools, with a mention that Virginia Tech (VT) has a lead in this aspect which suggests a slight preference towards Virginia Tech. However, it also considers the possibility to start at Pennsylvania State University's (PSU) Erie branch due to smaller class sizes, which implies some preference toward PSU. It is also questioning whether the honor program is the same at PSU Erie, showing uncertainty regarding PSU, which might affect the preference. On balance, even though this suggests some considerations for both, the phrasing and mention of VT leading, lead us to conclude that there is a preference.\n\n### B is preferred over A",
+  "predicted_label": 2
+}

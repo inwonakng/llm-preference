@@ -1,0 +1,6 @@
+{
+  "index": 853,
+  "true_label": 2,
+  "model_output": "The commenter mentions that \"recruiting at brown is as good if not better for finance and its closer to nyc and boston so getting internships is easier too\". This statement indicates a preference for Brown University over Duke University because of its strength in finance and its proximity to NYC and Boston, which makes internships more accessible.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

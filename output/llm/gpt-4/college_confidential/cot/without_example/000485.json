@@ -1,0 +1,6 @@
+{
+  "index": 485,
+  "true_label": 1,
+  "model_output": "Here the commenter suggests that Kenyon College does not meet the expectations of a user named '2019kid' and that their opinion is echoed by another user, 'Dancer41'. A specific experience attributed to the poster, presumably negative, is linked to the visit to Kenyon College - but no comparison to Vassar College is made at all in this comment. Thus, we cannot assess a preference here between the two.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

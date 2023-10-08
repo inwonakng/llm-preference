@@ -1,0 +1,6 @@
+{
+  "index": 214,
+  "true_label": 0,
+  "model_output": "In this comment, the user is providing feedback to @Amateurengineer and complimenting his or her communication skills. Additionally, they mentioned the existence of a dining hall on the engineering campus and nearby housing, however it's unclear whether these facilities belong to Pennsylvania State University or Virginia Tech. The selection of a drugstore has no particular correlation with the location, and they didn't specify where @Amateurengineer will be an excellent engineer. They also didn't make any direct statements favouring either Pennsylvania State University or Virginia Tech.\n\nSince there is no explicit preference provided in the comment with respect to both universities,\n\n### No preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 739,
+  "true_label": 2,
+  "model_output": "In this comment, there is a comparison of two universities, University of Pennsylvania and New York University, based on various factors.\nFirstly, the user is referring to an unspecified 'offer' which implies they are considering an academic course at both of these institutions. Following this, the user specifically expresses the notion that \"NYU is a better option.\" This asserts a preference. At the same time, the user comments that  \"Penn is a good school\" but the increased cost of attendance \"isn\u2019t worth it as you can find same exact (if not better) role after Stern.\" The user also highlighted a benefit of being in NYC, which can be inferred as added advantages of choosing NYU. \nTaking these facts into consideration, it seems the user favors NYU over Penn. \n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

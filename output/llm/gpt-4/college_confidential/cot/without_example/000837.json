@@ -1,0 +1,6 @@
+{
+  "index": 837,
+  "true_label": 2,
+  "model_output": "The comment is mainly discussing the benefits of Brown University in relation to entrepreneurship programs, advising, and summer program placement. The speaker seems to be satisfied with these aspects of Brown University. \n\nHowever, there is a negative comment about the quality of housing at Brown, indicating some dissatisfaction with this aspect. \n\nThere is no comparison made to Duke University at all. Therefore, there is an implied preference for Brown University, but it is not directly compared to Duke University.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

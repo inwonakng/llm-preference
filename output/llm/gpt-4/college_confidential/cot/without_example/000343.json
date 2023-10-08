@@ -1,0 +1,6 @@
+{
+  "index": 343,
+  "true_label": 0,
+  "model_output": "The comments mentioned both universities 'Pennsylvania State University' and 'Virginia Tech' only referring to the statistical data related to 'Virginia Tech'. The numbers given form part of negative speculation about Virginia Tech\u2019s engineering graduates to Professional Engineer title conversion rate. But the specific commenter seem to raise a doubt jointly about both institutions without explicit preference for any side.\n\nTherefore, the exact preference cannot be derived from the comment provided.\n\n###\n\nNo preference",
+  "predicted_label": 0
+}

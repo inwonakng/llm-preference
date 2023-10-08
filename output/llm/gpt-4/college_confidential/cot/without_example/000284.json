@@ -1,0 +1,6 @@
+{
+  "index": 284,
+  "true_label": 2,
+  "model_output": "In this comment, the commenter specified \"VT,\" which is the abbreviation for Virginia Tech. Thus he or she is specifically referring to Option B. \n\nMoreover, the users add \"by far\" which suggests the user believes Virginia Tech to be far better than the other option. Therefore, there is an apparent preference towards Virginia Tech in comparison to Rutgers University. \n\nBased on this analysis, the preference in the comment is towards Option B.\n\n### \nB is preferred over A",
+  "predicted_label": 2
+}

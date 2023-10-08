@@ -1,0 +1,6 @@
+{
+  "index": 187,
+  "true_label": 0,
+  "model_output": "The comment seems to contain a URL leading to the scholarships page of the Pennsylvania State University. There is no mention or any kind of information related to the University of Pittsburgh. \nThis indicates that the person leaving the comment is only referring or providing information (specifically scholarships related) for Pennsylvania State University, which indirectly implies a preference for this University. However, it doesn't dismiss the University of Pittsburgh outright and no relative comparison is made. Hence, a lack of real contrast & evaluation makes it a bit unclear.\nBut we can interpret a slight but indirect inclination towards Pennsylvania State University because only it is being referred or talked about.\n\n### \nA is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 47,
+  "true_label": 2,
+  "model_output": "The comment does not mention or relate to either Johns Hopkins University or Georgia Institute of Technology. It talks about how various successful individuals from engineering fields did not necessarily graduate from famous institutions but rather from various universities beyond Ivy League or generally highly-marked institutions. The absence of references allows us to infer that no preference is illustrated.\n\n### No preference",
+  "predicted_label": 0
+}

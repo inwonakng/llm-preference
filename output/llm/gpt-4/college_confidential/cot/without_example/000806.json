@@ -1,0 +1,6 @@
+{
+  "index": 806,
+  "true_label": 3,
+  "model_output": "The comment does not express any explicit preference towards either Pomona College (Option A) or Johns Hopkins University (Option B). The user mentions that there isn\u2019t a \u201cwrong\u201d or \u201cperfect\u201d choice, suggesting an equal lack of preference for both options. \n\n%%%\nNo preference",
+  "predicted_label": 0
+}

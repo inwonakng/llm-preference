@@ -1,0 +1,6 @@
+{
+  "index": 840,
+  "true_label": 2,
+  "model_output": "1. The comment is comparing Duke University and Brown University in the context of job placements at Wall Street firms.\n2. The commenter states that you come across way more people from Brown and Dartmouth than Duke in front office NYC jobs.\n3. This suggests that from the commenter's perspective, Brown University has better representation in Wall Street firms than Duke University.\n4. The commenter further highlights that Brown has excellent representation on Wall Street and is very entrepreneurial.\n\nBased on these points, it can be inferred that the commenter has a preference for Brown University over Duke University when considering job placements at Wall Street firms.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 614,
+  "true_label": 0,
+  "model_output": "The provided comment is focusing on the quality of the computer engineering program of UMCP, University of Maryland, implying it is a high-quality program with a large number of credit requirements, including computer science, computer hardware, and basic EE classes. The person who left the comment expresses that they know firsthand that the CS classes are challenging and also speculates that ECE classes may also be hard. While they do immensely emphasize on the University of Maryland\u2019s program, there's however no mention or comparison made to Carnegie Mellon University in this comment. \n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

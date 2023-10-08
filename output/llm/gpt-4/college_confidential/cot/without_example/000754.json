@@ -1,0 +1,6 @@
+{
+  "index": 754,
+  "true_label": 0,
+  "model_output": "Firstly, the comment is about a person (OP) who has to choose between two universities: University of Pennsylvania (Penn-Wharton) and New York University (NYU-Stern). It is mentioned that these are the number 1 and number 3 finance majors respectively. This detail suggests that University of Pennsylvania might be slightly preferred due to its higher ranking.\n\nHowever, the comment also mentions a significant cost difference between these two universities. The cost to attend Penn-Wharton for four years is $184,000 plus interest more than the cost to attend NYU-Stern. This information suggests that NYU-Stern might be preferred due to its lower cost.\n\nFinally, the comment mentions that cost is a concern to OP and her parents. This detail suggests that NYU-Stern might be preferred due to its lower cost.\n\nIn conclusion, while University of Pennsylvania might be slightly preferred due to its higher ranking, the significant cost difference and the fact that cost is a concern to OP and her parents suggest that NYU-Stern is preferred due to its lower cost.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

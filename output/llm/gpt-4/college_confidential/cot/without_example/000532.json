@@ -1,0 +1,6 @@
+{
+  "index": 532,
+  "true_label": 3,
+  "model_output": "The comment primarily speaks about the commenter's perception of a strong drinking culture at Kenyon College. The commenter doesn't in any way compare Kenyon College with Vassar College, or mention Vassar College at all. \n\nTherefore, strictly speaking based on this information, we cannot say there is a preference between the two colleges, since only one is mentioned in the discussion. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

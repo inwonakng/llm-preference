@@ -1,0 +1,6 @@
+{
+  "index": 624,
+  "true_label": 1,
+  "model_output": "The commenter describes a negative past experience related to option B (Carnegie Mellon University). It does not necessarily indicate that they perceive Option A (University of California, Berkeley) as better, but they do critique the experience at Option B. Therefore, from the comment provided we can say option A is preferred over option B, not as a direct statement but through the negative connotation towards B.\n\n%%%\nA is preferred over B.",
+  "predicted_label": 1
+}

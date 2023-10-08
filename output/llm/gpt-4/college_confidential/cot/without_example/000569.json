@@ -1,0 +1,6 @@
+{
+  "index": 569,
+  "true_label": 1,
+  "model_output": "1. The commenter begins by sharing positive opinions about Cornell University and how the institution is great for engineers and has useful resources like the alumni networks, providing service to recent Cornell grads wanting to go to his/her field. \n\n2. Moreover, the commenter notes especially the 50/50 gender ratio at Cornell, which is exceptional compared to others focusing on engineering. This implies that he/she favors an institution that promotes or naturally comprises diversity.\n\n3. The commenter also shows concerns about another university which she/he compares with Cornell to display an unusual low gender ratio and a downside it portends. \n\n4. Of the commenter\u2019s daughter who also studies at Cornell University, an enquiry was shared about a specific university's weather but never stated explicitly that Virginia Tech is the better option.\n\n5. Lastly, the note about VaTech is very neutral saying \"I don\u2019t know much about VaTech. $30K is a big chunk of money though - only you can decide whether it will be worth it.\"\n\n6. From all these points, a strong preference for Cornell University is interpreted while Virginia Tech is not stated as favourable but as needing further consideration based on financial matters.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 314,
+  "true_label": 0,
+  "model_output": "The comment mentions both Rutgers University and Virginia Tech but does not explicitly state a preference between the two. The speaker puts on a comparison amongst different schools, implying that region might affect their reputation, but there is no clear demonstration for favoring one university over the other. They also mount no direct evaluative language proposed towards both universities that signify a preference. \n\n### No preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 85,
+  "true_label": 2,
+  "model_output": "First we identify the comment specifics to \"CalTech\" and \"GATech.\"\nCalTech's best rank is shown to be 4 in \"Engineering Prog. Rankings\" and worst in \"Environmental Engineering\" with a rank of 19.\nGATech on the other hand ranks \"Industrial Engineering\" on 1, having an overall worst rank in \"Electrical Engineering.\" Factoring the unranked programs at CalTech leaves room for ambiguity but in terms of the presented data GATech seems to have a slight edge, per the commenter's analysis. It appears the commenter is making a very detailed and weighted comparison between the two engineering focused educational institutions relying on multiple subdisciplines.\n***\nB is preferred over A",
+  "predicted_label": 2
+}

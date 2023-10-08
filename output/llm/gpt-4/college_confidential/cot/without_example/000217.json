@@ -1,0 +1,6 @@
+{
+  "index": 217,
+  "true_label": 0,
+  "model_output": "The comment is discussing the academical ambitions of both universities but specifically points out aspects such as the challenging program and the comprehensive recruitment process that Pennsylvania State University (Option A) has in place for engineering. The comment provides no information or insight about Virginia Tech (Option B). Therefore, it seems that the commenter is preferring Pennsylvania State University based on their knowledge of it and the context provided.\n\n### A is preferred over B",
+  "predicted_label": 1
+}

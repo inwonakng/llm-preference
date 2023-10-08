@@ -1,0 +1,6 @@
+{
+  "index": 136,
+  "true_label": 2,
+  "model_output": "The commenter has mentioned negative aspects of Haverford College but directed them towards a specific interaction such as men to women ratio which this may have an influence on someone's preference if it's relevant to them. They add it's slightly more confined due to its small size compared to Richmond due to their sizes respectively, providing some notion of positivity towards Richmond.\nThe commenter adds a detailed insight about Haverford\u2019s focus on the \"honour code\".\nThe commenter then also points out that Richmond has a larger student body with more professional focus. Finally, they conclude that Haverford has a more intellectual focus with a tight knit culture.\nAlthough neither institution is explicitly favored on the balance of everything, University of Richmond can be inferred to be the preferred choice solely due to the increased student body size and more preprofessionally focused students, evident from the statement, \"Richmond would be a larger student body\".\n### \nA is preferred over B.",
+  "predicted_label": 1
+}

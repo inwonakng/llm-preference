@@ -1,0 +1,6 @@
+{
+  "index": 664,
+  "true_label": 2,
+  "model_output": "The comment states negative aspects of Option A (University of California, Berkeley), including the size of the lecture halls and classes, limited access to professors for letters of recommendation, reliance on academic assistants, competitiveness, and cost. \n\nHowever, there is no mention of Option B (University of Maryland), so it is not possible from this comment to determine whether these issues are viewed by the commenter as being better or worse at Option B. \n\nNo clear preference can be determined from this comment, as the person has only negatively evaluated Option A, without saying anything about Option B. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

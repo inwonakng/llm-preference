@@ -1,0 +1,6 @@
+{
+  "index": 884,
+  "true_label": 1,
+  "model_output": "The comment provides statistics for both Boston University and Boston College. The author of the comment mentions that Boston University (BU) is more selective than Boston College (BC), which may indicate a preference for the former. The statistics provided, however, are mixed - BU does have a lower acceptance rate and mean SAT score, but BC has a larger freshman class and higher mean ACT score. \n\nThe comment does not explicitly state a preference for one over the other, but the opening statement about BU being more selective might suggest a slight preference for BU. \n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

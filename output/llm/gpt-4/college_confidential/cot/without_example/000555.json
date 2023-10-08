@@ -1,0 +1,6 @@
+{
+  "index": 555,
+  "true_label": 2,
+  "model_output": "This is a very lengthy and rich comment which, whilst it doesn't express a simple, clear-cut preference, implies both a slightly greater familiarity with, and respect for, Emory University, given its repeated and detailed mention. The commenter speaks at length about the advantage of Emory University's approach to educating their students, especially within the life sciences domain - promoting experimental design, data analysis, and so on, as contributors to a student being well-prepared for prestigious medical programs. Also, Emory is perceived as setting beneficial challenges for the students in assorted ways.\n\nAt the same instance, Rochester University is also being complimented positively, as the commenter acknowledges this institute nodding to the positive outcomes of the commenter's son who was graduated from there.\n\nWhile difficulty discerning a clear outranking in favor of either institution, the enriched details and attention towards Emory University suggest a measure of enthusiasm or a borderline preference, yet lacking profundity enough to palpably offset Rochester University. \n\n%%%\nNo preference",
+  "predicted_label": 0
+}

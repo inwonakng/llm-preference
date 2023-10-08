@@ -1,0 +1,6 @@
+{
+  "index": 592,
+  "true_label": 0,
+  "model_output": "Firstly, the comment does not indicate any knowledge or opinion about University of California, Berkeley. All the statements and examples given relate only to University of Maryland, hence there are no point of comparisons mentioned between the two. Therefore, the preference cannot be clearly determined here.\n\nTaking into consideration various factors mentioned in the comment such as the new developments in CS at Maryland, the alumni success, and overall reputation of the institute, the tone towards University of Maryland is overall positive. Therefore, strictly speaking, University of Maryland is discussed favorably in comparison to having no discussion or comment about University of California, Berkeley.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

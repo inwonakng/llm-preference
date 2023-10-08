@@ -1,0 +1,6 @@
+{
+  "index": 1014,
+  "true_label": 1,
+  "model_output": "The person making the comment does agree that USC doesn't have as intellectual a student body as Stanford, which indicates a preference for Stanford when considering intellectualism. Although they argue that USC isn't devoid of intellectual people, they clearly state \"They may not be as intellectual as Stanford in totality.\" They also mention that Stanford belongs to the group of the most elite and smartest schools, which is another point favoring Stanford.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

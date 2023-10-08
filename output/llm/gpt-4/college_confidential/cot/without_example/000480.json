@@ -1,0 +1,6 @@
+{
+  "index": 480,
+  "true_label": 3,
+  "model_output": "1. In this comment, the commenter advises others on the optimal educational trajectory for someone interested in a career in business. \n2. They make suggestions regarding the types of degrees to pursue, the potential pitfalls of particular titles and the value of certain skills, particularly in technology. \n3. They note that a master's in accounting is becoming the norm for corporations like IU or UGA. They define next steps like obtaining an MBA after a Master's in Accounting and why it might be disadvantageous. \n4. There's also a mention of a preferable add-on\u2014like tech-focused education\u2014to an accounting degree. \n5. The comment, however, doesn't strictly or explicitly prefer either the University of Georgia or Indiana University over the other.\n6. When considering both options, it appears there is no acknowledged preference between the University of Georgia and Indiana University within this comment.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 280,
+  "true_label": 0,
+  "model_output": "Firstly, neither in this comment are there any positive or negative opinions expressed towards either Pennsylvania State University or Virginia Tech. Instead, the user gives a general query about how the major courses work for freshmen at different universities.\n\nHowever, they somewhat mention Virginia Tech (under its logo 'Vtech') stating they held the perception that all first year students there take general engineering courses; but their tone doesn't suggest a preference, it's merely stating facts or assumptions. Then they ask basically for the same information about Penn State but again without expressing preference.\n\nHence, no preference can be determined in this case. There may still be inquiries and doubts related to both universities but no quantity or amount of preference can be traded thus far. \nThen, after taking all elements, we deduce the fact that neither A nor B is preferred based on this comment.\n\n###No preference",
+  "predicted_label": 0
+}

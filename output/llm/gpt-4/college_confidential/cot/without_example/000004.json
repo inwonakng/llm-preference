@@ -1,0 +1,6 @@
+{
+  "index": 4,
+  "true_label": 3,
+  "model_output": "The commentator is talking about the experience his child/care taker had at Cal Tech, but doesn't go into Georgia Tech. The comment angles more towards providing advice on how the decision should be made, but doesn't actually establish a preference between both the options. There mentions of their acceptance in Cal Tech, and stating that chose elsewhere maybe because of a small campus size, which could lean slightly towards saying Cal tech isn't as good. The speaker also mentioned about the engineering program after stating they had chosen elsewhere due to college size (which implies they had chosen engineering for the child/care taker. However, there isn't a specific comparison to Georgia Institute of Technology which makes this slightly difficult to identify their preference.\n\n###\n\nNo preference",
+  "predicted_label": 0
+}

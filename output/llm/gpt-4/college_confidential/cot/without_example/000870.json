@@ -1,0 +1,6 @@
+{
+  "index": 870,
+  "true_label": 0,
+  "model_output": "1. The comment is about a misunderstanding regarding the ranking of Brown University.\n2. The user doesn't make any explicit comparison between Duke University (Option A) and Brown University (Option B).\n3. The user doesn't show a preference towards either Duke University or Brown University.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 737,
+  "true_label": 2,
+  "model_output": "Firstly, the undercurrent messaging clearly shows a dislike for University of Pennsylvania (UPenn) by referring to it as overrated. The commenter gives an improvised alternative, New York University (NYU), and expands on why they consider it a better option; mentioning factors such as it's location, recruitment options and the supremacy of Stern within NYU. There's a conditional preference for UPenn if they provide a better offer but primarily, this entire comment's narrative leans heavily toward choosing NYU and doesn't hold UPenn in high regard.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

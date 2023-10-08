@@ -1,0 +1,6 @@
+{
+  "index": 907,
+  "true_label": 2,
+  "model_output": "The comment clearly shows a strong preference for the University of Southern California (Option B) over the University of Illinois at Urbana-Champaign (Option A). The commenter's son chose USC over other prestigious universities and had a positive experience, graduating with honors and receiving a scholarship for grad school. The son also managed to do funded research for all four years and wants to return as a professor. The commenter also mentions that the graduate will be treated like gold at USC, and they also mention the weather as a positive, implying it's a more enjoyable experience. \n\nThere is no mention of University of Illinois at Urbana-Champaign, so we can't infer any preference towards it.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 593,
+  "true_label": 0,
+  "model_output": "First, we see that University of Maryland (UMCP) is favorably talked about in the comments: the person mentioned that \"UMCP is a solid school\" when referring to the Computer Science (CS) and DoubleE (ECE) programs. The commenter indicates something exciting is happening with the new building, contributing to its positive image. \n\nThen it is mentioned that students from UMCP with high GPA have been eventually accepted by top grad schools; specifics include a student getting into Stanford for a CS PhD, and even joining Harvard's faculty. Lastly, Sergey Brin, who is widely known for co-founding Google Inc., was an undergraduate student in CS at UMCP before moving to Stanford for a Ph.D. program. \n\nThere is no mentioned relationship or context of UMCP with Carnegie Mellon University apart from the common field they share: CS.\n\nSo, the comment exclusively talks favorably about UMCP, with no information or comparison made to Carnegie Mellon University leading to the conclusion that,\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

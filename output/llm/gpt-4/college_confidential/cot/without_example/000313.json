@@ -1,0 +1,6 @@
+{
+  "index": 313,
+  "true_label": 0,
+  "model_output": "This comment mentions Virginia Tech (Option B), yet it makes no mention of Pennsylvania State University (Option A), thus it's impossible to determine a preference. The commenter asserts that Virginia Tech and Arizona State University (ASU) are academically equivalent. But without a comparison to Pennsylvania State University, a preference cannot be determined.\n\n### No preference",
+  "predicted_label": 0
+}

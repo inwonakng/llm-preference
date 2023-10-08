@@ -1,0 +1,6 @@
+{
+  "index": 259,
+  "true_label": 0,
+  "model_output": "The comment shows a concern towards Penn State, specifically about its party culture. On the other hand, the person commenting seems to wait for a review about Virginia Tech, implying interest and possible openness towards that university. In this situation, we could infer that there is a preference over Virginia Tech due to the concerns about the culture in the Penn State University.\n### B is preferred over A",
+  "predicted_label": 2
+}

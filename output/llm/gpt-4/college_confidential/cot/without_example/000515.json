@@ -1,0 +1,6 @@
+{
+  "index": 515,
+  "true_label": 3,
+  "model_output": "1. We first identify any descriptive or evaluative statements related to Options A or B.\n2. The comment starts by describing both Vassar and Kenyon as 'excellent schools.' This seems to suggest equal rank.\n3. The commenter acknowledges the appealing aspects of Kenyon\u2019s campus but equates it to Vassar by referring to it as 'no slouch either.' This is a clear equivalence suggesting no preference between the two based on their campuses.\n4. There is advice provided to the original poster to apply to both schools and to decide after getting more information. It means that each school has its merits, and one does not outweigh the other based on this comment.\n5. The closing sentence strengthens an equal preference: \"There are no wrong choices here.\"\n\n%%%\nEqual preference",
+  "predicted_label": 3
+}

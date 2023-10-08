@@ -1,0 +1,6 @@
+{
+  "index": 1076,
+  "true_label": 0,
+  "model_output": "The comment seems to describe an enjoyable and stimulating academic experience at Stanford, detailing conversations and topics of study. The author mentions a comparison to USC (not one of the options given), but does not mention the University of Illinois at Urbana-Champaign at all. The comment suggests that the decision between Stanford and USC is dependent on a variety of factors, but this does not apply to the comparison between Stanford and University of Illinois at Urbana-Champaign. \n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

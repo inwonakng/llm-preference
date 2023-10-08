@@ -1,0 +1,6 @@
+{
+  "index": 514,
+  "true_label": 3,
+  "model_output": "In this comment, the poster is a parent expressing their views through the lens of their daughter's experiences at Kenyon College (Option B). They only mention Vassar College (Option A) in the context of colleges that were initially considered, but not chosen. Kenyon College is the focal point of the experience that they share. The daughter's love for Kenyon College, enjoyment of the activities offered, and comfort there are highlighted throughout the comment. Their middle child is even considering Kenyon after seeing how satisfied the older sibling is with her choice of college. The use of words, expressions, and phrases, such as \"absolutely loves\", \"loving Kenyon\", \"having a really good experience\", favor Kenyon College directly, while Vassar College wasn't given any particular points of admiration or negative critique.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

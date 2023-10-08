@@ -1,0 +1,6 @@
+{
+  "index": 1103,
+  "true_label": 1,
+  "model_output": "The comment does not mention either Stanford University (Option A) or University of Illinois at Urbana-Champaign (Option B). The commenter talks about USC, an Ivy league school, Wharton, and Harvard MBA. Since neither of the given options are discussed or compared in the comment, we can't determine a preference.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 817,
+  "true_label": 2,
+  "model_output": "1. The comment starts with a general statement applicable to both schools, that doing well at either Pomona or JHU wouldn't necessarily guarantee a top grad program. This part doesn't show a preference.\n\n2. The next part of the comment is a detailed account of the person's positive experience at JHU. The person mentions that their classmates also had successful outcomes, and that JHU offers great opportunities. This clearly indicates a preference for JHU.\n\n3. The comment continues with a comparison between JHU and Pomona in terms of reputation in Silicon Valley and general recognition of the universities' Computer Science programs. The person states that JHU is more recognized and known compared to Pomona, showing a preference for JHU.\n\n4. The comment continues with a discussion about SAT scores at both universities, stating that there's a discrepancy and implying that JHU attracts more well-rounded students with higher scores due to its STEM focus. This again shows a preference for JHU.\n\nBased on the analysis, there's a clear preference for Johns Hopkins University over Pomona College in the comment.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 1123,
+  "true_label": 0,
+  "model_output": "The comment mentions the University of Illinois at Urbana-Champaign (Option A) and refers to it as \"not a good fit for OOS student looking for merit or need based aid\". This indicates a negative view of the University of Illinois at Urbana-Champaign. \n\nThe University of Southern California (Option B) is not mentioned in the comment, so we cannot infer any preference towards it.\n\nHowever, since the commenter expresses a negative view of Option A, it can be inferred that they prefer Option B over A, despite not mentioning it directly.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

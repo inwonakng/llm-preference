@@ -1,0 +1,6 @@
+{
+  "index": 560,
+  "true_label": 3,
+  "model_output": "The Commenter does go into depth creating a pseudo comparison between the universities of the two options. However, while the Comment contains comparative facts and notes major/courseloads, it doesn't favor one decision over the other, and ends off reminding their audience that plenty other universities (like UMD) could match or exceed their expectations in the field. The leading conclusion we can draw from their statement is that no one option specifically stands out, espically considering their ending comment on gathering careful research before committing to a choice.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

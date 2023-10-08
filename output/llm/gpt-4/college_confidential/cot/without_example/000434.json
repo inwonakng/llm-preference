@@ -1,0 +1,6 @@
+{
+  "index": 434,
+  "true_label": 1,
+  "model_output": "The author does not directly show a preference for either university, whether it's the University of Georgia (Option A) or Indiana University (Option B). The author provides balanced advice and emphasizes that both are top-notch business programs and the outcomes rely more on an individual's efforts in, for example, securing excellent internships and find full time jobs during college. There is also a reference to geographic tendencies for job placement, with Kelley grads mainly staying in the Midwest and Terry grads primarily in the South. This doesn't imply a preference, but rather highlights the reality of where jobs tend to be located for graduates of these two schools. The commenter also notes that salary differences initially and resultant costs due to living differences aren't significant, discouraging making a decision based on this, and the USNews business rankings are also discouraged as a main criterion.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

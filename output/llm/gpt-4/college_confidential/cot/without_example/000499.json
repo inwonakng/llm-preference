@@ -1,0 +1,6 @@
+{
+  "index": 499,
+  "true_label": 1,
+  "model_output": "The comment focuses heavily on Kenyon College, specifically involving a topic relating to alcohol consumption and measures taken to control it. There is mention of a task force and a recount of its history, expressing concern about the college's dealings with the problem. The commenter also displays some negative sentiment in questioning why creation of the task force took as long as it did. Midway through, they express a confidence in their own judgments based on their visits and the described report. \n\nNOTE: There isn't any mention or indication towards Vassar College or a comparison being made between Kenyon College and Vassar College.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

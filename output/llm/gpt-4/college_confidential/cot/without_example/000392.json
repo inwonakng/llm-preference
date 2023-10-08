@@ -1,0 +1,6 @@
+{
+  "index": 392,
+  "true_label": 2,
+  "model_output": "First, the reviewer discusses \"Rutgers University,\" acknowledging the various cons such as a \"lousy campus\" and \"buses\". However, the author does not mention any specific advantage or compare Rutgers University to Virginia Tech. Therefore, there is not enough information to derive any preference between Rutgers University and Virginia Tech. \nSecond, much of the comment focuses on the value and outcomes of attending TCNJ and Rowan engineering schools for instate students. Numerous positive aspects of these schools are explained, but these are irrelevant as these institutions aren't the options on the table.\nThird, although the writer mentions out-of-state colleges, there's no direct link to Rutgers over Virginia Tech, specifically.\nLastly, the author discusses a situation they label the \"Stevens Dilemma.\" However, it doesn't provide any relevant comparison between our primary options -- Rutgers University and Virginia Tech.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

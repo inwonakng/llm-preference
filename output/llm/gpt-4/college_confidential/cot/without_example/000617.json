@@ -1,0 +1,6 @@
+{
+  "index": 617,
+  "true_label": 0,
+  "model_output": "The comment is discussing the potential for a student who has gotten accepted to improved academia. There is mentioning of universities UCB and CMU (Carnegie Mellon University, option A). The comment discusses the exceptional status of students accepted at CMU, suggesting it has high standards and quality. \n\nUniversity of Maryland (Option B) is not mentioned in this comment, hence it provides no direction either implying a preference or the lack of interest towards it.\n\nDue to these factors, looking at this particular comment, we can conclude that Option A (Carnegie Mellon University) has a respective preference over Option B (University of Maryland).\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

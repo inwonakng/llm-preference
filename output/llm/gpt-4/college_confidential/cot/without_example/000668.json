@@ -1,0 +1,6 @@
+{
+  "index": 668,
+  "true_label": 1,
+  "model_output": "1. The university names are mentioned indirectly...\n2. Carnegie Mellon University (CMU) is mentioned with a seemingly favorable view - the user mentions smaller classes, availability of different sections, and geographically diverse student body as pros of choosing this university.\n3. No feedback of any kind about University of Maryland is given in the comment.\n4. However, I don't see a direct comparison or preference between CMU and University of Maryland. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

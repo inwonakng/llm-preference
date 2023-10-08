@@ -1,0 +1,6 @@
+{
+  "index": 264,
+  "true_label": 0,
+  "model_output": "The comment talks about Pennsylvania State University at length, offering specific advice regarding class options as well as advice relating to dorm options pertaining to avoiding the party culture. North Carolina State University however, is not mentioned in the comment at all. Therefore, it seems there's a preference expressed for Pennsylvania State University. \n\n###\nA is preferred over B",
+  "predicted_label": 1
+}

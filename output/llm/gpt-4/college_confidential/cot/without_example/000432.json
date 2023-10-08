@@ -1,0 +1,6 @@
+{
+  "index": 432,
+  "true_label": 0,
+  "model_output": "The comment mentions UGA (University of Georgia) and alludes to a particular program related to the same university, showing that the commenter is knowledgeable or interested in aspects about the University of Georgia. However, no information or preference about the Indiana University is explicitly given or implied in the comment.\n\n%%% \nA is preferred over B",
+  "predicted_label": 1
+}

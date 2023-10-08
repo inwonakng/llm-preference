@@ -1,0 +1,6 @@
+{
+  "index": 487,
+  "true_label": 2,
+  "model_output": "The comment details a visit to Kenyon College thus this individual has firsthand experience there. It notes the campus and a perceived reputation. Though, it doesn't outright say that it was preferred, the detail provided may imply a closer connection or preference. Noteworthy is that Vassar College is not mentioned at all in the comment, offering no direct material to analyze any preference towards it.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 117,
+  "true_label": 3,
+  "model_output": "This comment seems to compare Haverford College and University of Richmond indirectly, useful information being about Haverford, while lacking sufficient data for Richmond.\nThe commenter notes Haverford's excellent placement record for finance and business, which puts it in a favorable light. But concerning the University of Richmond, the commenter could not find corresponding information.\nWhile the commenter didn\u2019t explicitly state a preference, the presentation of positive aspects of one option, without similar information for the other, may infer favoritism.\n\n### \nB is preferred over A.",
+  "predicted_label": 2
+}

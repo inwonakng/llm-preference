@@ -1,0 +1,6 @@
+{
+  "index": 581,
+  "true_label": 2,
+  "model_output": "1. The comment is congratulating the decision, which implies that a choice of school has been made.\n2. The term \"Blacksburg\" refers to the location of Virginia Tech. \n3. \"Hope your daughter has a wonderful time at Virginia Tech\" implies the school mentioned, Virginia Tech, is chosen and implied to be preferred.\n4. Finally the inclusion of \"Go Hokies!\" additionally affirms arrowing down to a preferred school choice.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

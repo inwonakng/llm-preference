@@ -1,0 +1,6 @@
+{
+  "index": 989,
+  "true_label": 0,
+  "model_output": "1. The comment doesn't directly mention either Stanford University (Option A) or University of Illinois at Urbana-Champaign (Option B). \n\n2. The discussion in the comment revolves around the term \"Public Ivies\", but neither of the two universities in question are mentioned in relation to this term.\n\n3. The only universities mentioned in the comment are Michigan, Cal, UCLA, UVA and Miami of Ohio, none of which are the options provided. \n\n4. The lack of any reference to either Stanford or University of Illinois at Urbana-Champaign means that we can't determine a preference based on this comment.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

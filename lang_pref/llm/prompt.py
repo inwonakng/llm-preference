@@ -4,11 +4,8 @@ from pathlib import Path
 import yaml
 import time
 import os
-OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
-import openai
-openai.api_key = OPENAI_API_KEY
 
-from .chat_api import send_request
+from .chat_api import send_request, send_request_openai
 
 DELIMITERS = ['`', '"', '\'', '#', '.', '%']
 def remove_delimiters(text: str) -> str:
@@ -222,7 +219,8 @@ class Prompt:
         task: Task,
         api_endpoint: str = 'http://localhost:5000/api/v1/chat',
         model: str = 'gpt-4',
-        temperature: float = 0.7,
+        temperature: float = 1,
+        top_p: float = 0.7,
         max_tokens: int = 300,
         delay: int = -1,
         max_retry: int = -1,
@@ -238,16 +236,18 @@ class Prompt:
                 messages = messages,
                 max_tokens = max_tokens,
                 temperature = temperature,
+                top_p = top_p,
                 model_name = model,
             )
         elif mode == 'openai':
             messages = self.build_openai(task=task)
-            output = openai.ChatCompletion.create(
+            output = send_request_openai(
                 model = model, 
                 messages = messages,
                 max_tokens = max_tokens,
                 temperature = temperature,
-            )['choices'][0]['message']['content']
+                top_p = top_p,
+            )
         else:
             raise NotImplementedError('Unknown prompt mode')
         prediction = remove_delimiters(output.split('\n')[-1])
@@ -280,6 +280,7 @@ class Prompt:
                     messages = messages,
                     max_tokens = max_tokens,
                     temperature = temperature,
+                    top_p = top_p,
                     model_name = model,
                 )
             elif mode == 'openai':
@@ -287,12 +288,13 @@ class Prompt:
                     task=task, 
                     prev_response=output,
                 )
-                output = openai.ChatCompletion.create(
+                output = send_request_openai(
                     model = model, 
                     messages = messages,
                     max_tokens = max_tokens,
                     temperature = temperature,
-                )['choices'][0]['message']['content']
+                    top_p = top_p,
+                )
             else:
                 raise NotImplementedError('Unknown prompt mode')
             prediction = remove_delimiters(output.split('\n')[-1])

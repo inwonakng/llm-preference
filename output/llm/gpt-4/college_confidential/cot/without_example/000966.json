@@ -1,0 +1,6 @@
+{
+  "index": 966,
+  "true_label": 2,
+  "model_output": "1. The comment talks about a full tuition scholarship at USC, which would result in significant savings.\n2. The comment suggests that considering the scholarship, USC could be seen as an investment with a high return.\n3. The comment does not mention Stanford University at all, which makes it difficult to directly compare the two options based on this comment.\n\nBased on the above reasoning, the comment seems to favor USC over Stanford due to the financial benefit of the scholarship. However, since Stanford is not mentioned at all, it's not a strict comparison.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

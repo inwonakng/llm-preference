@@ -1,0 +1,6 @@
+{
+  "index": 384,
+  "true_label": 1,
+  "model_output": "From the comment, the individual is expressing concern about Rutgers University and concerns that it may not provide the full 'college' experience for their son and might feel like an extension of high school. This takes a negative stance on Rutgers University.\nOn the other hand, there's no mention or inference made about Pennsylvania State University; hence, one can't assert a preference is made about it. \n\nIn terms of explicit comparison either in favor or against one of the two options, it doesn't exist. However, the fact that the person is actively considering other options and expresses disappointment with Rutgers University issues an indication of implied preference against Rutgers and possible preference for the other options unmentioned, including potentially Pennsylvania State University.\n\n%%%\nA is preferred over B.",
+  "predicted_label": 1
+}

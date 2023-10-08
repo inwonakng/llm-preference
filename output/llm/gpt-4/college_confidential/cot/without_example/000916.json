@@ -1,0 +1,6 @@
+{
+  "index": 916,
+  "true_label": 0,
+  "model_output": "The comment does not mention University of Illinois at Urbana-Champaign (Option A) at all, so we cannot infer any preference for it. \n\nOn the other hand, University of Southern California (Option B) is mentioned several times. The commenter compares USC positively to Stanford and Harvard, highlighting the strong alumni network in the West Coast and the comparative cost-effectiveness of a USC degree. They also suggest saving money for further education like an MBA, implying that USC is a good choice for undergraduate study in terms of cost.\n\nHowever, since Option A is not mentioned at all, we cannot definitively say that B is preferred over A. \n\n%%% \nNo preference",
+  "predicted_label": 0
+}

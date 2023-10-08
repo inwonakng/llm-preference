@@ -1,0 +1,6 @@
+{
+  "index": 390,
+  "true_label": 2,
+  "model_output": "The comment does not strictly compare Pennsylvania State University (Option A) with Rutgers University (Option B). Instead, the person talks in general about costs for out of state public schools and several advantages of TCNJ and Rowan Engineering with regards to instate students. There's no preference between both options expressed in this statement.\n\n%%% \nNo preference",
+  "predicted_label": 0
+}

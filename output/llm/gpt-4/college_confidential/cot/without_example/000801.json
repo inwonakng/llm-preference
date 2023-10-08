@@ -1,0 +1,6 @@
+{
+  "index": 801,
+  "true_label": 2,
+  "model_output": "The commenter is discussing both Pomona College and Johns Hopkins University. They note that both schools have strong reputations and could be suited for different individuals depending on their personal motivations and goals. They acknowledge that Johns Hopkins has a larger international reputation, while Pomona is also highly respected among sophisticated employers and schools. \n\nHowever, towards the end of the comment, they state \"I would choose Hopkins for the immediate recognition of value and the competitive atmosphere.\" This statement indicates a personal preference for Johns Hopkins over Pomona College, albeit they also acknowledge that Pomona is tough and Hopkins has its own collaborative nature.\n\n%%%\nB is preferred over A",
+  "predicted_label": 2
+}

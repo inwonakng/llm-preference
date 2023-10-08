@@ -1,0 +1,6 @@
+{
+  "index": 750,
+  "true_label": 1,
+  "model_output": "The comment starts off by discussing scholarships and their role in MBA programs. However, this doesn't indicate a preference between the University of Pennsylvania and New York University. \n\nThen, the commenter discusses how finance majors from both Wharton (University of Pennsylvania's business school) and Stern (New York University's business school) compete for the same jobs. This still doesn't clearly indicate a preference. \n\nHowever, the next part of the comment suggests that Stern students may have a more difficult time securing these jobs than Wharton students. This could imply a slight preference towards Wharton, but it's not explicitly stated.\n\nFinally, the commenter says that if one has the option to go to Wharton, it's a no-brainer to choose it over Stern. They also refer to a post about the value of a top 10 MBA, implying that Wharton is a top choice over any other school, including Stern.\n\nOverall, the commenter seems to prefer Wharton (University of Pennsylvania) over Stern (New York University), despite acknowledging that both schools are competitive and produce successful graduates.\n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}

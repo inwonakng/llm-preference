@@ -1,0 +1,6 @@
+{
+  "index": 234,
+  "true_label": 2,
+  "model_output": "The user mentions both universities, Pennsylvania State University and North Carolina State University, in context of waiting for a tour of the campuses and is asking for updates about each. However, the comment does indicate that information about North Carolina State University's merit aid decision could be the deciding factor for them. \nBased on this, it can be inferred a preference towards North Carolina State University, given the importance placed on the forthcoming aid decision.\n\n### \nB is preferred over A.",
+  "predicted_label": 2
+}

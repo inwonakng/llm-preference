@@ -1,0 +1,6 @@
+{
+  "index": 277,
+  "true_label": 1,
+  "model_output": "The commenter mentioned Pennsylvania State University (Option A) being unsuitable for their child and then later pointing out that their child thrived at their chosen university.\n\nDespite Virginia Tech not being mentioned directly in the comment, the context around Pennsylvania State University as 'not the right fit' and later mention of the child flourishing at another place may provide a strong indication of preference to Virginia Tech.\n\n### B is preferred over A",
+  "predicted_label": 2
+}

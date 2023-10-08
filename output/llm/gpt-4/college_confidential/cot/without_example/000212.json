@@ -1,0 +1,6 @@
+{
+  "index": 212,
+  "true_label": 3,
+  "model_output": "The user mentions that all three schools the other person is interested in have career fairs and comments afterwards that all choices are great. We can see here that \"they\" refers to multiple derivate entities including North Carolina State University and Virginia Tech, which implicates both subjective matter. However, there is no substantial evidence to say there's a preference between the options implied as the user simply recommends to the other person to look around and wishes them luck in their search. The comment is positive intending support to the person's interest. \n\n###\nNo preference",
+  "predicted_label": 0
+}

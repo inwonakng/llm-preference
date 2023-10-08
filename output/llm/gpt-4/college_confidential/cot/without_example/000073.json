@@ -1,0 +1,6 @@
+{
+  "index": 73,
+  "true_label": 0,
+  "model_output": "First, while both the California Institute of Technology (Caltech) and the Georgia Institute of Technology (Georgia Tech) are among the conversation, there is made no definite comparison between the two institutions in our commenter's mention of them. \n\nSecondly, on their speech about Georgia Tech, it is said with a rather positive tone. The hook of the comment is about a scholarship to Georgia Tech, not only making it a feasible choice, but also making it extremely tempting through phrases like 'think very carefully' & 'It\u2019s an amazing award\u2026amazing'. \n\nSo it seems Georgia Tech gets a boost because of the Stamps Scholarship. By contrast, Caltech is not at all talked of, let alone praised.\n\nTaking everything into account,\n\n### B is preferred over A",
+  "predicted_label": 2
+}

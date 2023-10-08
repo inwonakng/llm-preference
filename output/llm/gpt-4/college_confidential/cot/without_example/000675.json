@@ -1,0 +1,6 @@
+{
+  "index": 675,
+  "true_label": 1,
+  "model_output": "The comment is asking a question about the possible exclusion of Option A (University of California, Berkeley), whose acronym is UCB. The language suggests that the writer might have been considering UCB as an option. She wants to know if it is still an option. However, she does not express a clear preference between UCB and Carnegie Mellon University because she does not mention Option B.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

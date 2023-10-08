@@ -1,0 +1,6 @@
+{
+  "index": 679,
+  "true_label": 0,
+  "model_output": "First, the commentator is very positive about the University of California, Berkeley (also known as Cal), stating that they are a huge fan and that it is an exciting school that could be chosen, partly due to their personal connection as it is their alma mater.\n\nHowever, a new option is introduced in the middle of the text - CMU (Carnegie Mellon University). The writer leans positively towards CMU when compared to Cal, which is our Option A; but it's irrelevant to our analysis since our Option B is the University of Maryland, which doesn't get a single mention throughout the whole commentary. \n\nFrom the contents of this comment, we can't determine any preference between University of California, Berkeley (Option A) and University of Maryland (Option B) as the latter wasn't addressed.\n\n%%%\nNo preference",
+  "predicted_label": 0
+}

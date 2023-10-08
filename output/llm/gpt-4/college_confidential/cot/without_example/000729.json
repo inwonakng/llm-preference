@@ -1,0 +1,6 @@
+{
+  "index": 729,
+  "true_label": 2,
+  "model_output": "The comment mentioned that a degree from NYU can allow the person to pursue a masters program of shorter duration rather than committing to a longer MBA duration. The person suggests that NYU provides clear and focused career goals with its various programs and duration options. The University of Pennsylvania is not mentioned at all in the comment, suggesting that it is not preferred over NYU.\n\n%%% \nB is preferred over A",
+  "predicted_label": 2
+}

@@ -1,0 +1,6 @@
+{
+  "index": 254,
+  "true_label": 3,
+  "model_output": "When analysing the comment made by the person we can see that this individual discusses the costs of attending both North Carolina State University (Option A) and Virginia Tech (Option B) as an \"OOS student\". They also then mention another option, Penn State University (PSU). The comparison made is entirely financial, with OOS tuition for North Carolina State University being approximately $40,000 per year compared to Virginia Tech's $43,000 per year - making North Carolina State University slightly more affordable for this potential out of state student.\n\nHowever, the focus of the comment revolves around cost effectiveness, and hence the mention of PSU as the most cost-effective choice due to in-state tuition fee seems like the key focus, as the user mentions that PSU is their choice.\n\nTherefore, if we should go strictly by the preference in relation to the options provided to us (Option A and Option B), there would be no clear preference expressed for these two. The user expressed the least costly would be a better option but immediately brings in a third contender (PSU) which happens to be their selection at the end.\n\n### No preference",
+  "predicted_label": 0
+}

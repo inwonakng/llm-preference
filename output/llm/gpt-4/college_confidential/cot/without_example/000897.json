@@ -1,0 +1,6 @@
+{
+  "index": 897,
+  "true_label": 1,
+  "model_output": "The comment mentions an advantage of Boston University (BU) over Boston College (BC). The advantage is the CGS January-London program, which is an alternate freshman entry option that BC does not have. The user does not mention any advantage or positive aspect of BC in comparison to BU. Thus, there is a preference indicated in the comment towards BU. \n\n%%%\nA is preferred over B",
+  "predicted_label": 1
+}
