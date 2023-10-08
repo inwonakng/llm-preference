@@ -1,0 +1,47 @@
+{
+  "index": 770,
+  "true_label": 3,
+  "predicted_label": 3,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I would call these roughly equally prestigious among people in the US who know colleges. It sounds like you aren\u2019t dwelling on rep, which is good \u2013 I just wanted to throw that out there for anyone else reading, who does care. They are so different that if you figure out your main preferences \u2013 things most important to you \u2013 you\u2019ll pick the place that presents the better fit. Key differences \u2013 bear in mind that some of these are typical in a U vs. LAC matchup and should not be thought to reflect poorly on Hopkins or Pomona per se:  Pomona will have smaller classes, especially in survey-level courses, and easier access to profs. JHU offers more majors and classes (compare Pomona's class offerings to see how they compare in terms of breadth -- I'll assume both schools offer the majors you listed above...) JHU has some D1 sports and far more research opportunities... but also far more competition for coveted research spots. (JHU does have the #1 research budget in the US, a plus if that might interest you; but available research at Pomona, meager as it is by comparison, is far more likely to go to undergrads).  Hopkins has an urban setting, while Pomona is more small town/suburban. Weather: four seasons vs. the southern california season. Hopkins does have a rep for competitiveness, but that is bound to be the case wherever pre-med is so popular. Pomona, by virtue of its less pre-professional vibe (typical of LAC vs. U...), is bound to be less competitive overall. But that doesn't mean the kids majoring in whatever you choose will be more or less competitive at either school.  These are just some of the things you might consider. I would put academic fit first: majors, classes, distribution requirements/curricular style, class sizes, overall vibe if you can get a handle on it, etc. After that, think about the environment/setting and social vibe, dorms, etc.  ```\n"
+    }
+  ]
+}

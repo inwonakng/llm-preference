@@ -1,0 +1,39 @@
+{
+  "index": 5355,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two options A and B, and a comment. Your job is to identify the preference between the two given options in the comment. \nThe names of the two options and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the options' real names.\nYou MUST refer to the options as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if option A is preferred over option B.\nYou MUST respond with ```B is preferred over A``` if option B is preferred over option A.\nYou MUST respond with ```Equal preference``` if options A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "Option A: ```Java```\nOption B: ```PHP```\nComment: ```Use our Java, Ruby and PHP sample code to make it even easier for you to start working with OnlineMQ.```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "Option A: ```MySQL```\nOption B: ```PostgreSQL```\nComment: ```Allen downloaded the free versions of both databases and found MySQL 4 easier to use than PostgreSQL.```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "Option A: ```Windows Vista```\nOption B: ```Windows XP```\nComment: ```According to many industry experts Windows Vista drains notebook battery life faster than Windows XP.```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "Option A: ```Intel```\nOption B: ```IBM```\nComment: ```This enhancement allows customer to use an equivalent or faster Intel-processor based servers from HP, IBM, and Dell.```\n"
+    }
+  ]
+}

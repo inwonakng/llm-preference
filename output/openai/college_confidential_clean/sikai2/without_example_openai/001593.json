@@ -1,0 +1,15 @@
+{
+  "index": 1593,
+  "true_label": 3,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Northwestern University```\nCollege B: ```Rice University```\nComment: ```@college1114 : 2 great schools; what a fantastic position to be in!  These are 2 of my HS jr daughter\u2019s favorites. Have you gotten feedback on the relative ease of doing research as an undergrad at both? NU is more than twice as big enrollment wise, so assume you\u2019d have more competition for research work\u2013but would be good to check and confirm. Average class size at Rice is notably smaller than NU, so seems like that\u2019s something to weigh.  Some other things to check on would be the number of students declaring pre-med at each school, who your advisor(s) would be and their background/experience.  Re\u2019 the latter, if you were able to talk to each school\u2019s advisor and ask some open-ended questions, that could be really helpful\u2013beyond their relative success as a \u201cfeeder\u201d into med school. Congratulations on gaining admission to both of these schools; what a compliment to your hard work and preparation!  ```\n"
+    }
+  ]
+}

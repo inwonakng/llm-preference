@@ -1,0 +1,15 @@
+{
+  "index": 2701,
+  "true_label": 1,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Pittsburgh```\nCollege B: ```Yale University```\nComment: ```Couple of things to keep in mind   3.75 GPA is not insanely high. In fact getting into any med school (let alone Pitt) with a GPA less than 3.8 is a struggle. So this sounds to me like it wouldn\u2019t be too hard to get   Medical school admittance rates are considerably lower than Ivy league schools. I\u2019m not sure what Pitt Med\u2019s acceptance rate it, but it is probably a lot harder to get into than Yale college    ```\n"
+    }
+  ]
+}

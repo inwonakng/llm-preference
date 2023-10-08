@@ -1,0 +1,15 @@
+{
+  "index": 2791,
+  "true_label": 3,
+  "predicted_label": 3,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Bates College```\nCollege B: ```Hamilton College```\nComment: ``` [quote] I am somewhat artistic but not an artist. In all honesty I\u2019m a mix of a lot of things and because of that I fear that it would be hard for me to really fit in any group because I\u2019m not predominantly any \u2018type.\u2019 [/quote]  You sound perfectly normal and well rounded and I think you\u2019ll find your tribe at either school.  I actually think at smaller schools, like Bates & Hamilton, there can be less cliques because you end up knowing a greater % of the student body and can move more fluidly through and with groups. You\u2019ll walk into the cafeteria or library and even if you don\u2019t immediately know people, you will recognize people and invariably they will nod and smile vs being closed off into some kind of do not enter group.  At least that is how my D who is at a different LAC says it works! You mention the prep factor at Hamilton.  When I toured with my D, she wasn\u2019t feeling the prep, but that could have been because our tour guide was a bit boho/intellectual.  But she knows multiple kids at both schools, who would be considered kind of like urban/prep, but again that\u2019s a small sample size and there will be outdoorsy and artsy kids at both schools as well.  ```\n"
+    }
+  ]
+}

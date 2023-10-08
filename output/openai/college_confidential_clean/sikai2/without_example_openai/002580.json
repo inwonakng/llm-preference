@@ -1,0 +1,15 @@
+{
+  "index": 2580,
+  "true_label": 3,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Carleton College```\nCollege B: ```Amherst College```\nComment: ```@corbett  \u201cIt\u2019s hard to escape the conclusion that many Amherst students use the open curriculum as a way to avoid science and math. Yes, some avoid humanities or social sciences, but not nearly as many.\u201d That may be true.  It doesn\u2019t change the fact that the students at Amherst who DO choose to do science and math fare very well and have excellent opportunities and college support for further academic study like PhDs, for medical school and other professional schools, and for recruiting to businesses.   Forbes just ranked Amherst No. 1 in the nation on its list of Private Colleges Worth Every Penny. https://www.forbes.com/sites/nataliesportelli/2017/04/26/10-expensive-colleges-worth-every-penny-2017/#5943768d5f6a Again, I want to emphasize that Carleton is also an excellent school and would be a great option.  ```\n"
+    }
+  ]
+}

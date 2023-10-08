@@ -1,0 +1,15 @@
+{
+  "index": 2653,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Franklin W. Olin College of Engineering```\nCollege B: ```Georgia Institute of Technology```\nComment: ```@helpless2017 I can\u2019t speak to Olin specifically, but generally employers like well rounded applicants.  An engineering grad with project experience (and the leadership/teamwork/success/failure/etc that comes with it) is certainly desirable.  Keep in mind, though, that every engineering program includes a capstone project.  No matter what school you attend, you will graduate with project experience.  Research institutions are not just for research.  They can also turn out well rounded applicants.  As I said, Olin is great for the right person.  But it\u2019s not the only great place out there. I\u2019ll give you a real world example of presence of grad students for connections.  My son happens to be at GT.  He recently applied for co-op with Coke, perhaps the most desirable co-op at GT.  His fraternity brother is now a grad student, who happened to have the exact co-op position last year.  Even had the same boss.  He coached my son through the whole interview prep, all the hot buttons to push, basically giving him the playbook to nail the interview.  Which he did, just last week.  Guy offered the job on the spot.  ```\n"
+    }
+  ]
+}

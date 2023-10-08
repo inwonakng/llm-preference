@@ -27,22 +27,28 @@ def get_metrics(y_true, y_pred, n_classes):
 
 @click.command()
 @click.option('--dataset', default='college_confidential', help='Name of dataset to use')
+@click.option('--model', default='llama2-13b', help='Name of model to use')
 @click.option('--template', default='inwon', help='Name of template to use for prompts.')
 @click.option('--use_example', is_flag=True, help='Use example in prompt')
+@click.option('--mode', default='textgen', help='Mode to use')
 def evaluate(
     dataset: str,
+    model: str,
     template: str,
     use_example: bool, 
+    mode: str,
 ):
+    if mode == 'openai':
+        model = 'openai'
 
-    results_dir = Path('output') / dataset / template
-    eval_dir = Path('evaluation') / dataset / template
+    results_dir = Path('output') / model / dataset / template
+    eval_dir = Path('evaluation') / model / dataset / template
     if use_example:
-        results_dir /= 'with_example'
-        eval_dir /= 'with_example'
+        results_dir /= 'with_example_' + mode
+        eval_dir /= 'with_example_' + mode
     else:
-        results_dir /= 'without_example'
-        eval_dir /= 'without_example'
+        results_dir /= 'without_example_' + mode
+        eval_dir /= 'without_example_' + mode
     eval_dir.mkdir(exist_ok=True, parents=True)
 
     true_labels = []

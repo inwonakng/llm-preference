@@ -1,0 +1,15 @@
+{
+  "index": 2204,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Stanford University```\nCollege B: ```Princeton University```\nComment: ```FWIW, regarding post #56, my son\u2019s varsity sport practices count as 1 credit at his Ivy school. I don\u2019t see that as a problem as this is done at the high school level with many varsity sports.  He practices pretty much year round five days a week. The fall is a bit lighter in intensity than in winter and onward. Many of his teammates including him are stem majors. As for taking some \u2018easy\u2019 classes, I don\u2019t think that\u2019s limited to athletes.  I remember choosing some classes based on \u2018easy\u2019 status because I worked part time and had other non academic commitments.  My point is that OP should choose his major based on what he loves and would want to pursue as a career, not what will accommodate his sport or be easy to get a degree in because his sport keeps him too busy.  ```\n"
+    }
+  ]
+}

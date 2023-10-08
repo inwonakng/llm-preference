@@ -1,0 +1,15 @@
+{
+  "index": 2331,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Columbia University```\nCollege B: ```University of Michigan```\nComment: ```\u201cColumbia is a totally different environment and a great school, but if it is better than Michigan, it isn\u2019t six-figures better.\u201d OMG.  Price is NOT an object for this kid!! FYI, the Parchment cross-admit data (imperfect data but still data) says that Columbia thrashes UM on cross-admits 73% to 27%.  That\u2019s made even more impressive when you consider that some portion of those UM admits would be in-staters getting a deep discount on COA. \u201cMichigan is top-20 in almost everything and top-10 in most things. UCLA and UVA (especially UVA) can\u2019t say that.\u201d Don\u2019t you be messing with Mr. Jefferson\u2019s U.  Parchment says the kids like UVA (#23 ranked by student choices) more than UM (#26).   And UM undergrad hasn\u2019t beaten UVA in USNWR in like 25 years.  Wa-hoo-wa!!!  ```\n"
+    }
+  ]
+}

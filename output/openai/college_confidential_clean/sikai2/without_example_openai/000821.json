@@ -1,0 +1,15 @@
+{
+  "index": 821,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```@Drawcodawn Yes, it combines the 2. Some students manage to graduate with both a BS/MS in 4 years at no additional cost.  No GRE test needed as well.  Or you can choose to stay and do a 50% off Masters at JHU in your fifth year - guaranteed and a rare benefit not offered at most schools. if you want a completer picture of the Class of 2017, go on linkedin.  There are several CS grad school students at Stanford from JHU for instance. I worked for consulting at Bain & Co after MIT grad school and am now at Google as a product manager.  I was in the Ph.D. program at MIT but left with a fully funded master\u2019s after I determined I didn\u2019t want to stay another 4 years to complete the doctorate. The factors for getting into a top graduate school with funding are research experience (first author publications help especially) and recommendations by notable professors. You will have no shortage of this at JHU with ample summer funding (see PURA and other funded research programs with JHU professors).  Test scores and GPA are next in importance.  Interviews will come into play as well. I had my selection of funded grad schools (Caltech, Stanford, MIT, Columbia, etc) when I applied.  I didn\u2019t graduate at the top of my class (had about a 3.7 GPA - average at JHU is about a 3.4 now). I started research sophomore year and got published in a few publications as did some of my classmates during junior year.  My professor earned his Ph.D. from Stanford and is a well respected researcher as are most professors at Hopkins. His recommendation sealed the deal as my grad school interviewers knew who he was and held his opinion in high regard.  ```\n"
+    }
+  ]
+}

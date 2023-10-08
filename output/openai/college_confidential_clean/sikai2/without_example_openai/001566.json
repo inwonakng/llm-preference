@@ -1,0 +1,15 @@
+{
+  "index": 1566,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Yale University```\nCollege B: ```University of Wisconsin-Madison```\nComment: ```Wisconsin is the way to go if you are seriously considering medical school. Medical schools do not usually differentiate between universities at that level, and you want to save as much money as possible for medical school. But if you are not certain, or if you think you may change your mind, as do roughly have premed students, I think Yale may be worth a look, although I am not sure $60k of debt is worth it.  ```\n"
+    }
+  ]
+}

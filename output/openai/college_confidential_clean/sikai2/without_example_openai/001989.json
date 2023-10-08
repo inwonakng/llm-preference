@@ -1,0 +1,15 @@
+{
+  "index": 1989,
+  "true_label": 3,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Duke University```\nCollege B: ```University of California, Berkeley```\nComment: ```@Nocreativity1 : The reason why I asked is because all MAJOR surveys (which can be actually verified online) contradict your claims. But then again, you said it was only your personal experience. Anyways, the ff links may help you get aware about how Berkeley isn\u2019t inferior to Duke with regards to placing grads to banking/financial institutions: Schools That Help Get The Job You Really Want https://poetsandquantsforundergrads.com/2017/12/05/b-schools-help-get-job-really-want/  UPenn Wharton UC Berkeley Haas  The top universities for working at Goldman Sachs in the U.S. https://news.efinancialcareers.com/uk-en/240377/the-best-universities-for-getting-a-job-at-goldman-sachs-in-the-u-s-europe-and-asia-within-ma-trading-risk-and-ops 1. Columbia 13. UC Berkeley  Duke   ```\n"
+    }
+  ]
+}

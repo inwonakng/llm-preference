@@ -1,0 +1,15 @@
+{
+  "index": 2290,
+  "true_label": 0,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Columbia University```\nCollege B: ```University of Michigan```\nComment: ```Thanks for making clear my opinion @rjkofnovi.  Yes I do not believe that the top public universities are peers of the top private universities in the area of undergraduate studies.  It is different in graduate studies where public universities operate much more like private universities albeit still at a slight disadvantage.  You only have to look at the historical slide of public universities compared to private universities (in undergraduate studies) to see it.  BTW I\u2019m not disparaging UMich by itself, I am disparaging all public unis and its not their fault.  It is the fault of the state legislatures by putting these unis in impossible situations by limiting there ability to raise in state tuition, and then cutting their funding.  This inevitably leads to ever increasing enrollments and class sizes without the appropriate increase in professors and resources which leads  to publics falling further behind privates as the privates simply don\u2019t have these constraints.  So in the end, I am advocating for more support for public universities or simply letting them become private (which will never happen for state flagships).  ```\n"
+    }
+  ]
+}

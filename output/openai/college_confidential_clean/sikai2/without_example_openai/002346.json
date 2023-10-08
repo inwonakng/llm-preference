@@ -1,0 +1,15 @@
+{
+  "index": 2346,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Columbia University```\nCollege B: ```University of Michigan```\nComment: ```Yes, \u201csilly thread\u201d but people are still participating! I wondered in post 70 why we had not heard back from the OP , and @jym626  seemed to be pointing out a similar issue still in post 94 . But , we are all  still here many posts later, still chiming in.   Most families  are going to do what they\u2019re going to do, regardless of what anyone here says.  Although , sometimes there is useful advice and  good tips!  ```\n"
+    }
+  ]
+}

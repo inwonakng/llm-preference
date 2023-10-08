@@ -1,0 +1,15 @@
+{
+  "index": 2014,
+  "true_label": 3,
+  "predicted_label": 3,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Duke University```\nCollege B: ```University of California, Berkeley```\nComment: ```The top students at both schools, Nobel laureates and Rhodes scholars are equally brilliant but unique in their areas of expertise. This is like arguing over what\u2019s a better movie The Godfather or  Shape of  Water. Who\u2019s better the 2016 Patriots or the 1987 49ers maybe a better example  It\u2019s not an intellectual exercise but is loaded with emotion and subjective analysis. Berkeley is elite and especially in STEM. But it\u2019s big it\u2019s public, in California, urban and it\u2019s a known also for its political activism. Fact Duke is also elite. Well known in everything but engineering and CS. Private, traditional college town and campus feel and known for a more preppy and sporty overall vibe. Fact Two great choices. But choices they are. Either will lead to unlimited opportunity and a lifetime of pride. Fact OP. Good luck. You can always flip a coin. And more than once if you don\u2019t like the results   ```\n"
+    }
+  ]
+}

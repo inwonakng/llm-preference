@@ -1,0 +1,15 @@
+{
+  "index": 1579,
+  "true_label": 3,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Northwestern University```\nCollege B: ```Rice University```\nComment: ```I don\u2019t think being near Chicago will give you more opportunities than being in Houston. Houston is a major city; it\u2019s the fourth largest city in the United States (right after Chicago, actually!) and health, medicine, and biomedical research are  big drivers of Houston\u2019s economy. I\u2019d say your opportunities are roughly equal, at least in any sense that would matter to an undergrad. Rice does a lot of research and is located right next to the Texas Medical Center - but there are lots of other industries in case you change your mind. I\u2019ve only been briefly in both cities but it\u2019s been my experience that moving around Chicago without a car is far easier than getting around Houston without one. If you want something closer to the stereotypical \u201ctraditional\u201d college experience - parties, big sports games, school spirit in spades - Northwestern is probably more likely to provide that, at least superficially. But in actuality, the \u201ccollege experience\u201d varies a lot from school to school and even from person to person. There are definitely people at Big 10 schools who haven\u2019t attended a single sports game and don\u2019t care a whit about sports. And college students everywhere like to party and make good friends, so you can find that at Rice, if you want!  ```\n"
+    }
+  ]
+}

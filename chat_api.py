@@ -11,7 +11,8 @@ DEFAULT_CHAT_PARAMS = {
     'max_tokens_second': 0,
     'mode': 'instruct',  # Valid options: 'chat', 'chat-instruct', 'instruct'
     'character': 'Example',
-    'instruction_template': 'Orca Mini',  # Will get autodetected if unset
+    # 'instruction_template': 'Orca Mini',  # Will get autodetected if unset
+    'instruction_template': 'Llama-v2',  # Will get autodetected if unset
     'your_name': 'You',
     # 'name1': 'name of user', # Optional
     # 'name2': 'name of character', # Optional

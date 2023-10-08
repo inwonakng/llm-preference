@@ -1,0 +1,47 @@
+{
+  "index": 2225,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Stanford University```\nCollege B: ```Princeton University```\nComment: ``` [quote] I understand the rigors of a Quarter system and Stanford doesn\u2019t pack a semester\u2019s worth of material in 1 Quarter. Looking at the Math sequence clearly shows that. The Single Variable Calc sequence is 3 courses as well as the MV/LA sequence whereas at Semester schools they are 2 Semester courses. [/quote]  You are using the slowest version of the lowest possible math sequence as an example.  Most feshmen did single variable calculus in HS and take  more advanced  math sequences that go at a faster pace.  A partial summary of freshmen math options is below.  Note that there a variety of different options for students with different math background/ability/interests, as well as students who are looking to cover the material more rigorously, rather than offering a single level for all students.  I also wouldn\u2019t assume athletes generally choose the lowest level for everything.  I\u2019d expect you are more likely to find premeds in the lowest versions of courses than athletes. Math 19-21 \u2013 3 quarter version of single variable calculus Math 41-42 \u2013 2 quarter version of single variable calculus Math 51-53 \u2013 differential and integral calculus in several variables, linear algebra, and ordinary differential equations Math 61-63M \u2013 covers the material of the Math 50 series at a much more advanced level with an emphasis on rigorous proofs and conceptual arguments Math 61-63DM \u2013  covers the same linear algebra material as the Math 60CM series and otherwise focuses on topics in discrete mathematics, algebra, and probability theory at an advanced level with an emphasis on rigorous proofs I\u2019ve taken classes at a lot of colleges with semester systems including RPI, SUNY, UCSD and UWy.  I found Stanford courses typically to go at a much faster pace, although there was  a significant variation from class to class.  ```\n"
+    }
+  ]
+}

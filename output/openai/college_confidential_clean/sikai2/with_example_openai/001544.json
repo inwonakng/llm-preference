@@ -1,0 +1,47 @@
+{
+  "index": 1544,
+  "true_label": 1,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Yale University```\nCollege B: ```University of Wisconsin-Madison```\nComment: ```@PurpleTitan Regarding rigor, I did not attend Yale, so I cannot speak for it. But I was a Journalism major at UW, and I thought it was hard. I wrote a whole mess of research papers (one 12-pager was written twice, when my floppy disk somehow didn\u2019t save it properly the first time\u2026 oh joy), about two-thirds of my non-STEM exams were essay- or case-based and the multiple choice exams were A-J/K/L rather than A-D. Granted, I had an active social life, and I could have worked harder, but I had a hard time earning A\u2019s there. UW does not seem interested in handing out A\u2019s that aren\u2019t earned. I was a 3.8, single-sitting uncoached 30 kid from northern Wisconsin, and for the first time in my life, I couldn\u2019t coast. A lot of kids simply can\u2019t handle the academics or the academics/social balance, but it isn\u2019t a cakewalk for the other 67ish% who can. That said, kids can become distracted at Yale too, and I would imagine if one were to not give great effort, it would show in his or her GPA. Yale is a proud school \u2013 they care about their grad rate, but they also care about their academic rep. I have a dog in this race, but if everything else were even or nearly so, I would suggest Yale. But it\u2019s not \u2013 it\u2019s six-figures not, and this kid wants to go to med school. OP, UW is a blast. Paying $5k per annum vs. $70k at Yale makes it, to me, the better choice given your circumstances.  ```\n"
+    }
+  ]
+}

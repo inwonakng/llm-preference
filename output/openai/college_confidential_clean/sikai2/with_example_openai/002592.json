@@ -1,0 +1,47 @@
+{
+  "index": 2592,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Carleton College```\nCollege B: ```Amherst College```\nComment: ```Hey, OP. Former Carl parent here. A few thoughts \u2026 Work study \u2026 You indicated that they find jobs for the kids. I don\u2019t remember that being the case for ds, especially after his first year. As a freshman, he worked in the dining hall, but I think that\u2019s because he wasn\u2019t aggressive in finding his own gig. Subsequent years, he found jobs that were more suited to his interests, though I will say that he loved even working in the dining hall. lol One thing I loved is how kids get paid. They can either take all the money, have their whole check credited to their student account or split it 50-50. I assumed every school did this, but that wasn\u2019t the case at ds2\u2019s university; as a result, I think the cash got squandered. Not so for ds1 \u2013 he had all his check rolled over into his account and was such a diligent worker that he got a fat refund when he graduated! He did study abroad junior year in a non-Carleton program. In addition to the Carleton-led options, there are scores of other options thanks to the consortiums to which Carleton belongs. Every year, there\u2019s a big study-abroad fair where kids can check out their choices, and that\u2019s how ds found his program \u2013  a semester in New Zealand. He absolutely loved it, including meeting kids from other colleges. Every year on his birthday, the first person on FB to post a msg is his host mom from Auckland. It\u2019s so fun to get that yearly reminder of his wonderful time there. The FA office was wonderful. Everything went really smoothly. He handled the whole thing, and it just couldn\u2019t have gone better. About ultimate \u2026 well, it\u2019s a thing at Carleton. If he doesn\u2019t want to play super-competitively, there\u2019s the Hot Karls, the developmental team. And, of course, the DIII team and the DI team. Just knowing that he played ultimate in HS makes me think that he belongs at Carleton!  Yes, Amherst has a team, too. But I\u2019m unabashedly biased.  ```\n"
+    }
+  ]
+}

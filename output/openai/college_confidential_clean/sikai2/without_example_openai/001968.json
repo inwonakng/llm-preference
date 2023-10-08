@@ -1,0 +1,15 @@
+{
+  "index": 1968,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Duke University```\nCollege B: ```University of California, Berkeley```\nComment: ```My daughter was admitted to UC Berkeley and Duke.  She chose Duke and is currently a freshman.  She is definitely not an engineer type, more of a liberal arts student (although may consider Law or MBA down the road).  It was an easy decision for her. Duke doesn\u2019t have a business undergraduate major/minor.  So keep that in mind.  They do have an MMS certificate (you can research that). If you want to pursue CS and work in Silicon Valley, I\u2019d say go to Berkeley without a doubt.  As you know, Berkeley is known for its CS program.  Duke\u2019s engineering programs are quite rigorous though.  It will be a challenging program.  [Did you know the Duke\u2019s Biomedical Engineering program is a top 4 program in the nation?]  The Duke brand name will be good if you decide on medicine or business grad school.  Duke pre-med students have a high success rate at getting into medical school (something like 90% of students). My daughter loves Duke.  She attended most basketball games this year.  Did tenting for the UNC game.  Great school spirit.  She did get tired of taking the bus to/from East/West campus.  She already has a dorm assignment for Sophomore year.  Close to West Union.  Most of her Fall, 2018 classes start at noon.  She is a night owl, so she\u2019s in heaven. Duke has a lot of Asian students, but more diversity than Berkeley.  There is a social hierarchy on campus - but this is over-blown and only becomes an issue if you let it bother you.  My daughter joined a sorority but only attends certain events - mainly ones that don\u2019t involve alcohol.  She isn\u2019t a party animal.  She joined a few organizations that she really likes and plans to continue with them next school year. Good luck with your decision!  ```\n"
+    }
+  ]
+}

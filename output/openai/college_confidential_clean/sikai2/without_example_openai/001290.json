@@ -1,0 +1,15 @@
+{
+  "index": 1290,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Amherst College```\nCollege B: ```Dartmouth College```\nComment: ```I don\u2019t think there is a meaningful difference in the opportunity to party at Dartmouth vs. Amherst. Both have the opportunity to work hard/play hard \u2013 how much of each is up to the individual student. For what it is worth, a colleague gave a paper at Dartmouth recently and said that the Library was packed on a nice Friday afternoon \u2013 maybe students were getting the work done before the party hard, or maybe they were the work hard kids, but it seemed very intellectually engaged. In terms of culture, Amherst did have underground fraternities which have recently been banned, so Amherst is no stranger to the party scene. Amherst has worked hard to foster economic diversity.  Both have excellent soccer, at least on the Men\u2019s side, which is what I\u2019m familiar with. Dartmouth does have a Women\u2019s Club team which \u2013 at the D1 level \u2013 is usually a very competitive program.  Amherst would have more of an intramural program. If you are interested in the possibility of trying out at either school as a walk-on player, contact the coach quickly to find out what, if any, opportunities there may be. On the D3 side, we\u2019ve seen kids come to pre-season, and either make it or not. It sounds like you somewhat prefer the scene at Dartmouth \u2013 if the money works out, they are both superb, so pick the one that feels more comfortable to you.  ```\n"
+    }
+  ]
+}

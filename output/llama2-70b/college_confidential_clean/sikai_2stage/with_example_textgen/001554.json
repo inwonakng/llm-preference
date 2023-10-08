@@ -1,0 +1,118 @@
+{
+  "index": 1554,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": {
+    "max_new_tokens": 20,
+    "auto_max_new_tokens": false,
+    "max_tokens_second": 0,
+    "mode": "instruct",
+    "character": "Example",
+    "instruction_template": "Orca Mini",
+    "your_name": "You",
+    "regenerate": false,
+    "_continue": false,
+    "chat_instruct_command": "Continue the chat dialogue below. Write a single reply for the character \"<|character|>\".\n\n<|prompt|>",
+    "preset": "None",
+    "do_sample": true,
+    "temperature": 1,
+    "top_p": 0.7,
+    "typical_p": 1,
+    "epsilon_cutoff": 0,
+    "eta_cutoff": 0,
+    "tfs": 1,
+    "top_a": 0,
+    "repetition_penalty": 1.18,
+    "repetition_penalty_range": 0,
+    "top_k": 40,
+    "min_length": 0,
+    "no_repeat_ngram_size": 0,
+    "num_beams": 1,
+    "penalty_alpha": 0,
+    "length_penalty": 1,
+    "early_stopping": false,
+    "mirostat_mode": 0,
+    "mirostat_tau": 5,
+    "mirostat_eta": 0.1,
+    "guidance_scale": 1,
+    "negative_prompt": "",
+    "seed": -1,
+    "add_bos_token": true,
+    "truncation_length": 2048,
+    "ban_eos_token": false,
+    "skip_special_tokens": true,
+    "stopping_strings": [],
+    "user_input": "Based on your responce. What is the preference between the two colleges?\nYou MUST respond ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond ```Equal preference``` if colleges A and B are equally preferred.\n",
+    "history": {
+      "internal": [
+        [
+          "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\nIs there a preference between the two colleges in the comment?\nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond ```Has preference``` if there is explicit preference in the comment.\n",
+          "No preference"
+        ],
+        [
+          "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\nIs there a preference between the two colleges in the comment?\nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond ```Has preference``` if there is explicit preference in the comment.\n",
+          "Has preference"
+        ],
+        [
+          "Based on your responce. What is the preference between the two colleges?\nYou MUST respond ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond ```Equal preference``` if colleges A and B are equally preferred.\n",
+          "A is preferred over B"
+        ],
+        [
+          "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\nIs there a preference between the two colleges in the comment?\nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond ```Has preference``` if there is explicit preference in the comment.\n",
+          "Has preference"
+        ],
+        [
+          "Based on your responce. What is the preference between the two colleges?\nYou MUST respond ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond ```Equal preference``` if colleges A and B are equally preferred.\n",
+          "B is preferred over A"
+        ],
+        [
+          "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\nIs there a preference between the two colleges in the comment?\nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond ```Has preference``` if there is explicit preference in the comment.\n",
+          "Has preference"
+        ],
+        [
+          "Based on your responce. What is the preference between the two colleges?\nYou MUST respond ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond ```Equal preference``` if colleges A and B are equally preferred.\n",
+          "Equal preference"
+        ],
+        [
+          "College A: ```Yale University```\nCollege B: ```University of Wisconsin-Madison```\nComment: ```60k of debt sounds like a nightmare. You couldn\u2019t give me all of the Yale sweatshirts, mugs, and car decals in the world for 60k in debt when a full ride at a superb school is available. Just my $0.02.  ```\nIs there a preference between the two colleges in the comment?\nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond ```Has preference``` if there is explicit preference in the comment.\n",
+          "Has preference"
+        ]
+      ],
+      "visible": [
+        [
+          "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\nIs there a preference between the two colleges in the comment?\nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond ```Has preference``` if there is explicit preference in the comment.\n",
+          "No preference"
+        ],
+        [
+          "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\nIs there a preference between the two colleges in the comment?\nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond ```Has preference``` if there is explicit preference in the comment.\n",
+          "Has preference"
+        ],
+        [
+          "Based on your responce. What is the preference between the two colleges?\nYou MUST respond ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond ```Equal preference``` if colleges A and B are equally preferred.\n",
+          "A is preferred over B"
+        ],
+        [
+          "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\nIs there a preference between the two colleges in the comment?\nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond ```Has preference``` if there is explicit preference in the comment.\n",
+          "Has preference"
+        ],
+        [
+          "Based on your responce. What is the preference between the two colleges?\nYou MUST respond ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond ```Equal preference``` if colleges A and B are equally preferred.\n",
+          "B is preferred over A"
+        ],
+        [
+          "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\nIs there a preference between the two colleges in the comment?\nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond ```Has preference``` if there is explicit preference in the comment.\n",
+          "Has preference"
+        ],
+        [
+          "Based on your responce. What is the preference between the two colleges?\nYou MUST respond ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond ```Equal preference``` if colleges A and B are equally preferred.\n",
+          "Equal preference"
+        ],
+        [
+          "College A: ```Yale University```\nCollege B: ```University of Wisconsin-Madison```\nComment: ```60k of debt sounds like a nightmare. You couldn\u2019t give me all of the Yale sweatshirts, mugs, and car decals in the world for 60k in debt when a full ride at a superb school is available. Just my $0.02.  ```\nIs there a preference between the two colleges in the comment?\nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond ```Has preference``` if there is explicit preference in the comment.\n",
+          "Has preference"
+        ]
+      ]
+    },
+    "context_instruct": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nI will ask you the following questions one by one.\n1. Is there a preference between the two colleges in the comment?\n2. If there is a preference, what is the preference between the two colleges?\n\nHere are the shared rules for both questions:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST NOT respond with any other response. \nYou MUST NOT make up a preference when there is no preference in the comment.\n"
+  }
+}

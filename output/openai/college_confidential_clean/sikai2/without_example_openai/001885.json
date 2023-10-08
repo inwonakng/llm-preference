@@ -1,0 +1,15 @@
+{
+  "index": 1885,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Pennsylvania```\nCollege B: ```Pennsylvania State University```\nComment: ```@Angelababy30 \"\" I just not sure if i would be able to maintain a high enough GPA for med school application and time preparation of MCAT. Also I am not sure about the learning environment of both schools since I have not physically visited the school.\"\" I recommend that you contact Penn admissions and schedule an appointment with a counselor either by telephone or in person. Just call the main number (215) 898\u20137507, and ask for admissions. Once you get to admissions tell the person you have been admitted, and that you have some questions and would like to speak with a counselor. Talk with the counselor about your concern about grades in pre-med. Ask about what a sample schedule would look like. Ask about research opportunities (Basically any student can get involved in research). Ask about opportunities for pre-meds to get involved in clubs. Ask about opportunities to get guidance about issues like what med school applicants need besides a GPA and an MCAT score. Tell them about your other acceptance too. Let them help you. You should go to Quaker days too, but begin getting more information right away. Knowing more will help you make a better decision. Also, consider the fact that most pre-meds at any college decide not to stay in pre-med. None of those students think it will be them switching out. If that happens to you, you are better off at Penn.  ```\n"
+    }
+  ]
+}

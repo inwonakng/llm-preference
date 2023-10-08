@@ -1,0 +1,15 @@
+{
+  "index": 799,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```    stevensPR: [quote] From a CS major perspective, there is a disparity in terms of knowledge learned given ABET accreditation exists for one and not the other. [/quote]  ABET accreditation does set a good minimum standard, but there exist good CS majors that are not ABET accredited (e.g. Stanford, CMU, UCB L&S CS).  In many cases, good CS majors do not have ABET accreditation because they do not have the non-CS science requirements needed for ABET accreditation. What it does mean is that one may have to more carefully evaluate the actual CS offerings at a school where CS does not have ABET accreditation.  But it does not automatically mean that the CS major there is unsuitable.     nostalgicwisdom: [quote] Does ABET accreditation matter in CS? I don\u2019t believe LACs without engineering are even eligible to apply, since ABET is an engineering based institution. [/quote]  There are schools whose only ABET accredited program is CS. But it is likely that many schools do not bother because (a) it is not perceived as required like it is for (for example) civil engineering, (b) they do not require non-CS science for CS majors, and/or \u00a9 they do not want to deal with the administrative work involved.  ```\n"
+    }
+  ]
+}

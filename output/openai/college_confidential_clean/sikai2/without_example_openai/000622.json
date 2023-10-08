@@ -1,0 +1,15 @@
+{
+  "index": 622,
+  "true_label": 0,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of California, Berkeley```\nCollege B: ```University of Maryland```\nComment: ```    Roark345: [quote] My brother who graduated from the School of Engineering at UMD many moons back tells me NOT to send S there. He says the drop out rate from engineering is too high and because it is so large S can easily get lost. [/quote]  Decades ago, many state flagships (probably including Maryland) were not as selective as they are now.  Because engineering curricula were and are rigorous, the washout rate was high back then as many less prepared students decided it was too hard. But a strong student of the type to earn a full ride merit scholarship is likely to be one who can handle the rigor of an engineering curriculum.     Roark345: [quote] Brother says to send S to CMU where the class size is much smaller and a lot more attention is given from the professors. [/quote]  How much is your brother offering to contribute?  The decision really belongs to whoever is attending and whoever is paying.  ```\n"
+    }
+  ]
+}

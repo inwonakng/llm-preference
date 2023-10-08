@@ -1,0 +1,47 @@
+{
+  "index": 2180,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Stanford University```\nCollege B: ```Princeton University```\nComment: ```@cllgerower1999 congratulations on your wonderful choices!  I have a kid at an Ivy in a different sport. From California as well and wanted a different culture.  It\u2019s working out ok for him there and the deciding factor was the major, school culture, the team competitiveness and team culture. One thing to seriously consider is the weather especially given that yours is an outdoor sport. My kid would compete in 30-40 degree weather and that was in the spring. Not ideal but it is what it is. The other factor (which may or may not be important to you) is the racial mix of the student body. You mention you had unforgettable feelings about being on princeton\u2019s campus which is great but you bring up a good point that you\u2019re a teenager and might not trust your feelings. You may have that feeling now but there\u2019s always a honeymoon period then reality sets in once practice and school starts and the grind becomes that\u2026a grind. Your teammmates will really shape your experience during your undergrad much more than anything else. I\u2019d give the nod to Stanford: prestige, high quality academics, weather and PAC-12 athletics.  Good luck! P.S. Now that my kid has had some experience as an Ivy athlete coming from another coast, the  drawback has been distance. The lack of family support at meets was evident and the struggle was real. I\u2019m sure it\u2019s contributed to some positive takeaways such as character building but I have to agree with @TooOld4School  ```\n"
+    }
+  ]
+}

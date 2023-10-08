@@ -1,0 +1,4 @@
+,pred:A>B,pred:A<B,pred:A=B
+true:A>B,404,36,24
+true:A<B,42,353,16
+true:A=B,35,46,112

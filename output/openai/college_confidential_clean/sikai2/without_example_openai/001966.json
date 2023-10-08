@@ -1,0 +1,15 @@
+{
+  "index": 1966,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Duke University```\nCollege B: ```University of California, Berkeley```\nComment: ```How do finances play into this? Unless money is not a consideration or Duke gives you enough assistance to bring it to Berkeley\u2019s level, this should certainly figure into your equation. The other things you need to consider is how certain you want to pursue engineering/CS and how much you want the type of college experience that a school like Duke can provide. They are both great schools, but if you are looking for that quintessential college experience (school spirit, sports, Greek life) and want a strong liberal arts curriculum, Duke is probably a better choice.  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "index": 2479,
+  "true_label": 3,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Chicago```\nCollege B: ```Stanford University```\nComment: ```\u201cPalo Alto is one giant strip mall.\u201d I\u2019m assuming this is sarcasm, Palo Alto is a gorgeous college town, right up there with Cambridge, Ann Arbor and Madison.  Hyde Park doesn\u2019t really compare, now if you want to talk Evanston ok. Here\u2019s what you should do - go to Chicago and Stanford in February, during mid winter break.  I visited Chicago then and the tour guide kept saying, don\u2019t worry, we\u2019ll go inside in a minute, we\u2019ll go inside I promise.  Needless to say Stanford\u2019s tour guides rarely say that. Anyway back to the OP, despite the weather, Chicago is a top notch school for your intended majors so if you\u2019re comfortable there, apply EA if you can, if it\u2019s ED, I\u2019d recommend you not apply ED as that will really cut down on your flexibility.  Apply SCEA Stanford as your original plan and RD Chicago and see what happens. The only drawback to Chicago wrt Stanford is that students change majors a lot, and if you decide that you\u2019d like to pursue computer science, then you\u2019re better off at Stanford.  Like really better off.  ```\n"
+    }
+  ]
+}

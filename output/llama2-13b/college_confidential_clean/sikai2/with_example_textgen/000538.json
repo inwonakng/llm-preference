@@ -1,0 +1,86 @@
+{
+  "index": 538,
+  "true_label": 0,
+  "predicted_label": 3,
+  "params": {
+    "max_new_tokens": 20,
+    "auto_max_new_tokens": false,
+    "max_tokens_second": 0,
+    "mode": "instruct",
+    "character": "Example",
+    "instruction_template": "Llama-v2",
+    "your_name": "You",
+    "regenerate": false,
+    "_continue": false,
+    "chat_instruct_command": "Continue the chat dialogue below. Write a single reply for the character \"<|character|>\".\n\n<|prompt|>",
+    "preset": "None",
+    "do_sample": true,
+    "temperature": 1,
+    "top_p": 0.7,
+    "typical_p": 1,
+    "epsilon_cutoff": 0,
+    "eta_cutoff": 0,
+    "tfs": 1,
+    "top_a": 0,
+    "repetition_penalty": 1.18,
+    "repetition_penalty_range": 0,
+    "top_k": 40,
+    "min_length": 0,
+    "no_repeat_ngram_size": 0,
+    "num_beams": 1,
+    "penalty_alpha": 0,
+    "length_penalty": 1,
+    "early_stopping": false,
+    "mirostat_mode": 0,
+    "mirostat_tau": 5,
+    "mirostat_eta": 0.1,
+    "guidance_scale": 1,
+    "negative_prompt": "",
+    "seed": -1,
+    "add_bos_token": true,
+    "truncation_length": 2048,
+    "ban_eos_token": false,
+    "skip_special_tokens": true,
+    "stopping_strings": [],
+    "user_input": "College A: ```University of Rochester```\nCollege B: ```Emory University```\nComment: ```@SBSapphire :  Well then apply to both and if you get into URoch, go there.  I wouldn\u2019t bank on merit aid as their stats are pretty similar to Emory\u2019s (Emory just gets higher app. volume).  You would not stand out at either statistically. Also please please please stop asking:  \u201cWhich one will give you the higher GPA?\u201d.  Ain\u2019t nobody GIVING you nothing! It makes you sound like a bad applicant to either who isn\u2019t worried about learning and who believes that getting a higher GPA is a matter of choosing the right elite school.  That makes no sense.  In addition, it is a horrible question because we don\u2019t know what you will major in, the courses and professors you would take at each, and how they will grade.  We don\u2019t know, so stop asking. Leave your confusion behind on the medical school admit rates.  You either have a great application or you don\u2019t.  If you went to a state school with a 35% rate but were excellent versus the rest of the student body and your performance reflected it, you would very likely get in unless you can\u2019t interview well.  There are so many things that affect these numbers that you need to just stop being confused, visit places and choose somewhere you actually fit, and do well.  That is how you get to your next destination.  These percentages have nothing to do with what YOU and your situation and performance will be.  Either take that to heart or remain confused and go to Rochester or wherever else. You already asked about competition and I don\u2019t know anything about UR\u2019s academic environment.  Emory\u2019s was already answered. Your thing about weed-out is just false (UR has engineering, and engineering curricula everywhere and especially at selective schools are very challenging, but that has nothing to do with pre-med classes.  From my comparisons of course materials in the life sciences, Emory is among the harder schools ranked between 13 and 25 or so).  Every student at every damned school claims that pre-med courses are weedouts.  If you compared the actual courses between elite schools you would either find out that there is no difference, or that one student body was exaggerating to a ridiculous extent.  If you want to keep saying this with no evidence than hearsay, please avoid Emory because what you \u201cheard\u201d will lead you to a path of misery.   Pre-med is going to be hard at any selective university.  To even try to split hairs between selective schools without seeing course materials is a waste of time so stop doing it.  If you are concerned, choose schools much less selective than either of these and stop saying this part and the stuff about the GPA every time you post.  ```\n",
+    "history": {
+      "internal": [
+        [
+          "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n",
+          "No preference"
+        ],
+        [
+          "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n",
+          "A is preferred over B"
+        ],
+        [
+          "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n",
+          "B is preferred over A"
+        ],
+        [
+          "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n",
+          "Equal preference"
+        ]
+      ],
+      "visible": [
+        [
+          "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n",
+          "No preference"
+        ],
+        [
+          "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n",
+          "A is preferred over B"
+        ],
+        [
+          "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n",
+          "B is preferred over A"
+        ],
+        [
+          "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n",
+          "Equal preference"
+        ]
+      ]
+    },
+    "context_instruct": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+  }
+}

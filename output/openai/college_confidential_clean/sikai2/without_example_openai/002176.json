@@ -1,0 +1,15 @@
+{
+  "index": 2176,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Stanford University```\nCollege B: ```Princeton University```\nComment: ```@Penn95 Grad inflation is the least of worries. D1 rowing is almost a year-around sport. Doing extensive research while competing in and traveling to regattas and practicing  5-7 days/week during the spring, winter and fall is extremely difficult, if not almost impossible. I realize that research is important when applying to med school. However, I sometimes wonder how important when compared to GPA, MCAT, recommendation letters and reputation of undergrad institution . I hired a crew coach who had rowed in the first boat at an Ivy.  Although he had a mechanical engineering degree, a few years post graduation he decided he wanted to be a physician.  During the time he coached for our program, he took bio and organic chem the local university and did research. He commented a number of times that had he been required to spend significant amounts of time doing research as an undergrad, rowing would not have been possible. His MCAT scores were outstanding, but his research wasn\u2019t what most would have considered impressive\u2026at all. He wasn\u2019t accepted at the top schools he applied to. However, he was accepted at a respectable med school.  [quote] While being recruited, it\u2019s important to include this in your conversation with coaches. Are there any majors you can\u2019t do while rowing? I know pre-med is just not an option for athletes at some schools. Be sure to ask those questions. [/quote]  Nate\u2019s bio is impressive. http://www.rowingrecruiting.com/2015/10/finding-the-balance-between-student-and-athlete-at-elite-schools/  ```\n"
+    }
+  ]
+}

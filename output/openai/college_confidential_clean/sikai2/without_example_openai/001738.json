@@ -1,0 +1,15 @@
+{
+  "index": 1738,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```@merc81, I daresay that all full-pay students at MIT would have qualfied for full-ride scholarships from some school. But UMich is not Alabama St.  I consider UMich to be a Near-Ivy and only a handful of MIT admits would have gotten a full-ride from a Near-Ivy/Ivy-equivalent. Those are incredibly rare and difficult to get (if you don\u2019t count the all-female schools and military academies).  Between them, Rice, Duke, UChicago, Caltech, Oberlin, UMich (for OOS), and UVa (for OOS) probably offer fewer than 200 full-rides total.  ```\n"
+    }
+  ]
+}

@@ -14,8 +14,8 @@ instruction: |
 
 question_1st_stage: |
   Is there a preference between the two colleges in the comment?
-  You MUST respond ```No preference``` if there is no explicit preference in the comment.
-  You MUST respond ```Has preference``` if there is explicit preference in the comment.
+  You MUST respond with ```No preference``` if there is no explicit preference in the comment.
+  You MUST respond with ```Has preference``` if there is explicit preference in the comment.
 
 task: |
   College A: ```{alternative_a}```
@@ -24,9 +24,9 @@ task: |
 
 question_2nd_stage: |
   Based on your responce. What is the preference between the two colleges?
-  You MUST respond ```A is preferred over B``` if college A is preferred over college B.
-  You MUST respond ```B is preferred over A``` if college B is preferred over college A.
-  You MUST respond ```Equal preference``` if colleges A and B are equally preferred.
+  You MUST respond with ```A is preferred over B``` if college A is preferred over college B.
+  You MUST respond with ```B is preferred over A``` if college B is preferred over college A.
+  You MUST respond with ```Equal preference``` if colleges A and B are equally preferred.
 
 retry_msg_1st_stage: |
   You have an incorrect format in your response. 
@@ -34,8 +34,8 @@ retry_msg_1st_stage: |
   You MUST NOT use the colleges' real names.
   You MUST refer to the colleges as A or B. 
   You MUST NOT make up a preference when there is no preference in the comment.
-  You MUST respond ```No preference``` if there is no explicit preference in the comment.
-  You MUST respond ```Has preference``` if there is explicit preference in the comment.
+  You MUST respond with ```No preference``` if there is no explicit preference in the comment.
+  You MUST respond with ```Has preference``` if there is explicit preference in the comment.
   You MUST respond with ```No preference``` or ```Has preference```.
 
 retry_msg_2nd_stage: |

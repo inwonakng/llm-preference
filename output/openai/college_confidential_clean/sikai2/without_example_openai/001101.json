@@ -1,0 +1,15 @@
+{
+  "index": 1101,
+  "true_label": 2,
+  "predicted_label": 3,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Stanford University```\nCollege B: ```University of Southern California```\nComment: ```Seriously folks. These grand generalizations are meaningless. Like any broad generalizations they may be grounded in the past experiences or continuation of a myth. Here\u2019s a real world 2018 example. I my d is valedictorian of her top 30 us public high school. Number 1 in Florida. 1540 sat 4.0 uw gpa.  35 act 13 aps with 11 5s and 1 4.  President of Spanish honor society and captain of academic decathlon team as only female. And was ap physics ap bio and ap chem student of the year. Going to USC for bio chem premed. She doesn\u2019t sit around with her friends smoking weed and discussing the Freud Jungian schism.  But she\u2019s pretty intellectual. It just doesn\u2019t matter. Go to Stanford kick butt and pay back the loans. Go to usc kick butt and not have to pay the loans. The same exact opportunity for success is available in either path. Go where you feel best about yourself and an environment that promotes your best work.  It could be either but it\u2019s unique  to each student.  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "index": 2041,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Texas at Austin```\nCollege B: ```Indiana University```\nComment: ```She\u2019s not in McCombs so you can\u2019t compare McCombs to the others. Assume she\u2019ll get a degree in Economics. Another issue is that she didn\u2019t make or apply for honors at UT which puts her at a disadvantage. (The order of priority for opportunities, contacts, etc, would be BHP or Plan II -&gt;McCombs-&gt;Economics with Honors-&gt;Economics). Does she want economics or Business? Economics can be more flexible and can allow her to add some electives to personalize her profile. She may be able to add a Business certificate to it, develop expertise in US culture (through classes in American studies, African American studies, Hispanic studies)nifbshe plans to work for a TNC that does business with the US. UT will also be much more diverse (ethnically and socio economically) than SMU. SMU business offers excellent contacts, networking, internships, etc. It is also rather homogeneous. So if your concern is internships and living in a big city, SMU would have the edge. If you want diversity, UT has the edge. In terms of political vibe, SMU is conservative and UT is liberal.  ```\n"
+    }
+  ]
+}

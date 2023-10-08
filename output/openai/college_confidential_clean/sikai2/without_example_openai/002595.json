@@ -1,0 +1,15 @@
+{
+  "index": 2595,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Carleton College```\nCollege B: ```Amherst College```\nComment: ```Great thread.  I have a son at Amherst and a son at Emory.  Both had that epiphany moment, of \u201cthis is where I should be.\u201d  That epiphany doesn\u2019t necessarily mean it\u2019s the right choice, but it has worked out well for both of them.  Their epiphany was based more than anything on the other kids that were there, i.e., that they felt that they\u2019d find \u201ctheir people\u201d at the school. I\u2019m in the camp that your son can\u2019t/shouldn\u2019t try to differentiate the schools based on academics, in that there\u2019s no way that he\u2019d exhaust the academic resources at either of these fine schools.  And either school will serve him well as a launchpad to whatever comes next.  I think he\u2019s best served by looking at the gestalt of each school, and deciding where he thinks he\u2019d more easily fit. And of course, you MUST let us all know the decision.  ```\n"
+    }
+  ]
+}

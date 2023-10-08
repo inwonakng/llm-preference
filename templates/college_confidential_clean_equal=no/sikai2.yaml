@@ -5,7 +5,7 @@ instruction: |
   Here are the rules:
   You MUST NOT use the colleges' real names.
   You MUST refer to the colleges as A or B. 
-  You MUST respond ```No preference``` if there is no explicit preference in the comment.
+  You MUST respond with ```No preference``` if there is no explicit preference in the comment.
   You MUST respond with ```A is preferred over B``` if college A is preferred over college B.
   You MUST respond with ```B is preferred over A``` if college B is preferred over college A.
   You MUST respond with ```No preference```, ```A is preferred over B```, or ```B is preferred over A```.
@@ -20,7 +20,7 @@ retry_msg: |
   Here is a reminder of the rules:
   You MUST NOT use the colleges' real names.
   You MUST refer to the colleges as A or B. 
-  You MUST respond ```No preference``` if there is no explicit preference in the comment.
+  You MUST respond with ```No preference``` if there is no explicit preference in the comment.
   You MUST respond with ```A is preferred over B``` if college A is preferred over college B.
   You MUST respond with ```B is preferred over A``` if college B is preferred over college A.
   You MUST respond with ```No preference```, ```A is preferred over B```, or ```B is preferred over A```.

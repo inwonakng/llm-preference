@@ -2,6 +2,8 @@ import rich.progress
 from pathlib import Path
 import json
 import click
+import openai
+import time
 
 import pandas as pd
 from prompt import Task, Prompt, TwoStagePrompt
@@ -35,15 +37,19 @@ def progress_bar():
 
 @click.command()
 @click.option('--dataset', default='college_confidential_clean', help='Name of dataset to use')
+@click.option('--model', default='llama2-70b', help='Name of model to use')
 @click.option('--template', default='sikai', help='Name of template to use for prompts.')
 @click.option('--use_example', is_flag=True, help='Use example in prompt')
 @click.option('--two_stage', is_flag=True, help='Use two stage prompt')
+@click.option('--mode', default='textgen', help='Mode to use')
 @click.option('--verbose', is_flag=True, help='Verbose mode')
 def run(
     dataset: str,
+    model: str,
     template: str,
     use_example: bool, 
     two_stage: bool,
+    mode: str,
     verbose: bool,
 ):    
     df = pd.read_csv(f'data/{dataset}/dataset.csv')
@@ -59,15 +65,19 @@ def run(
     else:
         to_predict = df
 
-    results_dir = Path('output') / dataset / template
+    if mode == 'openai':
+        model = 'openai'
+
+    results_dir = Path('output') / model / dataset / template
     if use_example:
-        results_dir /= 'with_example'
+        results_dir /= 'with_example_' + mode
     else:
-        results_dir /= 'without_example'
+        results_dir /= 'without_example_' + mode
+    
     results_dir.mkdir(parents=True, exist_ok=True)
 
     print(prompt)
-    description = f'{dataset} {template} {"with" if use_example else "without"} example {"two stage" if two_stage else "single stage"}'
+    description = f'{dataset} {template} {"with" if use_example else "without"}_example {"2-stage" if two_stage else "1-stage"} {mode} {model}'
 
     with progress_bar() as progress:
         progress_task = progress.add_task(description=description, total = len(to_predict))
@@ -77,8 +87,14 @@ def run(
             result_file = results_dir / f'{idx:06d}.json'
 
             if not result_file.is_file(): 
-                # print(f'{i}/{len(to_predict)}')
-                success, output, params = prompt.execute(task, verbose = verbose)
+                while True:
+                    try:
+                        success, output, params = prompt.execute(task, mode = mode, verbose = verbose)
+                    except openai.error.RateLimitError as e:
+                        print(f'Rate limit exceeded. Waiting for 5s: {e}')
+                        time.sleep(5)
+                    else:
+                        break
 
                 if not success:
                     print('Failed to generate output!!! Skip.')

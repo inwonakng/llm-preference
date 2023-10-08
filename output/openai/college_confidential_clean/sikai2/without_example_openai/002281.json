@@ -1,0 +1,15 @@
+{
+  "index": 2281,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Columbia University```\nCollege B: ```University of Michigan```\nComment: ```Much2learn, salary surveys are never accurate. For one, they seldom adjust for cost of living. As you can see from the link you provided, most of the universities at the top are concentrated in California and the East Coast, where the cost of living is significantly higher than the cost of living in the Midwest and the South. Besides, the figures are suspect to begin with. For example, the average starting salary for CS majors at Michigan is close to $100k, so I am not sure how it is possible  for the \u201cearly career pay\u201d to be $75k. Like I said above, last year, roughly one third of Michigan\u2019s CS majors landed jobs with Google, Apple, Microsoft and Amazon. That\u2019s tangible evidence of the program\u2019s status as one of the better CS departments in the country. Columbia will likely have similar placement success, but at a fraction of the cost, the OP is probably better off foregoing Columbia and sticking to his in-state option.  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "index": 1573,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Yale University```\nCollege B: ```University of Wisconsin-Madison```\nComment: ```AlmostThere, a constant theme of CC is unrealistic expectations.  Lots of good students expect to get admitted to, pick your school, but dont think seriously about 8 or 9 % admission rate.  A medical school with an 8 or 9 % admission rate is a \u201cnon selective\u201d school, relatively speaking. George Washington Medical school, for example, had an under 3% admission rate.   And they are picking those 8 or 9 %  or 3% out of a carefully cultivated group of high achieving students.  That is, getting into medical school is just like getting into Ivy League caliber schools and now requires the same resume building stuff for undergraduate but ramped up, research, community service, recommendations.  Telling someone whose dream is medical school to give up the advantage that Yale offers for admission in terms of reputations, personalized attention, and research opportunity to save 60,000 is poor advice, IMHO.  ```\n"
+    }
+  ]
+}

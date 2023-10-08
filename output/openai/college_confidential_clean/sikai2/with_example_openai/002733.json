@@ -1,0 +1,47 @@
+{
+  "index": 2733,
+  "true_label": 1,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Cornell University```\nCollege B: ```University of Michigan```\nComment: ```I am very familiar with both schools, as I am an alum of one and I have a child at the other. Cornell Arts & Sciences and Michigan Ross will be VERY different experiences academically. Ross is very preprofessional. It\u2019s almost like an employee training program with some academics sprinkled in. If you double major with math, which is in LSA, you actually would be doing a dual degree, meaning that you would be graduating with a BBA from Ross and a BA (or BS?) in math. At Cornell Arts & Sciences you\u2019d be taking a more traditional course of study. It also has a lot of distribution requirements.  My recommendation is to make a spread sheet of the exact classes you\u2019d have to take (or requirements you\u2019d have to fulfill) every year at each college. Which looks more interesting? Which one gets you more excited? That will make the decision for you (outside of the financial aspect). Of course you can always go to Michigan and major in math there. You can minor in business at Ross if you want. There will be plenty of Wall St. opportunities with an undergrad math major.  ```\n"
+    }
+  ]
+}

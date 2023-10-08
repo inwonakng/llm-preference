@@ -1,0 +1,15 @@
+{
+  "index": 2311,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Columbia University```\nCollege B: ```University of Michigan```\nComment: ```@cu123 @Alexandre Guess no one else remembers the 70s when Columbia almost closed due to student revolution, lack of interest (and danger of \u201cHarlem\u2026\u201d! Lol\u2026) Times change. And they will change again. And some more after that. Go where you feel you\u2019ll most at home (or, if you\u2019re not sure, go to UMich - {and for sure don\u2019t listen to the chicken littles around here, UMich is not going anywhere, certainly not in 4 years\u2026 It\u2019s a lot of money if you don\u2019t love Columbia/NYC, even if you just save it for your parent\u2019s retirment.) Or as if you can use the extra money to go abroad, or do something cool.  ```\n"
+    }
+  ]
+}

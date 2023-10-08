@@ -1,0 +1,15 @@
+{
+  "index": 963,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Stanford University```\nCollege B: ```University of Southern California```\nComment: ```@PurpleTitan couldn\u2019t agree more I will mention again and for  @CU123 USC has produced the 4th most billionaires of any US university   I don\u2019t think Stanford or Harvard would have been worth it for them. Not even considering the full ride.  And their amount of alumni giving is mentioned in the press as astronomical compared to other schools So if I was a football star and was offered a full ride I should say no and play football for Harvard or Stanford and pay them 73k a year after taxes for the privilege of doing so.  Just so I could impress my boss neighbor or someone at s cocktail party If it were revenue neutral I would pick h or s of course.  But this whole conversation is silly. He is smart enough to get s full ride and into h and s. He is smart enough to finish top of his class at usc and go to hbs or hms or Stanford law. And can you think of a more pleasant climate  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "index": 2938,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Dartmouth College```\nCollege B: ```Johns Hopkins University```\nComment: ```@stevensPR  Oh but yes I am looking at that tab. Only thing is that you cannot simply add the math +verbal when given as separate ranges. this is why i rote down verbal and math separately  (I guess i paid attention to my stat class at Wharton after all\u2026) As I said before Cornell has a few schools that attract people with  in general lower SATs. If you took just the liberal arts, business and engineering students (leave out agriculture, hotel etc) then there would not be much of difference. Besides, these differences in scores do not show a difference in academic accomplishment. any of these schools could have an entire class with perfect or new perfect scores.  Just means they are willing to admit non-traditional student that have something special but not top scores. Example: Yale and Chicago have higher scores than Stanford. Does this mean that they admit more accomplished students? of course not. It is just that they focus is slightly different.  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "index": 872,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Boston University```\nCollege B: ```Boston College```\nComment: ```A Mystery wrapped in a riddle. It depends on major and your personal preferences. But since you are asking. I would vote BC. Lovely campus vs none. Higher ranked overall. Although in the top 50 they are all excellent Selectivity on a huge rise at BC although already super select. Meaning smart classmates. Large and growing endowment. New buildings and investment in infrastructure. Brand new field house with beautiful gym, pools and dance rooms for students. The brand new Schiller integrated sciences center which will be cutting edge in cross disciplinary research. New school of engineering adding to science chops. Excellent pre health consulting. And a d1 acc football and basketball team right on campus for fun activities. Hockey too. So many clubs and access to city without being fully integrated into the city.  ```\n"
+    }
+  ]
+}

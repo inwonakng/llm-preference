@@ -1,0 +1,15 @@
+{
+  "index": 1221,
+  "true_label": 0,
+  "predicted_label": 3,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Brown University```\nCollege B: ```Duke University```\nComment: ```This is really such a matter of fit. I went to Duke, D will be going to Brown, and we both loved Berkeley when we visited for a 2 day program.  Although Duke is located in the South, most of the kids come from the Northeast/Mid-Atlantic, California and Florida.  Duke does not feel like a Southern school and even though it\u2019s not located in a major city, there is constantly a lot going on with incredible speakers from all over the world and all sorts of research opportunities.  After taking the college tour, my D\u2019s comment was \u201cmom, there is so much going on there, it feels like they are throwing opportunities at you.\u201d  FWIW, Melinda Gates went to Duke and has donated a lot of money there.  Duke is constantly is reaching out to its Alumni to create internships and all sorts of learning opportunities for its students.  Brown does as well: as a parent of a committed student I was already sent  information requests about whether there was anything I could contribute career-wise, and I know an alum who mentors kids in her industry.   Both Brown and Duke are well represented in Silicon Valley. I think of the social life at Brown and Berkeley being similar.  Both are very collaborative places and the kids are very liberal and accepting.   Duke has more social striation and Greek life can be important.  Berkeley ultimately came off our list because we were concerned about the huge class sizes and ability to get the classes you want.  I also felt that the advising programs at Brown and Duke were better.  If we were in-state for Berkeley, my D would have gone there, but I just couldn\u2019t see paying the out of state price when I think you get less services than you do at the privates. But these were our impressions. Hopefully others can give you theirs too so you can get a better feel about if there\u2019s a consistent theme.   Good luck, and you really can\u2019t go wrong. Once you choose, don\u2019t look back, only look forward.  ```\n"
+    }
+  ]
+}

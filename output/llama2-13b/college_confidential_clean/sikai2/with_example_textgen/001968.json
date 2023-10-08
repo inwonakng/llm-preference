@@ -1,0 +1,86 @@
+{
+  "index": 1968,
+  "true_label": 1,
+  "predicted_label": 3,
+  "params": {
+    "max_new_tokens": 20,
+    "auto_max_new_tokens": false,
+    "max_tokens_second": 0,
+    "mode": "instruct",
+    "character": "Example",
+    "instruction_template": "Llama-v2",
+    "your_name": "You",
+    "regenerate": false,
+    "_continue": false,
+    "chat_instruct_command": "Continue the chat dialogue below. Write a single reply for the character \"<|character|>\".\n\n<|prompt|>",
+    "preset": "None",
+    "do_sample": true,
+    "temperature": 1,
+    "top_p": 0.7,
+    "typical_p": 1,
+    "epsilon_cutoff": 0,
+    "eta_cutoff": 0,
+    "tfs": 1,
+    "top_a": 0,
+    "repetition_penalty": 1.18,
+    "repetition_penalty_range": 0,
+    "top_k": 40,
+    "min_length": 0,
+    "no_repeat_ngram_size": 0,
+    "num_beams": 1,
+    "penalty_alpha": 0,
+    "length_penalty": 1,
+    "early_stopping": false,
+    "mirostat_mode": 0,
+    "mirostat_tau": 5,
+    "mirostat_eta": 0.1,
+    "guidance_scale": 1,
+    "negative_prompt": "",
+    "seed": -1,
+    "add_bos_token": true,
+    "truncation_length": 2048,
+    "ban_eos_token": false,
+    "skip_special_tokens": true,
+    "stopping_strings": [],
+    "user_input": "College A: ```Duke University```\nCollege B: ```University of California, Berkeley```\nComment: ```My daughter was admitted to UC Berkeley and Duke.  She chose Duke and is currently a freshman.  She is definitely not an engineer type, more of a liberal arts student (although may consider Law or MBA down the road).  It was an easy decision for her. Duke doesn\u2019t have a business undergraduate major/minor.  So keep that in mind.  They do have an MMS certificate (you can research that). If you want to pursue CS and work in Silicon Valley, I\u2019d say go to Berkeley without a doubt.  As you know, Berkeley is known for its CS program.  Duke\u2019s engineering programs are quite rigorous though.  It will be a challenging program.  [Did you know the Duke\u2019s Biomedical Engineering program is a top 4 program in the nation?]  The Duke brand name will be good if you decide on medicine or business grad school.  Duke pre-med students have a high success rate at getting into medical school (something like 90% of students). My daughter loves Duke.  She attended most basketball games this year.  Did tenting for the UNC game.  Great school spirit.  She did get tired of taking the bus to/from East/West campus.  She already has a dorm assignment for Sophomore year.  Close to West Union.  Most of her Fall, 2018 classes start at noon.  She is a night owl, so she\u2019s in heaven. Duke has a lot of Asian students, but more diversity than Berkeley.  There is a social hierarchy on campus - but this is over-blown and only becomes an issue if you let it bother you.  My daughter joined a sorority but only attends certain events - mainly ones that don\u2019t involve alcohol.  She isn\u2019t a party animal.  She joined a few organizations that she really likes and plans to continue with them next school year. Good luck with your decision!  ```\n",
+    "history": {
+      "internal": [
+        [
+          "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n",
+          "No preference"
+        ],
+        [
+          "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n",
+          "A is preferred over B"
+        ],
+        [
+          "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n",
+          "B is preferred over A"
+        ],
+        [
+          "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n",
+          "Equal preference"
+        ]
+      ],
+      "visible": [
+        [
+          "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n",
+          "No preference"
+        ],
+        [
+          "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n",
+          "A is preferred over B"
+        ],
+        [
+          "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n",
+          "B is preferred over A"
+        ],
+        [
+          "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n",
+          "Equal preference"
+        ]
+      ]
+    },
+    "context_instruct": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+  }
+}

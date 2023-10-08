@@ -1,0 +1,15 @@
+{
+  "index": 1209,
+  "true_label": 0,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```Bowdoin College is a great liberal arts college. But I am not sure that I agree that Bowdoin is clearly better in your desired area of study\u2014I don\u2019t know. I do know that political science & government is the most popular major at Bowdoin & probably a very strong department, but that doesn\u2019t mean that WashUStl is not strong in those areas. As you know, one school has 1,800 undergraduates & the other has almost 7,000 undergraduates. The larger school should have a wider variety of course offerings. An important factor in favor of Bowdoin College is the 12 school exchange program which allows Bowdoin students to study for a semester or a year at other member schools which includes Dartmouth College, Amherst, Williams Mystic Seaport Program, Wesleyan, Wellesley, Smith, and 5 other schools The other schools are Connecticut College, Mount Holyoke College, Trinity College, Vassar College & Wheaton College\u2026  ```\n"
+    }
+  ]
+}

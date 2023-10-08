@@ -1,0 +1,15 @@
+{
+  "index": 2561,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Carleton College```\nCollege B: ```Amherst College```\nComment: ```Congrats!   Carleton is a great school.  No bad choices here.  Amherst is collaborative, not competitive.  It has a lot of athletes, but it also has a lot of artsy types.   The study abroad program is excellent and easily available to all students, including those on financial aid. Carleton is strong in physics, but Amherst is strong in physics as well (and so is Williams).   All three are among the top dozen colleges in the country in the percentage of their graduates who go on to get PhDs in physics (Pomona is not). Amherst is the most ethnically diverse top tier LAC, with 47 percent of the student body being persons of color.  It also is the most economically diverse LAC (along with Vassar).  A full quarter of the Amherst class is on Pell Grants, which means lower income students on full rides.  Carleton has about half that.  Not sure how much those things matter to you. In addition, be aware that Amherst is building a spectacular new science center which will open at the end of your son\u2019s freshman year. https://www.amherst.edu/offices/facilities/depts/designconst/capital_project/current_projects/science-center  ```\n"
+    }
+  ]
+}

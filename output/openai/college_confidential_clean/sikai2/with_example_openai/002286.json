@@ -1,0 +1,47 @@
+{
+  "index": 2286,
+  "true_label": 3,
+  "predicted_label": 3,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Columbia University```\nCollege B: ```University of Michigan```\nComment: ```\u201cI believe the Michigan places 1/3 at those 4 firms. There is nowhere you can\u2019t reach from Michigan. I just think that Columbia students are probably placed at higher rates in top positions, and also may be likely to be recruited for other options.\u201d I don\u2019t see why that would be the case since Michigan and Columbia are considered peer institutions by the firms recruiting their graduates. \u201cAdditionally, it is likely that Columbia students are more likely to have internships and job opportunities at companies right in NYC, where Google owns an entire building, Bloomberg hires many, IBM, Palantir, Jane Street etc.\u201d I don\u2019t think finding great internships is a challenge for Michigan students. When you have thousands of gifted undergraduate students, companies come to you. \u201cThe person said that there were 6 candidates being interviewed that day, and they were from MIT, Penn, Princeton, Berkeley, and Duke. That has a strong appearance of being a position where the name of the school matters. I do think a Michigan grad can get into that group, but I suspect it would be easier for a Columbia grad. They are both strong brands, but the Columbia brand is very strong in NYC.\u201d This is so random it is not even worth discussing. But yes, in NYC, Columbia\u2019s brand exceeds that of Michigan. Then again, it exceeds that of virtually every university in the world save perhaps Harvard, and even that is debatable. But the OP has not indicated that his goal is to live in NYC. In other parts of the country, Columbia\u2019s corporate reputation does not exceed that of Michigan. When it comes to graduate school or professional placement, Columbia offers no advantage over Michigan. Like I said earlier, when choosing between Michigan and Columbia, one need not concern himself with the quality of those universities since they are roughly equal. If cost is a concern, and one is cheaper than the other, then the cheaper option is the way to go. If cost is not a concern, going for fit is the way to go.  ```\n"
+    }
+  ]
+}

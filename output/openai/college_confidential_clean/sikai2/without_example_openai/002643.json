@@ -1,0 +1,15 @@
+{
+  "index": 2643,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Franklin W. Olin College of Engineering```\nCollege B: ```Georgia Institute of Technology```\nComment: ```I have to strongly disagree with @Chardo. GT is not hands down \u201cbetter\u201d than Olin. It\u2019s hands down different. At GT classes will be large, and much of the instruction will be by graduate students. There will be classes at GT that might be bigger than the entire Olin student body. Olin is TINY. They put a big emphasis on an well rounded, integrated process including entrepreneurship and liberal arts. It is definitely a love it or hate it environment. If it\u2019s to your liking, it\u2019s one of the coolest undergraduate programs in the nation. @colorado_mom can add light to the subject.  ```\n"
+    }
+  ]
+}

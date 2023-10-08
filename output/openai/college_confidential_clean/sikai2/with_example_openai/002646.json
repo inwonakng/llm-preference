@@ -1,0 +1,47 @@
+{
+  "index": 2646,
+  "true_label": 3,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Franklin W. Olin College of Engineering```\nCollege B: ```Georgia Institute of Technology```\nComment: ```Olin mom here.   It was a fantastic place for our son.   However, I often do warn that it is too teeny./limited (85 grads per hear) for most students.    If you want a more traditional college experience, GT may be better.   For completeness I will add more info about Olin too. Olin grads do have decent prospects for internships and jobs.  The job fairs I think have more companies than annual graduates.   You may find this link helpful - http://www.olin.edu/collaborate/careers-graduate-studies/results/.    There will definitely be employers who have NOT heard of Olin, more so as you get further from Boston.   The various rankings can help mitigate that - http://www.olin.edu/about/rankings-awards/ Olin does have many projects, especially compared to my Engineering program in 1980s.    It also has intense academics, but not in the traditional course sequences.   Many Olin admits are highly qualified - some have turned down offers MIT, Stanford, Princeton etc.  So there is a presumption that they already have a lot of AP/IB knowledge under their belt. Our son did do research at Olin (including the summer after Freshman year), but it was interwined with software engineering.  One project resulted in an award (with colleges that had more liberal arts kinds of CS than most STEM schools).  He also did poster presentation at a conference.  But these things were not due to intentional research focus - he intended to go to work, not grad school. The first link above includes To grad schools s  (the qty may be out of  all grads to date - under 1000\u2026 and I think a minority apply to grad schools) Harvard University  25 Stanford 21 MIT  20 Carnegie Mellon University 18 University of California Berkeley 15 Cornell 12 Olin students can also take classes at Babson (adjacent campus), Wellsley (campus loop bus), or Brandeis. I think the approach to have an Olin Candidate\u2019s Weekend  is wise.  (first cut of admits come to campus on one of 3 weekends) .    I was not able to attend, but DH (also an engineer) went. with DS\u2026 and after that, they both were smitten. In Summary:  Olin can be a fine school if it is a good \u201cfit\u201d.    But it is a niche-fit, so students should careful study the pros/cons for their particular situation.  ```\n"
+    }
+  ]
+}

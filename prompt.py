@@ -1,7 +1,19 @@
 from __future__ import annotations
 import yaml
+import os
+import openai
+from typing import Literal
 
 from chat_api import DEFAULT_CHAT_PARAMS, send_request
+
+OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+openai.api_key = OPENAI_API_KEY
+
+DELIMITERS = ['`', '"', '\'', '#', '.', '%']
+def remove_delimiters(text: str) -> str:
+    for delim in DELIMITERS:
+        text = text.replace(delim, '')
+    return text.strip()
 
 class Task:
     text: str
@@ -85,67 +97,177 @@ class Prompt:
             for e in examples
         ]
 
-    def build(self, task: Task) -> dict[str, any]:
-        if self.confirmation is not None:
-            history = [self.confirmation]
-        else:
-            history = []
-        if self.examples:
-            history += self.examples
-        return dict(
-            **DEFAULT_CHAT_PARAMS,
-            user_input = self.wrap_task(task),
-            history = dict(
-                internal = history,
-                visible = history
-            ),
-            context_instruct = self.instruction,
-        )
-    
-    def build_retry(self, task: Task, prev_response: str) -> dict[str, any]:
-        if self.confirmation is not None:
-            history = [self.confirmation]
-        else:
-            history = []
-        if self.examples:
-            history += self.examples
-        history += [[self.wrap_task(task), prev_response]]
-        return dict(
-            **DEFAULT_CHAT_PARAMS,
-            user_input = self.retry_msg,
-            history = dict(
-                internal = history,
-                visible = history
-            ),
-            context_instruct = self.instruction,
-        )
+    def build(self, task: Task, mode: Literal['openai', 'textgen'] = 'textgen') -> dict[str, any] | list[dict[str, str]]:
+        if mode == 'textgen':
+            if self.confirmation is not None:
+                history = [self.confirmation]
+            else:
+                history = []
+            if self.examples:
+                history += self.examples
+            return dict(
+                **DEFAULT_CHAT_PARAMS,
+                user_input = self.wrap_task(task),
+                history = dict(
+                    internal = history,
+                    visible = history
+                ),
+                context_instruct = self.instruction,
+            )
+        elif mode == 'openai':
+            messages = [{
+                'role': 'system',
+                'content': self.instruction,
+            }]
+            if self.confirmation is not None:
+                messages += [{
+                    'role': 'user',
+                    'content': self.confirmation[0],
+                }, {
+                    'role': 'assistant',
+                    'content': self.confirmation[1],
+                }]
 
+            if self.examples:
+                for example in self.examples:
+                    messages += [{
+                        'role': 'user',
+                        'content': example[0] 
+                    }, {
+                        'role': 'assistant',
+                        'content': example[1]
+                    }]
+
+            messages += [{
+                'role': 'user',
+                'content': self.wrap_task(task)
+            }]
+            return messages
+        else:
+            raise NotImplementedError(f'Invalid mode {mode}')
+    
+    def build_retry(self, task: Task, prev_response: str, mode: Literal['openai', 'textgen'] = 'textgen') -> dict[str, any] | list[dict[str, str]]:
+        if mode == 'textgen':
+            if self.confirmation is not None:
+                history = [self.confirmation]
+            else:
+                history = []
+            if self.examples:
+                history += self.examples
+            history += [[self.wrap_task(task), prev_response]]
+            return dict(
+                **DEFAULT_CHAT_PARAMS,
+                user_input = self.retry_msg,
+                history = dict(
+                    internal = history,
+                    visible = history
+                ),
+                context_instruct = self.instruction,
+            )
+        elif mode == 'openai':
+            messages = [{
+                'role': 'system',
+                'content': self.instruction,
+            }]
+            if self.confirmation is not None:
+                messages += [{
+                    'role': 'user',
+                    'content': self.confirmation[0],
+                }, {
+                    'role': 'assistant',
+                    'content': self.confirmation[1],
+                }]
+
+            if self.examples:
+                for example in self.examples:
+                    messages += [{
+                        'role': 'user',
+                        'content': example[0] 
+                    }, {
+                        'role': 'assistant',
+                        'content': example[1]
+                    }]
+
+            messages += [{
+                'role': 'user',
+                'content': self.wrap_task(task)
+            }, {
+                'role': 'assistant',
+                'content': prev_response
+            }, {
+                'role': 'user',
+                'content': self.retry_msg
+            }]
+            return messages
+        else:
+            raise NotImplementedError(f'Invalid mode {mode}')    
+    
     def execute(
         self,
         task: Task,
         api_endpoint: str = 'http://localhost:5000/api/v1/chat',
+        mode: Literal['openai', 'textgen'] = 'textgen',
         verbose: bool = False,
-    ) -> int:
-        params = self.build(task)
-        output = send_request(api_endpoint, params)
-        if verbose:
-            print('Comment:', task.text)
-            print('A:', task.alternative_a)
-            print('B:', task.alternative_b)
-            print('True label:', self.label_to_text[task.label])
-            print('Model output:', output)
-
-        retry_cnt = 0
-        while output.lower() not in self.text_to_label:
-            retry_cnt += 1
-            params = self.build_retry(task, output)
+    ):
+        params = self.build(task, mode)
+        if mode == 'textgen':
             output = send_request(api_endpoint, params)
             if verbose:
-                print('Retry output:', output)
-            if retry_cnt == 10:
-                return False, None, params
-        
-        return True, self.text_to_label[output.lower()], params
+                print('Comment:', task.text)
+                print('A:', task.alternative_a)
+                print('B:', task.alternative_b)
+                print('True label:', self.label_to_text[task.label])
+                print('Model output:', output)
+            output = remove_delimiters(output)
+
+            retry_cnt = 0
+            while output.lower() not in self.text_to_label:
+                retry_cnt += 1
+                params = self.build_retry(task, output)
+                output = send_request(api_endpoint, params)
+                if verbose:
+                    print('Retry output:', output)
+                output = remove_delimiters(output)
+                if retry_cnt == 10:
+                    return False, None, params
+            
+            return True, self.text_to_label[output.lower()], params
+        elif mode == 'openai':
+            output = openai.ChatCompletion.create(
+                model = 'gpt-4', 
+                max_tokens = 10,
+                messages = params,
+                temperature = 1.,
+                top_p = .7,
+            )['choices'][0]['message']['content']
+            if verbose:
+                print('Comment:', task.text)
+                print('A:', task.alternative_a)
+                print('B:', task.alternative_b)
+                print('True label:', self.label_to_text[task.label])
+                print('Model output:', output)
+            output = remove_delimiters(output)
+
+            retry_cnt = 0
+            while output.lower() not in self.text_to_label:
+                retry_cnt += 1
+                params = self.build_retry(task, output, mode)
+                output = openai.ChatCompletion.create(
+                    model = 'gpt-4', 
+                    max_tokens = 10,
+                    messages = params,
+                    temperature = 1.,
+                    top_p = .7,
+                )['choices'][0]['message']['content']
+                if verbose:
+                    print('Retry output:', output)
+                output = remove_delimiters(output)
+                if retry_cnt == 10:
+                    return False, None, params
+            
+            return True, self.text_to_label[output.lower()], params
+        else:
+            raise NotImplementedError(f'Invalid mode {mode}')
 
     def __str__(self) -> str:
         return f'instruction:\n{self.instruction}\nretry_msg:\n{self.retry_msg}\ntask_template:\n{self.task_template}\nlabel_to_text:\n{self.label_to_text}\nconfirmation:\n{self.confirmation}\nexamples:\n{self.examples}'
@@ -229,139 +351,382 @@ class TwoStagePrompt:
     ) -> None:
         self.examples = []
         for e in examples:
-            self.examples.append([self.wrap_task(e) + self.question_1st_stage, self.label_to_text_1st_stage[e.label > 0]])
-            self.examples.append([self.wrap_task(e) + self.question_2nd_stage, self.label_to_text_2nd_stage[e.label]])
+            if e.label == 0:
+                self.examples.append([self.wrap_task(e) + self.question_1st_stage, self.label_to_text_1st_stage[0]])
+            else:
+                self.examples.append([self.wrap_task(e) + self.question_1st_stage, self.label_to_text_1st_stage[1]])
+                self.examples.append([self.question_2nd_stage, self.label_to_text_2nd_stage[e.label]])
     
-    def build_two_stage_1(self, task: Task) -> dict[str, any]:
-        if self.confirmation is not None:
-            history = [self.confirmation]
-        else:
-            history = []
-        if self.examples:
-            history += self.examples
-        return dict(
-            **DEFAULT_CHAT_PARAMS,
-            user_input = self.wrap_task(task) + self.question_1st_stage,
-            history = dict(
-                internal = history,
-                visible = history
-            ),
-            context_instruct = self.instruction,
-        )
-    
-    def build_retry_two_stage_1(self, task: Task, prev_response: str) -> dict[str, any]:
-        if self.confirmation is not None:
-            history = [self.confirmation]
-        else:
-            history = []
-        if self.examples:
-            history += self.examples
-        history += [[self.wrap_task(task) + self.question_1st_stage, prev_response]]
-        return dict(
-            **DEFAULT_CHAT_PARAMS,
-            user_input = self.retry_msg_1st_stage,
-            history = dict(
-                internal = history,
-                visible = history
-            ),
-            context_instruct = self.instruction,
-        )
+    def build_two_stage_1(self, task: Task, mode: Literal['openai', 'textgen'] = 'textgen') -> dict[str, any] | list[dict[str, str]]:
+        if mode == 'textgen':
+            if self.confirmation is not None:
+                history = [self.confirmation]
+            else:
+                history = []
+            if self.examples:
+                history += self.examples
+            return dict(
+                **DEFAULT_CHAT_PARAMS,
+                user_input = self.wrap_task(task) + self.question_1st_stage,
+                history = dict(
+                    internal = history,
+                    visible = history
+                ),
+                context_instruct = self.instruction,
+            )
+        elif mode == 'openai':
+            messages = [{
+                'role': 'system',
+                'content': self.instruction,
+            }]
+            if self.confirmation is not None:
+                messages += [{
+                    'role': 'user',
+                    'content': self.confirmation[0],
+                }, {
+                    'role': 'assistant',
+                    'content': self.confirmation[1],
+                }]
 
-    def build_two_stage_2(self, task: Task) -> dict[str, any]:
-        if self.confirmation is not None:
-            history = [self.confirmation]
+            if self.examples:
+                for example in self.examples:
+                    messages += [{
+                        'role': 'user',
+                        'content': example[0] 
+                    }, {
+                        'role': 'assistant',
+                        'content': example[1]
+                    }]
+
+            messages += [{
+                'role': 'user',
+                'content': self.wrap_task(task) + self.question_1st_stage
+            }]
+            return messages
         else:
-            history = []
-        if self.examples:
-            history += self.examples
-        history += [[self.wrap_task(task) + self.question_1st_stage, self.label_to_text_1st_stage[1]]]
-        return dict(
-            **DEFAULT_CHAT_PARAMS,
-            user_input = self.question_2nd_stage,
-            history = dict(
-                internal = history,
-                visible = history
-            ),
-            context_instruct = self.instruction,
-        )
+            raise NotImplementedError(f'Invalid mode {mode}')
     
-    def build_retry_two_stage_2(self, task: Task, prev_response: str) -> dict[str, any]:
-        if self.confirmation is not None:
-            history = [self.confirmation]
+    def build_retry_two_stage_1(self, task: Task, prev_response: str, mode: Literal['openai', 'textgen'] = 'textgen') -> dict[str, any] | list[dict[str, str]]:
+        if mode == 'textgen':
+            if self.confirmation is not None:
+                history = [self.confirmation]
+            else:
+                history = []
+            if self.examples:
+                history += self.examples
+            history += [[self.wrap_task(task) + self.question_1st_stage, prev_response]]
+            return dict(
+                **DEFAULT_CHAT_PARAMS,
+                user_input = self.retry_msg_1st_stage,
+                history = dict(
+                    internal = history,
+                    visible = history
+                ),
+                context_instruct = self.instruction,
+            )
+        elif mode == 'openai':
+            messages = [{
+                'role': 'system',
+                'content': self.instruction,
+            }]
+            if self.confirmation is not None:
+                messages += [{
+                    'role': 'user',
+                    'content': self.confirmation[0],
+                }, {
+                    'role': 'assistant',
+                    'content': self.confirmation[1],
+                }]
+
+            if self.examples:
+                for example in self.examples:
+                    messages += [{
+                        'role': 'user',
+                        'content': example[0] 
+                    }, {
+                        'role': 'assistant',
+                        'content': example[1]
+                    }]
+
+            messages += [{
+                'role': 'user',
+                'content': self.wrap_task(task) + self.question_1st_stage
+            }, {
+                'role': 'assistant',
+                'content': prev_response
+            }, {
+                'role': 'user',
+                'content': self.retry_msg_1st_stage
+            }]
+            return messages
         else:
-            history = []
-        if self.examples:
-            history += self.examples
-        history += [[self.wrap_task(task) + self.question_1st_stage, self.label_to_text_1st_stage[1]]]
-        history += [[self.question_2nd_stage, prev_response]]
-        return dict(
-            **DEFAULT_CHAT_PARAMS,
-            user_input = self.retry_msg_2nd_stage,
-            history = dict(
-                internal = history,
-                visible = history
-            ),
-            context_instruct = self.instruction,
-        )
+            raise NotImplementedError(f'Invalid mode {mode}')
+
+    def build_two_stage_2(self, task: Task, mode: Literal['openai', 'textgen'] = 'textgen') -> dict[str, any] | list[dict[str, str]]:
+        if mode == 'textgen':
+            if self.confirmation is not None:
+                history = [self.confirmation]
+            else:
+                history = []
+            if self.examples:
+                history += self.examples
+            history += [[self.wrap_task(task) + self.question_1st_stage, self.label_to_text_1st_stage[1]]]
+            return dict(
+                **DEFAULT_CHAT_PARAMS,
+                user_input = self.question_2nd_stage,
+                history = dict(
+                    internal = history,
+                    visible = history
+                ),
+                context_instruct = self.instruction,
+            )
+        elif mode == 'openai':
+            messages = [{
+                'role': 'system',
+                'content': self.instruction,
+            }]
+            if self.confirmation is not None:
+                messages += [{
+                    'role': 'user',
+                    'content': self.confirmation[0],
+                }, {
+                    'role': 'assistant',
+                    'content': self.confirmation[1],
+                }]
+
+            if self.examples:
+                for example in self.examples:
+                    messages += [{
+                        'role': 'user',
+                        'content': example[0] 
+                    }, {
+                        'role': 'assistant',
+                        'content': example[1]
+                    }]
+
+            messages += [{
+                'role': 'user',
+                'content': self.wrap_task(task) + self.question_1st_stage
+            }, {
+                'role': 'assistant',
+                'content': self.label_to_text_1st_stage[1]
+            }, {
+                'role': 'user',
+                'content': self.question_2nd_stage
+            }]
+            return messages
+        else:
+            raise NotImplementedError(f'Invalid mode {mode}')
+        
+    def build_retry_two_stage_2(self, task: Task, prev_response: str, mode: Literal['openai', 'textgen'] = 'textgen') -> dict[str, any] | list[dict[str, str]]:
+        if mode == 'textgen':
+            if self.confirmation is not None:
+                history = [self.confirmation]
+            else:
+                history = []
+            if self.examples:
+                history += self.examples
+            history += [[self.wrap_task(task) + self.question_1st_stage, self.label_to_text_1st_stage[1]]]
+            history += [[self.question_2nd_stage, prev_response]]
+            return dict(
+                **DEFAULT_CHAT_PARAMS,
+                user_input = self.retry_msg_2nd_stage,
+                history = dict(
+                    internal = history,
+                    visible = history
+                ),
+                context_instruct = self.instruction,
+            )
+        elif mode == 'openai':
+            messages = [{
+                'role': 'system',
+                'content': self.instruction,
+            }]
+            if self.confirmation is not None:
+                messages += [{
+                    'role': 'user',
+                    'content': self.confirmation[0],
+                }, {
+                    'role': 'assistant',
+                    'content': self.confirmation[1],
+                }]
+
+            if self.examples:
+                for example in self.examples:
+                    messages += [{
+                        'role': 'user',
+                        'content': example[0] 
+                    }, {
+                        'role': 'assistant',
+                        'content': example[1]
+                    }]
+
+            messages += [{
+                'role': 'user',
+                'content': self.wrap_task(task) + self.question_1st_stage
+            }, {
+                'role': 'assistant',
+                'content': self.label_to_text_1st_stage[1]
+            }, {
+                'role': 'user',
+                'content': self.question_2nd_stage
+            }, {
+                'role': 'assistant',
+                'content': prev_response
+            }, {
+                'role': 'user',
+                'content': self.retry_msg_2nd_stage
+            }]
+            return messages
+        else:
+            raise NotImplementedError(f'Invalid mode {mode}')
 
     def execute(
         self,
         task: Task,
         api_endpoint: str = 'http://localhost:5000/api/v1/chat',
+        mode: Literal['openai', 'textgen'] = 'textgen',
         verbose: bool = False,
-    ) -> int:
-        params = self.build_two_stage_1(task)
-        output = send_request(api_endpoint, params)
-        if verbose:
-            print('Comment:', task.text)
-            print('A:', task.alternative_a)
-            print('B:', task.alternative_b)
-            print('True label:', self.label_to_text_2nd_stage[task.label])
-            print('1st stage model output:', output)
-
-        retry_output = output
-        retry_cnt = 0
-        while retry_output.lower() not in self.text_to_label_1st_stage:
-            retry_cnt += 1
-            params = self.build_retry_two_stage_1(task, output)
-            # if retry_cnt > 1:
-            #     params['regenerate'] = True
-            retry_output = send_request(api_endpoint, params)
-            if verbose:
-                print('1st stage retry output:', retry_output)
-            if retry_cnt == 10:
-                return False, None, params
-        output = retry_output
-        
-        if output.lower() == self.label_to_text_1st_stage[0].lower():
-            return True, 0, params
-        elif output.lower() == self.label_to_text_1st_stage[1].lower():
-            params = self.build_two_stage_2(task)
+    ):
+        params = self.build_two_stage_1(task, mode)
+        if mode == 'textgen':
             output = send_request(api_endpoint, params)
             if verbose:
-                print('2nd stage model output:', output)
-            
-            valid_outputs = {
-                text.lower(): label 
-                for label,text in self.label_to_text_2nd_stage.items() if label > 0
-            }
+                print('Comment:', task.text)
+                print('A:', task.alternative_a)
+                print('B:', task.alternative_b)
+                print('True label:', self.label_to_text_2nd_stage[task.label])
+                print('1st stage model output:', output)
+            output = remove_delimiters(output)
+
             retry_output = output
             retry_cnt = 0
-            while retry_output.lower() not in valid_outputs:
+            while retry_output.lower() not in self.text_to_label_1st_stage:
                 retry_cnt += 1
-                params = self.build_retry_two_stage_2(task, output)
+                params = self.build_retry_two_stage_1(task, output)
                 # if retry_cnt > 1:
                 #     params['regenerate'] = True
                 retry_output = send_request(api_endpoint, params)
                 if verbose:
-                    print('2nd stage retry output:', retry_output)
+                    print('1st stage retry output:', retry_output)
+                retry_output = remove_delimiters(retry_output)
                 if retry_cnt == 10:
                     return False, None, params
             output = retry_output
+            
+            if output.lower() == self.label_to_text_1st_stage[0].lower():
+                return True, 0, params
+            elif output.lower() == self.label_to_text_1st_stage[1].lower():
+                params = self.build_two_stage_2(task)
+                output = send_request(api_endpoint, params)
+                if verbose:
+                    print('2nd stage model output:', output)
+                output = remove_delimiters(output)
 
-            return True, self.text_to_label_2nd_stage[output.lower()], params
+                valid_outputs = {
+                    text.lower(): label 
+                    for label,text in self.label_to_text_2nd_stage.items() if label > 0
+                }
+                retry_output = output
+                retry_cnt = 0
+                while retry_output.lower() not in valid_outputs:
+                    retry_cnt += 1
+                    params = self.build_retry_two_stage_2(task, output)
+                    # if retry_cnt > 1:
+                    #     params['regenerate'] = True
+                    retry_output = send_request(api_endpoint, params)
+                    if verbose:
+                        print('2nd stage retry output:', retry_output)
+                    retry_output = remove_delimiters(retry_output)
+                    if retry_cnt == 10:
+                        return False, None, params
+                output = retry_output
+
+                return True, self.text_to_label_2nd_stage[output.lower()], params
+            else:
+                raise ValueError(f'Invalid 1st stage output {output}')
+        elif mode == 'openai':
+            output = openai.ChatCompletion.create(
+                model = 'gpt-4', 
+                max_tokens = 10,
+                messages = params,
+                temperature = 1.,
+                top_p = .7,
+            )['choices'][0]['message']['content']
+            if verbose:
+                print('Comment:', task.text)
+                print('A:', task.alternative_a)
+                print('B:', task.alternative_b)
+                print('True label:', self.label_to_text_2nd_stage[task.label])
+                print('1st stage model output:', output)
+            output = remove_delimiters(output)
+
+            retry_output = output
+            retry_cnt = 0
+            while retry_output.lower() not in self.text_to_label_1st_stage:
+                retry_cnt += 1
+                params = self.build_retry_two_stage_1(task, output)
+                # if retry_cnt > 1:
+                #     params['regenerate'] = True
+                retry_output = openai.ChatCompletion.create(
+                    model = 'gpt-4', 
+                    max_tokens = 10,
+                    messages = params,
+                    temperature = 1.,
+                    top_p = .7,
+                )['choices'][0]['message']['content']
+                if verbose:
+                    print('1st stage retry output:', retry_output)
+                retry_output = remove_delimiters(retry_output)
+                if retry_cnt == 10:
+                    return False, None, params
+            output = retry_output
+            
+            if output.lower() == self.label_to_text_1st_stage[0].lower():
+                return True, 0, params
+            elif output.lower() == self.label_to_text_1st_stage[1].lower():
+                params = self.build_two_stage_2(task)
+                output = openai.ChatCompletion.create(
+                    model = 'gpt-4', 
+                    max_tokens = 10,
+                    messages = params,
+                    temperature = 1.,
+                    top_p = .7,
+                )['choices'][0]['message']['content']
+                if verbose:
+                    print('2nd stage model output:', output)
+                output = remove_delimiters(output)
+                
+                valid_outputs = {
+                    text.lower(): label 
+                    for label,text in self.label_to_text_2nd_stage.items() if label > 0
+                }
+                retry_output = output
+                retry_cnt = 0
+                while retry_output.lower() not in valid_outputs:
+                    retry_cnt += 1
+                    params = self.build_retry_two_stage_2(task, output)
+                    # if retry_cnt > 1:
+                    #     params['regenerate'] = True
+                    retry_output = openai.ChatCompletion.create(
+                        model = 'gpt-4', 
+                        max_tokens = 10,
+                        messages = params,
+                        temperature = 1.,
+                        top_p = .7,
+                    )['choices'][0]['message']['content']
+                    if verbose:
+                        print('2nd stage retry output:', retry_output)
+                    retry_output = remove_delimiters(retry_output)
+                    if retry_cnt == 10:
+                        return False, None, params
+                output = retry_output
+
+                return True, self.text_to_label_2nd_stage[output.lower()], params
+            else:
+                raise ValueError(f'Invalid 1st stage output {output}')
         else:
-            raise ValueError(f'Invalid 1st stage output {output}')
+            raise NotImplementedError(f'Invalid mode {mode}')
 
     def __str__(self) -> str:
         class_attributes = [attr for attr in dir(self) if not callable(getattr(self, attr))]

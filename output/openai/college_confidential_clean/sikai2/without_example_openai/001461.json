@@ -1,0 +1,15 @@
+{
+  "index": 1461,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Kenyon College```\nCollege B: ```University of California, San Diego```\nComment: ```Many, many college students change their mind regarding their choice of major. It may be that she does as well, and that could change your outlook. Will the cold weather on Ohio have a negative impact on her health? It is a small college and she could get a bad case of \u201ccabin fever\u201d once  there, given that she currently lives in a large metropolitan area in Calif. Will your financial situation change much if you move to Ohio? Do you currently own your home? If so the profits from the sale could impact her FA going forward. I dont like the idea of a one year \u201cfull ride\u201d. Perhaps you could ask Kenyon to  sweeten the pot and increase her offer to cover 4 years ? In other words, a scholarship, rather than loans? If I were you, If they can\u2019t or wont\u2019, given that you had planned on taking out loans anyway, I\u2019d stay in SD.  ```\n"
+    }
+  ]
+}

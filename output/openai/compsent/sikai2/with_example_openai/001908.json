@@ -1,0 +1,39 @@
+{
+  "index": 1908,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two options A and B, and a comment. Your job is to identify the preference between the two given options in the comment. \nThe names of the two options and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the options' real names.\nYou MUST refer to the options as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if option A is preferred over option B.\nYou MUST respond with ```B is preferred over A``` if option B is preferred over option A.\nYou MUST respond with ```Equal preference``` if options A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "Option A: ```Java```\nOption B: ```PHP```\nComment: ```Use our Java, Ruby and PHP sample code to make it even easier for you to start working with OnlineMQ.```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "Option A: ```MySQL```\nOption B: ```PostgreSQL```\nComment: ```Allen downloaded the free versions of both databases and found MySQL 4 easier to use than PostgreSQL.```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "Option A: ```Windows Vista```\nOption B: ```Windows XP```\nComment: ```According to many industry experts Windows Vista drains notebook battery life faster than Windows XP.```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "Option A: ```AMD```\nOption B: ```Samsung```\nComment: ```AMD 3800 X2 (AM2) @ 2.65GHz(still testing new mobo, hopefully higher soon)) Motherboard: DFI Ultra II M2 Cooling: 80mm Aquagate mini Memory: 2GB G.Skill F2-6400CL4D-2GBHK DDR2 800 @ 883 4-4-3-5 2.15V Video Card: Sapphire X1800XT 256MB@715/830 715/875(benchmark) Harddisk: Seagate 7200.10 320GB Perpendicular CD/DVD Drive: Pioneer DVR-110D CRT/LCD Model: Samsung 941BW 19\" 1440x900 wide Case: Cooler Master CM Stacker 830 Sound Card: Soundblaster Audigy2 ZS PSU: Sunbeam Nuuo 550W (Active PFC and Modular cables) Software: XP pro; Vista Ultimate 32bit```\n"
+    }
+  ]
+}
