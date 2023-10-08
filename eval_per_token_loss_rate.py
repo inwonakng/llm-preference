@@ -74,17 +74,30 @@ def evaluate(
     if use_example:
         postfix = 'with_example'
 
+    # modify the path to access the results like the comments 
     df = pd.read_csv(Path('data') / dataset / 'dataset.csv')
     short_few_shot = Path('/home/linj26/llm/llm-preference/output/llama2-70b/college_confidential_clean/sikai2/with_example_textgen')
     short_zero_shot = Path('/home/linj26/llm/llm-preference/output/llama2-70b/college_confidential_clean/sikai2/without_example_textgen')
     long_few_shot = Path('/home/linj26/llm/llm-preference_Inwon/output/llm/upstage-llama2-70b-4bit/college_confidential/inwon/with_example')
     long_zero_shot = Path('/home/linj26/llm/llm-preference_Inwon/output/llm/upstage-llama2-70b-4bit/college_confidential/inwon/without_example')
+    # llmam_short_few_shot = Path('xxx')
+    # llmam_short_zero_shot = Path('xxx')
+    # llmam_long_few_shot = Path('x')
+    # llmam_long_zero_shot = Path('xxx')
+    # gpt4_short_few_shot = Path('xxx')
+    # gpt4_short_zero_shot = Path('xxx')
+    # gpt4_long_few_shot = Path('x')
+    # gpt4_long_zero_shot = Path('xxx')
 
+    # remember to bin the results 
     short_few_shot = get_by_bin(short_few_shot, df, bin_range)
     short_zero_shot = get_by_bin(short_zero_shot, df, bin_range)
     long_few_shot = get_by_bin(long_few_shot, df, bin_range)
     long_zero_shot = get_by_bin(long_zero_shot, df, bin_range)
-
+    
+    # add all methods' "3 Class Correct" and "4 Class Correct" to by_bin, and meanwhile giving them different col name
+    # each col would be end with "N Class Correct method_name". like "3 Class Correct short_few_shot"
+    # remember to add more results into "prompt" and "prompt_name"
     by_bin = pd.DataFrame()
     by_bin['Max Wordcount'] = short_few_shot['Max Wordcount']
     by_bin['row_count'] = short_few_shot['row_count']
@@ -95,6 +108,7 @@ def evaluate(
         for j in range(len(prompt_name)):
             by_bin[f"{i} {prompt_name[j]}"] = prompt[j][i] 
 
+    # calculate the error rate
     for i in by_bin.columns:
         if i == 'Max Wordcount' or i == 'row_count': continue
         by_bin[f"{i} Error Rate"] = 1 - (by_bin[i] / by_bin['row_count'])
@@ -130,8 +144,8 @@ def evaluate(
     fig.suptitle(' '.join([w.capitalize() for w in f'{dataset}_{postfix}'.split('_')]))
     fig.tight_layout()
 
-    save_name = f"output_{'sikai2'}_test"
-    # plt.savefig(save_name + ".jpg")
+    save_name = f"test"
+    plt.savefig(save_name + ".jpg")
 
     # fig_save_dir = FIGURES_PATH / 'llm' / dataset / postfix
     # fig_save_dir = BASE_PATH / 'plot'
