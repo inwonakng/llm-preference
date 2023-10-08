@@ -1,0 +1,6 @@
+{
+  "index": 826,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference for Duke University over Brown University. The commenter mentions that they do not recommend choosing Brown because of perceived grade inflation in economics and STEM courses, indicating that they have a negative view of Brown in these areas. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

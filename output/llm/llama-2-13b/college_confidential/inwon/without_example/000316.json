@@ -1,0 +1,6 @@
+{
+  "index": 316,
+  "true_label": 3,
+  "model_output": "Based on the comment, there is no strict preference expressed for either Option A (Pennsylvania State University) or Option B (Virginia Tech). The author of the comment states that Virginia Tech has a strong reputation in STEM fields, equal to Pennsylvania State University and other similar universities. Therefore, the appropriate response would be:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

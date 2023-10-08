@@ -1,0 +1,6 @@
+{
+  "index": 1991,
+  "true_label": 2,
+  "model_output": "Based on the comment provided, there is no strict preference expressed for either Option A (Duke University) or Option B (University of California, Berkeley). The comment mentions both universities positively and also mentions Blackstone, which has strong ties to UC Berkeley. Therefore, the appropriate response would be:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

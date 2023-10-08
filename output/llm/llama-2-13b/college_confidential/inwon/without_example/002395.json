@@ -1,0 +1,6 @@
+{
+  "index": 2395,
+  "true_label": 3,
+  "model_output": "Based on the comment, there is a preference for Option B (Middlebury College) over Option A (Bowdoin College). The reason provided is that Middlebury College offers more non-outdoorsy activities due to its location. Therefore, the correct response is:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

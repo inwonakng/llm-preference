@@ -1,0 +1,6 @@
+{
+  "index": 2917,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference for Option B (Johns Hopkins University) over Option A (Dartmouth College). The comment highlights that Johns Hopkins has a higher SAT 25th percentile score (1420) compared to Dartmouth's score (1330), indicating a slight preference for Johns Hopkins. Therefore, the correct answer is:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

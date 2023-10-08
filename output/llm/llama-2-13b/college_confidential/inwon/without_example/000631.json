@@ -1,0 +1,6 @@
+{
+  "index": 631,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Option B, University of Maryland, because the author mentions that Berkeley is expensive for an out-of-state (OOS) student. Therefore, the response should be:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

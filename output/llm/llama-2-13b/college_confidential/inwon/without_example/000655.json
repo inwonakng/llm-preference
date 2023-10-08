@@ -1,0 +1,6 @@
+{
+  "index": 655,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is no clear preference expressed for either Option A (University of California, Berkeley) or Option B (University of Maryland). The comment focuses on the potential benefits of attending school near Amazon's HQ2 location in Maryland, but does not explicitly mention either university. Therefore, the correct response would be:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

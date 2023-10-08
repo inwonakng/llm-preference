@@ -1,0 +1,6 @@
+{
+  "index": 113,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference for Option A (Johns Hopkins University) over Option B (Georgia Institute of Technology). The commenter mentions that Princeton and Johns Hopkins University have better reputations than Arizona State University and North Carolina State University, and therefore graduates from these institutions may be more desirable to employers. Additionally, the commenter notes that the ranking system used by Glassdoor has inherent flaws and does not accurately reflect the quality of education provided by these universities. Overall, the comment suggests that Option A is preferred due to its stronger reputation and perceived quality of education. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

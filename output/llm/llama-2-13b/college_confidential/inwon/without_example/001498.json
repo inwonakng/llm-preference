@@ -1,0 +1,6 @@
+{
+  "index": 1498,
+  "true_label": 3,
+  "model_output": "Based on the comment, the user prefers Option A (Vanderbilt) over Option B (Georgia Institute of Technology). The reason provided is due to concerns about grade deflation at Georgia Tech, which may lead to taking on too much debt for Harvard. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

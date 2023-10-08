@@ -1,0 +1,6 @@
+{
+  "index": 1107,
+  "true_label": 2,
+  "model_output": "Based on the comment provided, there is No Preference expressed towards either Option A (Stanford University) or Option B (University of Southern California). The comment does not mention anything about the quality of the business schools at these universities or their admissions standards. Therefore, the appropriate response would be:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

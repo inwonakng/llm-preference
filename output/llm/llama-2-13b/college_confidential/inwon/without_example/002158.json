@@ -1,0 +1,6 @@
+{
+  "index": 2158,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Option A (Stanford University) over Option B (Princeton University). The reason for this preference is due to the time demands of the sport being higher at Stanford, as well as assuming higher travel requirements. Therefore, the correct response would be:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

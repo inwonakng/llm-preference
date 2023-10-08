@@ -1,0 +1,6 @@
+{
+  "index": 234,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Option B (North Carolina State University). The author mentions that the \"NC state merit aid\" will be a deciding factor for them and they expect to receive information about it by the end of March. Therefore, I will respond with:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

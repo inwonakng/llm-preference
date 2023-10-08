@@ -1,0 +1,6 @@
+{
+  "index": 1920,
+  "true_label": 1,
+  "model_output": "Based on the comment, the user prefers Option B (Fordham University) over Option A (University of Alabama). The reason provided in the comment suggests that the two years of graduate school paid at Fordham University makes it too good to pass up for someone who is leaning towards law school. Therefore, the correct answer is:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

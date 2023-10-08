@@ -1,0 +1,6 @@
+{
+  "index": 1435,
+  "true_label": 1,
+  "model_output": "Based on the comment, the user prefers Option A (Vanderbilt University) over Option B (Northwestern University). The comment mentions that the weather is better at Vandy and that being a Cornelius Vanderbilt scholar comes with nice perks and extra opportunities. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 696,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Option B, Carnegie Mellon University, over Option A, University of California, Berkeley. The author of the comment states that CMU is better than Cal, but the savings from attending the University of Maryland (UMD) make it a more attractive option. Therefore, the correct answer is:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

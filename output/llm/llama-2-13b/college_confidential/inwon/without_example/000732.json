@@ -1,0 +1,6 @@
+{
+  "index": 732,
+  "true_label": 1,
+  "model_output": "Based on the comment, there is no clear preference expressed for either Option A (University of Pennsylvania) or Option B (New York University). The author mentions both universities as viable options, but also notes that Wharton may not be worth the additional cost compared to Stern. Therefore, the correct answer is:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 2879,
+  "true_label": 1,
+  "model_output": "Based on the comment, there is a preference for Option A (Cornell University) over Option B (Johns Hopkins University). The author mentions that while both universities have some degree of grade deflation, Cornell is considered slightly better in this regard compared to Johns Hopkins. Additionally, the author expresses a personal preference for Dartmouth and Cornell over Hopkins for undergraduate studies, but notes that Hopkins is more prestigious for medical school. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

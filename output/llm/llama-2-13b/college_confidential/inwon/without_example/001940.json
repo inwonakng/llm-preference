@@ -1,0 +1,6 @@
+{
+  "index": 1940,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Option B (Georgetown University) over Option A (Boston College). The author mentions that Boston College was unaffordable while Georgetown University was almost as generous as an Ivy League school. Therefore, the correct response would be:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

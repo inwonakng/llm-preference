@@ -1,0 +1,6 @@
+{
+  "index": 144,
+  "true_label": 3,
+  "model_output": "Based on the comment provided, the user prefers Option B (Haverford College) over Option A (University of Richmond), despite knowing that Richmond may be more practical. The user mentions feeling guilty about affording Haverford, suggesting they prioritize personal satisfaction over practicality. Therefore, the correct answer is:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

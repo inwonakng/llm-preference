@@ -1,0 +1,6 @@
+{
+  "index": 1791,
+  "true_label": 1,
+  "model_output": "Based on the comment, there is a strong preference for Option A: University of Michigan. The author mentions that the PhD program at University of Michigan is fully funded, which is a significant advantage compared to Massachusetts Institute of Technology (MIT). Additionally, the author notes that the 529 money set aside for education could potentially grow to $2 million over time, making University of Michigan a better value in terms of return on investment. Overall, the comment suggests that University of Michigan is the better choice for graduate studies in computer science. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 123,
+  "true_label": 1,
+  "model_output": "Based on the comment, there is a preference for University of Richmond over Haverford College. The author mentions that Richmond offers a full ride and special programming, which suggests that they value the practical benefits of attending Richmond. Additionally, the author highlights the strengths of Richmond's business program and notes that the school has a great network, indicating that they prefer the professional opportunities available at Richmond. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

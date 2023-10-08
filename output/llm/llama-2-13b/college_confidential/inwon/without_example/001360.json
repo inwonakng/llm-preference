@@ -1,0 +1,6 @@
+{
+  "index": 1360,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Wesleyan University over Hamilton College. The comment highlights Wesleyan's strong alumni network and the opportunity to pursue engineering through a 3+2 program with Caltech, Columbia, and Dartmouth. Therefore, the correct answer is:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

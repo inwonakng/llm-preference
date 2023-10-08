@@ -1,0 +1,6 @@
+{
+  "index": 323,
+  "true_label": 0,
+  "model_output": "Based on the provided comment, there is a preference for Option B (Virginia Tech) over Option A (Rutgers University). The comment mentions that Virginia Tech is considered a \"super safety\" school, which suggests that it is easier to get into than Rutgers University. Therefore, the correct response would be:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

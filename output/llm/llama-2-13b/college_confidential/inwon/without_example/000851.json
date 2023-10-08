@@ -1,0 +1,6 @@
+{
+  "index": 851,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference for Option A (Duke University) over Option B (Brown University). The comment suggests that some schools have a greater ability to maximize one's chances of success, implying that Duke University may offer better opportunities than Brown University. Therefore, the correct response would be:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

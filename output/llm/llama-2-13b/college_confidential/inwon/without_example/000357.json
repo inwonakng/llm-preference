@@ -1,0 +1,6 @@
+{
+  "index": 357,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference for Option A (Pennsylvania State University) over Option B (Rutgers University). The commenter mentions that the regional campus at PSU is cheaper than the main campus, with a cost of $20,000 compared to the main campus. Therefore, the correct response would be:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

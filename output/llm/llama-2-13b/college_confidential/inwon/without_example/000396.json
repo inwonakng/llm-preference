@@ -1,0 +1,6 @@
+{
+  "index": 396,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is no clear preference expressed for either Option A (Pennsylvania State University) or Option B (Rutgers University). The author of the comment mentions both universities but does not explicitly state a preference. Therefore, the appropriate response would be:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

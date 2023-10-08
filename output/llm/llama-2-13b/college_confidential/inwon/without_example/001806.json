@@ -1,0 +1,6 @@
+{
+  "index": 1806,
+  "true_label": 1,
+  "model_output": "Based on the comment, the user prefers Option A (University of Michigan) over Option B (Massachusetts Institute of Technology). The comment states that a bachelor's degree from either school is essentially equal, but the scholarship opportunity at Michigan provides more value due to the potential for pursuing a master's degree later on. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

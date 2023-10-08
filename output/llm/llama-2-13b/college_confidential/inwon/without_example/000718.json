@@ -1,0 +1,6 @@
+{
+  "index": 718,
+  "true_label": 1,
+  "model_output": "Based on the comment, there is a preference for Option A (University of Pennsylvania). The comment suggests attending Wharton if you can afford it, which is part of the University of Pennsylvania. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

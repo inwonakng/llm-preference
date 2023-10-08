@@ -1,0 +1,6 @@
+{
+  "index": 2088,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Option B (University of Nebraska-Lincoln) over Option A (Temple University). The author of the comment mentions that Temple has safety concerns and lacks funding, while Nebraska appears to be more affordable. Therefore, the correct response would be:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

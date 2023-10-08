@@ -1,0 +1,6 @@
+{
+  "index": 2156,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is no preference expressed towards either Option A (Stanford University) or Option B (Princeton University). The comment is asking about the risks involved after being accepted into both universities. Therefore, the appropriate response would be:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 1492,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Option B (Georgia Institute of Technology). The author of the comment mentions concerns about affordability at Harvard University and the potential for grade deflation at Georgia Tech for law and medical school. However, they ultimately suggest choosing Georgia Tech to avoid accumulating large amounts of debt. Therefore, the correct response would be:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

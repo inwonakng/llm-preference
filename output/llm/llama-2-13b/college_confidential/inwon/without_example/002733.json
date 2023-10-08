@@ -1,0 +1,6 @@
+{
+  "index": 2733,
+  "true_label": 1,
+  "model_output": "Based on the information provided, there is a clear preference for Option A: Cornell University. The author of the comment mentions that Cornell Arts & Sciences offers a more traditional course of study and has more distribution requirements, which suggests that it provides a well-rounded education. Additionally, the author notes that Ross at the University of Michigan is very preprofessional and almost like an employee training program, which may not be the best fit for everyone. Overall, the comment implies that Cornell University is the better choice for someone looking for a more traditional academic experience. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

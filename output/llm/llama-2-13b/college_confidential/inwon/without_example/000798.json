@@ -1,0 +1,6 @@
+{
+  "index": 798,
+  "true_label": 2,
+  "model_output": "Based on the comment, my detection is:\n\nNo preference.",
+  "predicted_label": 0
+}

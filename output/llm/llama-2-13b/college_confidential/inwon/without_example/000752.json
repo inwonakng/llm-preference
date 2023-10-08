@@ -1,0 +1,6 @@
+{
+  "index": 752,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference for Option A (University of Pennsylvania) over Option B (New York University). The comment states that Wharton and Harvard are \"clearly the best schools\" for finance, implying that they are preferred over New York University. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 2910,
+  "true_label": 1,
+  "model_output": "Based on the comment, there is no clear preference expressed for either Dartmouth College or Cornell University. The author provides information about the colleges' acceptance rates and SAT scores, but does not explicitly state a preference for one institution over the other. Therefore, the correct answer is:\n\n\"No Preference.\"",
+  "predicted_label": 0
+}

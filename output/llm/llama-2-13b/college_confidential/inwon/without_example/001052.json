@@ -1,0 +1,6 @@
+{
+  "index": 1052,
+  "true_label": 1,
+  "model_output": "Based on the comment, there is a preference for Stanford University over University of Illinois at Urbana-Champaign. The comment suggests that Stanford has more prestigious reputation and attracts better applicants compared to University of Illinois. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 805,
+  "true_label": 0,
+  "model_output": "Based on the comment provided, there is a preference for Option A (Pomona College) over Option B (Johns Hopkins University). The comment suggests that the vibe of a Pitzer class is preferable to the speaker compared to a Johns Hopkins University class. Therefore, the correct response would be:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

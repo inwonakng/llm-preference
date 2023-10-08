@@ -1,0 +1,6 @@
+{
+  "index": 1316,
+  "true_label": 1,
+  "model_output": "Based on the comment, there is a preference for Hamilton College over Georgia Institute of Technology. Therefore, the correct answer is:\n\n\"A is preferred over B\"",
+  "predicted_label": 1
+}

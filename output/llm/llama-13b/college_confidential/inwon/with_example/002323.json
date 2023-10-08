@@ -1,0 +1,6 @@
+{
+  "index": 2319,
+  "true_label": 1,
+  "model_output": "Oh dear! Let me try again. Here is the comment:\n\n\"I don't have a strong preference for either A or B.\"\n\nSo, based on the rules, I should only respond with:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

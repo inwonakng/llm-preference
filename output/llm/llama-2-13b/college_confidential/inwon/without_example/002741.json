@@ -1,0 +1,6 @@
+{
+  "index": 2741,
+  "true_label": 1,
+  "model_output": "Based on the provided comment, there is a preference for Cornell University. The comment highlights several traditions and activities unique to Cornell, such as Slope Day and Dragon Day, which suggest a strong sense of school spirit and community. Additionally, the mention of sailing and natural beauty suggests that Cornell offers a well-rounded experience. Therefore, the preference is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

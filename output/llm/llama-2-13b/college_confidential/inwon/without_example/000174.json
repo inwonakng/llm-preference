@@ -1,0 +1,6 @@
+{
+  "index": 174,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Pennsylvania State University (Penn State) over University of Pittsburgh (Pitt). The reasons for this preference include:\n\n* Penn State offers a summer start program that allows students to get six credits done before the fall semester starts, which can help reduce the amount of debt accumulated.\n* Commuting to a local branch of Penn State for the first two years can save money compared to attending Pitt.\n\nTherefore, the answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

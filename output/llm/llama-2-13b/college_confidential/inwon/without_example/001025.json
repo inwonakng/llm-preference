@@ -1,0 +1,6 @@
+{
+  "index": 1025,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a clear preference for Stanford University over University of Illinois at Urbana-Champaign. The comment expresses disappointment at USC's rejection of two bright high school seniors and suggests that USC may have made a mistake in rejecting them due to their intelligence. Therefore, the preference is:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

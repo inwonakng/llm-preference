@@ -1,0 +1,6 @@
+{
+  "index": 380,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is No Preference expressed for either Rutgers University or Virginia Tech. The author mentions that their son got into UP (presumably another university) and therefore did not investigate the pricing structures of the other campuses. Therefore, the correct answer is:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

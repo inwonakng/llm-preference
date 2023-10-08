@@ -1,0 +1,6 @@
+{
+  "index": 89,
+  "true_label": 1,
+  "model_output": "Based on the information provided, it seems that the writer has a strong preference for Johns Hopkins University (JHU) over Georgia Institute of Technology (Georgia Tech). The writer mentions that JHU has better connections with elite investment banks, tech companies, and management consulting firms, and that they have had more opportunities for employment after graduating compared to Georgia Tech. Additionally, the writer notes that they would choose JHU again based on their past experiences and the full ride for their Ph.D program. Therefore, we can deduce that:\n\nA is preferred over B.",
+  "predicted_label": 1
+}

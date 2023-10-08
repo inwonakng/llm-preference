@@ -1,0 +1,6 @@
+{
+  "index": 2439,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference for Option B (Middlebury College) over Option A (Bates College). The reason for this preference is stated in the comment as follows:\n\n\"I don\u2019t think Bowdoin is much more selective than Middlebury...I don\u2019t think your profile is strong enough for Bowdoin after seeing stronger applicants get denied ED1.\"\n\nTherefore, the correct answer is:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

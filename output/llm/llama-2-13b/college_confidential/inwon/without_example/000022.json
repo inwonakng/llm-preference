@@ -1,0 +1,6 @@
+{
+  "index": 22,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference for California Institute of Technology (Option A) over Georgia Institute of Technology (Option B). The author mentions that Georgia Institute of Technology is a reach for even highly qualified in-state applicants, indicating that Option A is preferred. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

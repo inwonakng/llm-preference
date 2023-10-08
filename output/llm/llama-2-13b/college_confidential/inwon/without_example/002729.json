@@ -1,0 +1,6 @@
+{
+  "index": 2729,
+  "true_label": 1,
+  "model_output": "Based on the comment, there is a preference for Option B: University of Michigan. The comment states \"umich** has great CS programs\", indicating that the writer prefers University of Michigan over Cornell University. Therefore, the correct answer is:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

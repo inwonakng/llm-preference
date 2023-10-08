@@ -1,0 +1,6 @@
+{
+  "index": 1872,
+  "true_label": 1,
+  "model_output": "Based on the comment, the user prefers Option A (University of Pennsylvania) over Option B (Pennsylvania State University). The reason provided is that UPenn offers better resources and is more affordable compared to Penn State, especially since many students are pre-med and may change their minds along the way. Therefore, the correct response is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 656,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is no clear preference expressed for either Option A (Carnegie Mellon University) or Option B (University of Maryland). The comment focuses on the potential benefits of attending school near the proposed location of Amazon's HQ2 in Montgomery County, Maryland, without explicitly mentioning either university. Therefore, the appropriate response would be:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

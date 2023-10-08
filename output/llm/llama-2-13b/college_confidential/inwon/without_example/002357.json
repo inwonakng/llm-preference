@@ -1,0 +1,6 @@
+{
+  "index": 2357,
+  "true_label": 1,
+  "model_output": "Based on the comment, the student prefers Option A (Columbia University) over Option B (University of Michigan). The comment highlights the differences between the two universities, particularly the location and size of the student body, and notes that the student has expressed a clear preference for the Columbia experience. Additionally, the comment suggests that the family can afford to pay full price for tuition, so the student should attend the university they prefer. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

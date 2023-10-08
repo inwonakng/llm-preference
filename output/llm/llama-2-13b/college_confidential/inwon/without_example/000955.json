@@ -1,0 +1,6 @@
+{
+  "index": 955,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Option B: University of Southern California. The author of the comment mentions that USC is \"elite\" and highlights its prestige compared to other universities in the same pool. Additionally, the author notes that USC offers a \"free house\" (i.e., tuition) worth $70,000 per year for four years, which makes it a highly desirable option. Overall, the comment suggests that Option B is the better choice. Therefore, the correct answer is:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

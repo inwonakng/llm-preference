@@ -1,0 +1,6 @@
+{
+  "index": 452,
+  "true_label": 1,
+  "model_output": "Based on the comment, the user prefers Option A (University of Georgia) over Option B (Indiana University). The reason for this preference is because UGA is considered a great school and is much cheaper than Indiana University. Therefore, the response should be:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

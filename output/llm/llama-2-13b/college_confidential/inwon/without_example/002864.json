@@ -1,0 +1,6 @@
+{
+  "index": 2864,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference for Option A (University of Michigan) over Option B (University of Virginia). The author believes that University of Michigan has a better business program and is better represented at top law schools compared to University of Virginia. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

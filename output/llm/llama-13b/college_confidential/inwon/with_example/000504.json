@@ -1,0 +1,6 @@
+{
+  "index": 503,
+  "true_label": 2,
+  "model_output": "Oh dear! Let me try again. Here is the comment:\n\n\"I don't know which one to choose! Both are such good options!\"\n\nAnd based on the comment, I would respond with:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

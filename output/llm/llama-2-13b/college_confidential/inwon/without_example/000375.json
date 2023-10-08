@@ -1,0 +1,6 @@
+{
+  "index": 375,
+  "true_label": 0,
+  "model_output": "Based on the information provided in the comment, there is a preference for Option B (Rutgers University) over Option A (Pennsylvania State University). The comment mentions that tuition increases at PSU after a certain amount of credits are reached, which may be a disadvantage for students. However, Rutgers University does not have this issue, so it is preferred over PSU. Therefore, the correct answer is:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

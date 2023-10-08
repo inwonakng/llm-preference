@@ -1,0 +1,6 @@
+{
+  "index": 173,
+  "true_label": 0,
+  "model_output": "Based on the information provided in the comment, there is a preference for Option B - University of Pittsburgh. The comment mentions that Pitt is matching Pell grants starting with the current class entering in Fall 2019, which suggests that they have a financial aid program that is more attractive than Pennsylvania State University (Option A). Therefore, the correct response would be:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

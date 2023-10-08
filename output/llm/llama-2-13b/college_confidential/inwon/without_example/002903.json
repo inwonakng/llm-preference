@@ -1,0 +1,6 @@
+{
+  "index": 2903,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference for Option A (Cornell University) over Option B (Johns Hopkins University). The commenter is asking for evidence that Cornell is more grade-deflationary for pre-med students compared to Johns Hopkins, indicating a positive sentiment towards Cornell. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

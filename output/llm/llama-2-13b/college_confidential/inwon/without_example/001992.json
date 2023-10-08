@@ -1,0 +1,6 @@
+{
+  "index": 1992,
+  "true_label": 1,
+  "model_output": "Based on the comment, the user prefers Option A (Duke University) over Option B (University of California, Berkeley). The comment mentions that Harvard may be newer to engineering, but having Duke behind their name is considered better for the next 50 years of their career. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

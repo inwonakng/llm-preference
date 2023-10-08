@@ -1,0 +1,6 @@
+{
+  "index": 126,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference for University of Richmond over Haverford College. The comment highlights the importance of finding an employer for Optional Practical Training (OPT) after graduation, and notes that without an employer, the student will need to return to their home country shortly after graduating. This suggests that University of Richmond may offer more opportunities for students to secure OPT employment, making it the preferred option. Therefore, the appropriate response would be:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

@@ -1,0 +1,6 @@
+{
+  "index": 8,
+  "true_label": 1,
+  "model_output": "The comment mentions that Johns Hopkins University (Option A) and California Institute of Technology (Caltech) are ranked highly along with the Ivy League schools. Additionally, the comment states that certain companies may prefer graduates from elite institutions like JHU or Caltech when considering candidates. This suggests that the author believes that attending an institution with high prestige can provide better opportunities for employment at top companies. Therefore, based on the information provided in the comment, we can conclude that:\n\n%%% A is preferred over B",
+  "predicted_label": 1
+}

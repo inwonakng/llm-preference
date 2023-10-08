@@ -1,0 +1,6 @@
+{
+  "index": 1054,
+  "true_label": 3,
+  "model_output": "Based on the comment provided, there is a preference for Option A (University of Illinois at Urbana-Champaign) over Option B (University of Southern California). The comment suggests that Option A may not attract \"tippy top applicants\" as much as Option B, indicating a slight preference for Option A. Therefore, the appropriate response would be:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

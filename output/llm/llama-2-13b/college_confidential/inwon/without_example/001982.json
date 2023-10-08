@@ -1,0 +1,6 @@
+{
+  "index": 1982,
+  "true_label": 1,
+  "model_output": "Based on the comment, there is no clear preference expressed for either Option A (Duke University) or Option B (University of California, Berkeley). However, the comment does provide some positive information about Duke University's location and campus size, as well as some concerns about safety in Oakland. Therefore, the appropriate response would be:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

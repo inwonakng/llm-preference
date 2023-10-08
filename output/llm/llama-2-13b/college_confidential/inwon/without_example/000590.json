@@ -1,0 +1,6 @@
+{
+  "index": 590,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Option B: University of Maryland. The author mentions that the $270,000 difference in debt will provide more options in career and life choices, and highlights Maryland's reputation and famous alumni as additional advantages. Therefore, the correct response is:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

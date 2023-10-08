@@ -1,0 +1,6 @@
+{
+  "index": 2120,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Option B: University of South Carolina. The author mentions that the reader \"loved SC\" previously and that their improved ACT score makes them a great candidate for the SC Honors College, indicating a stronger affinity for Option B. Therefore, the correct response would be:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

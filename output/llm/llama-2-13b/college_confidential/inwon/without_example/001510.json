@@ -1,0 +1,6 @@
+{
+  "index": 1510,
+  "true_label": 1,
+  "model_output": "Based on the comment, there is no clear preference expressed for either Harvard University (Option A) or Georgia Institute of Technology (Option B). The comment simply consists of a single letter \"H\". Therefore, the appropriate response would be:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

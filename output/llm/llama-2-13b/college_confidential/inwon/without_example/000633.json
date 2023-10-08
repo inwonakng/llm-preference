@@ -1,0 +1,6 @@
+{
+  "index": 633,
+  "true_label": 2,
+  "model_output": "Based on the comment, the writer has a preference for Option A (University of California, Berkeley) but also mentions being concerned about the cost for an out-of-state (OOS) student. Therefore, the preference is:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

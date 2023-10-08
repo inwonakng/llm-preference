@@ -1,0 +1,6 @@
+{
+  "index": 1232,
+  "true_label": 2,
+  "model_output": "Based on the comment, the author has no strong preference between Option A (Brown University) and Option B (University of California, Berkeley). They mention that all three schools have pretty campuses and that working in Silicon Valley (SV) is a top priority, but also note that there are plenty of routes to achieving this goal. Therefore, the appropriate response would be:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

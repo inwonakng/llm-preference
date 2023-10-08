@@ -1,0 +1,6 @@
+{
+  "index": 886,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Boston College (BC) over Boston University (BU). The comment states that BC is a higher ranked school universally and especially in business, while BU has a bigger presence internationally. Therefore, the correct answer is:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

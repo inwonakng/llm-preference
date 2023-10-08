@@ -1,0 +1,6 @@
+{
+  "index": 103,
+  "true_label": 0,
+  "model_output": "Based on the comment provided, there is no preference expressed for either Option A (California Institute of Technology) or Option B (Georgia Institute of Technology). The author of the comment does not mention working for multiple companies, so there is no need to infer a preference based on their employment history. Therefore, the appropriate response would be:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

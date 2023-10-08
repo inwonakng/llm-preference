@@ -63,6 +63,7 @@ def send_request(
     messages: dict[str, str | dict[str, list[list[str]]]],
     temperature: float,
     max_tokens: int,
+    model_name: str,
 ) -> str:
     params = {**DEFAULT_CHAT_PARAMS}
     params['user_input'] = messages['user_input']
@@ -70,6 +71,9 @@ def send_request(
     params['context_instruct'] = messages['context_instruct']
     params['temperature'] = temperature
     params['max_new_tokens'] = max_tokens
+
+    if '13b' in model_name:
+        params['instruction_template'] = 'Llama-v2'
 
     response = requests.post(endpoint, json=params)
 

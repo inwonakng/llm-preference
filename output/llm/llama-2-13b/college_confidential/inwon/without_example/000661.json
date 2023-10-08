@@ -1,0 +1,6 @@
+{
+  "index": 661,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference for Option A (University of California, Berkeley) over Option B (University of Maryland). The commenter is asking about the process of applying for full-ride scholarships at UMD and inquiring about the availability of scholarships for out-of-state students. Therefore, the appropriate response would be:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 2942,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference for Option B (Johns Hopkins University) over Option A (Cornell University). The comment highlights higher verbal scores for Johns Hopkins and notes that the disparity is even greater when considering enrolled statistics. Additionally, the comment mentions that Johns Hopkins has a higher ACT score range than Cornell. Overall, the comment suggests that Johns Hopkins is the better choice based on these statistics. Therefore, the correct answer is:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

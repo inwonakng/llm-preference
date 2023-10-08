@@ -1,0 +1,6 @@
+{
+  "index": 2951,
+  "true_label": 3,
+  "model_output": "Based on the provided comment, there is a preference for Option A (Cornell University) over Option B (Johns Hopkins University). The comment mentions that Cornell Engineering has higher scores than Johns Hopkins' enrolled profile, indicating a preference for Cornell. Therefore, the correct response would be:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

@@ -1,0 +1,6 @@
+{
+  "index": 90,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference for California Institute of Technology (Option A) over Johns Hopkins University (Option B). The comment states that JHU is not even on the list, implying that Option A is more desirable than Option B. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

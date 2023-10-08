@@ -238,6 +238,7 @@ class Prompt:
                 messages = messages,
                 max_tokens = max_tokens,
                 temperature = temperature,
+                model_name = model,
             )
         elif mode == 'openai':
             messages = self.build_openai(task=task)
@@ -279,6 +280,7 @@ class Prompt:
                     messages = messages,
                     max_tokens = max_tokens,
                     temperature = temperature,
+                    model_name = model,
                 )
             elif mode == 'openai':
                 messages = self.build_retry_openai(

@@ -1,0 +1,6 @@
+{
+  "index": 1231,
+  "true_label": 1,
+  "model_output": "Based on the comment, there is a preference for Option A: University of California, Berkeley. The author mentions that Berkeley can be completed in 3 years and that the university is accepting of AP credits from community college students and those who need to finish quickly. There is no explicit mention of Duke University (Option B), indicating that the author prefers Berkeley. Therefore, the correct response would be:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

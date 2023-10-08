@@ -1,0 +1,6 @@
+{
+  "index": 1387,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Option B (Wesleyan University) because the author is interested in studying physics and prefers the idea of receiving more individual attention at Wesleyan. Therefore, the response should be:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

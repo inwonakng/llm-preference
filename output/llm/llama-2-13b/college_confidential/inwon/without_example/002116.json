@@ -1,0 +1,6 @@
+{
+  "index": 2116,
+  "true_label": 1,
+  "model_output": "Based on the comment, the user prefers Option A: University of Michigan. They mention that there may be a bias against southern schools on College Confidential, and they prefer to attend the University of Michigan rather than the University of South Carolina. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

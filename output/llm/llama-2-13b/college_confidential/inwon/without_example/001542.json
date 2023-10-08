@@ -1,0 +1,6 @@
+{
+  "index": 1542,
+  "true_label": 2,
+  "model_output": "Oops, my mistake! Here we go again.\n\nFrom the comment, there is an equal preference for both options, so...\n\nEqual preference.",
+  "predicted_label": 3
+}

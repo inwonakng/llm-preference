@@ -1,0 +1,6 @@
+{
+  "index": 2388,
+  "true_label": 3,
+  "model_output": "Oops, my mistake! Here we go again.\n\nFrom the comment, there is a preference for Option B over Option A.\n\nSo, the correct response is:\n\n\"B is preferred over A\"",
+  "predicted_label": 2
+}

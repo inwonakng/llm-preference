@@ -1,0 +1,6 @@
+{
+  "index": 2100,
+  "true_label": 1,
+  "model_output": "Based on the comment, there is a strong preference for Option A (University of Michigan). The author states that University of Michigan is a top-ranked university and has a highly regarded undergraduate business program, while University of South Carolina is considered to be \"way, way down the food chain.\" Additionally, the author emphasizes the importance of choosing a school where one will be happy and thrive, suggesting that they would prefer Option A due to its reputation and potential for personal fulfillment. Therefore, the preference is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

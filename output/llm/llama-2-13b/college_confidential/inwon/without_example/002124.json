@@ -1,0 +1,6 @@
+{
+  "index": 2124,
+  "true_label": 1,
+  "model_output": "Based on the comment, the user prefers Option A (University of Michigan) over Option B (University of South Carolina). The comment states that University of Michigan is a \"world class university\" and that the Bachelor of Business Administration (BBA) program at Ross School of Business is \"tremendous,\" indicating that the user values the quality of the program and would choose it even if it were closer to home. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

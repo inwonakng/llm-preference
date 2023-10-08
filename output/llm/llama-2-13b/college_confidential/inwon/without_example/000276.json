@@ -1,0 +1,6 @@
+{
+  "index": 276,
+  "true_label": 1,
+  "model_output": "Based on the comment, there is no clear preference expressed for either Option A (Pennsylvania State University) or Option B (North Carolina State University). The parent mentions that their child did well at PSU despite it being further away from the engineering buildings, but does not explicitly state a preference for either school. Therefore, the correct answer is:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

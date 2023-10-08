@@ -1,0 +1,6 @@
+{
+  "index": 2712,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Option A (University of Pittsburgh). The comment mentions \"dream offer\" from Yale University, indicating that Yale is not the preferred choice. Therefore, the correct response would be:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

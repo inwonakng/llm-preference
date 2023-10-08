@@ -1,0 +1,6 @@
+{
+  "index": 880,
+  "true_label": 3,
+  "model_output": "Based on the comment, there is no clear preference expressed for either Boston University (Option A) or Boston College (Option B). The author notes that both universities have similar acceptance rates and past ACT scores, and that the campuses are quite different. Therefore, I would say:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

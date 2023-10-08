@@ -1,0 +1,6 @@
+{
+  "index": 2162,
+  "true_label": 1,
+  "model_output": "Based on the comment, the writer prefers Option A (Stanford University) over Option B (Princeton University). The reasons provided include better athletics, better weather, and more resources available due to its strong graduate schools. Additionally, the writer believes that the student would fit in better with the team and coach at Stanford. Therefore, the preference is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

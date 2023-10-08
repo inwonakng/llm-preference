@@ -1,0 +1,6 @@
+{
+  "index": 2080,
+  "true_label": 0,
+  "model_output": "Based on the information provided in the comment, there is a preference for Option A, Temple University, because the commenter mentions that the cost is lower compared to the national average for federal loans. Therefore, the correct response would be:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

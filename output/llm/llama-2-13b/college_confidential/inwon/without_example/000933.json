@@ -1,0 +1,6 @@
+{
+  "index": 933,
+  "true_label": 1,
+  "model_output": "Based on the comment, the speaker prefers Option A (Stanford University) over Option B (University of Southern California). They mention that they would pay extra to attend Stanford over USC, indicating a strong preference for Stanford. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

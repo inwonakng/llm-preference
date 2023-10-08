@@ -1,0 +1,6 @@
+{
+  "index": 588,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference for Option A (University of California, Berkeley) over Option B (Carnegie Mellon University). The comment highlights the significant cost difference of $270,000 between the two schools and notes that this difference could provide more options in career and life choices. Additionally, the comment mentions that Maryland is a respectable school with famous alumni, but does not negate the preference for UC Berkeley due to its lower cost. Therefore, the correct response would be:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

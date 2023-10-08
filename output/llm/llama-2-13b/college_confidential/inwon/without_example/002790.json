@@ -1,0 +1,6 @@
+{
+  "index": 2790,
+  "true_label": 3,
+  "model_output": "Based on the comment provided, there is No Preference expressed for either Option A (Bates College) or Option B (Hamilton College). The comment suggests that both schools attract top students who do not get into top-ten colleges. Therefore, the appropriate response would be:\n\n\"No Preference.\"",
+  "predicted_label": 0
+}

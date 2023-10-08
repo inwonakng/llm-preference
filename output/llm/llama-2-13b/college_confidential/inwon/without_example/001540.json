@@ -1,0 +1,6 @@
+{
+  "index": 1540,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Option B, University of Wisconsin-Madison. The author thinks that Madison is a better choice, but notes that room and board will be more expensive compared to Yale University. Therefore, the correct response would be:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

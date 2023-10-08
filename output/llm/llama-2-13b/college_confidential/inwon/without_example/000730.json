@@ -1,0 +1,6 @@
+{
+  "index": 730,
+  "true_label": 1,
+  "model_output": "Based on the comment, there is a preference for Option A (University of Pennsylvania) over Option B (New York University). The author of the comment mentions that Wharton Undergrad at University of Pennsylvania is better than most NYU + MBA/Masters programs, and that it's a tough decision but ultimately leaning towards University of Pennsylvania due to its better program and lower cost. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

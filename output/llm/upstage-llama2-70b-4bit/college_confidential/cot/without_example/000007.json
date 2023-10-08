@@ -1,0 +1,6 @@
+{
+  "index": 7,
+  "true_label": 1,
+  "model_output": "The comment mentions both California Institute of Technology (Option A) and Georgia Institute of Technology (Option B). However, when discussing the potential outcomes for students attending either school, the commenter states that companies like Google, Goldman Sachs, and McKinsey would be more likely to recruit students from JHU or Caltech than from GTech. This implies that the commenter believes that Caltech has a higher level of prestige and may provide better opportunities for its graduates. Therefore, my final decision based on this comment is:\n\n%%% A is preferred over B",
+  "predicted_label": 1
+}

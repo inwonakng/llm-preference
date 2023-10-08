@@ -1,0 +1,6 @@
+{
+  "index": 1132,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for University of North Carolina (UNC) over University of Southern California (USC). The author mentions that UNC is a top 10 public university and that their daughter chose USC for the weather, indicating that they have a positive view of UNC. Therefore, the preference is:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

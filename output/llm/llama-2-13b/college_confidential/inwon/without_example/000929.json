@@ -1,0 +1,6 @@
+{
+  "index": 929,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference for Stanford University over University of Illinois at Urbana-Champaign. The comment highlights USC's reputation for producing billionaires, which suggests that the speaker values prestige when choosing a university. Therefore, the correct answer is:\n\n\"A is preferred over B.\"",
+  "predicted_label": 1
+}

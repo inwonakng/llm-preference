@@ -1,0 +1,6 @@
+{
+  "index": 587,
+  "true_label": 2,
+  "model_output": "Based on the comment, there is a preference for Virginia Tech (Option B) over Cornell University (Option A). The author mentions that their child was rejected by Cornell but found a better fit at Virginia Tech, and they highly recommend the school. Therefore, the preference is:\n\n\"B is preferred over A.\"",
+  "predicted_label": 2
+}

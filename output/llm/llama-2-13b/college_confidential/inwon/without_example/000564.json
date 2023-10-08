@@ -1,0 +1,6 @@
+{
+  "index": 564,
+  "true_label": 3,
+  "model_output": "Based on the provided comment, there is no clear preference expressed towards either Option A (University of Rochester) or Option B (Emory University). The comment highlights that both universities have similar yield rates, indicating that they are comparable in this aspect. Therefore, the appropriate response would be:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

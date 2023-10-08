@@ -1,0 +1,6 @@
+{
+  "index": 562,
+  "true_label": 3,
+  "model_output": "Based on the comment, there is No Preference expressed for either Option A (University of Rochester) or Option B (Emory University). The comment highlights the similarity between the two schools and notes that acceptance rate differences are not meaningful due to the unique pool of applicants for each institution. Therefore, the appropriate response would be:\n\n\"No preference.\"",
+  "predicted_label": 0
+}

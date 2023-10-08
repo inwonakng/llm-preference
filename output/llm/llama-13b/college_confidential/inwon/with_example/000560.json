@@ -1,0 +1,6 @@
+{
+  "index": 559,
+  "true_label": 3,
+  "model_output": "Based on the comment, there is no strict preference expressed for either University of Rochester or Emory University. The comment highlights some differences between the two universities' curricula, such as Emory's recent changes to its chemistry curriculum and the fact that Rochester has \"recitations\" for some intermediate biology classes. However, the comment also notes that both universities offer rigorous courses and that students can find challenging pre-health courses at many other schools as well. Therefore, the response is:\n\nNo preference.",
+  "predicted_label": 0
+}
