@@ -1,0 +1,15 @@
+{
+  "index": 1373,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Hamilton College```\nCollege B: ```Georgia Institute of Technology```\nComment: ``` [quote] @circuitrider Hey do you know the median salery for Weslyan student in only stem majors [/quote]  No, and I agree with you: I wish all of these Return On Investment (ROI) surveys would break their results out by major; it would make comparing apples to apples much simpler. Suffice it to say that a STEM major is going to have pretty much the same opportunities and drawbacks at any of the top 100 colleges or universities; grades and standardized tests are how you will  distinguish yourself from the pack - not the college\u2019s pedigree. If you major in Bio or Chem you are probably going to have to go on to graduate school of some sort to make a decent living. Computer Science is still a very hot major and you can find a job as a programmer right out of the box. The same is true for Engineering except that a B.S degree by itself hits a salary wall about six years after graduation (at which point, a lot of Humanities and Social Science majors start catching up) and you will want to pursue at least a Masters. IMO, Physics and Math are still the sweet spot as far as intellectual exploration and practical applications are concerned. Physics and Math majors have been known to land on Wall Street in various capacities.  ```\n"
+    }
+  ]
+}

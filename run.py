@@ -66,7 +66,7 @@ def run(
         to_predict = df
 
     if mode == 'openai':
-        model = 'openai'
+        assert model == 'gpt-4' or model == 'gpt-3.5-turbo'
 
     results_dir = Path('output') / model / dataset / template
     if use_example:
@@ -89,10 +89,13 @@ def run(
             if not result_file.is_file(): 
                 while True:
                     try:
-                        success, output, params = prompt.execute(task, mode = mode, verbose = verbose)
+                        print(f'Getting output for {idx:06d}...')
+                        success, output, params = prompt.execute(task, mode = mode, model = model, verbose = verbose)
                     except openai.error.RateLimitError as e:
                         print(f'Rate limit exceeded. Waiting for 5s: {e}')
                         time.sleep(5)
+                    except Exception as e:
+                        print(f'Some other exception happended: {e}')
                     else:
                         break
 

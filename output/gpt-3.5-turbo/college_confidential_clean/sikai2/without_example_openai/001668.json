@@ -1,0 +1,15 @@
+{
+  "index": 1668,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Duke University```\nComment: ```@momofsenior1, most council against that now days. It shows a job candidate isn\u2019t interested in ultimately being an engineer, and thus is an impediment to getting a first job. No company of note will put an inexperienced engineer in a managerial position, no matter how prestigious the MBA. A blended 5 year technical BS/MS on the other hand is quite valuable. No more so than any other MS, but it gets the candidate there quicker.  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "index": 6667,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two options A and B, and a comment. Your job is to identify the preference between the two given options in the comment. \nThe names of the two options and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the options' real names.\nYou MUST refer to the options as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if option A is preferred over option B.\nYou MUST respond with ```B is preferred over A``` if option B is preferred over option A.\nYou MUST respond with ```Equal preference``` if options A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "Option A: ```OpenCL```\nOption B: ```CUDA```\nComment: ```You'd know the ins/outs better than the majority of us SKY, so please correct me if I'm wrong, but isn't there a good chance that running OpenCL on an Nvidia card would add an extra layer of coding and thus not be as efficient as running native CUDA?```\n"
+    }
+  ]
+}

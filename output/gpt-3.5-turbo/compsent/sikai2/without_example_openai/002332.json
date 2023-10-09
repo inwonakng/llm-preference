@@ -1,0 +1,15 @@
+{
+  "index": 2332,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two options A and B, and a comment. Your job is to identify the preference between the two given options in the comment. \nThe names of the two options and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the options' real names.\nYou MUST refer to the options as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if option A is preferred over option B.\nYou MUST respond with ```B is preferred over A``` if option B is preferred over option A.\nYou MUST respond with ```Equal preference``` if options A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "Option A: ```Intel```\nOption B: ```Sony```\nComment: ```Creative Sound Blaster X-Fi Titanium PCI Express Sound Card Antec 850Watt True Power Quattro Intel Core 2 Quad Q9550 Sapphire Radeon HD 5850 Gigabyte FP45-UD3P MotherBoard D-Link DWA-556 Wireless Internet Adapter Two 640GB Western Digital Caviar Hard Drives Antec Two Hundred Mid Tower Case CPU Cooler Freezer 7 Pro Rev.2 G.Skill 4GB DRR2 800Mhz Bluetooth USB Adapter Windows 7 Home Premium Sony DVD-RW 24X LG DVD-RW 24X```\n"
+    }
+  ]
+}

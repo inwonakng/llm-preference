@@ -39,7 +39,7 @@ def evaluate(
     mode: str,
 ):
     if mode == 'openai':
-        model = 'openai'
+        assert model == 'gpt-4' or model == 'gpt-3.5-turbo'
 
     results_dir = Path('output') / model / dataset / template
     eval_dir = Path('evaluation') / model / dataset / template

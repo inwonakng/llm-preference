@@ -1,0 +1,15 @@
+{
+  "index": 890,
+  "true_label": 3,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Boston University```\nCollege B: ```Boston College```\nComment: ``` [quote] People make a big mistake looking at admit rates as a sign of selectivity. [/quote]  The best-known college-rankings, from USN&WR, include an evaluation of \u201cstudent selectivity\u201d (among other things). And as far as USN&WR is concerned, acceptance rate is only a minor factor in determining selectivity. They evaluate selectivity using the following factors: 65% weight - SAT or ACT scores for enrolled (not admitted) students 25% weight - fraction of enrolled (not admitted) students in top 10% of their high school class 10% weight - acceptance rate In other words, \u201cselectivity\u201d is not really determined by the number of students that a school turns away. Instead, it\u2019s mostly determined by the quality of the students that a school attracts. In the 2018 ranking, BC was ranked #28 for selectivity specifically, while BU was ranked #45. Note that these are just the ranks for selectivity, which is only one component of the overall ranking. BU ranked higher than BC in other components, like \u201cfaculty resources\u201d, and so the overall rankings were closer. So there is a good case that BC is the more \u201cselective\u201d school. However, it would be foolish to choose BC over BU solely on that basis.  ```\n"
+    }
+  ]
+}

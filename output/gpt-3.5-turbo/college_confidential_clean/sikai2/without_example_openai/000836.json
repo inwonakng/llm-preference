@@ -1,0 +1,15 @@
+{
+  "index": 836,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Duke University```\nCollege B: ```Brown University```\nComment: ```@ciervo All those reasons (the super lenient drop deadline, amount of pass/fail coursework allowed, no grade lower than a C showing up on your transcript, high percentage of As for classes, etc.) are exactly why I said that grade inflation exists at Brown.  GPA inflation IS grade inflation (in fact, studies of grade inflation often use GPA distributions to measure grade inflation, or percentage of As - both of which is high at Brown). Brown and Duke have the same quality of student - yet Duke students have a harder time getting As and higher GPAs. The OP ought to be aware of this to make an educated decision.  In some situations, such as Law School admissions, where GPA heavily influences admissions and the school attended is not sufficiently used to put GPAs in context, a school like Brown might be a strategic choice.  ```\n"
+    }
+  ]
+}

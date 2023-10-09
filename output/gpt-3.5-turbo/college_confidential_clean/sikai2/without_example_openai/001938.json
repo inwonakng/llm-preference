@@ -1,0 +1,15 @@
+{
+  "index": 1938,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Boston College```\nCollege B: ```Georgetown University```\nComment: ```Georgetown is a little better overall, in my opinion. If they are even for fit and cost, or if you aren\u2019t sure, I would choose Georgetown. However, BC is a good school, and if you strongly prefer Boston and/or the (full) D1 sports scene\u2026 or if there is a sizable difference in cost\u2026 then BC would make sense. For some context: Georgetown\u2019s undergraduate peers include (IMO) Notre Dame, Washington U, Rice, Emory, Vanderbilt, and maybe CMU. I have BC\u2019s peers as Wake Forest, Lehigh, Tulane, U of Rochester, NYU, BU, Case, Brandeis\u2026 maybe Tufts and USC. Some have those last two in a different group.  ```\n"
+    }
+  ]
+}

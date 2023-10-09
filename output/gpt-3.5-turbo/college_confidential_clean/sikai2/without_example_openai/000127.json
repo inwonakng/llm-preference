@@ -1,0 +1,15 @@
+{
+  "index": 127,
+  "true_label": 3,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```@Anna20021988 I have been very fortunate to have 2 Ds who were Richmond Scholars. They both had great experiences at UR, with excellent professors and advising, small challenging classes, lovely campus and weather, not far from downtown Richmond, a fun city with great food, parks, museums and activities. The business school is excellent and students have great outcomes with internships and job opportunities. One of my Ds studied abroad at St. Andrews University in Scotland, all paid for with her scholarship, with extra funding for travel and educational experiences while abroad. Another excellent program is the Sophomore Scholars in Residence, providing students the opportunity to take a class in a variety of subject areas with an integrated travel component, and the students are housed together for the year while taking the class, as well working on long term projects. The SSIR program is fully funded with no extra costs for students. In addition, UR guarantees a stipend of $4K to fund research or an internship. A top student will not be a \u201ctoken intellectual\u201d at UR. 25% of students have a an SAT of 1460+ and/or ACT of 32+. My 2 Ds always felt that there were many other bright students in their classes to challenge each other and have thoughtful discussions.  ```\n"
+    }
+  ]
+}

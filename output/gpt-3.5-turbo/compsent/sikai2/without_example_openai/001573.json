@@ -1,0 +1,15 @@
+{
+  "index": 1573,
+  "true_label": 0,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two options A and B, and a comment. Your job is to identify the preference between the two given options in the comment. \nThe names of the two options and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the options' real names.\nYou MUST refer to the options as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if option A is preferred over option B.\nYou MUST respond with ```B is preferred over A``` if option B is preferred over option A.\nYou MUST respond with ```Equal preference``` if options A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "Option A: ```JavaScript```\nOption B: ```Python```\nComment: ```Qualifications: Recent graduates to experience developers Must have a solid foundation in web software development, including HTML, JavaScript, CSS Preferred experience with both NOSQL and relational database queries - SQL programming; Oracle PL/SQL is a plus Command of your favorite scripting and server side languages; for example: Ruby, PHP, Perl, Python Familiar with the Linux operating system and utilities```\n"
+    }
+  ]
+}

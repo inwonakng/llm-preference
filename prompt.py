@@ -207,8 +207,12 @@ class Prompt:
         task: Task,
         api_endpoint: str = 'http://localhost:5000/api/v1/chat',
         mode: Literal['openai', 'textgen'] = 'textgen',
+        model: str = 'gpt-4',
         verbose: bool = False,
     ):
+        if mode == 'openai':
+            assert model == 'gpt-4' or model == 'gpt-3.5-turbo'
+
         params = self.build(task, mode)
         if mode == 'textgen':
             output = send_request(api_endpoint, params)
@@ -234,7 +238,7 @@ class Prompt:
             return True, self.text_to_label[output.lower()], params
         elif mode == 'openai':
             output = openai.ChatCompletion.create(
-                model = 'gpt-4', 
+                model = model, 
                 max_tokens = 10,
                 messages = params,
                 temperature = 1.,
@@ -586,8 +590,12 @@ class TwoStagePrompt:
         task: Task,
         api_endpoint: str = 'http://localhost:5000/api/v1/chat',
         mode: Literal['openai', 'textgen'] = 'textgen',
+        model: str = 'gpt-4',
         verbose: bool = False,
     ):
+        if mode == 'openai':
+            assert model == 'gpt-4' or model == 'gpt-3.5-turbo'
+
         params = self.build_two_stage_1(task, mode)
         if mode == 'textgen':
             output = send_request(api_endpoint, params)
@@ -647,7 +655,7 @@ class TwoStagePrompt:
                 raise ValueError(f'Invalid 1st stage output {output}')
         elif mode == 'openai':
             output = openai.ChatCompletion.create(
-                model = 'gpt-4', 
+                model = model, 
                 max_tokens = 10,
                 messages = params,
                 temperature = 1.,
@@ -669,7 +677,7 @@ class TwoStagePrompt:
                 # if retry_cnt > 1:
                 #     params['regenerate'] = True
                 retry_output = openai.ChatCompletion.create(
-                    model = 'gpt-4', 
+                    model = model, 
                     max_tokens = 10,
                     messages = params,
                     temperature = 1.,
@@ -687,7 +695,7 @@ class TwoStagePrompt:
             elif output.lower() == self.label_to_text_1st_stage[1].lower():
                 params = self.build_two_stage_2(task)
                 output = openai.ChatCompletion.create(
-                    model = 'gpt-4', 
+                    model = model, 
                     max_tokens = 10,
                     messages = params,
                     temperature = 1.,

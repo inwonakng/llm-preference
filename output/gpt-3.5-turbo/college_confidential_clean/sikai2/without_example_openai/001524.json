@@ -1,0 +1,15 @@
+{
+  "index": 1524,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Harvard University```\nCollege B: ```Georgia Institute of Technology```\nComment: ```Go to Harvard if you are serious about Premed. MIT/Caltech/GTech or any Engineering schools make things difficult if you are Premed. Faced similar situation. We constantly wonder what if. I understand that 80K is big amount for most people but in the long run it may not be.  I am not even taking account the prestige factor of Harvard. It will be difficult to go against your Dad\u2019s opinion. If you are any of those ORMs, (Chinese, Indian or Jewish), you will thank yourself for not  going to a grade deflated tech school if you are really into premed.  ```\n"
+    }
+  ]
+}

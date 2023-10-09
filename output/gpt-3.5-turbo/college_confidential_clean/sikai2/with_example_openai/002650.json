@@ -1,0 +1,47 @@
+{
+  "index": 2650,
+  "true_label": 2,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Franklin W. Olin College of Engineering```\nCollege B: ```Georgia Institute of Technology```\nComment: ``` [quote] @Chardo said, As far as jobs and internships in Boston, there\u2019s not a single one that an Olin student would land easier than a qualified GT student. [/quote]  This is what I\u2019m disagreeing with, if for nothing else, because Olin is in Boston\u2019s back yard. I disagree more so because of the previous qualifying sentence that Olin is a hands on program while GT is a \u201cworld class research institution.\u201d No doubt the latter is true, but the question is\u2026what does that have to do with the undergraduate learning experience? Olin is a direct response to large, yes very successful, research institutions, that don\u2019t put the maximum priority on undergraduate education to produce practicing engineers. The great research schools like Caltech, Berkeley, Stanford, etc. are also known to have very large classes, lots of TA instruction and a lack of principle application. Can they produce good bachelors level engineers? Sure. Does their status as a research institution help that? I\u2019d argue that it\u2019s a hindrance.  ```\n"
+    }
+  ]
+}

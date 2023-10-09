@@ -1,0 +1,15 @@
+{
+  "index": 2584,
+  "true_label": 3,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Carleton College```\nCollege B: ```Amherst College```\nComment: ```Just another parent chiming in \u2013 we know a bunch of kids very well who are at both Amherst and Carleton.  All love their experience, all are nice, good kids, intellectually motivated. The kind of young person you would love your own child to be romantically involved with. If my children were ever to have been so fortunate as to have this choice, I would have suggested focusing on the structural differences. Trimester at Carleton and semester at Amherst; distribution requirements at Carleton vs. open curriculum at Amherst.  Throw in that Amherst\u2019s strategies for enhancing diversity are very successful as it is one of the most diverse LACs around. Emotionally, how did kid react when heard about Amherst?  Excited?  Ho hum?  There is the old \u201ccoin toss and see how you react when one school wins\u201d  \u2013 excited or dismayed? There is no wrong answer here, just two great, slightly different choices.  ```\n"
+    }
+  ]
+}

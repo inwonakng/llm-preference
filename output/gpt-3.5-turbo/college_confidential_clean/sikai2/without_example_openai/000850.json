@@ -1,0 +1,15 @@
+{
+  "index": 850,
+  "true_label": 3,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Duke University```\nCollege B: ```Brown University```\nComment: ```Tim Cook went to Auburn undergrad.  Duke business school. Which is part of the point that fighting over which undergrad is better for success in life is essentially meaningless . All tech oriented business folks should go to auburn? or quit before you finish like gates jobs and zuckerberg. Or not go at all like Michael dell ?Well of course not. And when comes to the splitting of hairs over Wall Street.  How about Warren Buffett he\u2019s pretty well respected. University of Nebraska and here\u2019s what he has to say on the matter. \u201cWhen Warren Buffett is looking at hiring a new employee or finding a new company to invest in, he has a lot of criteria. But, one thing he isn\u2019t looking for are fancy university degrees. \u201cI don\u2019t care where someone went to school, and that never caused me to hire anyone or buy a business,\u201d Buffett says \u201c Go where you like and do the best you can! Duke is great. Brown is great. Auburn is great. University of Nebraska is great. Any top 150 schools in America are unique gifts.  ```\n"
+    }
+  ]
+}

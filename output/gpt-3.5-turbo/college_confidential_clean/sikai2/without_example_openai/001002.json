@@ -1,0 +1,15 @@
+{
+  "index": 1002,
+  "true_label": 2,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Stanford University```\nCollege B: ```University of Southern California```\nComment: ```Take money out of the equation for a second. No financial concerns where would you go, Harvard, Stanford or USC? And why? Now add finances back tot he equation. Assuming Harvard / Stanford is the choice, can you make it work without significant hardship on your lifestyle, retirement, etc? If so, great. If not, USC (which is also great) Big difference between \u201cshould I pay vs. could I pay?\u201d  If you\u2019re fortunate enough to be in the \u201cShould I pay\u201d group, really think about the \u201cwhy\u201d. If it\u2019s meaningful, pay, if not, don\u2019t.  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "index": 2502,
+  "true_label": 3,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```McGill University```\nCollege B: ```Mount Holyoke College```\nComment: ```I feel like you haven\u2019t addressed a few major points about the two schools, mainly;  one is a women's college, one is most decidedly not. one is a small LAC, one is a very large University. one is in a rural, or at least semi-rural setting, the other is smack dab in the middle of a city.   Both have prestige and history. I could care less myself, and would strongly suggest you pay more attention to what school is a better fit. McGill is known to be relatively easy to get into(compared to similar schools in the US), but is quite challenging, and it is usually left up to the student to sink or swim. I would guess that Mt. Holyoke would give you more personal attention should you need it. Montreal gets really cold, but central MA is only marginally warmer. Do you want to be in the swing of things in a vibrant, muliticultural city, with it\u2019s excitement and distractions, or do you think you would do better if a small, supportive(hopefully), cocoon-like environment ? Both offer very good to excellent academics. As an International, job prospects would be limited.  ```\n"
+    }
+  ]
+}

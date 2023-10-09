@@ -1,0 +1,15 @@
+{
+  "index": 2546,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of North Carolina at Chapel Hill```\nCollege B: ```Boston College```\nComment: ```A few comments: \u2013You need to understand that investment banking jobs are few and far between for undergrads.  You should expand your horizons in terms of jobs you would be looking for. \u2013You should look at the core requirements for both schools (can be found online).  Chances are at BC you would have to spend a great deal of time taking classes like theology, philosophy etc.  to complete the Jesuit core. \u2013I\u2019d consider the schools to be academic peers.   I\u2019d go to UNC and avoid debt \u2013 being debt free will give you more options down the road.  ```\n"
+    }
+  ]
+}

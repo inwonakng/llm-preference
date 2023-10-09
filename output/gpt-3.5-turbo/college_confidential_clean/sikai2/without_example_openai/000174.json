@@ -1,0 +1,15 @@
+{
+  "index": 174,
+  "true_label": 2,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pennsylvania State University```\nCollege B: ```University of Pittsburgh```\nComment: ```Are you instate for Pitt and Penn State? What is your financial aid package at each of the schools? How will you afford a $30,000 a year school? And how will your family be able to make ends meet with you off at college, and not able to work much? Penn State offers some students the summer start where they can get 6 credits of classes done before the fall semester starts. It is not free, there will be extra costs. I agree, for your situation, it makes more sense to work as much as possible this summer. Pitt is a fine school. Do you have a Pitt or Penn State branch nearby, where you could commute to for the first two years? That would save money.  ```\n"
+    }
+  ]
+}

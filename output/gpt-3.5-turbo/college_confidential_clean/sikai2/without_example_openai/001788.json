@@ -1,0 +1,15 @@
+{
+  "index": 1788,
+  "true_label": 2,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```    Much2learn: [quote] It may not be most, but it is many. I\u2019m sharing a piece of valuable information that I have never discussed on cc: even once. Notice that no one in a position to know is disagreeing with my post? There is a reason for that. [/quote]  No one is disagreeing that there can be a few who hit the jackpot immediately out of school.  But that does not indicate that such scenarios are more common enough at MIT that betting $280,000 on it happening is a good bet.  ```\n"
+    }
+  ]
+}

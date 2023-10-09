@@ -1,0 +1,15 @@
+{
+  "index": 816,
+  "true_label": 1,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```Also, speaking of the quora link, the common story I see is that the name brand isn\u2019t super great outside of academia but people are still able to get to top destinations for both careers and grad school, so one shouldn\u2019t worry too much. Which is what I\u2019d personally say as well- and it also seems to be the perspective of most recent grads. With one exception, and I mean, he\u2019s entitled to his view, but that doesn\u2019t mean he\u2019s correct regarding outcomes (at least for the present- he\u2019s a 2005 grad). Since he referenced Amherst and Williams in specific, there are data points from the three schools showing that the salaries across these schools are similar (CollegeScoreCard & PayScale), that tech/consulting/other prestigious gigs recruit similarly from the Claremont Colleges, and that Pomona is similar in terms of students receiving competitive fellowships or getting a PhD. Maybe back in 2005 Pomona truly did suffer when it came to pre-professional opportunities, recruiting, and such, but that hasn\u2019t been my personal experience as a 2016 grad. I know Pomona definitely stepped up for funding internships and elevating career services in the four years I was there. I actually landed a couple of interviews in NYC where the employers spoke highly of the school, so it\u2019s on the rise.  ```\n"
+    }
+  ]
+}

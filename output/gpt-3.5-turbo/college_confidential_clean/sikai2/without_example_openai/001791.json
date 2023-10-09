@@ -1,0 +1,15 @@
+{
+  "index": 1791,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```@Ynotgo: \u201cIf the OP wants to go to grad school in CS, that would be a fully funded program.\u201d PhD programs worth attending are funded. Masters programs usually are not. MBA programs may have scholarships but full-rides to top MBA programs are almost non-existent. As for the 529 money, yes it is budgeted for education, but parents can withdraw an amount equal to the scholarship penalty-free. As I said, even if that money doesn\u2019t have to be used for the parents\u2019 retirement, after 40 years (when this kid retires), you can expect that amount to be around $2M in today\u2019s dollars. Yes, fit matters (though it seems like the OP likes UMich more socially anyway), but from an ROI standpoint, this is a no-brainer.  ```\n"
+    }
+  ]
+}

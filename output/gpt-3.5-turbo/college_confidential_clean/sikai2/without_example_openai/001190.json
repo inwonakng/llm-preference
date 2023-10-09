@@ -1,0 +1,15 @@
+{
+  "index": 1190,
+  "true_label": 1,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```WashU has the higher rated PoliSci program, but it comes down to the following: (1) Educational quality (2) Financial affordability (3) Overall fit I would ignore the GroupMes.  My son is in a bunch of them and barely checks them at all.  And my advice is to not check/post at all. There isn\u2019t a big drug culture at all on campus.  St. Louis is definitely not Berkeley-we never noticed anything of the sort during our visits. As for Greek life, it\u2019s not that pervasive.  You are under no pressure to join. WashU is a collaborative environment.  My son isn\u2019t a PoliSci major (actually Biology/History) and is in multiple study groups.  ```\n"
+    }
+  ]
+}

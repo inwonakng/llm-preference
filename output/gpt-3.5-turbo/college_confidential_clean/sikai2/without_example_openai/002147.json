@@ -1,0 +1,15 @@
+{
+  "index": 2147,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Stanford University```\nCollege B: ```Princeton University```\nComment: ```Congratulations on your acceptances! Also, congrats on being part of such a wonderful sport\u2026rowing. BTW, I am in the midst of reading \u201cThe Boys in the Boat\u201d. A friend recommended a few days ago. Both are great options\u2026academics, prestige. Having said that, you\u2019re right on with respect to this\u2026\u201cRowing, in winter, is not particularly pleasant as it\u2019s long months of indoor training which I would find at Princeton. At Stanford, we can be on the water all year round (sun!).\u201d.  If you spent most of your life rowing on the west-coast, it is a big adjustment to go east-coast (weather wise). Much bigger than wanting to experience another part of the country.  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "index": 1433,
+  "true_label": 2,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Vanderbilt University```\nCollege B: ```Northwestern University```\nComment: ```@prezbucky - I agree with prezbucky\u2019s grouping. Vandy is a great school but it doesn\u2019t have the historical reputation that Northwestern has. Remember that as of 2-3 years ago, Vandy was a school ranked in the 18-22 range, competing with the likes of Emory, Rice, etc. Northwestern has been in the 9-13 ranking spot for the last 30 years. High school students are very impressionable by ranking shifts year-to-year but it takes DECADES to change perceptions. And if you take the average ranking for the last 20 years, Vandy is a top 20 school and certainly not a top 15 school. Based on attending Stanford for my MBA and living / working in NYC at a prestigious investment bank / mega private equity fund: my ranking would be. Tier 1A: Duke / Northwestern / Brown / Hopkins / Dartmouth Tier 1B: Cornell - I put this here because its selectivity is significantly less than the others. Ask anyone in a high-prestige job in NYC on Wall Street or ask students at top private prep schools (Dalton, Horace Mann, Trinity, Andover, Exeter, etc, ), they will put Cornell a step below the others. As of just a year ago, the average SAT at Cornell was almost a 90-100 points lower than Duke and Northwestern. That\u2019s significant. Cornell is really a hybrid of a private ivy league and a top tier public university like Michigan, given its state subsidized schools. Part of prestige relates to exclusivity and selectivity and Cornell is the least selective of the schools in Tier 1A and 1B. Tier 2: Georgetown / Vanderbilt / Rice / Wash U / CMU  ```\n"
+    }
+  ]
+}

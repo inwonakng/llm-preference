@@ -1,0 +1,47 @@
+{
+  "index": 1804,
+  "true_label": 1,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```\u201cIf the equity compensation was in stock options, then they should have a strike price the same as the market value as of the grant date. So their value (as they vest over time) is zero unless the stock price increases\u201d Fischer Black and Myron Scholes and the Nobel Prize Committee beg to differ. \"\"if the equity compensation was in restricted stock units that vest over time, then it seems unlikely that an already-publicly-traded company would offer $200,000 of such to an entry-level employee for the first job out of (any) college, \"\" The student received 5 offers, all from the usual suspects including 3 of the big 5. 2 of the student\u2019s offers (including one from a big 5) included equity of that magnitude. \u201cbarring something extremely exceptional that is unlikely to be college-dependent.\u201d Yes, this student is exceptional, but there are many exceptional students. This student lacks that one big thing you can point at, so no Olympic medal or Rhodes Scholarship, for example. Is the outcome college dependent? I don\u2019t know. Every talented kid is a bit different. What they need to thrive is different. We never really know about the road not taken. Again, I would choose Michigan based on the information presented. It is a great school. My point is simply that for certain particular exceptional students, who see MIT as a better fit, I can imagine a situation where MIT could be worth it if it. I have no reason to believe that is true for the OP of this thread though.  ```\n"
+    }
+  ]
+}

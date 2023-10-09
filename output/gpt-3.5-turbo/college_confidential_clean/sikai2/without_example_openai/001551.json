@@ -1,0 +1,15 @@
+{
+  "index": 1551,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Yale University```\nCollege B: ```University of Wisconsin-Madison```\nComment: ``` [quote] The thing that struck me about this is that a job like this isn\u2019t very tough to get regardless of the college you went to outsideofprestigeindustries_. [/quote]  To be in the publishing business getting paid 70K 1-2 yrs out of college is very hard.  A lot of new graduates are doing it for free as an intern.  You can\u2019t get the job if you can\u2019t even get an interview.  ```\n"
+    }
+  ]
+}

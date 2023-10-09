@@ -1,0 +1,47 @@
+{
+  "index": 2692,
+  "true_label": 2,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Pittsburgh```\nCollege B: ```Yale University```\nComment: ```@Deming  In addition to weighing cost, prestige and fit, if your goal is med school, you should go to the school where you think you have the best shot at a high gpa. And where you can get the most opportunity to do research and intermships. Pitt is known for excellent sciences and has the Universy of Pittsburgh medical center right on campus for easy opportunity and access to gain experience through shadowing, research or internships. Yale students are generally brilliant so the question is if your competition are geniuses will you be able to do as well in the premed coursework there as at Pitt? And compete with them for internships, research opportunities?  This is not at all to belittle the quality of students at Pitt, which are of excellent quality too, but you can\u2019t compare the selective admissions process of Yale vs Pittsburgh. I hear anecdotally that the premed curriculum at Pitt is very rigorous and achieving high grades there will be difficult as well. You should try and speak to some premed students at both schools and find out how good are the premed professors at each school and how are the grading practices is each. Sometimes the grading at the more selective school, such as Yale,  is higher than at a less competitive school, particularly a state school where professors seek to weed out a majority of the class.  This could help you make the decison. Med schools don\u2019t care so much what undergrad school you go to as much as how you do in the sciences and what experience you obtain, showing a demonstrated interest in medicine. However if you decide to switch out of premed then Yale would provide more opportunity in my opinion. Also ask yourself if you thrive better as a big fish in a little pond (I.e., at Pitt)  or not?  ```\n"
+    }
+  ]
+}

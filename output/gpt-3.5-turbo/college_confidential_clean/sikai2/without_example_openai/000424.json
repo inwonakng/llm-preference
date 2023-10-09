@@ -1,0 +1,15 @@
+{
+  "index": 424,
+  "true_label": 3,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Georgia```\nCollege B: ```Indiana University```\nComment: ```In another thread a poster noted that Bloomberg ranked IU-Kelley #1 for best teaching, student satisfaction, and, if I recall correctly, career services. The post was unclear as to whether this referred to the MBA program, the undergraduate business program or both. Probably both. Kelley has offers some innovative, cutting edge & high demand specialties. Nevertheless, I understand the charm of the South & the lure of Atlanta & Athens. But, direct admission to a high quality undergraduate business program is valuable, as is admission to the honors college. P.S. Which school or program starts first ? Helpful to begin early so that you forget thinking about the choice & just focus on your new home. It may help to see the housing options available to you at each school.  ```\n"
+    }
+  ]
+}

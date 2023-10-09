@@ -1,0 +1,47 @@
+{
+  "index": 2599,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Pennsylvania```\nCollege B: ```Yale University```\nComment: ```@sheilsarda  For all these areas (CS, bioengineering, CS, entrepreneurship and business) Penn is stronger.  Also specifically the M&T program is a really unique program that opens amazing doors in business and tech. If you see that you are not interested in the Wharton part anymore, then you can get out of M&T and do a dual major in CS and Bioengineering. Unless you rally fit in better at Yale and you cannot see yourself at Penn, I would pick Penn because it is stronger for engineering  and business and also because of the unique strengths of the M&T program. Campus culture and vibe is different between the two schools. Penn has a strong pre-professional element (business,s engineering), it focuses more on the application of knowledge and interdisciplinary education. It also ha a more vibrant social life and is located in a big city but also has a defined camps. Yale is more intellectual, has that old-school classic ivy-league/hogwarts type of vibe, is located in a much smaller city. The most popular major at Yale is history. Also it has a smaller undergrad population than Penn.  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "index": 873,
+  "true_label": 3,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Boston University```\nCollege B: ```Boston College```\nComment: ```It definitely comes down to your preferences and vibe. BU has an urban campus connected to the city (albeit a pretty self contained one confined to a stretch of Commonwealth Ave), whereas BC has a traditional (and very beautiful) collegiate campus ~30 minutes out by public transit. Acknowledging the limits of stereotypes, BU kids are typically seen as trendier and more individualistic, whereas BC kids maintain a preppier, more mainstream image. BU students interact more with local schools, particularly MIT, than do BC kids by virtue of proximity. Contrary to the previous post, I would say BU has made proportionally far greater strides in selectivity than BC; BC has been top-notch for some time, while BU just recently caught up to a similar standard of selectivity. The incoming GPAs and standardized test scores are nearly identical, and BU has a ~6 percentage point lower acceptance rate likely because it draws from a comparitively more extensive international applicant pool. Considering BU\u2019s momentum relative BC, BU will likely make up the 5 spot difference in US News rankings and leapfrog BC by the time you graduate - if rankings are important to you / employers in your prospective field. BC and BU have a similar endowment (~2 bil), but BU shares that amongst roughly twice the student population. BU\u2019s Kilachand center (CILSE) has the same focus on interdisciplinarity, and it was endowed with $100 million dollars by a donation last year that will mean it will dependably pump out ~$5 million in research per year at minimum. BU conducted $400 million in research last year, and BC conducted $193 million. Overall, BU typically carries more weight in the sciences. Case in point, do research on your intended major/career, gauge which one would fit your vibe best, and know you\u2019re picking between two great options.  ```\n"
+    }
+  ]
+}

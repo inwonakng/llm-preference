@@ -1,0 +1,15 @@
+{
+  "index": 6,
+  "true_label": 3,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```California Institute of Technology```\nCollege B: ```Johns Hopkins University```\nComment: ```I agree with blueskies2day - visit all of the schools before making a decision. However, the harsh reality in today\u2019s job market (ok, in any generation\u2019s job market), prestige matters. JHU and CalTech are ranked up there with the Ivies and certain corporations will only hire from what they consider \u201celite\u201d universities.  In addition, let\u2019s say your son doesn\u2019t want to do BME after exploring that field.  Google, Goldman, Mckinsey would be happy to talk to him if he goes to JHU or CalTech.  It would be possible from G-Tech, but harder for sure.  Call these firms snobs if you want, but it\u2019s their money.  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "index": 2428,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Bowdoin College```\nCollege B: ```Middlebury College```\nComment: ```Does vegging with friends count as a sport?  No, but she did debate last year, which was a big time commitment. That\u2019s a good question about balance. She is taking what seemed at first to not be a heavy schedule, including a foreign language and Art. But both classes are very intense, in a good way. She has another class with no tests, but it meets for four hours once a week and there is a lot of writing. 30% of the grade is class participation, which I LOVE because she has to talk (she\u2019s a shy person.) Her fourth class is for her major and is the surpise cool class, which she initially thought would be uninteresting. She hasn\u2019t yet had a single class she didn\u2019t like. As far as social life, she has a very good group of friends and a boyfriend, and they go to campus activities. They take advantage of weekend shuttles to various places in Maine, and some of them drive so they go out in Lewiston, which is in fact a cool little town. They go other places too. She is never bored.  ```\n"
+    }
+  ]
+}

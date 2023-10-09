@@ -1,0 +1,47 @@
+{
+  "index": 1047,
+  "true_label": 1,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Stanford University```\nCollege B: ```University of Southern California```\nComment: ```@USCWolverine - In answer to your question, no, I did not say that \u201cUSC doesn\u2019t have a very intellectual student body.\u201d What I said was \u201cUSC was not a good fit for my D, despite her thinking that it had some interesting programs and that it seemed like a very vibrant campus (just not for her \u2013 she would NOT have been happy there).\u201d She felt this more socially than academically; immediately after visiting USC, she went to Grinnell (another school that offered her full tuition) which she thought would be a better social \u2013 but not as good of an academic (their art history programs were not as interesting to her) \u2013 fit. Of course USC has many, many bright and intellectually curious kids. And Stanford has no shortage of kids that are not the least bit intellectually curious. But the level of discussion in the classrooms and the level of intellectual engagement she experienced was, in the aggregate, qualitatively different among kids at Yale, Stanford, and U Chicago that they were at schools like Vanderbilt, USC, Wash U., etc. (And I agree, getting an overall feel for a school is a bit like blind men poking at an elephant and oftentimes one sees what one wants to see.) Ultimately, for my daughter, it was a matter of not wanting to be a big fish in a smaller pond; she wanted a bigger pond in which to swim. (And yes, UChicago was a definite contender but she didn\u2019t want the weather; Yale was initially her top choice until she got to New Haven and hated it; she thought about Reed, but ultimately decided not to apply because they did not offer any merit aid (the only non-HYPS schools she applied to were those that offered significant merit aid and she submitted separate scholarship applications to any school that required them). She would have been all over Deep Springs had they been accepting applications from women last year. And as @rickle1 points out, there is a \u201cBig difference between \u201cshould I pay vs. could I pay?\u201d If you\u2019re fortunate enough to be in the \u201cShould I pay\u201d group, really think about the \u201cwhy\u201d. If it\u2019s meaningful, pay, if not, don\u2019t.\u201d It seems that OP is in that group. And @MYOS1634 is quite correct, there are plenty of families that are tempted to pull the rug out from their kids\u2019 feet when faced with this type of decision. My daughter was very, very concerned about the finances and she is very well aware that money that is spent on her undergraduate tuition is money that might otherwise be used for other things (e.g., putting a down payment on a home or investing in stocks). In creating her list, we encouraged her to cast a wide net among in-state publics (UCs), LACs and research universities that offered merit aid, and HYPS, etc. and that we would consider her options when we had the results. Every situation and every family is different. I\u2019m just adding another data point and another point of view.  ```\n"
+    }
+  ]
+}

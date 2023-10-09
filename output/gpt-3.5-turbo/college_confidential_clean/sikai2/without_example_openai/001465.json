@@ -1,0 +1,15 @@
+{
+  "index": 1465,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Kenyon College```\nCollege B: ```University of California, San Diego```\nComment: ```I\u2019m not specifically familiar with Psych programs so I could be wrong, but I generally thought that Masters programs are generally full pay, by the student, so not having loan debt would be ideal for a student pursing a Masters. On the other hand, a candidate for a Ph.D. program should be fully funded, that is, the university waives the student\u2019s tuition, and will pay them a (sometimes barely) living stipend, with the student having to work as a TA in exchange. Kenyon is about an hour away from Columbus, so that coordination program sounds like it would be perhaps once a week, and a student would need a car if the school does not provide van or other transportation for participating students. An email to the administrative assistant for the Psych dept, asking who would be best equipped within the department to answer questions about preparation for grad school and past track record for grad school admission, would be a way to get the OP\u2019s questions in front of someone with knowledge.  The other approach is to email the Chair of the department directly, but sometimes those emails can get lost in the shuffle.  We found that contacting the support staff for the department often meant they pointed us in the direction of the person who would be most responsive. I would also recommend a more detailed conversation with Financial Aid, asking about what might happen to aid if parent relocates etc. Congrats to the OP\u2019s daughter on her wonderful options!  ```\n"
+    }
+  ]
+}

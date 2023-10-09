@@ -1,0 +1,15 @@
+{
+  "index": 2847,
+  "true_label": 0,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two options A and B, and a comment. Your job is to identify the preference between the two given options in the comment. \nThe names of the two options and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the options' real names.\nYou MUST refer to the options as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if option A is preferred over option B.\nYou MUST respond with ```B is preferred over A``` if option B is preferred over option A.\nYou MUST respond with ```Equal preference``` if options A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "Option A: ```AMD```\nOption B: ```Samsung```\nComment: ```Case: SilverStone Temjin Series TJ08B-E PSU: SeaSonic G360 Mobo: ASUS F2A85-M PRO CPU: AMD A10-5800K Cooling: COOLER MASTER Hyper 212 EVO Memory: Crucial Ballistix 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 1866 SSD (for OS and Apps): Samsung 840 Pro 128GB SSD HDD Western Digital WD Green WD20EARX 2TB SATA 6.0Gb/s BluRay LG 14X OEM Bare Drive burner```\n"
+    }
+  ]
+}
