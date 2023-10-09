@@ -1,0 +1,6 @@
+{
+  "index": 6810,
+  "true_label": 1,
+  "model_output": "B is preferred over A",
+  "predicted_label": 2
+}
