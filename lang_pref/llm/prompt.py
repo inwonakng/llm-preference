@@ -226,7 +226,7 @@ class Prompt:
         max_retry: int = -1,
     ) -> tuple[str,int | None]:
         mode = 'textgen'
-        if model in ['gpt-4']:
+        if model in ['gpt-4', 'gpt-3.5-turbo']:
             mode = 'openai'
 
         if mode == 'textgen':

@@ -1,0 +1,6 @@
+{
+  "index": 49,
+  "true_label": 2,
+  "model_output": "Comment:\n\nColoradomama:\n[quote]\nCaltech is a school of geniuses and a few drop outs and a few that commit suicide as they cannot keep up.\n[/quote]\n\nThe preference expressed in the comment is that there is a negative perception towards Caltech due to the mention of dropouts and suicides. Therefore, the correct response is:\n\n```B is preferred over A```",
+  "predicted_label": 2
+}

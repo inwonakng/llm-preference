@@ -1,0 +1,6 @@
+{
+  "index": 416,
+  "true_label": 0,
+  "model_output": "Based on the comment, there is a preference expressed for one of the options.\n\nA is preferred over B.",
+  "predicted_label": 1
+}

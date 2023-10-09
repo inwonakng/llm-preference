@@ -1,0 +1,6 @@
+{
+  "index": 2403,
+  "true_label": 3,
+  "model_output": "Comment: The author mentions that Williams seems like a great fit and maybe even better than Bates and Middlebury. They also mention that Williams is closer to the mountains. However, they also mention that Middlebury has a lovelier, more carefully planned campus. \n\nBased on this comment, it can be inferred that the author has a preference for Williams over Bates and Middlebury. However, they do mention that Middlebury has a nicer campus. \n\nTherefore, the preference expressed in the comment is:\nA is preferred over B",
+  "predicted_label": 1
+}

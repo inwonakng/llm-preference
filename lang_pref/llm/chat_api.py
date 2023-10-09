@@ -109,8 +109,8 @@ def send_request_openai(
                 top_p = top_p,
             )
             break
-        except openai.error.RateLimitError as e:
-            print(f'Rate limit exceeded. Waiting for 5s: {e}')
+        except Exception as e:
+            print(f'Error reaching OpenAI. Waiting for 5s: {e}')
             time.sleep(5)
 
     

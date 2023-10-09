@@ -1,0 +1,6 @@
+{
+  "index": 1619,
+  "true_label": 0,
+  "model_output": "Based on the comment provided, there is a preference expressed for Option A (University of Texas at Austin) over Option B (University of Virginia). This can be inferred from the statement \"I'd go with Mendoza. It's guaranteed and it's a top school with lots of opportunities.\" Therefore, the preference is: \n\n```A is preferred over B```",
+  "predicted_label": 1
+}
