@@ -12,7 +12,7 @@ from lang_pref.config.paths import(
 
 @click.command()
 @click.option('--dataset', default='college_confidential', help='Name of dataset to use')
-@click.option('--template', default='inwon', help='Name of template to use for prompts.')
+@click.option('--template', default='long', help='Name of template to use for prompts.')
 @click.option('--bin_range', default=20, type=int, help='Range to bin the word count by.')
 @click.option('--use_example', is_flag=True, help='Use example in prompt')
 def evaluate(
@@ -33,7 +33,6 @@ def evaluate(
         idx = int(f.stem)
         true_lab = result['true_label']
         pred_lab = result['predicted_label']
-        # has_pref =
         results += [{
             'wordcount': len(df.iloc[idx]['text'].split()),
             'true_label': true_lab,
@@ -74,7 +73,6 @@ def evaluate(
             '4 Class Correct': performance['4_class_correct'].sum(),
             # '4_class_incorrect': len(performance) - performance['4_class_correct'].sum()
         }]
-        # break
     by_bin = pd.DataFrame(by_bin)
 
     fig, axes = plt.subplots(nrows=2, figsize = (10,6))

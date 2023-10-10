@@ -1,0 +1,34 @@
+instruction: |
+  You will be given two options A and B, and a comment. Your job is to identify the preference between the two given options in the comment. 
+  The names of the two options and the comment are delimited with triple backticks.
+
+  Here are the rules:
+  You MUST NOT use the options' real names.
+  You MUST refer to the options as A or B. 
+  You MUST respond with ```No preference``` if there is no explicit preference in the comment.
+  You MUST respond with ```A is preferred over B``` if option A is preferred over option B.
+  You MUST respond with ```B is preferred over A``` if option B is preferred over option A.
+  You MUST respond with ```Equal preference``` if options A and B are equally preferred.
+  You MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.
+
+task: |
+  Option A: ```{alternative_a}```
+  Option B: ```{alternative_b}```
+  Comment: ```{text}```
+
+retry_msg: |
+  You have an incorrect format in your response. 
+  Here is a reminder of the rules:
+  You MUST NOT use the options' real names.
+  You MUST refer to the options as A or B. 
+  You MUST respond with ```No preference``` if there is no explicit preference in the comment.
+  You MUST respond with ```A is preferred over B``` if option A is preferred over option B.
+  You MUST respond with ```B is preferred over A``` if option B is preferred over option A.
+  You MUST respond with ```Equal preference``` if options A and B are equally preferred.
+  You MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.
+
+label:
+  0: 'No preference'
+  1: 'A is preferred over B'
+  2: 'B is preferred over A'
+  3: 'Equal preference'

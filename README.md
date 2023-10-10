@@ -24,15 +24,15 @@ This is how each label is treated inside the LLM.
 Example Inference:
 
 ```bash
-python run.py --dataset college_confidential --template inwon --use_example
+python run.py --dataset college_confidential --template long --use_example
 ```
 
-This command will run the experiments with `college confidential` dataset, using `inwon` prompt and adding examples.
+This command will run the experiments with `college confidential` dataset, using `long` prompt and adding examples.
 
 Example Evaluation:
 
 ```bash
-python evaluate.py --dataset college_confidential --template inwon --use_example
+python evaluate.py --dataset college_confidential --template long --use_example
 ```
 
 Will print the evaluation results for that particular task and populate the `evaluation` folder.

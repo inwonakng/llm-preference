@@ -30,7 +30,7 @@ def pick_examples(dataset):
 @click.command()
 @click.option('--dataset', default='college_confidential', help='Name of dataset to use')
 @click.option('--model', default='upstage-llama2-70b-4bit', help='Name of the model to use')
-@click.option('--template', default='inwon', help='Name of template to use for prompts.')
+@click.option('--template', default='long', help='Name of template to use for prompts.')
 @click.option('--use_example', is_flag=True, help='Use example in prompt')
 @click.option('--temperature', default = 1, help='Temperature to use in model')
 @click.option('--top_p', default = 0.7, help='Temperature to use in model')

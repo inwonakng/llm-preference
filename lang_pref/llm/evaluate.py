@@ -32,7 +32,7 @@ def get_metrics(y_true, y_pred, n_classes):
 @click.command()
 @click.option('--dataset', default='college_confidential', help='Name of dataset to use')
 @click.option('--model', default='upstage-llama2-70b-4bit', help='Name of the model to use')
-@click.option('--template', default='inwon', help='Name of template to use for prompts.')
+@click.option('--template', default='long', help='Name of template to use for prompts.')
 @click.option('--use_example', is_flag=True, help='Use example in prompt')
 def evaluate(
     dataset: str,

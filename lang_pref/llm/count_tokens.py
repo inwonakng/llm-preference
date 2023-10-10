@@ -2,7 +2,6 @@ import click
 import tiktoken
 import pandas as pd
 
-
 from .run import pick_examples
 from .prompt import Task, Prompt
 from lang_pref.config.paths import (
@@ -60,7 +59,7 @@ def count_tokens(
 
 @click.command()
 @click.option('--dataset', default='college_confidential', help='Name of dataset to use')
-@click.option('--template', default='inwon', help='Name of template to use for prompts.')
+@click.option('--template', default='long', help='Name of template to use for prompts.')
 @click.option('--use_example', is_flag=True, help='Use example in prompt')
 def count_all_tokens(
     dataset: str,
