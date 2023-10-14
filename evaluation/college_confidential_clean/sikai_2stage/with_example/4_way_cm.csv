@@ -1,5 +1,0 @@
-,pred:A?B,pred:A>B,pred:A<B,pred:A=B
-true:A?B,0,0,0,0
-true:A>B,0,0,0,0
-true:A<B,0,0,0,0
-true:A=B,0,0,0,0
