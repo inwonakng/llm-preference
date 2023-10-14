@@ -1,0 +1,28 @@
+{
+    "examples": [
+        {
+            "text": "I would prefer Stanford rather than University of California, Berkeley.",
+            "alternative_a": "Stanford University",
+            "alternative_b": "University of California, Berkeley",
+            "label": "Stanford University is better than University of California, Berkeley."
+        },
+        {
+            "text": "I like Boston University.",
+            "alternative_a": "Stanford University",
+            "alternative_b": "Boston University",
+            "label": "Boston University is better than Stanford University."
+        },
+        {
+            "text": "I don't know which university is better.",
+            "alternative_a": "Columbia University",
+            "alternative_b": "University of Michigan",
+            "label": "The comment suggests no preference on Columbia University and University of Michigan."           
+        },
+        {
+            "text": "University of Michigan and Columbia University are the same good.",
+            "alternative_a": "University of Michigan",
+            "alternative_b": "Columbia University",
+            "label": "The University of Michigan and Columbia University are two universities as good as each other."
+        }
+    ]
+}
