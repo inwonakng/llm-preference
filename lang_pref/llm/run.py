@@ -73,7 +73,7 @@ def run(
 
             if not result_file.is_file(): 
                 print(f'{i}/{len(to_predict)}')
-                output,prediction = prompt.execute(
+                output,prediction,messages = prompt.execute(
                     task, 
                     model=model,
                     temperature=temperature,
@@ -83,12 +83,13 @@ def run(
                     max_retry=max_retry,
                 )
 
-                if not prediction is None:
+                if prediction is not None:
                     result = {
                         'index': i,
                         'true_label': label,
                         'model_output': output,
                         'predicted_label': prediction,
+                        'final_interaction': messages,
                     }
                     json.dump(
                         result,

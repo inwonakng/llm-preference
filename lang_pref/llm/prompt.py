@@ -1,10 +1,9 @@
 from __future__ import annotations
-from typing import Literal
 from pathlib import Path
 import yaml
 import time
-import os
 
+from .types import OpenAIMessage, TextGenMessage
 from .chat_api import send_request, send_request_openai
 
 DELIMITERS = ['`', '"', '\'', '#', '.', '%']
@@ -30,7 +29,6 @@ class Task:
         self.label = label
         self.alternative_a = alternative_a
         self.alternative_b = alternative_b
-
 
 class Prompt:
     instruction: str
@@ -97,7 +95,7 @@ class Prompt:
     def build_textgen(
         self,
         task:Task,
-    ) -> dict[str, str | dict[str, list[list[str]]]]:
+    ) -> TextGenMessage:
         history = []
         if self.confirmation:
             history += [self.confirmation]
@@ -115,7 +113,7 @@ class Prompt:
     def build_openai(
         self, 
         task: Task,
-    ) -> list[dict[str, str]]:
+    ) -> OpenAIMessage:
         messages = [
             {
                 'role': 'system',
@@ -153,7 +151,7 @@ class Prompt:
         self, 
         task: Task, 
         prev_response: str,
-    ) -> dict[str, str | dict[str, list[list[str]]]]:
+    ) -> TextGenMessage:
         history = []
         if self.confirmation:
             history += [self.confirmation]
@@ -173,7 +171,7 @@ class Prompt:
         self, 
         task: Task, 
         prev_response: str,
-    ) -> list[dict[str,str]]:
+    ) -> OpenAIMessage:
         messages = [
             {
                 'role': 'system',
@@ -224,26 +222,26 @@ class Prompt:
         max_tokens: int = 300,
         delay: int = -1,
         max_retry: int = -1,
-    ) -> tuple[str,int | None]:
+    ) -> tuple[str, int | None, OpenAIMessage]:
         mode = 'textgen'
         if model in ['gpt-4', 'gpt-3.5-turbo']:
             mode = 'openai'
 
+        textgen_messages = self.build_textgen(task=task)
+        openai_messages = self.build_openai(task=task)
         if mode == 'textgen':
-            messages = self.build_textgen(task=task)
             output = send_request(
                 api_endpoint, 
-                messages = messages,
+                messages = textgen_messages,
                 max_tokens = max_tokens,
                 temperature = temperature,
                 top_p = top_p,
                 model_name = model,
             )
         elif mode == 'openai':
-            messages = self.build_openai(task=task)
             output = send_request_openai(
                 model = model, 
-                messages = messages,
+                messages = openai_messages,
                 max_tokens = max_tokens,
                 temperature = temperature,
                 top_p = top_p,
@@ -270,27 +268,27 @@ class Prompt:
                 print('Tried enough.. we are aborting')
                 return output, None
 
+            textgen_messages = self.build_retry_textgen(
+                task=task, 
+                prev_response=output,
+            )
+            openai_messages = self.build_retry_openai(
+                task=task, 
+                prev_response=output,
+            )
             if mode == 'textgen':
-                messages = self.build_retry_textgen(
-                    task=task, 
-                    prev_response=output,
-                )
                 output = send_request(
                     api_endpoint, 
-                    messages = messages,
+                    messages = textgen_messages,
                     max_tokens = max_tokens,
                     temperature = temperature,
                     top_p = top_p,
                     model_name = model,
                 )
             elif mode == 'openai':
-                messages = self.build_retry_openai(
-                    task=task, 
-                    prev_response=output,
-                )
                 output = send_request_openai(
                     model = model, 
-                    messages = messages,
+                    messages = openai_messages,
                     max_tokens = max_tokens,
                     temperature = temperature,
                     top_p = top_p,
@@ -308,6 +306,5 @@ class Prompt:
                 time.sleep(delay)
             
             retry_count += 1
-        
-        return output, self.text_to_label[prediction.lower()]
 
+        return output, self.text_to_label[prediction.lower()], openai_messages

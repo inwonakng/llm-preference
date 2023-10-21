@@ -1,6 +1,9 @@
 import requests
 import html
 import time
+
+from .types import OpenAIMessage, TextGenMessage
+
 import os
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 import openai
@@ -65,7 +68,7 @@ DEFAULT_CHAT_PARAMS = {
 
 def send_request(
     endpoint: str,
-    messages: dict[str, str | dict[str, list[list[str]]]],
+    messages: TextGenMessage,
     temperature: float,
     top_p: float,
     max_tokens: int,
@@ -94,7 +97,7 @@ def send_request(
 
 def send_request_openai(
     model: str, 
-    messages: list[dict[str,str]],
+    messages: OpenAIMessage,
     max_tokens: int,
     temperature: float,
     top_p: float
