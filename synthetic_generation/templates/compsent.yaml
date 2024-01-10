@@ -1,4 +1,11 @@
 # The instructions can be specific to the comment as we will not be providing examples
+#
+dataset: compsent
+
+labels:
+  0: imply that you prefer {alternative_b} over the others
+  1: imply that you prefer something other than {alternative_b}
+  2: show indifference between the options
 
 instruction: |
   You are an expert at generating sample texts about a variety of topics.

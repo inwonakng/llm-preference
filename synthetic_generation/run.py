@@ -28,7 +28,7 @@ def progress_bar():
         transient=True,
     )
 
-def choose_alternatives_pixie(df):
+def choose_alternatives(df):
     random_row_index = np.random.choice(df.index)
     return (
         df.loc[random_row_index, "alternative_a"],
@@ -41,23 +41,22 @@ DATASET_TO_PATH = {
     "compsent": "../data/compsent/dataset.csv",
     "pixie": "../data/pixie/dataset.csv",
 }
-DATASET_TO_ALTERNATIVE_FUNCTION = {"pixie": choose_alternatives_pixie}
 
 @click.command()
-@click.argument('template', default='compsent')
-@click.option('--num_rows', default=10000)
+@click.argument("dataset_name", default="compsent")
+@click.option("--num_rows", default=10000)
 # @click.option('--mode', default='all')
 def run(
-    template: str,
+    dataset_name: str,
     num_rows: int,
     # output_file: str
 ):
-    output_file = f"{template}.csv"
-    template = f"templates/{template}.yaml"
+    output_file = f"{dataset_name}.csv"
+    template = f"templates/{dataset_name}.yaml"
     config = yaml.safe_load(open(template))
-    dataset = config["dataset"]
-    df = pd.read_csv(DATASET_TO_PATH[dataset])
-    alternatives_selector = DATASET_TO_ALTERNATIVE_FUNCTION[dataset]
+    # dataset = config["dataset"]
+    df = pd.read_csv(DATASET_TO_PATH[dataset_name])
+    # alternatives_selector = DATASET_TO_ALTERNATIVE_FUNCTION[dataset_name]
 
     prompt = Prompt.load_template(
         template,
@@ -72,7 +71,7 @@ def run(
         )
         for i in range(num_rows):
             print(Rule())
-            alternative_a, alternative_b = alternatives_selector(df)
+            alternative_a, alternative_b = choose_alternatives(df)
             label, output, prompt_kwargs, instruction, task = prompt.execute(
                 alternative_a=alternative_a, alternative_b=alternative_b
             )
@@ -94,7 +93,6 @@ def run(
             progress.update(progress_task, advance=1)
 
     pd.DataFrame(rows).to_csv(output_file, index=False)
-
 
 if __name__ == "__main__":
     run()
