@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import yaml
 from typing import List, Dict
-from chat_api import send_request, DEFAULT_CHAT_PARAMS
+from chat_api import DEFAULT_CHAT_PARAMS
 import random
 import pandas as pd
 import openai
