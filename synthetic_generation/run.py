@@ -4,6 +4,7 @@ from rich import print
 from pathlib import Path
 import random
 import yaml
+import click
 
 import numpy as np
 import pandas as pd
@@ -11,8 +12,10 @@ from prompt import Prompt
 
 import openai
 
-CHECKPOINT_ROWS = 10
+openai.api_key = "sk-111111111111111111111111111111111111111111111111"
+openai.api_base = "http://0.0.0.0:5000/v1"
 
+CHECKPOINT_ROWS = 10
 
 def progress_bar():
     return rich.progress.Progress(
@@ -34,14 +37,22 @@ def choose_alternatives_pixie(df):
 
 
 DATASET_TO_PATH = {
-    "college confidential": "../data/college_confidential/dataset.csv",
+    "college_confidential": "../data/college_confidential/dataset.csv",
     "compsent": "../data/compsent/dataset.csv",
     "pixie": "../data/pixie/dataset.csv",
 }
 DATASET_TO_ALTERNATIVE_FUNCTION = {"pixie": choose_alternatives_pixie}
 
-
-def run(template: str, num_rows: int, output_file: str):
+@click.command()
+@click.argument('template', default='compsent')
+@click.option('--num_rows', default=10000)
+# @click.option('--mode', default='all')
+def run(
+    template: str,
+    num_rows: int,
+    # output_file: str
+):
+    output_file = f"{template}.csv"
     template = f"templates/{template}.yaml"
     config = yaml.safe_load(open(template))
     dataset = config["dataset"]
@@ -86,8 +97,4 @@ def run(template: str, num_rows: int, output_file: str):
 
 
 if __name__ == "__main__":
-    openai.api_key = "sk-111111111111111111111111111111111111111111111111"
-    openai.api_base = "http://0.0.0.0:5000/v1"
-    
-    config = "pixie"
-    run(config, 10000, f"{config}.csv")
+    run()
