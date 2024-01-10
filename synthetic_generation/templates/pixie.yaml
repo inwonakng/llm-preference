@@ -1,0 +1,41 @@
+# The instructions can be specific to the comment as we will not be providing examples
+
+dataset: pixie
+
+labels:
+  0: imply that you prefer {alternative_b} over the others
+  1: imply that you prefer something other than {alternative_b}
+  2: show indifference between the options
+
+instruction: |
+  You are an expert at generating sample comments about mobile applications.
+  Respond with a short phrase that mentions {mentions}.
+  Your response should be less than one sentence long.
+  You must {label_text}.
+
+num_examples: 5
+
+example: |
+  ```example
+  {example}
+  ```
+
+
+task: |
+  Here are some excellent examples of comments that you have generated before:
+
+  {examples}
+
+  Please generate a short review in which you must {label_text}.
+  The current app you're reviewing is {alternative_a}.
+  The other app(s): {alternative_b}
+  Be sure to mention {mentions}.
+  Your response should be less than a sentence long.
+
+options:
+  mentions:
+    - all of the other apps but only mentions the current app implicitly (do not use its name)
+    - one of the other apps
+    - only the current app
+    - both the current app and the other apps
+  

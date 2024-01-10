@@ -1,0 +1,687 @@
+# The instructions can be specific to the comment as we will not be providing examples
+
+# The "start your comment" row is to prevent the model from starting the comment with "As a {adjective} {person}"
+instruction: |
+  You are a {adjective} {person} who {label_text}.
+  Your job is to write a comment responding to {previous_comment_topic}.
+
+  Please also keep the following guidelines for your comment in mind:
+  - You must write {num_sentences} sentences
+  - You must talk about {aspect} as relevant to the colleges
+
+num_examples: 3
+
+example: |
+  ```example {example_idx}
+  {example}
+  ```
+
+task: |
+  Here are some excellent examples of comments that you have generated before for other colleges and personalities:
+
+  {examples}
+
+  Please generate a comment that responds to {previous_comment_topic} and follows the original instructions.
+
+options:
+  num_sentences:
+    - 1
+    - 2
+    - 3
+    - 5
+    - 8
+    - 13
+    - 21
+  adjective:
+    - happy
+    - disgruntled
+    - ambivalent
+    - stressesd
+    - friendly
+    - angry
+    - disappointed
+    - excited
+    - proud
+    - curious
+  person:
+    - parent
+    - alumni
+    - prospective student
+    - current student
+    - teacher
+    - hiring manager
+    - faculty
+    - admissions officer
+    - international student
+  previous_comment_topic:
+    - someone who agrees with you
+    - someone who disagrees with you
+    - someone who just got into one of the colleges
+    - someone who just got into both of the colleges
+    - someone who is not sure of where to apply to
+    - a comment that discusses statistics
+    - the start of a discussion
+  aspect:
+    - 25th percentile
+    - 3-2 engineering program
+    - abet accreditation
+    - abet status
+    - academic
+    - academic and social fit
+    - academic atmosphere
+    - academic credit
+    - academic difference
+    - academic differences
+    - academic environment
+    - academic excellence
+    - academic experience
+    - academic focus
+    - academic intensity
+    - academic life
+    - academic orientation
+    - academic peer
+    - academic performance
+    - academic programs
+    - academic quality
+    - academic reputation
+    - academic requirements
+    - academic rigor
+    - academic strength
+    - academic structure
+    - academic style
+    - academic support
+    - academics
+    - acceptance criteria
+    - acceptance process
+    - acceptance rate
+    - acceptance rates
+    - access to extracurricular activities
+    - access to faculty
+    - accolade
+    - acres
+    - act score
+    - act scores
+    - activities
+    - admission
+    - admission advantage
+    - admission process
+    - admission requirements
+    - admission statistics
+    - admissions
+    - admissions criteria
+    - admissions data
+    - admissions decision
+    - admissions difficulty
+    - admissions policies
+    - admissions process
+    - admissions standards
+    - admissions statistics
+    - admit
+    - admit decision timing
+    - admit decisions
+    - admit difficulty
+    - admit profile
+    - admit rate
+    - admit requirements
+    - admittance rate
+    - advanced degrees
+    - advantages
+    - affection
+    - affordability
+    - age
+    - alcohol consumption
+    - alcohol culture
+    - alcohol policy
+    - alternate freshman entry
+    - alumni achievement
+    - alumni giving rate
+    - alumni network
+    - amenities
+    - appeal
+    - application volume
+    - athletic admission standards
+    - athletic advantage
+    - athletic programs
+    - athletics
+    - atmosphere
+    - attractiveness
+    - bachelor's vs master's
+    - balance between academics and extracurricular activities
+    - best education
+    - better for cs
+    - bias
+    - big city life
+    - big law
+    - biomedical engineering
+    - branch campus
+    - brand name
+    - broad experience
+    - bs/mba program
+    - budget
+    - business
+    - business major
+    - business program
+    - business programs
+    - business school
+    - business/finance
+    - business/law
+    - caliber
+    - caliber of students
+    - campus
+    - campus atmosphere
+    - campus beauty
+    - campus culture
+    - campus environment
+    - campus experience
+    - campus life
+    - campus location
+    - campus safety
+    - campus size
+    - campus vibe
+    - campuses
+    - career fairs
+    - career opportunities
+    - career path
+    - career placement
+    - career results
+    - career services
+    - career success
+    - career tracks
+    - challenges
+    - change of scenery
+    - class atmosphere
+    - class availability
+    - class observation
+    - class rank
+    - class size
+    - class sizes
+    - classroom experience
+    - clery report
+    - climate
+    - close relationships
+    - club sports
+    - coaches' influence
+    - collaborativeness
+    - college town
+    - college towns
+    - common core
+    - common core experience
+    - community
+    - commuting
+    - company/firm/financial institution
+    - comparison
+    - compensation
+    - competition
+    - computer programming
+    - computer science
+    - connections
+    - core classes
+    - core curriculum
+    - cost
+    - cost of attendance
+    - cost, weather, location
+    - cost/value
+    - course catalog
+    - course distribution
+    - course offerings
+    - course options
+    - course registration
+    - course structure
+    - coursework
+    - credit
+    - cross admissions
+    - cross admits
+    - cross-admission
+    - cross-admission rates
+    - cross-registration
+    - cs
+    - cs major
+    - cs major satisfaction
+    - cs program
+    - cs reputation
+    - curricular setup
+    - curriculum
+    - debt
+    - decision making
+    - default rate
+    - deferral
+    - degree duration
+    - desirability
+    - destinations
+    - different vibes
+    - difficulty
+    - dining options
+    - dining/housing
+    - direct admission
+    - discipline and motivation
+    - distribution requirement
+    - distribution requirements
+    - diversity
+    - dorm
+    - drinking
+    - drinking culture
+    - drinking problem
+    - drinking problems
+    - drinking-related incidents
+    - drop out rate
+    - drug and alcohol climate
+    - east coast
+    - east/west coast preference
+    - easy classes
+    - eating clubs
+    - economic diversity
+    - ed acceptance rate
+    - educational quality
+    - efc
+    - elective availability
+    - employer proximity
+    - employment
+    - employment opportunities
+    - employment prospects
+    - endowment
+    - endowments
+    - engagement
+    - engineer career path
+    - engineering
+    - engineering and computer science programs
+    - engineering disciplines
+    - engineering facilities
+    - engineering graduates
+    - engineering rankings
+    - engineering reputation
+    - engineering talent
+    - entertainment
+    - entrepreneurship
+    - environment
+    - environment/culture
+    - equity compensation
+    - essay
+    - essays
+    - ethics
+    - ethnic diversity
+    - executive success
+    - executive-level success
+    - expensive
+    - extracurricular activities
+    - facilities
+    - fallback options
+    - family income
+    - features
+    - feeders
+    - finance
+    - finances
+    - financial
+    - financial advantage
+    - financial aid
+    - financial burden
+    - financial concern
+    - financial concerns
+    - financial considerations
+    - financial cost
+    - financial equation
+    - financial impact
+    - financial implication
+    - financial implications
+    - financial opportunities
+    - financial package
+    - financial position
+    - financial pressure
+    - financial safety
+    - financials
+    - fit
+    - fit, finances, logistics
+    - flexibility
+    - food
+    - food scene
+    - football
+    - foreign language requirement
+    - four-year requirement
+    - fraternities
+    - fraternities/sororities
+    - full ride
+    - full tuition scholarship
+    - full-ride
+    - full-ride scholarship
+    - full-tuition scholarship
+    - funding
+    - gap program
+    - gap year
+    - gender balance
+    - gender ratio
+    - general education
+    - geographic diversity
+    - global brand
+    - global prestige
+    - goals
+    - gpa
+    - gpa requirement
+    - grad school
+    - grade deflation
+    - grade distribution
+    - grade inflation
+    - grade inflation/deflation
+    - grades
+    - graduate outcomes
+    - graduate school
+    - graduate school acceptance
+    - graduate schools
+    - graduation rate
+    - graduation rates
+    - greek life
+    - hands-on vs analytical approach
+    - happiness
+    - healthcare
+    - heart
+    - hiring
+    - homogeneity
+    - honor
+    - honors college
+    - honors programs
+    - hookup culture
+    - hot
+    - hotness
+    - housing
+    - in-state students
+    - industry favor
+    - inroads in finance
+    - instate
+    - intellectual
+    - intellectual engagement
+    - intellectual student body
+    - intellectualism
+    - interdisciplinary
+    - internship opportunities
+    - internships
+    - intimate learning experience
+    - intro courses
+    - investment in sciences
+    - isolation
+    - ivy contract
+    - job opportunities
+    - job placement
+    - job prospects
+    - job/internship opportunities
+    - labs
+    - lac division
+    - lacrosse
+    - laid-back atmosphere
+    - language
+    - law & mba programs
+    - law school
+    - law school acceptance rates
+    - law school ranking
+    - leadership
+    - leadership development
+    - learning environment
+    - lecture hall size
+    - legacy
+    - letters of recommendation
+    - liberal arts
+    - liberal arts curriculum
+    - life-long dream
+    - living/learning communities
+    - loan
+    - loan amount
+    - location
+    - location/geography
+    - logistics
+    - major
+    - major concentrations
+    - major differences
+    - major or post-graduate plans
+    - major requirements
+    - major-specific courses
+    - major/minor
+    - major/program
+    - mandatory foreign language requirement
+    - master's degree
+    - material covered
+    - math
+    - math requirements
+    - math sequence
+    - mba
+    - mbb
+    - med school
+    - median starting salary
+    - medical research
+    - medical school
+    - medical school acceptance rate
+    - medical school admissions
+    - medical school costs
+    - medical school placement
+    - medical school preparation
+    - medical schools
+    - mental health
+    - mental health services
+    - merit award
+    - merit scholarship
+    - methodology
+    - middle 50 act scores
+    - minor
+    - money
+    - more expensive
+    - name recognition
+    - negotiation skills
+    - net cost
+    - net price
+    - net worth
+    - network
+    - neuroscience
+    - no aspect
+    - no specific aspect mentioned
+    - nobel prize
+    - none
+    - notification date
+    - number of alumni
+    - number of majors
+    - open-mindedness
+    - opportunities
+    - opportunity
+    - opt
+    - orientation
+    - original goal
+    - outcome
+    - outdoor activities
+    - outdoor opportunities
+    - outdoor vs indoor activities
+    - overall experience
+    - overall quality
+    - overall strength
+    - overall university comparison
+    - pace/demand
+    - part-time enrollment
+    - part-time/full-time enrollment
+    - party culture
+    - passionate alumni
+    - pay
+    - pay scale
+    - pecking order
+    - peer accomplishment
+    - peer assessment
+    - peer comparison
+    - peer institution
+    - peer institutions
+    - peer quality
+    - peer universities
+    - perceived status
+    - perks
+    - personal experience
+    - personal safety
+    - personalized learning
+    - phd programs
+    - philanthropy
+    - physics
+    - placement
+    - political science
+    - political science/international relations
+    - post graduation job prospects
+    - post undergraduate work experience
+    - practical
+    - pre-med
+    - pre-med program
+    - pre-med vs engineering
+    - pre-med weed out program
+    - preference
+    - premed
+    - prestige
+    - price
+    - price tag
+    - pricing
+    - prof recommendation
+    - professor quality
+    - program variety
+    - project-based learning
+    - prominent alumni
+    - promotion
+    - public ivy
+    - public transportation
+    - quality
+    - quality of education
+    - quality of the department
+    - rank
+    - ranking
+    - rankings
+    - rankings or us news ranking
+    - recruiting opportunities
+    - recruitment
+    - recruitment opportunities
+    - region
+    - regional hiring
+    - registering early for classes
+    - renown
+    - representation
+    - reputation
+    - research
+    - research opportunities
+    - resident status
+    - residential college system
+    - residential system
+    - resources
+    - retention
+    - rigor
+    - risk
+    - roi
+    - room and board
+    - rowing
+    - rugby team
+    - safety
+    - salaries
+    - salary
+    - salary/compensation
+    - sat score
+    - sat scores
+    - sat/act
+    - sat/act deadlines
+    - sat/act scores
+    - scenery
+    - scholarship
+    - scholarship requirements
+    - scholarships
+    - school culture
+    - school quality
+    - school ties
+    - selectivity
+    - self-selecting applicant pool
+    - setting
+    - silicon valley companies
+    - similar colleges
+    - similar interests
+    - similarities
+    - similarity
+    - size
+    - size/location
+    - small community
+    - social aspects
+    - social atmosphere
+    - social environment
+    - social fit
+    - social justice
+    - social life
+    - softball
+    - software engineering
+    - specialty masters
+    - sports programs
+    - stamps
+    - stamps scholarship
+    - standardized test scores
+    - standardized testing
+    - standardized tests
+    - starting pay
+    - starting salary
+    - stats
+    - stem
+    - stimulation
+    - strength in computer science
+    - strengths
+    - stress
+    - stress level
+    - stress levels
+    - structural differences
+    - student body
+    - student body focus
+    - student culture
+    - student experience
+    - student focus
+    - student outcomes
+    - student performance
+    - student population
+    - student-to-faculty ratio
+    - study abroad
+    - subject requirements
+    - substance abuse
+    - teaching faculty
+    - teaching quality
+    - team culture
+    - team quality
+    - team/coach fit
+    - tech aspects
+    - technical positions
+    - test format
+    - test score
+    - test score ranges
+    - test scores
+    - theater
+    - time
+    - time commitment
+    - time demand
+    - time management
+    - time to complete
+    - time/jobs
+    - total compensation
+    - total cost
+    - training for high-paying jobs
+    - training vs. education
+    - training vs. personal interest
+    - transfer
+    - transferability
+    - transportation
+    - treatment of student-athletes
+    - trimester vs. semester
+    - trimesters
+    - tuition
+    - underfunding
+    - undergrad focus
+    - undergrad/grad
+    - undergraduate education
+    - undergraduate experience
+    - undergraduate learning experience
+    - undergraduate prestige
+    - undergraduate quality
+    - undergraduate research
+    - undergraduate studies
+    - unique features
+    - urban vs suburban
+    - us news ranking
+    - value
+    - value proposition
+    - visit
+    - visit requirement
+    - visited
+    - waitlist
+    - wall street
+    - wall street preference
+    - weather
+    - weed-out courses
+    - work life
+    - workload
+    - yield

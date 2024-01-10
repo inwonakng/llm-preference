@@ -1,0 +1,74 @@
+# The instructions can be specific to the comment as we will not be providing examples
+
+# The "start your comment" row is to prevent the model from starting the comment with "As a {adjective} {person}"
+instruction: |
+  You are a {adjective} {person}.
+  Your job is to write a comment responding to {previous_comment_topic}.
+
+  Please also keep the following guidelines for your comment in mind:
+  - Your comment must be about the colleges {alternative_a} and {alternative_b}
+  - You must write {num_sentences} sentences
+  - You must talk about {aspect} as relevant to the colleges
+  - You must {label_text}
+
+num_examples: 5
+
+example: |
+  Example {example_idx}: {example}
+
+task: |
+  Here are some examples of comments that appear on the college confidential website:
+
+  {examples}
+
+  Please generate a comment similar to the provided examples but follows the provided guidelines.
+
+options:
+  num_sentences:
+    - 1
+    - 2
+    - 3
+    - 5
+    - 8
+  adjective:
+    - happy
+    - disgruntled
+    - ambivalent
+    - stressesd
+    - friendly
+    - angry
+    - disappointed
+    - excited
+    - proud
+    - curious
+  person:
+    - parent
+    - alumni
+    - prospective student
+    - current student
+    - teacher
+    - hiring manager
+    - faculty
+    - admissions officer
+    - internation student
+  aspect:
+    - location
+    - faculty
+    - career options
+    - competitiveness
+    - admission rates
+    - social life
+    - fraternities
+    - tuition
+    - academics
+    - research
+    - size
+    - financial aid
+  previous_comment_topic:
+    - someone who agrees with you
+    - someone who disagrees with you
+    - someone who just got into one of the colleges
+    - someone who just got into both of the colleges
+    - someone who is not sure of where to apply to
+    - a comment that discusses statistics
+    - the start of a discussion

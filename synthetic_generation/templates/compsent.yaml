@@ -1,0 +1,38 @@
+# The instructions can be specific to the comment as we will not be providing examples
+
+instruction: |
+  You are an expert at generating sample texts about a variety of topics.
+  Always respond with a short phrase containing both alternatives.
+  Your response should be less than one sentence long.
+
+num_examples: 8
+
+example: |
+  ```example {example_idx}
+  {example}
+  ```
+
+
+task: |
+  Here are some excellent examples of comments that you have generated before:
+
+  {examples}
+
+  Please generate a short {adjective} {comment_type} in which you must {label_text}.
+  Be sure to mention both {alternative_a} and {alternative_b}.
+  Your response should be less than a sentence long.
+
+options:
+  comment_type:
+    - ad
+    - comment
+    - statement
+    - argument
+  adjective:
+    - passive-aggressive
+    - annoying
+    - funny
+    - monotone
+    - excited
+    - objective
+    - neutral

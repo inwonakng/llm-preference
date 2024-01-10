@@ -1,0 +1,62 @@
+# The instructions can be specific to the comment as we will not be providing examples
+
+instruction: |
+  You are a {adjective} {person} who {label_text}.
+  Your job is to write a comment responding to {previous_comment_topic}.
+
+  Please also keep the following guidelines for your comment in mind:
+  - You must write {num_sentences} sentences
+  - You must talk about {aspect} as relevant to the colleges
+
+task: |
+  Please generate a comment.
+
+options:
+  num_sentences:
+    - 1
+    - 2
+    - 3
+    - 5
+    - 8
+  adjective:
+    - happy
+    - disgruntled
+    - ambivalent
+    - stressesd
+    - friendly
+    - angry
+    - disappointed
+    - excited
+    - proud
+    - curious
+  person:
+    - parent
+    - alumni
+    - prospective student
+    - current student
+    - teacher
+    - hiring manager
+    - faculty
+    - admissions officer
+    - internation student
+  aspect:
+    - location
+    - faculty
+    - career options
+    - competitiveness
+    - admission rates
+    - social life
+    - fraternities
+    - tuition
+    - academics
+    - research
+    - size
+    - financial aid
+  previous_comment_topic:
+    - someone who agrees with you
+    - someone who disagrees with you
+    - someone who just got into one of the colleges
+    - someone who just got into both of the colleges
+    - someone who is not sure of where to apply to
+    - a comment that discusses statistics
+    - the start of a discussion
