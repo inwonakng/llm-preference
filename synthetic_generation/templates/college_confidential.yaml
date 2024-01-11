@@ -1,4 +1,5 @@
 # The instructions can be specific to the comment as we will not be providing examples
+dataset: college_confidential
 
 # The "start your comment" row is to prevent the model from starting the comment with "As a {adjective} {person}"
 instruction: |
