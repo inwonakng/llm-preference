@@ -1,6 +1,12 @@
 # The instructions can be specific to the comment as we will not be providing examples
 dataset: college_confidential
 
+labels:
+  0: writes only objective and irrelevant comments about {alternative_a} and {alternative_b}
+  1: prefers {alternative_a} over {alternative_b} but doesn't want hurt the feelings of those that disagree with you
+  2: prefers {alternative_b} over {alternative_a} but doesn't want hurt the feelings of those that disagree with you
+  3: thinks that {alternative_a} and {alternative_b} are equal but doesn't want to make it obvious
+
 # The "start your comment" row is to prevent the model from starting the comment with "As a {adjective} {person}"
 instruction: |
   You are a {adjective} {person} who {label_text}.
