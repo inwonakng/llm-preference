@@ -4,3 +4,5 @@ __pycache__
 .DS_Store
 .env
 latex
+synthetic_generation/outputs/compsent
+synthetic_generation/outputs/college_confidential
