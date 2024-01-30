@@ -1,0 +1,15 @@
+{
+  "index": 2351,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two options A and B, and a comment. Your job is to identify the preference between the two given options in the comment. \nThe names of the two options and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the options' real names.\nYou MUST refer to the options as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if option A is preferred over option B.\nYou MUST respond with ```B is preferred over A``` if option B is preferred over option A.\nYou MUST respond with ```Equal preference``` if options A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "Option A: ```Toshiba```\nOption B: ```Samsung```\nComment: ```CPU : Intel\u00ae CoreTM i5-4460, 4\u00d7 3200 MHz , with Intel\u00ae Turbo Boost 2.0 technology up to 3400 MHz CPU Cooler : Silent Cooler suitable for 1155/1156/1150 1st Hard Drive : 1000 GB SATA, Seagate\u00ae/Toshiba/WD\u00ae RAM : 8192 MB DDR3 -RAM, 1600 MHz, Micron\u00ae/Elixir\u00ae/Samsung\u00ae Graphics : Intel\u00ae HD Graphics 4600, max.```\n"
+    }
+  ]
+}

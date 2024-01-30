@@ -1,0 +1,15 @@
+{
+  "index": 4889,
+  "true_label": 0,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two options A and B, and a comment. Your job is to identify the preference between the two given options in the comment. \nThe names of the two options and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the options' real names.\nYou MUST refer to the options as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if option A is preferred over option B.\nYou MUST respond with ```B is preferred over A``` if option B is preferred over option A.\nYou MUST respond with ```Equal preference``` if options A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "Option A: ```Audi```\nOption B: ```Mercedes-Benz```\nComment: ```The S60 is fun to drive, and a good long-distance tourer, but it's not the same league--for performance or handling--as competitors like the Audi A4 , BMW 3-Series, or the more luxurious and solid Mercedes-Benz C-Class.```\n"
+    }
+  ]
+}
