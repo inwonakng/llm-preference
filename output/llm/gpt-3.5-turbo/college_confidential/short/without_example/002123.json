@@ -1,0 +1,15 @@
+{
+  "index": 2123,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```University of South Carolina```\nComment: ```I see you have decided, but I do have a comment.  I grew up 30 minutes from Ann Arbor, was a 3rd generation Wolverine, and went to Michigan & Ross.  It felt like a different world, honestly.  I spent time with bright (some brilliant) students and profs from all over the country, and in some cases all over the world.  I was immersed in coursework and opportunities that were nothing like my HS life.  Ann Arbor is a great town to live in the middle of.  My parents tried to give me space, never dropped in unannounced.  I saw HS friends sometimes on campus, but wasn\u2019t obligated to spend time with them if I didn\u2019t want to. Once I was out of college, the Michigan name opened doors for me, too.  I am in a business where my resume gets reviewed a lot, and I often get, \u201cMichigan \u2014that\u2019s a good school\u201d comments when they get to that part of my resume. You can move elsewhere after undergrad.  And a Michigan degree makes that easier. I didn\u2019t love everything about my experience there, but that is more that I might have thrived most at a smaller school.  But I would pick Michigan over South Carolina every single time.  It is silly to pay OOS tuition in this case.  Don\u2019t be put off by it being close to home \u2014 it is a whole different thing to be a student on campus than to live nearby.  ```\n"
+    }
+  ]
+}

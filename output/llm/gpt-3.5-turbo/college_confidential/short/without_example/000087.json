@@ -1,0 +1,15 @@
+{
+  "index": 87,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```California Institute of Technology```\nCollege B: ```Johns Hopkins University```\nComment: ```@Coloradomama Do you have any statistics to say Georgia Tech students get recruited \u201cby far\u201d more than JHU students at the elite Investment Banks, tech companies, and management consulting companies?  I\u2019m ex bain from JHU, and can tell you point blank all three \u201celite\u201d consulting firms (McKinsey, Bain, BCG) hire more than their fair share of JHU students.  I\u2019d also see what division of Goldman is hiring.  Hackathon usually constitutes their IT divisions - far from elite like their IB division which hires substantially from JHU (i\u2019m happy to name JHU alumni that are in Goldman\u2019s IB group from recent classes). Lastly in tech, Google and Facebook and other elite firms also hire substantially from JHU.   I work for one of the former now.  It\u2019s unclear proportionally that they hire more from from Georgia Tech - I certainly don\u2019t see it at HQ. I\u2019d choose JHU, bias and all.  When I graduated, I had my pick of grad schools with a full ride for Ph.D programs and my choice of jobs at graduation as well.  Ended up getting a Master\u2019s for free from MIT, but had McKinsey, Bain, and Google offers at graduation as well.  When I was choosing schools for undergrad, I was also offered a scholarship at Georgia Tech (Stamps) along with UMD (Banneker-Key) and UVa (Jefferson), but ended up paying a bit more at JHU and don\u2019t regret it in the least.  ```\n"
+    }
+  ]
+}

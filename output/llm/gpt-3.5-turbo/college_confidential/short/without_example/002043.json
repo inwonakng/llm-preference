@@ -1,0 +1,15 @@
+{
+  "index": 2043,
+  "true_label": 2,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Indiana University```\nCollege B: ```Southern Methodist University```\nComment: ```She\u2019s not in McCombs so you can\u2019t compare McCombs to the others. Assume she\u2019ll get a degree in Economics. Another issue is that she didn\u2019t make or apply for honors at UT which puts her at a disadvantage. (The order of priority for opportunities, contacts, etc, would be BHP or Plan II -&gt;McCombs-&gt;Economics with Honors-&gt;Economics). Does she want economics or Business? Economics can be more flexible and can allow her to add some electives to personalize her profile. She may be able to add a Business certificate to it, develop expertise in US culture (through classes in American studies, African American studies, Hispanic studies)nifbshe plans to work for a TNC that does business with the US. UT will also be much more diverse (ethnically and socio economically) than SMU. SMU business offers excellent contacts, networking, internships, etc. It is also rather homogeneous. So if your concern is internships and living in a big city, SMU would have the edge. If you want diversity, UT has the edge. In terms of political vibe, SMU is conservative and UT is liberal.  ```\n"
+    }
+  ]
+}

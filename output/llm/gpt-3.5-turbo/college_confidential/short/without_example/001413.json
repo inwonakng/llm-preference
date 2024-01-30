@@ -1,0 +1,15 @@
+{
+  "index": 1413,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Wesleyan University```\nCollege B: ```Georgia Institute of Technology```\nComment: ```@akin67 - Thank you so much for sharing your experience with the 3+2 program.  I don\u2019t mean to hijack the conversation, but may I ask, if you know, what the financial aid situation is like when a student does the 3-2 program?  Is the tuition and financial aid decision made at the engineering school, or is it Hamilton rates and financial aid for the whole 5 years?  I ask because I believe my son would be eligible for much more aid at one of the schools in the program, but I would like to see him get the writing/communications enrichment that Hamilton offers.  Unfortunately, though, I think Hamilton is going to be unaffordable for us - definitely would be at 5 years.  ```\n"
+    }
+  ]
+}

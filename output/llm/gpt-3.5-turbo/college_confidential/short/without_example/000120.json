@@ -1,0 +1,15 @@
+{
+  "index": 120,
+  "true_label": 2,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```I have to pop in to say that Haverford does not have an urban feel to my mind (as a BMC alum) \u2013 it has a duck pond, nature trails, and the traditional small liberal arts college vibe, all on 200 acres. It is located in Haverford \u2013 a wealthy suburb about 20 minutes from Philly, with shops off campus. Towns on the Main Line are about a mile apart, all connected by commuter rail to Philly. The area is considered one of the loveliest suburban areas in Philadelphia, with large homes from the turn of the century. Haverford is also distinctive because of its Quaker traditions of mutual respect and notions of community, which influence everything from self-scheduled final exams to the tradition of Plenary, when students meet to reaffirm the Honor Code. Students do very well after graduation but it does not have a business program. Haverford and Bryn Mawr students can take up to 2 classes a term at U Penn, though the classes must be classes which are not regularly offered at either Haverford or Bryn Mawr, and Wharton and Engineering classes are excluded.  ```\n"
+    }
+  ]
+}

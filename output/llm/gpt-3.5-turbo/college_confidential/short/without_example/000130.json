@@ -1,0 +1,15 @@
+{
+  "index": 130,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```Richmond is 10% international. Amazing food. In fact, an alum who was visiting campus wasn\u2019t happy with his dessert a few years back, so funded an enormous gourmet dessert selection. Richmond has over a 2 billion dollar endowment! Huge for such a small LAC. (Haverford\u2019s is about 500 mill). That\u2019s why Richmond is so generous with funds to travel, research, study abroad, etc. As for being a token intellectual, my S, not a richmond Scholar, had a 34ACT/1520 Sat, mostly As (until slacking senior yr) in rigorous curriculum (finished AP calc BC in 11th grade and took a discrete math topic 12th, Phys C, all told 8-10 APs (depending on how you count them)), so there are plenty of \u201csmart\u201d kids there. And, the curriculum is rigorous. Our somewhat immature son thought he could get by with the approach he took in senior year high school and learned the hard way (bad 1st sem grades), he needs to really study. As for law school, have you looked at Richmond\u2019s Philosophy, Politics, Economics and Law major? It\u2019s what drew our S to Richmond. Kids LOVE that major. If you\u2019re a Richmond Scholar, get a 3.8 or above GPA (which might be easier to get at Richmond than Haverford, idk) and take advantage of everything the school offers, you\u2019ll be well set for the LSATs and a top law school. Look into the first year Endeavors and sophomore scholars in residence programs. They are excellent. And with Endeavors, you\u2019ll be coming to school a little early and living with like-minded individuals.  ```\n"
+    }
+  ]
+}

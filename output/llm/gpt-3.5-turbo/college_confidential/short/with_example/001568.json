@@ -1,0 +1,47 @@
+{
+  "index": 1568,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Yale University```\nCollege B: ```University of Wisconsin-Madison```\nComment: ```Assuming that the total debt is going to be 60,000, rather than 240,000, the advice to go to Madison(which is a common theme here on CC) is, in my view, catastrophically poor advice.  To begin with, over the course of a succesful career in medicine, 60,000 is effectively meaningless.  Just do the math of lifetime earnings of a physician.  To turn down a superior opportunity over 60,000 is poor thinking.  So, is Yale superior?  The posters keep saying it doesn\u2019t matter where you go undergraduate for med school admissions, but that is absolutely false.  Yale, as a matter of fact, gets a higher percentage of students, at a lower GPA, then Madison into medical school.  Medical school admission rates are as low as Stanford and Harvard for undergraduate.  Wouldn\u2019t you want every advantage.  And to suggest that because people at Yale are smarter than people at Madison that your grades will be lower proportionately, is also not factual.  Top schools are known for grade inflation and helping students.  And Madison has many talented students in pre-med.  The idea that you can breeze through pre-med weed out courses at Madision and would struggle at Yale is simply guess work.  But the flawed nature of the advice, even from a financial perspective, comes out when you take a closer look at med school admissions and merit aid.  Top med schools also have better financial aid and better MERIT aid.  If you do well at Yale, you will be much more likely to be accepted at a top medical school with better aid and medical school is much much more expensive than undergraduate.  And if you want MERIT aid for medical school, you better be a top top applicant.  Now, if the amount is 240,000, that is different story because then you may end up borrowing on top of that amount for medical school, and that total number will balloon. I am not knocking Madison at all.  Great school.  But the poor advice here needs to be addressed.  ```\n"
+    }
+  ]
+}

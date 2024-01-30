@@ -1,0 +1,15 @@
+{
+  "index": 2092,
+  "true_label": 2,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Temple University```\nCollege B: ```University of Nebraska-Lincoln```\nComment: ```I\u2019m not @austinmshauri and I don\u2019t know whether Nebraska or Temple has the better business school.  I\u2019m sure both of them are fine, but since you can\u2019t afford Temple, it doesn\u2019t really matter.  You keep asking for opinions about schools that should have been taken off the list as soon as you realized they would be too expensive.  Choose from Nebraska, UNR, or one of your instate schools.  ```\n"
+    }
+  ]
+}

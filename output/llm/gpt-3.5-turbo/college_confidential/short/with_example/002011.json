@@ -1,0 +1,47 @@
+{
+  "index": 2011,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Duke University```\nCollege B: ```University of California, Berkeley```\nComment: ```The funding cuts are very real. http://www.latimes.com/local/education/higher-ed/la-me-uc-global-rankings-20180228-story.html \u201cUC faculty leaders said the results confirm their fears that the university\u2019s excellence would decline without greater state investment. The state share of costs per student dropped from $14,690 in 1996 to $7,160 in 2017, according to UC data. The university has made up some of the difference by hiking tuition and increasing the number of out-of-state students, who pay more, but both efforts have sparked opposition.\u201d http://www.dailycal.org/2015/11/23/to-fund-enrollment-boost-uc-will-phase-out-out-of-state-financial-aid/ Along with the elimination of financial aid for incoming out-of-state students, the university is increasing nonresident tuition by 8 percent in the next year and projecting to enroll an additional 1,200 nonresident undergraduates. Out-of-state students make up a significant portion of students on the university\u2019s flagship campus \u2014 roughly 35 percent of UC Berkeley\u2019s incoming students were nonresidents in 2014. Abril raised concerns about the effects of cutting out-of-state financial aid on campus diversity. \u201cYou\u2019ll be creating a pipeline for that percentage of students to be entirely socioeconomically homogeneous,\u201d he said. \u201cYou\u2019ll lose most of the students who would ever consider coming here who are low income and out of state.\u201d http://www.dailycal.org/2018/02/02/cautious-optimism-campus-budget-update-reveals-progress-deficit-dearth-state-funding/  ```\n"
+    }
+  ]
+}

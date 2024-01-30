@@ -1,0 +1,15 @@
+{
+  "index": 2588,
+  "true_label": 3,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Carleton College```\nCollege B: ```Amherst College```\nComment: ```More support for comments by codychesnutt, matzoball, and Minnesotadadof3. There\u2019s little confusing these two schools\u2019 over-riding atmospheres. At the risk of stereotyping, Amherst is measurably more east coast pre-professional, Carleton measurably more intellectually individualistic. The Goodsell Observatory prank referenced earlier (http://www.citypages.com/news/carleton-students-love-r2-d2-so-much-they-turn-a-building-into-the-droid-6539523) is pure Carleton, rinse and repeat, not likely to be mistaken by anyone who knows these schools as a way to spend a night in Amherst. These difference are neither good nor bad, just differences. I\u2019ll support the call for the OPs son to search his heart as well as his mind in determining where he\u2019d most feel at home these coming four years.  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "index": 531,
+  "true_label": 1,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Vassar College```\nCollege B: ```Kenyon College```\nComment: ```@merc81: Kenyon College\u2019s Alcohol Task Force was found in September 2016 to consider and recommend strategies for the Kenyon community to address the high-risk practices and behavior related to the presence and consumption of alcohol on campus. Rather than guess, why not read the Kenyon College Alcohol Task Force Report of March 2017. It will be easy to cherry pick quotes supporting one\u2019s position but the merit is in the totality of the effort. Again, I find this to be an admirable reactive effort. Of course, there is alcohol consumption on almost all college campuses, but it is a more dominant culture on some campuses than others. I believe that it was a Harvard study that defined the major risk factors/prototype schools. Kenyon fits the profile in theory & in fact. Doesn\u2019t mean that every student drinks or drinks excessively or that anyone is forced to drink. On the other hand  ignorance is bliss. P.S. I do not know why this thread was revived by a poster who opened an account to do so. In my opinion, this thread has served its purpose\u2013and has been very informative based on the outside sources referenced. And, FWIW, the culture continues as reported by the son of a frequent poster who recently visited Kenyon on an overnight visit.  ```\n"
+    }
+  ]
+}

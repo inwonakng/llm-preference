@@ -1,0 +1,15 @@
+{
+  "index": 2419,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Bowdoin College```\nCollege B: ```Middlebury College```\nComment: ```@joy12345 my daughter has never felt an elitist vibe at Middelbury. Her friend group is geographically pretty diverse, and generally speaking (at least from her experience) students really don\u2019t know/care who is full pay or who gets financial aid. Of course there are always exceptions at every school but middkids are a prety down to earth group.  I do, however, agree with @doschicos that Bates is arguably the most laid back of the three you are considering. On a side note- when my daughter visited Williams she spent the day on campus. Attended class, danced in the studio, tried to take in as much as possible. She did feel the environment was intense at Williams, that it had a similar feel to Swarthmore, and for that reason Williams did fall off of her list. At Middlebury the students seemed like they were having fun; at Williams not so much that particular day. Having said that, she has two friends at Williams and they absolutely love Williams! Bottom line is that all three are great school and the comparisons are truly relative and certainly subjective   ```\n"
+    }
+  ]
+}

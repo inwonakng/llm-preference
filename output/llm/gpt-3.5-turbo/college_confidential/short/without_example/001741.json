@@ -1,0 +1,15 @@
+{
+  "index": 1741,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```For the folks claiming that every MIT student could have turned down a full-ride someplace else. Ummmm, no. Think about it this way\u2026 how many students attend the elite elites: HYPMS? Let\u2019s round that off to maybe 8000 students. And to be fair, we\u2019re not talking about full-rides just anywhere\u2026 but full-rides to top schools (say, top 50 on USNWR) outside the elite elite. You think there are that many full-rides out there at top schools? I find it amusing that folks think a full-ride scholarship to a fantastic school like Michigan is just so blas\u00e9 that anyone at HYPSM could have gotten it and turned it down.  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "index": 135,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```@Anna20021988 You seem to be all over the place. It\u2019s difficult to get a sense of what you want.  You say you want to study finance. Haverford doesn't offer finance.  You say you want to also study creative writing/English/history. Both colleges offer that and you can study both finance and creative writing at Richmond. You say you don't like science but seem concerned about the number of science courses offered by each college. Both schools offer a myriad of natural science electives. Both colleges offer a study abroad program at the London School of Economics.   I don\u2019t have a horse in this race so I\u2019m not trying to persuade you one way or the other. It took me just a few minutes to search for these answers on each college\u2019s respective websites. My sense is that you are looking for reasons not to go to Richmond. You\u2019ve received some detailed responses from other posters so I hope that you can feel good about which college you ultimately decide to attend. Good luck!  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "index": 2295,
+  "true_label": 2,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Columbia University```\nCollege B: ```University of Michigan```\nComment: ```@alexandre \u201cWhen it comes to graduate school or professional placement, Columbia offers no advantage over Michigan.\u201d I am not sure what you are basing that on. U of M receives limited state money and has to take most of its undergrads from the state of Michigan. Making matters worse, the State of Michigan\u2019s public education is in a death spiral which is making qualified in-state candidates scarce (see link below). Historically, U of M\u2019s advantages are their strong alumni base, its large endowment, and sports. However, sports seems to be sliding with the football team losing 12 out of the last 13 games to Ohio State and 8 out of the last 10 games to Michigan State. Given their situation, I don\u2019t see how they can improve their undergrad situation significantly unless the State allows them to go private, which I think is unlikely. http://www.freep.com/story/news/education/2016/05/18/michigan-students-sliding-toward-bottom/84535876/  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "index": 2296,
+  "true_label": 3,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Columbia University```\nCollege B: ```University of Michigan```\nComment: ```\u201cYou only have to look at the historical slide of public universities compared to private universities (in undergraduate studies) to see it.\u201d Actually CU, the slide has a lot more to do with data reporting and a terribly flawed methodology than with actual drop in quality. Private universities are making up numbers to help their rankings while public universities cannot because their data are audited for accuracy. Columbia claims to have a 6:1 student to faculty ratio. LOL!    Someone must have forgotten to include the 6,500 thousand graduate students enrolled at Fu and the Graduate School of Arts and Sciences. in that calculation. That Fu. There are 190 professors. If you just include the 1,600 undergraduate students in the student to faculty ratio calculation, you get a very respectable 8:1 ratio. Now add the 3,100 graduate students enrolled at Fu to the equation, which Columbia conveniently omits, and the ratio swells to 25:1. Columbia also conveniently omits 3,300 graduate students enrolled in the Graduate School of Arts and Sciences. Overall, Columbia\u2019s student to faculty is well over 12:1, and yet it reports a 6:1 ratio. Those rankings consider faculty salaries in their rankings. Columbia professors (as well as professors in most urban universities) obviously earn significantly more than Michigan professors (and professors in most college towns and rural areas) since the cost of living in NYC far exceeds the cost of living in Ann Arbor. I am not sure how that is a fair comparison. There are many more inconsistencies and methodology flaws that benefit private universities and hurt public universities. That does not make private universities better than public universities. \u201cBTW I\u2019m not disparaging UMich by itself, I am disparaging all public unis and its not their fault. It is the fault of the state legislatures by putting these unis in impossible situations by limiting there ability to raise in state tuition, and then cutting their funding.\u201d Michigan\u2019s financial status is not  common for a public university. Michigan\u2019s endowment stands at $9.6 billion, 8th largest in the nation. With 50% of its undergraduate students coming from OOS, most of which pay full tuition, Michigan has a very healthy tuition income stream. \u201cThis inevitably leads to ever increasing enrollments and class sizes without the appropriate increase in professors and resources which leads to publics falling further behind privates as the privates simply don\u2019t have these constraints.\u201d Private universities do not have financial constraints? With the exception of Princeton, Harvard, Yale and Stanford, I would say most private universities have financial constraints. Columbia\u2019s financial position is no better than Michigan\u2019s.  ```\n"
+    }
+  ]
+}

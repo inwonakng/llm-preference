@@ -1,0 +1,15 @@
+{
+  "index": 1814,
+  "true_label": 2,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Middlebury College```\nCollege B: ```Haverford College```\nComment: ```A few thoughts, money aside: I would say that Haverford and Smith are stronger in the sciences than Midd. Taking classes at Bryn Mawr is not a negative. It is very easy to do so and in fact most students in the bi-college will take at least a class or two on the other campus sometime within their 4 years. It\u2019s a seamless relationship between the two schools and should be viewed as an extension of the campus and offerings - a positive. She could also see if Swarthmore and/or UPenn have any classes she might like to take in marine bio. Your daughter will have no problem finding faculty mentors at Haverford (or Midd for that matter). Haverford offers plenty of student research opportunities as well as campus jobs. There is quite a bit of money available for summer research and summer internships and it pays more than $1200. Therefore, I wouldn\u2019t overweight STRIDE from the benefits you\u2019ve discussed. Being a Quaker school, Haverford isn\u2019t big on having programs that single out certain students - no honors, no Dean\u2019s List, EVERYONE does a thesis. It\u2019s all about community and equal opportunity. That doesn\u2019t mean their aren\u2019t opportunities. There are plenty available. As long as your daughter is aware of the facts and knows all the pros and cons of her choices, I\u2019d let her make the decision. You were okay with her applying to schools with only need-based aid knowing that you did not qualify for it so I think you have to let her consider all her options once you\u2019ve pointed out the facts to her. ETA: She has 3 wonderful choices and all will provide a great 4 year experience. She needs to decide where she will be happiest. Is the $16K total and annually? I assume the former as she personally couldn\u2019t borrow the latter.  ```\n"
+    }
+  ]
+}

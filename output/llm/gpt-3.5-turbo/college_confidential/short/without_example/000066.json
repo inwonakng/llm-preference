@@ -1,0 +1,15 @@
+{
+  "index": 66,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```California Institute of Technology```\nCollege B: ```Johns Hopkins University```\nComment: ```Exactly my point! You need good cooks, i.e., a quality teaching faculty, to make it happen  In the age of modern marketing, the packaging takes over from the talented cook.  You will never replace talented teachers and they are not always defined as the faculty with the most research. There was a math teacher when I was in college who was so well known that students from other universities would seek him out for his skills as a private tutor.  A family member who was a student at the state university would study calculus with him over the summer.  She graduated as Valedictorian from her University and went on to head the technical division for Region I of the EPA  while producing some fine research.  This talented \u201ccook\u201d came to us by way of  Hamilton College.  He did not have a string of significant publications but always had yet another way of explaining a concept,  Another math faculty educated at Bowdion gave up a few hours on a Sunday afternoon to go over questions I had collected.  Perhaps these small LA colleges have a point! How do you account for these \u201ccooks\u201d when selecting an  undergraduate institution?  This is not reflected in the USNEWS rankings as they are based largely on graduate school research.  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "index": 2627,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Pennsylvania```\nCollege B: ```Yale University```\nComment: ```@DeepBlue86 - yes, I think it\u2019s key to see just how SMALL the universe of cross-admits is.  Even amongst the top 5 schools, the actual numbers are pretty tiny (say 50-100 students actively deciding between a couple top 5s). Below the top 5 schools, then, the number of cross-admits going to any other school is really small - like in the single and low double digits. It is amazing - as HYMPS have similar admissions \u201csystems,\u201d out of, say, the 1-2 million people applying to US colleges in any given year, only about 8,000-9,000 are truly in the running at the top 5.  That\u2019s maybe only an eighth of a percent of the applicant pool!  This speaks to: 1.) the selectivity at the tippy top AND 2.) a narrow-mindedness in what the top schools seek.  Dean Shaw, in the Stanford Report, noted that he needs to come up with reasons why a student is accepted at Stanford and not Harvard, and faculty question him on it.  I\u2019m not sure it\u2019s a good thing that all top schools now define \u201cexcellence\u201d in the same narrow way.  ```\n"
+    }
+  ]
+}

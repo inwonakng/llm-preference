@@ -1,0 +1,15 @@
+{
+  "index": 523,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Vassar College```\nCollege B: ```Kenyon College```\nComment: ```Regarding the statement \u201cheavy drinking is not uncommon at small, rural, isolated colleges.\u201d This is true, however the thing to keep in mind (and look for if you are trying to avoid a school with a party/drinking culture) is does the college provide other opportunities on the weekend AND are they well attended. Kenyon\u2019s plays sell out on Saturday nights, and my daughter has gone to several improv shows. They are standing room only\u2014the students attend these activities! Rocky horror picture show, Harry Potter themed fun, a game of murder mystery held in one of the commons are all activities she has mentioned just in this first semester. Of course many kids go to parties afterward (my daughter usually does one of the two weekend nights) but being an athlete she sometimes turns in early or just hangs out in a friend\u2019s dorm after going to the campus activities. I went to an unranked small catholic college myself, and there were never activities offered on campus like that\u2026 or if they were, hardly anyone went. That is the key to look for in my opinion if you have a child who wants to do more than go to parties every weekend. Look to see what the college does offer, AND do the students attend! I tend to think because Kenyon is so rural that administration makes a conscious effort to provide opportunities on the weekends. Schools that have a big city near by often times don\u2019t bother because so many students just leave campus. Another reason that small/rural can contribute to a real sense of community. At least that has been my daughter\u2019s experience so far.  ```\n"
+    }
+  ]
+}

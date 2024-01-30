@@ -1,0 +1,15 @@
+{
+  "index": 476,
+  "true_label": 3,
+  "predicted_label": 3,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Georgia```\nCollege B: ```Indiana University```\nComment: ```@grant123 A few pages back I posted about being a UGA accounting grad and my spouse\u2019s best friend being an accounting grad from IU.  You asked if I liked UGA.  Yes, I did love UGA and the accounting program set me up for success, but that was 27 years ago and I am not you. After reading all of the new posts I have to reiterate what I posted earlier.  For accounting there is not an academic difference in these two schools.   Employers have been hiring from these two schools for decades and have been shaping the curriculum for decades, and that gives the programs a trade school like feel.  Rankings matter, but when you drill down to something specific like accounting it\u2019s more about your chances of landing a great first job.  Both schools will be heavily recruited by top accounting/consulting firms. MBAs were mentioned earlier, and I would recommend not considering that.  I would recommend a masters in accounting, and then after a few years out in the real world decide if you want an MBA.  Both schools will allow you to attend an excellent MBA program. What brought me back to this thread was that I had dinner last night with the IU grad mentioned above.  We both agreed that within accounting groups our degrees are respected, but outside of that group it\u2019s just a business degree from a state school.  Both of us loved our time in college and feel like it set us up for success. Good luck in your search!  ```\n"
+    }
+  ]
+}

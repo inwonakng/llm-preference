@@ -1,0 +1,15 @@
+{
+  "index": 2373,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Amherst College```\nCollege B: ```Harvey Mudd College```\nComment: ```\u201cGetting into a college where your admission is questionable to start with, and adding the pressure of athletics in top of that is not a recipe for getting the necessary grades for me school.\u201d I\u2019m surprised that an experienced CC poster would make that statement in reference to top LACs, @intparent. Admission to Amherst or HM is \u201cquestionable\u201d for virtually everyone. The admission rates at those schools are in the mid-to-low teens, and even extraordinarily well prepared students are rejected by the hundreds every year. Additionally, nearly half of the students at these top LACs are varsity athletes. Are you really suggesting that these talented young people can\u2019t handle sports and a pre-med major? Most would find that proposition laughable \u2013 my own son among them. Now if you\u2019re talking about DI athletics at the Big Ten or SEC level, then you may have a point. But these are D3 programs that work extraordinarily hard to create an environment where student athletes can flourish. And they do \u2013 often while juggling pre-med courses.  ```\n"
+    }
+  ]
+}

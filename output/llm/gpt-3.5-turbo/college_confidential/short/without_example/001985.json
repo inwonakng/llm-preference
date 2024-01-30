@@ -1,0 +1,15 @@
+{
+  "index": 1985,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Duke University```\nCollege B: ```University of California, Berkeley```\nComment: ```@NoCreativity : No offense, but it\u2019s clear that you were nitpicking ranking league tables. How about showing you league tables where Berkeley did not only outrank Duke, but smashed Duke to the ground: US News & World Report Best Global Universities 2017: https://www.usnews.com/education/best-global-universities/rankings?int=a27a09 Berkeley - #4 Duke - #21 Academic Ranking Of World Universities 2017: http://www.shanghairanking.com/ARWU2017.html Berkeley - #5 Duke - #26 Times World University Rankings 2017: https://www.timeshighereducation.com/world-university-rankings/2017/reputation-ranking#!/page/0/length/25/sort_by/rank/sort_order/asc/cols/stats Berkeley - #6 Duke - #28 Center For World University Rankings 2017: http://cwur.org/2017.php Berkeley - #7 Duke - #29 You mentioned school prestige. For me Berkeley is MORE prestigious than Duke. And, I think there are way many, many more people who would agree with me. There\u2019s even a ranking exclusively devoted to school prestige or school brand name: https://www.timeshighereducation.com/world-university-rankings/2017/reputation-ranking#!/page/0/length/25/sort_by/rank/sort_order/asc/cols/stats Berkeley - #7 Duke - #28 And, again, we\u2019re talking about Berkeley EECS versus Duke mechanical engineering on here where Berkeley is regarded a solid top school for engineering while Duke isn\u2019t even in the radar in this field. And if you\u2019re talking about grads breaking into banking, here\u2019s another data where Berkeley, again, outranked Duke. The top 50 universities for getting a front office investment banking job. https://news.efinancialcareers.com/uk-en/199099/top-50-universities-getting-front-office-investment-banking-job Berkeley - #9 Duke - #24  ```\n"
+    }
+  ]
+}

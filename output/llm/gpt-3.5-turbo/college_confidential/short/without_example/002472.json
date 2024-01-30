@@ -1,0 +1,15 @@
+{
+  "index": 2472,
+  "true_label": 0,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Chicago```\nCollege B: ```Stanford University```\nComment: ```They\u2019re both powerhouse schools with amazing faculties and students, really the top of the top.  That said, they\u2019re also extremely different in terms of school culture.  Stanford is filled with entrepreneurial, driven, type-A personalities, tempered a bit by the mild weather.  Chicago is filled with introverted scholars who don\u2019t work hard/party hard.  They just work hard.  The stereotype of Chicago as \u201cwhere fun goes to die\u201d is overstated but not without some truth.  No one should go to Chicago unless they\u2019re prepared for the intensity.  The academics are intense, the weather is intense, the students are intense.  It requires a certain mindset in order to thrive there.  You really have to be happy with your nose in a book all the time.  Stanford, on the other hand, is a little less classically egghead.  The students are all extremely talented but the overall vibe of the place is mellower and the pace is a bit slower.  You\u2019re more likely to find big house parties, sports mania, rah rah stuff at Stanford.  Either one will put you in good stead for grad/prof school or employment.  This is a choice about lifestyle, not academics.  ```\n"
+    }
+  ]
+}

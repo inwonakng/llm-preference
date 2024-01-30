@@ -1,0 +1,15 @@
+{
+  "index": 1155,
+  "true_label": 1,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Boston College```\nCollege B: ```University of Southern California```\nComment: ```I would go to UNC as easily as UVA.   Here\u2019s a few  BC grads of note in recent times Too many to name. But I here\u2019s a few Kevin Alloca 06. Head of YouTube culture and Trends, Google Stephen Barry Managing Director Goldman Sachs Nick Burns Undersecretary of State Marty Walsh. mayor of Boston Amy Poehler. Saturday night live Chris  O\u2019Donnell  Hollywood movie star Ed Markey current. US Senator Dr Peter Dervan Prof Cal Tech. Winner of the national medal of science Peter Lynch vice chairman Fidelity Investments Considered one of the greatest money managers in history Carolyn Dever Provost. Dartmouth College Jennie Chin Hansen president AARP John Kerry   Secretary of State Julianne Marveaux. President of Bennett College Dr Ernest moniz. Secretary of Energy Diane Morrison. President and ceo Campbell Soup Like russert. nbc news son of former host of face the nation Phil Schiller SVP of global marketing at Apple Matt Ryan Luke keikley. Current nfl stars Doug Flutie of course and a bunch women Olympians  ```\n"
+    }
+  ]
+}

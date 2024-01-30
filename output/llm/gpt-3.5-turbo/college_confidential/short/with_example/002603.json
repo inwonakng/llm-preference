@@ -1,0 +1,47 @@
+{
+  "index": 2603,
+  "true_label": 3,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Pennsylvania```\nCollege B: ```Yale University```\nComment: ```@sheilsarda   For entrepreneurship, you would have all the Wharton resources but also Penn engineering offers an engineering entrepreneurship minor. Here is a report on the colleges with the biggest/most successful entrepreneurial activity: https://files.pitchbook.com/pdf/PitchBook_Universities_Report_2015_2016_Edition.pdf Biomedical engineering is definitely an option for you, and it builds on Penn\u2019s world renowned hospital and medical school. There is a lot of cutting edge research happening through collaborations between the engineering and medical school at Penn. For example: https://news.upenn.edu/news/university-pennsylvania-celebrate-launch-penn-center-health-devices-and-technology If you want to be the best engineer, I feel it is best to go where the most engineering opportunities are available. The M&T program has a lot of business requirements, it is dual degree after all, but if you see that you are no longer interested in the business part you can just drop it and focus on engineering. This was a article about Yale CS: https://www.bloomberg.com/news/articles/2015-03-06/want-a-job-in-silicon-valley-after-yale-good-luck-with-that At the end of the day however, fit is very important. I feel the biggest point that you d have to understand is the difference is academic culture and student interests between the two schools. Both are excellent choices. Where do you see yourself fitting best?  ```\n"
+    }
+  ]
+}

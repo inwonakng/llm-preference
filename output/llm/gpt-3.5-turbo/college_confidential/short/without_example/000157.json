@@ -1,0 +1,15 @@
+{
+  "index": 157,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pennsylvania State University```\nCollege B: ```University of Pittsburgh```\nComment: ```If your parents are contributing nothing, I can\u2019t see how either Penn State or Pitt will be affordable.  Pitt does have a new financial aid program for students who are Pell grant eligible, in that they will match the Pell grant (see link below).  What is your family\u2019s EFC?  Did you file the FAFSA and PHEAA state grant forms?   Are your parents low income or just unwilling/unable to pay anything?  I would suggest applying to some of the PASSHE (true state) universities that have accredited business schools (West Chester, IUP, Bloomsburg, Clarion, Shippensburg), though even those schools will be a financial reach without some family support.  If your family is low income, you also might get better financial aid at a private college, of which Pennsylvania has many. https://www.affordable.pitt.edu/  ```\n"
+    }
+  ]
+}

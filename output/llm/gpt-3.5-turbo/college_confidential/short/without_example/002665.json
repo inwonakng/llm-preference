@@ -1,0 +1,15 @@
+{
+  "index": 2665,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Franklin W. Olin College of Engineering```\nCollege B: ```Georgia Institute of Technology```\nComment: ``` [quote] At GT, almost all the students I met had time for 1 or 2 afterschool jobs, and it\u2019s pretty rigorous there, so I\u2019m wondering how tough the coursework is [/quote]  The coursework is voluminous and very difficult.  But the students are very smart and can handle it.  At orientation, the school stresses how hard it will be, and also stresses how none of you would be here if we didn\u2019t know you can handle it.  But your point is true.  Many hold after school jobs, and nearly everyone participates in clubs and other activities, on top of seemingly endless hours of studying.  And they\u2019re all better for it.  They very quickly learn time management, and naturally push themselves to excel at everything they do, as they\u2019ve been doing their whole lives.  Employers know this.  When they hire GT grads, they\u2019re getting someone very used to high workload and high performance.  This is true of many engineers, but especially prevalent at GT. BTW, as example, my son works for a basketball analytics startup, is VP of the sports business club, plays for GT club volleyball, practices with women\u2019s varsity, plays intramurals, goes to every basketball and football game, watches plenty of sports on TV, is active in fraternity with plenty of partying, and still finds time for all that studying.  His schedule amazes me, and he\u2019s pretty much like everyone else there.  ```\n"
+    }
+  ]
+}

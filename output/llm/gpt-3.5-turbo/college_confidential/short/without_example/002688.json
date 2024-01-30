@@ -1,0 +1,15 @@
+{
+  "index": 2688,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Franklin W. Olin College of Engineering```\nCollege B: ```Georgia Institute of Technology```\nComment: ```A traditional gap year at this academic stage is getting admitted, asking for a year\u2019s deferral, and taking a gap year. There\u2019s another kind of gap year at Olin. Waitlisted students are told they might get in for the coming fall semester but, if not, they are guaranteed admission the following fall - after a full academic year. This is still called a \u201cgap year\u201d but it\u2019s clearly different. I don\u2019t think Olin is worried about losing these students to other colleges. They wish them the best. If some of them end up at another school, well, Olin has many other students available to fill a freshman class.  My waitlisted son knew he wanted to attend Olin. During his gap year he took manufacturing technology courses at a local community college and brushed up on math and Spanish at a local 4-year school.  The community college courses especially helped him realize he\u2019s more passionate about mechanical engineering than computer science and software engineering. He also worked and lived at home. Not what he or we would have chosen but, looking back, an ideal year in his and our lives. It would have been less-ideal without taking those classes.  ```\n"
+    }
+  ]
+}

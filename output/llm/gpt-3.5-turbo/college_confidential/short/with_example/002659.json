@@ -1,0 +1,47 @@
+{
+  "index": 2659,
+  "true_label": 2,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Franklin W. Olin College of Engineering```\nCollege B: ```Georgia Institute of Technology```\nComment: ```\u201clove to interact with a large and diverse group of people\u201d  - That would be an excellent reason to pick GT (or any more traditional school) over Olin. I would not rule out Olin due to job opportunities, especially if the student wants to eventually wants to settle in Boston (like my son did) or in Silicon Valley. For the skimmers, I\u2019ll add employer info from one of my links (similar to what I did for grad schools\u2026 but this time there is a heading so I know for sure the timeframe:  2006/first class thru 2016, fewer than  1000 grads) OLIN - TOP EMPLOYERS Google  31 Microsoft 30 athenahealth 24 Apple 11 Blue Origin 7 Ivani 7 Navy 7 Pivotal 7 Amazon 6 Raytheon 6 Rockwell Automation 6 Boeing 5 HubSpot 5 Synapse 5 Note - A few students have created their own start-ups.  My son had friends with a start-up that received $3 million in Venture Capital funding when they were  age 21 . TOP SUMMER INTERN EMPLOYERS Apple athenahealth Barrett Technology Bose GE Google IBM Ivani Microsoft OnShape Pivotal Raytheon Tesla Top Summer Research Labs Caltech Harvard University Johns Hopkins University MIT Olin Of course  the above info is NOT reason for a student to pick Olin if it is not the right fit.  I only posted it  to give future readers confidence that it is possible for a new/teeny school to have an excellent reputation with employers and grad schools (even if, gasp\u2026 it us undergrad-only, with limited research opportunity)  ```\n"
+    }
+  ]
+}

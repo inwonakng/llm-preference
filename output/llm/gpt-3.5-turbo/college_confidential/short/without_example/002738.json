@@ -1,0 +1,15 @@
+{
+  "index": 2738,
+  "true_label": 1,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Cornell University```\nCollege B: ```University of Michigan```\nComment: ```There was some assertion that somehow Cornell is a lesser ivy on Wall street. Nothing to do with Michigan.   Cornell is very heavily represented at all levels, buy side, sell side and many types of roles. As far as only having PhDs, yes a dept head and other highly paid researchers would be PhDs. But they do hire undergrads to do their rather high end gruntwork.   From there with experience, yes one might want to go back to grad school for mba or PhD depending on longer term aspirations.  Those PhDs will hire stem majors over b-school. Yes if you dbl major in a stem field, even better, and either college would allow study of bus and stem.  I have also seen people with undergrad only, move to portfolio management, prop trading out from reseach.   Point is stem is the better foot in the door for an undergrad.  If you excel, maybe PhD is the next step.  If less so, maybe work experience then MBA.   STEM undergrad degrees are more rigorous than undergrad business, and that would open many more  doors.   I have heard from Penn Engineers that they take Wharton undergrad classes, as easy electives, compared to their engineering courses. There was an assertion that Ithaca is not a good college town.  Yes it\u2019s small and isolated I agree, but a \u201ccollege town\u201d is small by definition.  Is Boston a \u201ccollege town\u201d ?   But there are many college students.   Not detracting from Michigan, but don\u2019t knock Ithaca, many LOVE it. Personal preference.  If you want big, you can\u2019t beat Boston as a college town, would take that over either.   But if you want an intimate college town, and love nature, hard to beat Ithaca.   Ann Arbor may be wonderful, but neither extreme.  Maybe a happy medium that would satisfy most.  ```\n"
+    }
+  ]
+}

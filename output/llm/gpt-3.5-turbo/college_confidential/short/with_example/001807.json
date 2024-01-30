@@ -1,0 +1,47 @@
+{
+  "index": 1807,
+  "true_label": 2,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```The excerpt below is from Quora re: MIT vs topknotch public schools that are highly regarded for STEM. Nonetheless, I\u2019d probably still go with the full ride from Michigan and MIT for grad school. \"\"The biggest issues that I might consider in the public vs private (school) analysis would be class sizes, professor-student interaction, and availability of opportunities outside of the classroom. This would include access to professors beyond posted office hours, availability of special programs, access to research opportunities, unique study abroad programs, funding for special programs/personal student projects/student clubs. Then try to evaluate how much you would take advantage of these special programs at the more expensive school \u2014 how \u201cnecessary\u201d vs \u201cthat would be kind of nice but no big deal\u201d are they to you? Frankly if Baskins Robbins ice cream parlor offers 31 flavors but all you ever order is chocolate \u2014 then what difference do the rest of those 30 flavors make to you? They could be the most exotic flavors on the planet, but if all you ever order is chocolate, then so what? MIT\u2019s price tag includes this overwhelming multitude of opportunities \u2014 but if all you want is to take a basic set of CS classes (that nearly every good university offers) and get your degree as quickly and expediently as you can \u2014 well, why pay for the extras that you\u2019re never going to use? MIT is the ultra deluxe education package deal. Is that what you and your parents want, can afford (preferably without going into debt), and are willing to pay for \u2014 because you\u2019re really going to take advantage of all of these incredible opportunities? Okay, so what are some of these extras? For a kid who likes small instead of big, there are freshman learning communities of only 50 freshman and class sizes between 8 - 12 frosh, turning MIT into a STEM version of a LAC.; MISTI (internships all over the world, all expenses paid); IAP (a ton of fun, enriching, and/or educational things to do during the January term); externships (1 month internships during Jan term sponsored by MIT alumni); wanna do research with a professor? Word on the street is that it usually only takes on average 3 emails to snag one!; UROP (undergraduate research program); Super UROP (an extended and beefed up version of UROP); I don\u2019t know the dollar amount but pretty generous funding for the robotics clubs (I\u2019m guessing on the order of maybe $50,000?, but I really don\u2019t know so don\u2019t quote me on this one); ability to test out of required classes; personal one-on-one meetings with your advisor prior to registration every single semester; both general advisors for freshman who haven\u2019t declared yet and major-specific advisors later on; rarely a problem getting classes in your major (although ironically you might have trouble getting less essential classes like PE, glass blowing and toy design); no problems graduating in 4 years (or at least not due to impacted majors anyway); able to take upper division classes and grad classes at will, even as a freshman; prerequisites that are \u201cguidelines\u201d not requirements; athletic coaches that get the fact that your course load is hard and that you\u2019re at MIT to be a student first and an athlete second; a ton of extracurriculars and clubs (although I suspect that most public schools also have this), M.Eng. program (get your Masters in Engineering in only 1 extra year instead of 2, offered only to MIT undergrads), taking classes with professors who wrote (or are writing anew) the textbook; phenomenal, out-of-this-world research going on in the labs; tons of support (free tutoring, mental health counseling, etc.); funding for dorm activities, outings, trips to help dorm bonding; a resident professor living in every dorm and a grad stud on every floor; and, last but by no means least, the amazingness of your fellow classmates, roommates, frat mates. I could go on and on\u2026.but my hand is tired of keyboarding now. Hopefully you get the picture. Sorry for the novel. TL,DR \u2014 It\u2019s MIT, welcome to the firehose, baby!\"\"  ```\n"
+    }
+  ]
+}

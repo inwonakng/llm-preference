@@ -1,0 +1,15 @@
+{
+  "index": 1742,
+  "true_label": 1,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```\u201cThe resources there are far and away beyond U of Michigan\u201d This assertion piqued my interest.  What is your background, @Happytimes2001? @Alexandre attended both UMich and Cornell and stated that he did not see a difference in resources between the two.  Are you thus asserting that the resources at MIT are far and away beyond what is available at Cornell? And what resources are you referring to? BTW, when it comes to startup founders, from a Crunchbase spreadsheet I analyzed, yes, MIT and Stanford outpace UMich (though UMich isn\u2019t too shabby, being in the top 10: https://news.crunchbase.com/news/top-schools-among-founders-raise-big-dollars/), but here\u2019s the thing: roughly half or more of those MIT/Stanford alums who were startup founders were grad alums (including PhD\u2019s and MBA\u2019s).  And PhD\u2019s are fully fulled while 2 years of a Master\u2019s/MBA is significantly cheaper than 4 years of undergrad at MIT at full-pay, which is why I said that if the OP excels as much in undergrad as he has in HS, he will still be able to get the opportunities afforded MIT/Stanford alums.  ```\n"
+    }
+  ]
+}

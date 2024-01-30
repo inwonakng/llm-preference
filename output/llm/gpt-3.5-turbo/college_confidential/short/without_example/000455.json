@@ -1,0 +1,15 @@
+{
+  "index": 455,
+  "true_label": 2,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Georgia```\nCollege B: ```Indiana University```\nComment: ```Of course the cost difference is substantial. That is the only reason that this thread exists. But at IU-Kelley & Hutton Honors College & Business Honors, you will get a much different experience than your other options. If the difference in cost will necessitate taking out loans of any amount, then go to UGA for room & board. But, if the cost is not a substantial concern to you & your family, then you have a choice to make based on other factors. P.S. Again, you have verifiable numbers & placement info. about IU-Kelley. And an available resource in @iubaccounting for accurate up-to-date information. Use those resources when deciding about your future.  ```\n"
+    }
+  ]
+}

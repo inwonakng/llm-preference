@@ -1,0 +1,15 @@
+{
+  "index": 1977,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond with ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Duke University```\nCollege B: ```University of California, Berkeley```\nComment: ```I didn\u2019t suggest either student body has an intellectual edge.  I am saying that in the real world most people focus on the broader and household name rankings. In every one Duke has an indisputable and substantial edge. I can observe that the disparity between a Duke and UCB engineering degree is much narrower then the broad difference by which Duke surpassses UCB in name recognition, brand respect etc based on the aforementioned rankings.  Consequently, the 17/18 year old OP should be confident that the post college adult doesn\u2019t want to pursue a career outside of engineering.  Again both great schools but Duke clearly is a safer long term option in my opinion.  ```\n"
+    }
+  ]
+}
