@@ -1,0 +1,47 @@
+{
+  "index": 1901,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Alabama```\nCollege B: ```Fordham University```\nComment: ```If you live in or near NYC, you need to try somewhere else and decide what kind of place you want to live. At Alabama, you have a free ride to a very good education. School reputation is interesting and Jesuits are terrific, but the differences in education are not as different as you and others might think. You can fly to London probably through Atlanta because of the volume of national and international flights. Alabama is within driving distance to Florida, coastal Georgia, Nashville and Smokey Mountains\u2026There is lots to see and do in the South and some clear cultural, political and religious differences too. There are opportunities for internships in the South. An education in the South is not second class unless you don\u2019t apply yourself academically or spend too much time socializing. Football in the South is competitive and fun. Finally, I can\u2019t imagine asking my parents to spend $60000 tuition. What are you willing to let parents and siblings give up because of your tuition? Finally, a free ride is a luxury that allows you to travel, study, invest in your education, and sort out your adult life. There is serenity and satisfaction earning an education without worrying about money. Try the South. It is an opprtunity, not a prison sentence.  ```\n"
+    }
+  ]
+}

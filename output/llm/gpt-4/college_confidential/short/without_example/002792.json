@@ -1,0 +1,15 @@
+{
+  "index": 2792,
+  "true_label": 3,
+  "predicted_label": 3,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Bates College```\nCollege B: ```Hamilton College```\nComment: ```@hopeful1660: If you are asking me in more than a rhetorical way, I\u2019d say that Yes the difference between a 25th percentile ACT score of 28 (Bates) and a one of 31 (Hamilton) might effect the classroom experiences at these schools. http://www.compassprep.com/college-profiles-new-sat/ However, my intent was not to emphasize standardized testing, but rather to simply point it out as one of the differences between your choices. I avoid placing colleges within any hiercharchy (and don\u2019t understand what the number ten has to do with anything), but prefer to appreciate them for their singular attributes, where they exist. Bates: Admirally founded by early abolitionists under severe regional opposition. Current administration seems committed to providing an inclusive, welcoming environment for all students. Compact campus on the edge of Lewiston. Hamilton: Benefits from the curricular, architectural, spatial and, to some extent, cultural legacy of having been two colleges of different characteristics and attributes. A balanced curriculum, but also a writers\u2019 college. Former fraternity houses are now beautiful residence halls.  ```\n"
+    }
+  ]
+}

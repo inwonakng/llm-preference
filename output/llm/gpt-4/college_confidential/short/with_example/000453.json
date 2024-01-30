@@ -1,0 +1,47 @@
+{
+  "index": 453,
+  "true_label": 3,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Georgia```\nCollege B: ```Indiana University```\nComment: ```I can bring a little perspective into this OSU, IU, and UGA\u2026 All these schools are very similar in the sense that they are all large Public with a lot of rah rah rah and outstanding academics.  Daughter had the same dilemma last year. She was accepted to all these schools as well as other similar ones. She knew that money was going to be the deciding factor. She was a direct admit to Fisher and she was also able to secure a full-tuition scholarship at OSU bringing the overall cost of attendance on par with UGA (we are instate).  She was also interested in going out of state, Her acceptance to OSU and UGA came in at the same time (the Friday before Thanksgiving). After researching all the programs, acceptances, financials, and location, there is no doubt in my mind that she made the right decision. She absolutely LOVES OSU. Financially speaking, OSU will be cheaper than IU by about $10K to $12K a year. So basically somewhere in between UGA and IU. Fisher is an amazing school perhaps not at the level of Kelley but very very close. Columbus is a city, but by no means, the size of  Atlanta, but lots of Fortune 500\u2019s as well as upstarts are based out of there. It is between Cincinnati and Cleveland not to mention other major cities such as Pittsburgh and Indianapolis. After narrowing down some of her options, she decided that she wanted to be in a city. We looked into Kelley and, it seems that a lot of people think to think they are tops.  IMHO, I do not think they are worth the premium, especially if you are not studying Finance and assuming, of course, you have similar options.  I know you have your hands full and this is not an easy decision. The University of Georgia is an amazing school and it probably would have been the school of choice if she did not attend OSU.  But there is something to be said about Direct admission and wanting to go OOS. But financials matter.   I know you have a lot of friends attending UGA or are going to be attending UGA, but if you want to hear the perspective a current Fisher student from Atlanta, I will be more than happy to get you in touch with my daughter. In addition, I know all these schools offer acceptance students days, etc. You might want to consider going to those in order for you to make sure you get a feel for what is like. Finally, when she came home during the winter break, she had a chance to see all her friends who are currently attending other schools from all over the country. Schools such as Wisconsin, Arizona, Alabama, Texas, FSU, and UGA. EVERY SINGLE ONE of these kids loves their schools. They all found the perfect school. It goes to show you that by the end of the day, we all seem to struggle with these decisions, but whether location, financials, or size dictate the outcome, many end up very happy with their ultimate choice.  ```\n"
+    }
+  ]
+}

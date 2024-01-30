@@ -1,0 +1,15 @@
+{
+  "index": 1215,
+  "true_label": 3,
+  "predicted_label": 3,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```Bowdoin and Washington U are both quite prestigious, with very strong academic reputations, and will offer nurturing academic environments. Bowdoin\u2019s classes will generally be smaller, but that is a common advantage of LACs over U\u2019s and no knock on Wash U. Wash U will offer more majors and classes. Would you rather be in a semi-urban/suburban environment, or a small-town/rural environment? The outdoor charms of Maine or the city experience of St. Louis? These student bodies, from what I have read, seem fairly well balanced \u2013 maybe a bit more nerdy than jocky, but both have their preppy side too. You can have fun at both, but neither is known as a particularly rabid party school. The biggest differences will be some standard LAC/U differences and their settings/environments.  ```\n"
+    }
+  ]
+}

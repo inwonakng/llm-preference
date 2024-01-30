@@ -1,0 +1,15 @@
+{
+  "index": 1521,
+  "true_label": 1,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Harvard University```\nCollege B: ```Georgia Institute of Technology```\nComment: ```https://mdadmissions.wustl.edu/how-to-apply/who-chooses-wu/.  Here is a link to the Wash U medical page, one of the top schools over ten years.  GT sent seven students, Harvard sent 56.  GT did very well, reflecting that it is a fine institution, one student a year, similar to other schools.  Wash U offers merit money.  The question is if undergraduate plus medical school is $480,000 or $400,000, an astounding number but true, and Wash U offers merit money and a \u201cfree\u201d md PHD program, are you better off spending the 80,000 to be one of the 56 or saving the 80 to be one of the seven.  Of course it is a little more complicated than that, as students make their own way, and so a student admitted to Harvard and GT will likely excel at GT and be more likely to be one of the seven.  But\u2026I don\u2019t believe that the resources and reputation hurt your chances.  I am passionate about this subject because just like students don\u2019t think carefully about the finances of college, they also don\u2019t think about what has become the astounding burden of medical school cost and the sooner you think about ways to manage it the better.  ```\n"
+    }
+  ]
+}

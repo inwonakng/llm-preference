@@ -1,0 +1,15 @@
+{
+  "index": 32,
+  "true_label": 1,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Johns Hopkins University```\nCollege B: ```Georgia Institute of Technology```\nComment: ```@KeepItFair Goldman Sachs comes to GaTech for the Hackathon, presents a problem to GaTech students and hires students who solve it.   GaTech has a very strong business analytics program and GaTech math, CS, and engineering students are in huge demand for west coast management consulting and Goldman Sachs type jobs. FINRA also comes to Hack GT and offers many jobs to GAtech grads.  I would say the students are recruited more than JHU by far. Caltech is Caltech. Cannot touch it. But remember its only 600 undergrads.  Those kiddos almost all get PhDs. Caltech is a school of geniuses and a few drop outs and a few that commit suicide as they cannot keep up. GaTech is a regular school with great social life and amazing job options in business.  Regular Division 1 football games, regular fraternities and sororities.  Hard but not ball busting classes, but still a very good reputation in the northeast and west coast. See HackGT.  Many west coast firms here are offering GATech and other students hard problems to solve and recruiting them- https://hack.gt See GaTech Scheller College of Business https://www.scheller.gatech.edu/index.html also Tech Square in Atlanta is loaded with start ups.   Better than Baltimore for jobs by far.  ```\n"
+    }
+  ]
+}

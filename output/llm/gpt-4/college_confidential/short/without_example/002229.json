@@ -1,0 +1,15 @@
+{
+  "index": 2229,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Stanford University```\nCollege B: ```Princeton University```\nComment: ``` [quote] The point of my Math example is that a quarter system class is not a semester amount of material packed into a quarter. [/quote]  As mentioned in my earlier post, you can either take single variable calculus  in 2 quarters or 3 quarters, depending on which math sequence you choose.  It only shows that you have a choice of whether to pack what some other colleges do in a semester or not.   The 3 course sequence you mentioned includes 3-unit courses, so they are expected to cover less material than typical Stanford/Princeton math classes and contribute less than typical Stanford/Princeton classes towards graduation requirements.  Of course most Stanford students already took single variable calculus in HS.   The more typical higher level math sequences also seem to list more material in  their description for Stanford\u2019s 3 quarters than Princeton\u2019s 2 semesters.  For example Stanford\u2019s quarter length math 51-53 covers multivariable calculus, linear algebra, and differential equations.  Princeton\u2019s math 201-202 covers multivariable calculus and linear algebra, but not explicitly differential equations.  However, they also may have the equivalent of more units to reflect the increased material.   It\u2019s not as simple as either 3 quarters of material at Stanford = 2 semesters of material elsewhere  or quarter != semester.  It depends on the class, number of units, and often falls somewhere in between those two extremes\u2026 If you want to have a general rule,  it\u2019s been my experience that 3 quarters at Stanford generally covers more material than 2 semesters elsewhere.  Quarter length classes did appear to be equivalent to semester length in some cases, but not all.    However, I haven\u2019t taken classes at Princeton or colleges at that academic level, besides Stanford\u2026  ```\n"
+    }
+  ]
+}

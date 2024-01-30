@@ -1,0 +1,15 @@
+{
+  "index": 2617,
+  "true_label": 1,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Pennsylvania```\nCollege B: ```Yale University```\nComment: ```@DeepBlue86 Maybe you should get out more, cause there are quite a few. Please don\u2019t distort my words, where did i say that a lot of it is not due to Wharton? Of course it is. But it is also due to engineering. I do believe the Parchment data, where the split is 58%-42% in favor of Yale (although the split is not statistically significant according to parchment). The difference is driven primarily by liberal arts and pure sciences  admits who  would choose Yale much more, but Yale loses a big chunk of the engineering and business admits to Penn. It is precisely because it has an edge in these preprofessional areas than Penn is able to attract more cross-admits.  By comparison the split between Harvard vs Penn and Stanford vs Penn is 77% vs 23% and 72% vs 28% and is statistically significant. And this is because it cannot attract as many of these admits from Stanford and Harvard. We are talking about engineering in general, op is not exactly set on bioengineering. but even for bioengineering, while the difference is not huge,  Penn is still  ranked higher and in combination with its stronger medical school and hospital and higher research funding in this field, it can be argued that it has an good edge.  ```\n"
+    }
+  ]
+}

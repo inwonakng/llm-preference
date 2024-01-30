@@ -1,0 +1,15 @@
+{
+  "index": 1364,
+  "true_label": 3,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Hamilton College```\nCollege B: ```Georgia Institute of Technology```\nComment: ```@Waitwhatss The problem is \u2013 of the three schools being considered \u2013 the best two schools for med school (Hamilton and Wesleyan) are the opposite of the best option for engineering (GA Tech). I would not consider a 3+2 program as a realistic option. Very few students end up doing them, which requires switching colleges after your junior year. I think the focus should be whether you really want to start out as pre-med or in engineering. GA Tech likely is a GPA killer for med school, especially if you are in engineering. But if you want to be an engineer, GA Tech is amazing. If you start out at Hamilton or Wesleyan and decide not to do pre-med, you could get a masters in engineering (with an extra year or two of school elsewhere), though that is sub-optimal compared to just going to GA Tech. Tough decision. If you can visit all of them, that would probably knock one or two of them out.  ```\n"
+    }
+  ]
+}

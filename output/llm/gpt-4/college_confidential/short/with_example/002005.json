@@ -1,0 +1,47 @@
+{
+  "index": 2005,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Duke University```\nCollege B: ```University of California, Berkeley```\nComment: ```@JenniferClint : That is why I didn\u2019t like (and agree with) how Noncreativity1 presented a ranking where there\u2019s only about a dozen or so schools which separate Berkeley from Duke. We could be nitpicking league tables just to win in an argument, when in fact, there is very little that separates between them, unlike in engineering where Berkeley is considered part of the \u201choly trinity\u201d, standing alongside MIT and Stanford. And, for the record, I did not present those rankings to tell anyone on here that Berkeley is superior to Duke for banking/finance, but to disprove anyone who claims Berkeley would be a terrible training ground and feeder school to banking/finance. I agree Duke is a fantastic school, as a whole. In the same way that I agree Yale, for instance, is an amazing school, in general. But those schools have weaknesses and engineering happens to be the worst of them. Coincidentally, engineering happens to be Berkeley\u2019s one of its strongest departments, and Berkeley \u2013 its name \u2013 is highly reputable, not only in America but throughout the whole universe. Duke, though good as a whole, doesn\u2019t enjoy such grandiose reputation as Berkeley\u2019s, specially in the tech universe. In fact, for many, many serious and highly dedicated, extremely talented engineering aspirants, Duke is not on their radar. If we\u2019re talking about WS, I agree Duke has more presence there. But we\u2019re not talking about WS, are we?  ```\n"
+    }
+  ]
+}

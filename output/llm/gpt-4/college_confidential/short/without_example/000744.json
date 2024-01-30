@@ -1,0 +1,15 @@
+{
+  "index": 744,
+  "true_label": 1,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Pennsylvania```\nCollege B: ```New York University```\nComment: ```@dannydalt64 if you\u2019re going into ib, then just go Wharton and be over with it. Don\u2019t worry about tuition \u2013 you\u2019ll make 100k+ all-in your first year working. If you\u2019re considering finance, remember your salary growth is near-exponential, so go to the best school, as the street is very snobby about prestige. Also, don\u2019t listed to people who are comparing Wharton UG vs. Stern UG+MBA. You are comparing Wharton UG vs. Stern UG. If you\u2019re going to start throwing an MBA into the equation, then Wharton is still a better target school for HBS, GBS, Wharton grad than Stern is.  [quote] OP has already saved $184,000 plus interest on undergraduate study; Probably get at least a 50% MBA scholarship very possibly higher than 50%; More reasonable loss of earnings after tax for 2 year = $200,000; (A Penn Wharton MBA starts at $147,000 salary & bonus, but OP would not have a Penn Wharton MBA\u2013just a BS/BA). [/quote]  This is pretty bs math. MBA salaries are equal for the same job no matter which school you go to \u2014 i.e., MBB will pay $140k base regardless of the MBA program they are hiring out of. The only reason schools have different starting salaries is because some schools place more of their class into finance vs. consulting. And, scholarships will be higher for people with more impressive resumes (i.e., wharton).  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "index": 1080,
+  "true_label": 0,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Stanford University```\nCollege B: ```University of Southern California```\nComment: ```@LoveTheBard I gather you are talking about SLE (Structured Liberal Education), which they have had at Stanford for a long time (even when I attended).  That experience is probably different from that of most students at Stanford, but it\u2019s limited to 90 students a year.  Also, because they live in a separate dorm, they are somewhat isolated from other students, and I don\u2019t think I ever interacted with anyone from SLE. When I attended, students were required to take a year-long course in Western Civilization, which was intended to be equivalent to the Great Books curriculum at UChicago and Columbia, and which was supposed to stimulate common discussion among students on a shared reading list.  But we had 9 or so different tracks for Western Civ, each sponsored by a different department, such as history or science and technology, so we never really all read the same set of books.  Anyway, Stanford eliminated its Western Civ requirement 30 years ago, due in part to student pressure, so aside from SLE, there hasn\u2019t been a common core experience at Stanford in a long time. Stanford has long had a cultural divide between those who major in STEM subjects and those who major in the humanities and social sciences.  Back then, they called each other \u201ctechies\u201d and \u201cfuzzies\u201d, and apparently, those terms are still in use today.  See, for example, this recent commentary from the Stanford Daily about the phenomenon: https://www.stanforddaily.com/2016/10/31/what-came-first-the-fuzzy-or-the-techie/  ```\n"
+    }
+  ]
+}

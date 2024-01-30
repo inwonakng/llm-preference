@@ -1,0 +1,15 @@
+{
+  "index": 2756,
+  "true_label": 1,
+  "predicted_label": 3,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Cornell University```\nCollege B: ```University of Michigan```\nComment: ```Much2Learn, I have said before, and I will say again, Cornell\u2019s student body is indistinguishable from Michigan\u2019s, and while it is true that in terms of exact percentages, Cornell is indeed more diverse than Michigan, the degree to which it is isn\u2019t significant or noteworthy, except for the Hispanic American student population, where Cornell is indeed more diverse. The first thing to remember when considering diversity is the regional student population. That is important because 50%-75% of all universities draw their undergraduate student bodies regionally. 35% of Cornell undergraduate students are from New York, and another 20% are from New Jersey, Pennsylvania, Connecticut and Massachusetts. Admittedly, the states of New York and New Jersey are going to be more diverse than the state of Michigan, and as such, it is only reasonable to expect Cornell to be slightly more diverse. But if you look at the actual numbers, they aren\u2019t glaring. I have taken the liberty of including the student bodies of other similar universities: IN-STATE STUDENTS: Cornell: 35% Michigan: 55% Northwestern: 35% Penn: 20% REGIONAL STUDENTS (from 300 mile radius) Cornell: 55% Michigan: 65% Northwestern: 50% Penn: 50% AFRICAN AMERICAN STUDENTS: Cornell: 6% Michigan: 5% Northwestern: 6% Penn: 7% ASIAN AMERICAN STUDENTS: Cornell: 18% Michigan: 14% Northwestern: 18% Penn: 20% HISPANIC AMERICAN STUDENTS: Cornell: 12% Michigan: 4% Northwestern: 11% Penn: 10% MULTICULTURAL: Cornell: 4% Michigan: 4% Northwestern: 5% Penn: 4% INTERNATIONAL STUDENTS: Cornell: 10% Michigan: 7% Northwestern: 9% Penn: 12% PELL GRANT STUDENTS (all four universities are in the shallow end of the pool in this department. They all have a lot of room for improvement when it comes to socioeconomic diversity): Cornell: 16% Michigan: 16% Northwestern: 15% Penn: 17% Like I said, Michigan is not noticeably less diverse than Cornell, or other peer institutions located in the Midwest or the East Coast.  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "index": 2625,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Pennsylvania```\nCollege B: ```Yale University```\nComment: ```@Parapraxes Your post shows just how strong the \u201cHYMPS\u201d designation is.  Further, Admissions Dean Richard Shaw talks about the admissions \u201csystems\u201d at the top 5 being quite similar, so that the overlap is highest here (p. 24 of https://stanford.app.box.com/s/y4abufqg66nte7uax6eq). What this demonstrates, then, is the extraordinarily small number of cross-admits who get into a top 5, but then choose to go elsewhere.  In the report, Stanford lists its top 12 admissions competitors (with UPenn coming in at #11 - an increase from some years back, so, to @Penn95 - a good sign for Penn!). The data is sobering, however.  Stanford now takes 42% of cross-admits with Harvard (up from 35% in years past), and takes the big majority from everywhere else.  Dean Shaw even says that, outside of HYMP, no school takes more than \u201csingle digit percentages\u201d from Stanford.  With Penn at #11 in Stanford\u2019s top competitor pool, and not taking more than 9.9% of cross-admits (in past years, Shaw actually posted the data - and Penn took 2%, but recently he\u2019s stopped even bothering posting data from non-HYMP schools), it means maybe only 5-15 students at Penn turn down Stanford a year. BRINGING THIS BACK around to the discussion about Yale - it\u2019s important to remember the numbers here.  As Yale has about a 70% yield rate, and its admissions system resembles Stanford, it stands to reason that it loses the biggest chunk (60-70%) of its cross-admit pool to HMPS.  So, for the 600 students who don\u2019t choose Yale, HMPS probably gets about 400 of them.  There are then only 200 Yale admits who choose to go elsewhere. Of that 200, if Penn does phenomenally well, it brings in what, 20 students?  (That would be an extraordinary haul, btw, because it means of the 300+ colleges in america that could be competing for the 200 yale cross-admits not choosing HMPS, Penn would get 10% of them.)  So, all should keep in mind that the universe we\u2019re talking about here is super small. In choosing for fit (which is the key when choosing between somewhat like institutions): Yale has released the survey results from their mental health survey, and the data can be found here: https://static1.squarespace.com/static/586d882946c3c40a1c57b1ee/t/5875baf06a49630b1d28f122/1484110581172/YCC-Mental-Health-Report-1ms1ra1.pdf Penn, unfortunately, has not released its own survey results, just its recommendations for an overhaul, as seen here: https://billypenn.com/2015/02/23/experts-students-mystified-by-penn-suicide-task-forces-change-the-culture-mandate-how-exactly-do-you-do-that/ There are overlaps between Yale\u2019s extensive report and Penn\u2019s (incomplete) reporting - both schools stress excellence across many sectors, although social endeavors receive more attention in the Penn report.  Further, at Penn, the importance of seeming \u201cperfect\u201d seems more pronounced, whereas at Yale, there seems to be more pressure to appear \u201chappy.\u201d You can also sift through school cultural/inclusion climate reports.  You can find Yale\u2019s here: http://provost.yale.edu/title-ix/yale-report-aau-campus-climate-survey and UPenn\u2019s here: http://www.upenn.edu/ir/surveys/AAU/Report%20and%20Tables%20on%20AAU%20Campus%20Climate%20Survey.pdf Lots of info to sift through!  ```\n"
+    }
+  ]
+}

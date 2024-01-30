@@ -1,0 +1,47 @@
+{
+  "index": 26,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Johns Hopkins University```\nCollege B: ```Georgia Institute of Technology```\nComment: ```I have a son at GaTech, junior if anyone has questions on that school.  Familiar with Baltimore and Atlanta and both student bodies GaTech by state law accepts over 50% Georgia students.  All valedictorians in Georgia get automatically accepted at GaTech IF their high school meets some criteria set by the Georgia Legislature. GaTech is more fun loving student body, and less intense workload  than JHU.   Gatech has an excellent collaboration with Emory and a shuttle bus for BME students who want to work with medical doctors. I would choose GaTech over JHU for the social aspects of undergraduate education. Remember a BME undergrad  is going to either get a PhD or go to medical school, so getting plenty more education at least four more years of med school or six more years of research and classes for a PhD. The rank difference is not that big between JHU and GaTech.  GaTech is arguably better for the design aspects of BME, the mechanical engineering side of BME. Systems biology, maybe a bit better at JHU, if you are looking for research work.  GaTech is particularly good at imaging sciences, tissue research, see their materials science and chemical engineering department, and of course anything related to design is superb at GaTech. Engineering overall is better at GaTech compared to JHU if thats your bent as well. Caltech is in a class by itself, with mathematics thats way more advanced, so a student needs to have mastered Calculus 3, and even part of differential equations to be able to earn Bs at Caltech in freshman math.  It starts with Analysis.  Caltech freshman have typically passed a college level physics class and that is assumed knowledge to start beginning required physics at Caltech, required for every major there. GaTech, if you score a 7/7 on IB Physics, you can place out of freshman physics, if you want to and take a more advanced physics class, or repeat as you see fit.  Physics is not the hardest class you will take at GaTech,probably, if you are taking freshman physics. JHU and GaTech are not as challenging (ball busting???)  as Caltech in physics and mathematics.  ```\n"
+    }
+  ]
+}

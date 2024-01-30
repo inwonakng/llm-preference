@@ -1,0 +1,15 @@
+{
+  "index": 2330,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Columbia University```\nCollege B: ```University of Michigan```\nComment: ```@theloniousmonk \u201cAnd you\u2019re comparing Michigan to Cornell and Penn, who have better engineering and comp sci programs than Columbia. That\u2019s not as straightforward a comparison as UM and Columbia, where UM has the clear edge. Cornell and Penn have the two best engr/cs programs in the ivies and would be in the second set of schools I mentioned. I have actually met grads from those schools out here.\u201d I agree that Columbia may not be comparable to Cornell and Penn. I thought that was a reasonable comparison, but that makes sense. @theloniusmonk \u201cSecond, you have stock options that will lower the starting salary in companies, esp in tech. Grads will take a lower salary if it means 500 Google stock vesting over 4 years.\u201d That is definitely true. This year is the first time I have seen a 21 year old undergrad with a CS offer of $100k+ salary and another $100k+ in onboarding (signing bonus + relocation + stock/options). The talented CS kids seem to be really cleaning up this year. Are you seeing that more broadly?  ```\n"
+    }
+  ]
+}

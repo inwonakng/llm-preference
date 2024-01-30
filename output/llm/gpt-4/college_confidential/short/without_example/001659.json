@@ -1,0 +1,15 @@
+{
+  "index": 1659,
+  "true_label": 0,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Duke University```\nComment: ```I firmly believe that the university matters much more than the major at the undergraduate level. It is also worth noting that several elite private schools have engineering programs that are ranked poorly because they are relatively small. The rankings don\u2019t always measure the quality of research output. They often look at the quantity. You can bet your bottom dollar that I\u2019d go to Harvard\u2019s SEAS over Georgia Tech or Michigan even though those programs are ranked far higher. If you want to get a sense of the quality of some of Duke\u2019s engineering professors, you should check out these links: http://www.dukechronicle.com/article/2018/04/duke-professor-adrian-bejan-wins-prestigious-benjamin-franklin-medal https://stories.duke.edu/beyond-materials-from-invisibility-cloaks-to-satellite-communications http://pratt.duke.edu/about/news/new-faculty-vahid-tarokh Also, be extremely skeptical of people who make blanket assertions without citing their sources. http://www.businessinsider.com/the-best-colleges-for-software-developers-2014-10 Duke at 8. Michigan at 9. https://techcrunch.com/2018/03/11/where-did-venture-capitalists-go-to-college/ 32 VC investment partners with Duke undergrad degrees. 26 from Michigan (a school that is 5 times larger).  ```\n"
+    }
+  ]
+}

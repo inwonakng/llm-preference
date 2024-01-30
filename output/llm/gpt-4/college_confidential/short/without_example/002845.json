@@ -1,0 +1,15 @@
+{
+  "index": 2845,
+  "true_label": 3,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```University of Virginia```\nComment: ```Your son can\u2019t study law on the undergraduate level - most places do not have law or pre-law majors. If he\u2019s interested in law school, then he should major in something that concentrates on critical and analytical thinking and writing skills. UVa\u2019s undergraduate program is McIntire is a BA in commerce; you have to earn 54 credits (about two years) before applying, so it\u2019s competitive. Michigan Ross is discontinuing its Regular Admission program (aka, non-direct admission - when you apply as a freshman or sophomore at Michigan) in favor of its Preferred (direct freshman) Admission program:  [quote] THE LAST YEAR OF REGULAR ADMISSION WILL BE FOR FALL 2017. The main pathway to enter the BBA program in Fall 2018 will be Preferred Admission, and Regular Admission will no longer exist. Transfer Admission will still be available for dual degree and undecided U-M students, in addition to external transfer students. For Fall 2018 and forward, Transfer Admission will not be for current U-M students that had previously applied for Preferred Admission for Fall 2017 and forward. [/quote]  https://michiganross.umich.edu/programs/bba/application-requirements/regular-admission It looks like there may still be a small loophole - Transfer Admission for undecided UM students - but if you applied for Preferred (direct) admission, you cannot apply again for Transfer Admission. It looks like they are intending transfer admission to be primarily for external transfers (like Michigan CC students) and truly undecided UM students who decided after coming to Michigan that they were interested in business. That may make a difference, if your son is really deadset on majoring in business/commerce. That said, both UVa and Michigan have a wealth of other majors a student can select that would prepare you for a career in business. Really, you can\u2019t go wrong. Does he have a preference?  ```\n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "index": 436,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Georgia```\nCollege B: ```Indiana University```\nComment: ```I think that advising students that membership in an honors college should not be a factor is incorrect. Also, it is important to distinguish between business honors & university wide honors programs. Please remember that many posters have sons & daughters & nieces & nephews at UGA & may have different, yet well founded, experiences & knowledge to share. OP: It is fairly easy for you to check out recruiting at IU-Kelley versus UGA-Terry. An important factor relates to size of each schools\u2019 respective MBA program. UGA-Terry has about 103 full time MBA students while IU-Kelley has about 392 full time MBA students. . IU\u2019s MBA program has higher admission standards than does UGA-Terry. It is easy to verify which school attracts more recruiters. Also, recruiting/placement opportunities are different for the approximate 20 Foundation Fellows at UGA then it is for other students so Deloitte & MBB & New York City recruiters are not banging down the doors at UGA. Nevertheless, the cost difference of $25,000 per year is substantial\u2013even though it may be affordable for your family.  ```\n"
+    }
+  ]
+}

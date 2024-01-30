@@ -1,0 +1,47 @@
+{
+  "index": 555,
+  "true_label": 2,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Rochester```\nCollege B: ```Emory University```\nComment: ```@Creekland :  That is pretty much what I try to convey, that it is up to what the student does and how they perform.  All this worrying about what GPA/environment a school will GIVE some one as they try to pursue medical school always concerns me because it basically says: \u201cOh my success is mainly based upon others, and not what I do to study, learn, and develop myself professionally\u201d.  It is a red flag for me to see these posts with \u201cI have high stats from achieving well in high school, but I just want ease and am concerned about rigor\u201d because what you said is right, confidence is important, and I have seen it plus great work ethic and willingness to really think take many students a long way at even these very selective schools like Emory and Rochester. Weirdly enough, it often didn\u2019t even matter what their stats were relative to their \u201ccompetition\u201d unless they were extremely low versus it.  if they were remotely in ballpark and had developed good study habits, confidence, and a great attitude towards learning, many of these students (that I mentored) would perform well in what are considered hard renditions of courses.  And interestingly, there is a hierarchy (I explained this in another thread at Emory) where you have some key STEM professors that are known to be more intellectually challenging than average for both Emory or elite schools in general, yet they have garnered popular support (there are still students who avoid them, but usually they teach a slight majority of students when other sections are offered) among students because not only do they demand development very high analytical skills (assuming most students, especially younger ones don\u2019t have it), but because they teach the material in a very effective and engaging way, and are also very effective mentors of students no matter how large their section size is. Getting at least a B range grade in many of these professors\u2019 courses really means you learned at a high level and usually these instructors will write really strong recommendation letters for students who scored in that range that showed themselves developing well during the course (and even better ones for students they managed to keep up with after the class).  In same cases, that range of students may even be selected as TAs (A students are not always the only ones who are enthusiastic, and we all know some don\u2019t know how to teach or collaborate with students effectively).  As you said for your son at Rochester who went to med.  Students who at least engaged some of these courses and professors, would likely be a step ahead in some or many places in the pre-clinical sciences curriculum at medical schools.  In addition, Emory from what my friends and mentees who did it right told me from their experience, were very well prepped for those more research focused medical schools and MDPhD programs because so much of the life sciences curriculum (including biology which is notorious at most schools for being mostly about memorization throughout the whole thing) has migrated to a focus on research techniques, experimental design, data analysis, and just thinking like a scientist (so many of the most standard biology classes may require students to discuss and present primary literature in whatever field.  It is the best idea ever IMHO.  Even many sophomore level courses have it.  It sends the message that the field nor course are just about \u201cthe facts\u201d and also holds students accountable for the foundation they supposedly gained in intro. biology courses, because chances are if you forgot most things or got poor training, reading the literature is all the more challenging because it assumes readers know about a threshold of ideas and techniques already), things that help folks do well on the MCAT and ease transition into research labs.  In addition, students are much more likely to retain the material if it is put in context of real research and real life scenarios as opposed to it being a bunch of facts and details thrown at students for them to remember and regurgitate back. We all know medical schools want a strong GPA, but I think it is important for incoming prospies to think about how they can achieve it (and no it need not be a 3.8 in most cases, as nice as that would be) without having to actively lower their exposure to the right type of rigor.  There is no point in completely compromising your learning outcomes and skill development for looking good on paper for medical schools.  There are ways to be strategic and studious (as most students going to selective schools are obviously smart, high achieving cookies)  to ensure that you can perform well in most cases, while optimizing learning outcomes.  And as I said, even those shooting for at least a 3.7 or 3.8 have room for error.  I mentored students with over a 3.85 that have gotten several B/B+ grades.  One guy was so bold he chose an uncomfortable non-STEM course where he knew a B was possible each semester just because he wanted to take the best professors or work on his writing.  These students were very talented and toughened themselves up though.  They developed great study skills by taking early courses that laid a foundation for them to do well in other challenging coursework in the future.  That way, they weren\u2019t totally screwed or shocked if they later  hit professors asking them to think outside the box or do even more (or different type) work than normal. Their approach made me wonder about the motto of \"\"just build confidence as a freshmen by taking it easy:  I personally think this depends on the person, and for many who are confident and have a background/preparation to do otherwise, they may do themselves a service by really challenging themselves in a course or two as a freshmen.  Making that decision requires confidence, work ethic, a good attitude towards learning and feeling challenged (likely a growth mindset with respect to learning-  What you described with the algebra thing is a fixed mindset and unfortunately I think grade school teachers often play a role in conveying to students that \u201conly those with seemingly natural aptitude in an area can be truly successful\u201d which is likely why you have high achievers fearing for their life being amidst a bunch of people that make them look average or normal versus their achievements and test-taking ability) maturity, and something more than short-sighted goals of course.  ```\n"
+    }
+  ]
+}

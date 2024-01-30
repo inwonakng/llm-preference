@@ -1,0 +1,15 @@
+{
+  "index": 807,
+  "true_label": 1,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```Don\u2019t you only have a few days to decide? I thought Pomona only gave students a week to commit or move on. Just listen to your heart, honestly. As cliche as that is, you\u2019re the only one who knows what you want out of your college experience and I\u2019m sure you\u2019ve confronted certain thoughts and feelings over the past few days. It seems like you\u2019ve gotten a lot of perspective from people (I saw topics on other websites as well), though I will say a lot of it is JHU focused simply by nature of them being a much larger school. I could see a lot of misconceptions regarding Pomona with the perspectives detailed (including the one above), but at this point I don\u2019t really find it worthwhile to \u201cdispute\u201d points raised. If anything, they can give you a sense for what colleagues and friends might perceive a degree from a top LAC to mean, whether or not that\u2019s grounded in anything true. If the opinions of others is something which especially matters to you, and you want to impress others with your institution, then there is the appeal of Johns Hopkins which is widely renowned as a leading university. I will be honest with you that Pomona will not give you much in the way of immediate glamour, and not everyone can tolerate that. But as a recent graduate, I know I was able to have the best undergraduate experience there and can stand on my own accomplishments and perspectives rather than the public worth of my institution alone. No point in overthinking this. Small LAC with the individual attention and undergrad-centered experiences, or big university with world-class professors and research? They are vastly different. Enough has been elaborated at this point regarding the pros and cons of either. One will clearly resonate with you more than the other. Good luck with your choice, and once you\u2019ve made it, move on to imagining the excitement and possibility you\u2019ll have as an incoming first year at either!  ```\n"
+    }
+  ]
+}

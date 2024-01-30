@@ -1,0 +1,15 @@
+{
+  "index": 2325,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Columbia University```\nCollege B: ```University of Michigan```\nComment: ```Michigan is underrated by USNews for undergrad. In terms of academic strength across the board, Michigan might trail only Berkeley among public schools. Might. And they\u2019re probably better than the rest. Realizing that grad school rankings are not a proxy for undergrad quality \u2013 but if the grad program is strong, chances are the undergrad version is at least pretty good \u2013 Michigan is top-20 in almost everything and top-10 in most things. UCLA and UVA (especially UVA) can\u2019t say that. Columbia is a totally different environment and a great school, but if it is better than Michigan, it isn\u2019t six-figures better.  ```\n"
+    }
+  ]
+}

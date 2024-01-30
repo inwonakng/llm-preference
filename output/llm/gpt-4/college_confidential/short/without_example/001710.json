@@ -1,0 +1,15 @@
+{
+  "index": 1710,
+  "true_label": 3,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Duke University```\nComment: ```Cmon you can\u2019t be that thin skinned. No one is saying that and you know it. For a particular major  for a particular situation any school can make sense. And it\u2019s not always their second choice. How many times does anyone need to hear Duke is great to feel validated. It\u2019s great. It\u2019s elite it\u2019s superb it\u2019s fantastic. It\u2019s a lot of kids dream school   I agree with you. There\u2019s no issue. it\u2019s just not everyone\u2019s dream school all the time and for every situation.  ```\n"
+    }
+  ]
+}

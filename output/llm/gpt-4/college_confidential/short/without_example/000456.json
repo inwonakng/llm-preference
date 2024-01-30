@@ -1,0 +1,15 @@
+{
+  "index": 456,
+  "true_label": 3,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Georgia```\nCollege B: ```Indiana University```\nComment: ```I checked P&Q\u2019s December 12, 2018 ratings & rankings of undergraduate business programs. Starting pay difference last year was only a difference of less than $12,000. IU-Kelley undergraduate starting pay averaged about $69,300. UGA-Terry undergraduate starting pay averaged about $57,850. Among the 88 undergraduate business schools rated & ranked by P&Q, IU-Kelley had the 11th highest average SAT score, while UGA-Terry had the 45th or 46th highest SAT score average. Internship placement rate at IU-Kelley was 91%, at UGA-Terry it was 85%. A large part of your decision, therefore, should be based on what type of undergraduate college experience you want. IU-Kelley will be business & academic focused. Your new friends will be business students & Hutton Honors College students for the most part. Followed by Business Honors in your second year & thereafter. At UGA you will have the comfort & familiarity of your high school friends & the advantages of being close to home. Business school will come in a year or two. And you will have a substantial sum to put toward graduate school.  ```\n"
+    }
+  ]
+}

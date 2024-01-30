@@ -1,0 +1,47 @@
+{
+  "index": 2305,
+  "true_label": 3,
+  "predicted_label": 0,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Columbia University```\nCollege B: ```University of Michigan```\nComment: ```\u201cExcept Michigan has ~ 45,000 students of which 28000 are undergrads, compared to 31000 at Columbia of which 6000 are undergrads. This isn\u2019t even close, I simply not convincing you af anything even though the facts bear it out. There is no comparison at the undergrad level.\u201d The 6,000 undergraduate students (I am fairly certain it is closer to 8,000 when you include General Studies) still have to share the faculty and resources with those 23,000 graduate students. At any university, undergraduate students do not exist in a vacuum. I don\u2019t see how there\u2019s any difference CU123. Columbia has limited resources, and 31,000 students to look after. Your facts are not convincing at all. A university\u2019s endowment is shared by all of its students, graduate and undergraduate, not just by the undergraduate students. Same with a university\u2019s faculty. If anything, I have provided more facts. Where are the placement figures for Columbia that show that Columbia places more graduates in Silicon Valley? I have shown how many Michigan graduates are placed in major tech firms, and I even provided comparative data from Penn. Sadly, Columbia does not publish such data. Where are the peer ratings that prove that Columbia is a far superior university to Michigan? According to the US News Peer Assessment score, Columbia\u2019s rating hovers between 4.6 and 4.7, while Michigan\u2019s hovers between 4.4 and 4.5. That makes them peers in the eyes of university presidents, deans of undergraduate colleges and provosts. And how do you prove that Columbia has a 6:1 student to faculty ratio when Fu has a 25:1 ratio and the 4,500 College students share their faculty with 3,500 Graduate School of the Arts and Sciences? Those are the facts I want addressed\u2026and they are facts. I am still waiting for the evidence to support your claim that Columbia is a vastly superior university to Michigan to the extent that it is insulting to you that one would even suggest that they are peer institutions.  ```\n"
+    }
+  ]
+}

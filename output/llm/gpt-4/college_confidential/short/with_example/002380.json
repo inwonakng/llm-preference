@@ -1,0 +1,47 @@
+{
+  "index": 2380,
+  "true_label": 0,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Amherst College```\nCollege B: ```Harvey Mudd College```\nComment: ``` [quote] If you do apply to Amherst, there\u2019s no harm in reaching out to Rueppel and asking if he would support you for EDII. [/quote]  Amherst doesn\u2019t have EDII. Just ED and RD. It does have an excellent record with med school placement and very individualized med/health advising. It doesn\u2019t screen applicants for committee letters and supports all of them even if they don\u2019t make what it considers to be \u201clikely admit\u201d MCAT and GPAs. But the question of Canadian vs US med schools is definitely important to look into. If it will be really hard to get into a US Med school as a Canadian citizen, you may be better off applying to Canadian med schools and that might or might not mean applying from a Canadian undergrad. Many students who think they want to be pre-med change their minds, and not necessarily because it\u2019s \u201ctoo hard\u201d, but because they discover related careers that they didn\u2019t know about that require fewer years of education, pay well and are better fits. I\u2019ll also add that Amherst\u2019s recent study of its athletics program, just completed this year, found that few varsity athletes major in the sciences. As a pre-med you have something like 7 required science courses with labs, so this may be something to look at - can you make time for the work and the required labs and still compete on the team?  Some can and do, but fewer than non-athletes. https://www.amherst.edu/system/files/media/PlaceOfAthleticsAtAmherst_Secure_1.pdf  ```\n"
+    }
+  ]
+}

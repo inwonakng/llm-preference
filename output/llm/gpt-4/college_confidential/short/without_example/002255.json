@@ -1,0 +1,15 @@
+{
+  "index": 2255,
+  "true_label": 2,
+  "predicted_label": 3,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Columbia University```\nCollege B: ```University of Michigan```\nComment: ```CU123, I agree that to ultra competitive high school students and parents, Columbia and Michigan are not peers. But that does not mean that Columbia and Michigan are not peers.  As far as academe and the corporate world are concerned, Columbia and Michigan are indeed peers. Just because Michigan is public and Columbia is private does not mean the two universities cannot be peer institutions. They operate very similar academic programs, have roughly equal resources, funding and budgets when adjusted for size, and run similar research complexes. Columbia would not have hired Michigan\u2019s president if the two universities were not peers.  ```\n"
+    }
+  ]
+}

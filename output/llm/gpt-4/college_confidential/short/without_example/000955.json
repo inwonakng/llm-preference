@@ -1,0 +1,15 @@
+{
+  "index": 955,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Illinois at Urbana-Champaign```\nCollege B: ```University of Southern California```\nComment: ```USC is elite. Honestly and politely  I am not sure how much more needs to be said.  2.2 million students per year in US plus thousands of international student apply to us schools each year.  If there are 40k spots in the top 25 for the US portion of the pool  that\u2019s means only the top 18 percent get in. And now take out legacies athletes and urm it\u2019s even a smaller pool. USC is in that pool. The other big names definitely rank higher and have higher prestige among the people in the pool with them. But very few people care but the other people in the pool with you. USC is 70k per year times four years. They are giving you a free house. He has earned the great reward. Enjoy it.  ```\n"
+    }
+  ]
+}

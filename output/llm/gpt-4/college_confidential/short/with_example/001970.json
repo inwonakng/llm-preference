@@ -1,0 +1,47 @@
+{
+  "index": 1970,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "No preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "A is preferred over B"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "B is preferred over A"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Equal preference"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Duke University```\nCollege B: ```University of California, Berkeley```\nComment: ```It looks like many of the things you\u2019ve heard about Berkeley are simply, myths. The EECS at Berkeley is NOT cutthroat. Far from it. EECS students are used to do team-working. It\u2019s a highly collaborative environment where everyone is helping each other out. The College of Engineering students rarely complain, if at all they do, about the lack of resources dedicated to undergrad students. It\u2019s also not true advising is lacking. You\u2019ll get plenty of it there. And, Berkeley being less diverse than Duke? Really? That\u2019s new to me. I\u2019ve been to many top-ranked schools and I have yet to see a school with a more diverse student body than Berkeley\u2019s. I have no idea how Duke takes care of its students. But Berkeley COE environment is top-class.  [quote] and generally, the student population is not as intellectual. [/quote]  This is another myth. Can you show us any data to support this? Only 8% get into the College of Engineering, less than 8% in the College of Chemistry. And, less than 6% get onto EECS. I would love to see any data that would show Duke\u2019s student body is more intellectual than Berkeley College of Engineering student body.  ```\n"
+    }
+  ]
+}

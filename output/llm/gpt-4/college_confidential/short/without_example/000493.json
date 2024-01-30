@@ -1,0 +1,15 @@
+{
+  "index": 493,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Vassar College```\nCollege B: ```Kenyon College```\nComment: ```Great point. Unfortunately Kenyon College had a few highly publicized incidents involving drinking. There were two deaths, I believe. Passed out drunk & froze to death in a nearby cornfield. I think that while almost all colleges have a large segment of students who drink, some schools have a binge drinking culture often attributed to rural location, small size & isolation. I think that the Kenyon administration has addressed the issue in a forceful manner over the past few years. Kenyon College is actively addressing the heavy drinking culture so things may have gotten better over the past few years. Actually some poster or posters complained a year or two ago, that the crackdown by the administration was too harsh.  ```\n"
+    }
+  ]
+}

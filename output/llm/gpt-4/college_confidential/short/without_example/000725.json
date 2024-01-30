@@ -1,0 +1,15 @@
+{
+  "index": 725,
+  "true_label": 2,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Pennsylvania```\nCollege B: ```New York University```\nComment: ```Strong female MBA applicants tend to get healthy scholarships to MBA programs. Plus, I did not calculate that OP would be earning $300,000 per year (your figure) in years 3 & 4 after undergraduate school. OP has already saved $184,000 plus interest on undergraduate study; Probably get at least a 50% MBA scholarship very possibly higher than 50%; More reasonable loss of earnings after tax for 2 year = $200,000; (A Penn Wharton MBA starts at $147,000 salary & bonus, but OP would not have a Penn Wharton MBA\u2013just a BS/BA).  ```\n"
+    }
+  ]
+}

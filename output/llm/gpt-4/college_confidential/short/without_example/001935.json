@@ -1,0 +1,15 @@
+{
+  "index": 1935,
+  "true_label": 2,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Boston College```\nCollege B: ```Georgetown University```\nComment: ```\u2013 BC has a stronger conservative/catholic tradition than Georgetown, which is pretty liberal despite being Jesuit \u2013 Georgetown is known for having a wealthier student body than BC \u2013 BC Hockey, Georgetown basketball (not the greatest but there\u2019s a lot of history and tradition in their program) \u2013 Suburban vibe at BC vs more of an urban vibe at Georgetown \u2013 Georgetown has a competitive nature (getting into clubs etc.) BC not so much (but this can be a pro or a con because some people thrive in a competitive environment. \u2013 OF COURSE, it doesn\u2019t really need to be said that Georgetown is more highly ranked and prestigious than BC.  ```\n"
+    }
+  ]
+}

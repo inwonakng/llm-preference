@@ -1,0 +1,15 @@
+{
+  "index": 2246,
+  "true_label": 3,
+  "predicted_label": 1,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```Columbia University```\nCollege B: ```University of Michigan```\nComment: ```What kind of grad school are you looking at? If you\u2019re paying sticker price, then UofM would make more sense if you\u2019re considering the technical skills you\u2019ll learn as a CS major. Also, do you want to stay in Michigan long-term? If so, Mich places more of their graduates instate than Columbia would. Columbia, however, will give you better OCR opportunities in San Fran/NYC and an, arguably, stronger lifelong network. Also, agreed with @fivesages that Columbia gives you alternate paths if your career plans change\u2013consulting, banking, etc.  ```\n"
+    }
+  ]
+}

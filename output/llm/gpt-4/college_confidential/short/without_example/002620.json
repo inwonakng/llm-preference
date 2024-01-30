@@ -1,0 +1,15 @@
+{
+  "index": 2620,
+  "true_label": 3,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Pennsylvania```\nCollege B: ```Yale University```\nComment: ```I know what Parchment says, @Penn95 - I quoted it to you. It says that there\u2019s an overwhelming likelihood that Yale gets half to two-thirds of cross-admits - and, conversely, a negligible likelihood that Penn gets more than half - surprising no one. And we\u2019re apparently in violent agreement that a lot of what Penn gets is due to Wharton. Yale and Penn\u2019s bioengineering programs and med schools appear to be in the same band, such that I don\u2019t believe there\u2019s a big difference between them. This is why I\u2019m saying that if you wouldn\u2019t pick Georgia Tech or UCSD for undergrad bioengineering, then you\u2019re picking Yale or Penn for other reasons than pure excellence in that narrow field. On the other hand, I believe Yale Law (top in the country) is clearly better than Penn Law, and Wharton (arguably top three)  is clearly better than Yale SOM, so the choices would be much more straightforward.  ```\n"
+    }
+  ]
+}

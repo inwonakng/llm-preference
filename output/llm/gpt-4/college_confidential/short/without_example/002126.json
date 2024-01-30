@@ -1,0 +1,15 @@
+{
+  "index": 2126,
+  "true_label": 0,
+  "predicted_label": 2,
+  "params": [
+    {
+      "role": "system",
+      "content": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+    },
+    {
+      "role": "user",
+      "content": "College A: ```University of Michigan```\nCollege B: ```University of South Carolina```\nComment: ```@pmcdoug Congrats on your Decison! It takes courage at your young age to stand by your conviction and decline acceptance to Ross when overwhelmingly everyone in your life advises you to go to Michigan Ross. While it\u2019s important to get input from close family and trusted friends, even advice from college gurus here on CC, at the end of the day you have to do your own research and trust your own instincts and make these type of executive decisions for yourself because this is your life! Some of the most successful people in life have made decisions that went against the grain of common opinion and defied expectation. As many other folks on CC have stated before me, your success in life will be determined by you, not the undergrad school you attend. There are millions of successful businessmen and women in the USA who did not attend Michigan and Michigan Ross. And I\u2019m hoping one of those people will someday include my son who attends Ohio State Fisher. While the Michigan name on your resume may garner some \u201caha\u201d moments from folks, such moments last for the first few seconds of an introduction and then don\u2019t matter. What matters is your competence and intelligence, your knowledge and experience, your  initiative/efforts, your enthusiasm and determination. Best of luck!  ```\n"
+    }
+  ]
+}
