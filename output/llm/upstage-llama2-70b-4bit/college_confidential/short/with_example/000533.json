@@ -1,0 +1,86 @@
+{
+  "index": 533,
+  "true_label": 2,
+  "predicted_label": 0,
+  "params": {
+    "max_new_tokens": 20,
+    "auto_max_new_tokens": false,
+    "max_tokens_second": 0,
+    "mode": "instruct",
+    "character": "Example",
+    "instruction_template": "Orca Mini",
+    "your_name": "You",
+    "regenerate": false,
+    "_continue": false,
+    "chat_instruct_command": "Continue the chat dialogue below. Write a single reply for the character \"<|character|>\".\n\n<|prompt|>",
+    "preset": "None",
+    "do_sample": true,
+    "temperature": 1,
+    "top_p": 0.7,
+    "typical_p": 1,
+    "epsilon_cutoff": 0,
+    "eta_cutoff": 0,
+    "tfs": 1,
+    "top_a": 0,
+    "repetition_penalty": 1.18,
+    "repetition_penalty_range": 0,
+    "top_k": 40,
+    "min_length": 0,
+    "no_repeat_ngram_size": 0,
+    "num_beams": 1,
+    "penalty_alpha": 0,
+    "length_penalty": 1,
+    "early_stopping": false,
+    "mirostat_mode": 0,
+    "mirostat_tau": 5,
+    "mirostat_eta": 0.1,
+    "guidance_scale": 1,
+    "negative_prompt": "",
+    "seed": -1,
+    "add_bos_token": true,
+    "truncation_length": 2048,
+    "ban_eos_token": false,
+    "skip_special_tokens": true,
+    "stopping_strings": [],
+    "user_input": "College A: ```Vassar College```\nCollege B: ```Kenyon College```\nComment: ```I\u2019m happy for the OP that they chose to apply ED1 to Kenyon. It\u2019s a wonderful school. I wanted to post something on this discussion because I feel that there\u2019s some misinformation being put out here, or at least information that doesn\u2019t jibe with my own experience. I looked at Vassar early on in my college search. It\u2019s a great school, but it felt too much like the private high school I attended in San Francisco. That\u2019s a personal perspective, obviously. My high school teammate is now playing at Vassar and loves it. My final college choices were Oberlin, Carleton, Macalester, Bates and Kenyon. All great schools. Of these, Kenyon felt the most comfortable for me. I\u2019m interested in the humanities (a likely English major) and Kenyon\u2019s offerings in this area seemed to be the strongest of those colleges. I loved the look of Kenyon\u2019s campus, and after 4 years of high school in the middle of San Francisco, I was also attracted to the rural setting of Kenyon. As to the drinking culture at Kenyon, some of what\u2019s being presented on this thread doesn\u2019t ring true to me. Of course, there is drinking at Kenyon. But I have never felt pressured to drink, there are many students who do not drink, and I have rarely seen anyone out of control at a party. In fact, Kenyon students seem especially attuned to the dangers of excessive drinking, and we are all educated about the known linkages between alcohol consumption and other problems like sexual assault. I think Kenyon\u2019s administration does a great job in this regard. As to Kenyon\u2019s Greek scene, I think this may be misunderstood unless you\u2019ve experienced it up close. Kenyon\u2019s Greek organizations are more like community service clubs than traditional fraternities and sororities. Yes, most of the Greek organizations throw parties, but they are open to the whole Kenyon community. Fraternities and sororities at Kenyon don\u2019t live together (generally) and I\u2019ve always found them to be quite inclusive even if you\u2019re not a member. I think they add a lot to the campus social scene. The assertions on this thread that Kenyon has problems with alcohol consumption are untrue in my experience. I\u2019d suggest - respectfully - that unless you go to Kenyon, or are an alum, parent, or employee, then perhaps you don\u2019t have the highest-quality information to report.  ```\n",
+    "history": {
+      "internal": [
+        [
+          "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n",
+          "No preference"
+        ],
+        [
+          "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n",
+          "A is preferred over B"
+        ],
+        [
+          "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n",
+          "B is preferred over A"
+        ],
+        [
+          "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n",
+          "Equal preference"
+        ]
+      ],
+      "visible": [
+        [
+          "College A: ```Washington University in St. Louis```\nCollege B: ```Bowdoin College```\nComment: ```@reindeercoffee what country do you currently live in?  Maine and Missouri are definitely different.  ```\n",
+          "No preference"
+        ],
+        [
+          "College A: ```University of Michigan```\nCollege B: ```Massachusetts Institute of Technology```\nComment: ```Another vote here for Michigan.  Great school and you\u2019re getting the deal of the century cost-wise.  ```\n",
+          "A is preferred over B"
+        ],
+        [
+          "College A: ```University of Richmond```\nCollege B: ```Haverford College```\nComment: ```It sounds like you want Haverford. Maybe you should go with your gut as they are both great schools.  ```\n",
+          "B is preferred over A"
+        ],
+        [
+          "College A: ```Pomona College```\nCollege B: ```Johns Hopkins University```\nComment: ```I don\u2019t see any \u201cwrong\u201d choice here, not do I see any \u201cperfect\u201d choice.  Pick one and don\u2019t look back.  ```\n",
+          "Equal preference"
+        ]
+      ]
+    },
+    "context_instruct": "You will be given two colleges A and B, and a comment. Your job is to identify the preference between the two given colleges in the comment. \nThe names of the two colleges and the comment are delimited with triple backticks.\n\nHere are the rules:\nYou MUST NOT use the colleges' real names.\nYou MUST refer to the colleges as A or B. \nYou MUST respond ```No preference``` if there is no explicit preference in the comment.\nYou MUST respond with ```A is preferred over B``` if college A is preferred over college B.\nYou MUST respond with ```B is preferred over A``` if college B is preferred over college A.\nYou MUST respond with ```Equal preference``` if colleges A and B are equally preferred.\nYou MUST respond with ```No preference```, ```A is preferred over B```, ```B is preferred over A```, or ```Equal preference```.\n"
+  }
+}
