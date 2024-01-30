@@ -28,7 +28,6 @@ price_per_token = {
     },
 }
 
-
 def parse_prompt_params(
     prompt_params: dict,
 ) -> str:
@@ -43,18 +42,7 @@ def parse_prompt_params(
 encoding = tiktoken.get_encoding('cl100k_base')
 def count_tokens(
     text: str,
-    # token_char_count: int = 0,
-    # tokens_per_word: float = 2,
 ) -> int | float:
-
-    # if token_char_count > 0:
-    #     token_count = sum([
-    #         math.ceil(len(word) / token_char_count)
-    #         for word in text.split()
-    #     ])
-    # else:
-    #     token_count = len(text.split()) * tokens_per_word
-
     return len(encoding.encode(text))
 
 @click.command()
@@ -68,6 +56,7 @@ def count_all_tokens(
 ):
     df = pd.read_csv(DATA_PATH / f'{dataset}/dataset.csv')
     prompt = Prompt.load_template(TEMPLATE_PATH / f'{dataset}/{template}.yaml')
+
     if use_example:
         examples, example_ids = pick_examples(df)
         prompt.add_examples(examples)
@@ -92,7 +81,6 @@ def count_all_tokens(
     print(f'estimated output tokens: {output_tokens_count:,}')
     print(f'estimated total tokens: {input_tokens_count + output_tokens_count:,}')
     print('-'*40)
-
     print()
 
     for model_name, prices in price_per_token.items():

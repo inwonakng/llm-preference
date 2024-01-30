@@ -304,7 +304,7 @@ class Prompt:
             print(f'Prediction:', prediction)
             if delay > 0:
                 time.sleep(delay)
-            
+
             retry_count += 1
 
         return output, self.text_to_label[prediction.lower()], openai_messages
